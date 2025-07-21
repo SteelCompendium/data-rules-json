@@ -1,0 +1,8 @@
+{
+  "name": "This is a Feature",
+  "effects": [
+    {
+      "effect": "You have a bonus to speed equal to your Agility score, and you ignore difficult terrain."
+    }
+  ]
+}
