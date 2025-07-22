@@ -9,6 +9,13 @@
   "type": "Main action",
   "distance": "Ranged 10",
   "target": "One creature or object",
+  "metadata": {
+    "class": "introduction",
+    "cost": "8 Energy",
+    "level": 1,
+    "name": "This Is An H8 Header",
+    "type": "ability"
+  },
   "effects": [
     {
       "roll": "Power Roll + Agility",

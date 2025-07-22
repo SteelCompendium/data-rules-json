@@ -1,5 +1,11 @@
 {
   "name": "This is a Feature",
+  "metadata": {
+    "class": "introduction",
+    "level": 1,
+    "name": "This Is A Feature",
+    "type": "feature"
+  },
   "effects": [
     {
       "effect": "You have a bonus to speed equal to your Agility score, and you ignore difficult terrain."
