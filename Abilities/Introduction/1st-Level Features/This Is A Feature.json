@@ -4,6 +4,7 @@
     "class": "introduction",
     "level": 1,
     "name": "This Is A Feature",
+    "taxonomy": "introduction/1st-level-features/this-is-a-feature",
     "type": "feature"
   },
   "effects": [
