@@ -1,10 +1,12 @@
 {
   "name": "This is a Feature",
   "metadata": {
-    "class": "introduction",
-    "level": 1,
-    "name": "This Is A Feature",
+    "file_dpath": "Introduction/1st-Level Features",
+    "header_name": "This is a Feature",
+    "name": "This is a Feature",
     "taxonomy": "introduction/1st-level-features/this-is-a-feature",
+    "level": 1,
+    "class": "Introduction",
     "type": "feature"
   },
   "effects": [

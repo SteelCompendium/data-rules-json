@@ -10,13 +10,15 @@
   "distance": "Ranged 10",
   "target": "One creature or object",
   "metadata": {
-    "class": "introduction",
+    "file_dpath": "Introduction/1st-Level Features",
+    "header_name": "This is an H8 Header (8 Energy)",
+    "name": "This is an H8 Header",
+    "taxonomy": "heroes/introduction/1st-level-features/this-is-an-h8-header",
     "cost": "8 Energy",
     "cost_amount": 8,
     "cost_resource": "Energy",
     "level": 1,
-    "name": "This Is An H8 Header",
-    "taxonomy": "introduction/1st-level-features/this-is-an-h8-header",
+    "class": "Introduction",
     "type": "ability"
   },
   "effects": [
