@@ -3,12 +3,12 @@
   "metadata": {
     "class": "introduction",
     "file_dpath": "Introduction/1st-Level Features",
-    "header_name": "This Is A Feature",
     "item_id": "this-is-a-feature",
+    "item_name": "This is a Feature",
     "level": 1,
-    "name": "This is a Feature",
     "scc": "mcdm.heroes.v1:feature.trait.introduction.1st-level-feature:this-is-a-feature",
-    "scdc": "1.1.1:3.2.1.1:07",
+    "scdc": "1.1.1:3.2.1.1:17",
+    "section_name": "TODO-ability section name",
     "source": "mcdm.heroes.v1",
     "taxonomy": "introduction/1st-level-features/this-is-a-feature",
     "type": "feature/trait/introduction/1st-level-feature"
