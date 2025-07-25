@@ -1,13 +1,16 @@
 {
   "name": "This is a Feature",
   "metadata": {
+    "class": "introduction",
     "file_dpath": "Introduction/1st-Level Features",
     "header_name": "This is a Feature",
-    "name": "This is a Feature",
-    "taxonomy": "introduction/1st-level-features/this-is-a-feature",
     "level": 1,
-    "class": "introduction",
-    "type": "feature/introduction/1st-level-feature"
+    "name": "This is a Feature",
+    "scc": "mcdm.heroes.v1:feature/trait/introduction/1st-level-feature:01",
+    "scdc": "1.1.1:1.2.1.1:01",
+    "source": "mcdm.heroes.v1",
+    "taxonomy": "introduction/1st-level-features/this-is-a-feature",
+    "type": "feature/trait/introduction/1st-level-feature"
   },
   "effects": [
     {
