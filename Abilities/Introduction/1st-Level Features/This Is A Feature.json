@@ -4,6 +4,7 @@
     "class": "introduction",
     "file_dpath": "Introduction/1st-Level Features",
     "item_id": "this-is-a-feature",
+    "item_index": "01",
     "item_name": "This is a Feature",
     "level": 1,
     "scc": "mcdm.heroes.v1:feature.trait.introduction.1st-level-feature:this-is-a-feature",
