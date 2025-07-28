@@ -14,6 +14,7 @@
     "cost": "8 Energy",
     "cost_amount": 8,
     "cost_resource": "Energy",
+    "feature_type": "ability",
     "file_dpath": "Introduction/1st-Level Features",
     "item_id": "this-is-an-h8-header-8-energy",
     "item_index": "01",
