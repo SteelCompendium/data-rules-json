@@ -1,0 +1,39 @@
+{
+  "name": "Lightfall",
+  "flavor": "A rain of holy light scours your enemies and repositions your allies.",
+  "keywords": [
+    "Area",
+    "Magic"
+  ],
+  "type": "Main action",
+  "distance": "2 burst",
+  "target": "Each enemy in the area",
+  "metadata": {
+    "class": "conduit",
+    "feature_type": "trait",
+    "file_dpath": "Conduit/1st-Level Features",
+    "item_id": "lightfall",
+    "item_index": 8,
+    "item_name": "Lightfall",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:lightfall"
+    ],
+    "scdc": [
+      "1.1.1:5.2.2.1:08"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/conduit/1st-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Intuition",
+      "t1": "2 holy damage",
+      "t2": "3 holy damage",
+      "t3": "5 holy damage"
+    },
+    {
+      "effect": "You can teleport yourself and each ally in the area to unoccupied spaces in the area."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Bifurcated Incineration",
+  "flavor": "Two jets of flame lance out at your command.",
+  "keywords": [
+    "Fire",
+    "Magic",
+    "Ranged",
+    "Strike"
+  ],
+  "type": "Main action",
+  "distance": "Ranged 10",
+  "target": "Two creatures or objects",
+  "metadata": {
+    "class": "elementalist",
+    "feature_type": "trait",
+    "file_dpath": "Elementalist/1st-Level Features",
+    "item_id": "bifurcated-incineration",
+    "item_index": "04",
+    "item_name": "Bifurcated Incineration",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.elementalist.1st-level-feature:bifurcated-incineration"
+    ],
+    "scdc": [
+      "1.1.1:5.2.3.1:04"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/elementalist/1st-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Reason",
+      "t1": "2 fire damage",
+      "t2": "4 fire damage",
+      "t3": "6 fire damage"
+    }
+  ]
+}

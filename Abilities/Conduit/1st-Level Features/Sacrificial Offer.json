@@ -1,0 +1,40 @@
+{
+  "name": "Sacrificial Offer",
+  "flavor": "Divine magic tears at your foe and defends a nearby friend.",
+  "keywords": [
+    "Magic",
+    "Ranged",
+    "Strike"
+  ],
+  "type": "Main action",
+  "distance": "Ranged 10",
+  "target": "One creature",
+  "metadata": {
+    "class": "conduit",
+    "feature_type": "trait",
+    "file_dpath": "Conduit/1st-Level Features",
+    "item_id": "sacrificial-offer",
+    "item_index": "05",
+    "item_name": "Sacrificial Offer",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:sacrificial-offer"
+    ],
+    "scdc": [
+      "1.1.1:5.2.2.1:05"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/conduit/1st-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Intuition",
+      "t1": "2 + I corruption damage",
+      "t2": "4 + I corruption damage",
+      "t3": "6 + I corruption damage"
+    },
+    {
+      "effect": "Choose yourself or one ally within distance. That character can impose a bane on one power roll made against them before the end of their next turn."
+    }
+  ]
+}

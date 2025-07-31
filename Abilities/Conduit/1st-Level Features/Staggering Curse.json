@@ -1,0 +1,37 @@
+{
+  "name": "Staggering Curse",
+  "flavor": "A blast of judgment disorients your foe.",
+  "keywords": [
+    "Magic",
+    "Melee",
+    "Strike"
+  ],
+  "type": "Main action",
+  "distance": "Melee 1",
+  "target": "One creature or object",
+  "metadata": {
+    "class": "conduit",
+    "feature_type": "trait",
+    "file_dpath": "Conduit/1st-Level Features",
+    "item_id": "staggering-curse",
+    "item_index": "13",
+    "item_name": "Staggering Curse",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:staggering-curse"
+    ],
+    "scdc": [
+      "1.1.1:5.2.2.1:13"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/conduit/1st-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Intuition",
+      "t1": "3 + I holy damage; slide 1",
+      "t2": "5 + I holy damage; slide 2",
+      "t3": "8 + I holy damage; slide 3"
+    }
+  ]
+}

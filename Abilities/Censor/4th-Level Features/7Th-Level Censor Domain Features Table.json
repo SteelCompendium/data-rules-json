@@ -1,0 +1,31 @@
+{
+  "name": "7th-Level Censor Domain Features Table",
+  "keywords": [
+    "Domain"
+  ],
+  "type": "Feature",
+  "distance": "Creation",
+  "target": "Divine Quartermaster",
+  "metadata": {
+    "class": "censor",
+    "feature_type": "trait",
+    "file_dpath": "Censor/4th-Level Features",
+    "item_id": "4th-level-censor-domain-features-table",
+    "item_index": "13",
+    "item_name": "4th-Level Censor Domain Features Table",
+    "level": 4,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.censor.4th-level-feature:4th-level-censor-domain-features-table"
+    ],
+    "scdc": [
+      "1.1.1:5.2.1.10:13"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/censor/4th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "| Death      | Word of Death Deferred       |\n| Fate       | Word of Fate Denied          |\n| Knowledge  | Gods' Library                |\n| Life       | Font of Grace                |\n| Love       | Covenant of the Heart        |\n| Nature     | Nature's Bounty              |\n| Protection | Blessing of Iron             |\n| Storm      | Ride the Lightning           |\n| Sun        | Light of the Burning Sun     |\n| Trickery   | Trinity of Trickery          |\n| War        | Your Triumphs Are Remembered |"
+    }
+  ]
+}

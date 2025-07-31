@@ -1,0 +1,44 @@
+{
+  "name": "Thorn Cage",
+  "cost": "11 Piety",
+  "flavor": "Vines burst forth from the ground and bind your foe, slowly closing around them.",
+  "keywords": [
+    "Magic",
+    "Ranged",
+    "Strike"
+  ],
+  "type": "Main action",
+  "distance": "Ranged 10",
+  "target": "One creature",
+  "metadata": {
+    "class": "conduit",
+    "cost": "11 Piety",
+    "cost_amount": 11,
+    "cost_resource": "Piety",
+    "feature_type": "ability",
+    "file_dpath": "Conduit/9th-Level Features",
+    "item_id": "thorn-cage-11-piety",
+    "item_index": "11",
+    "item_name": "Thorn Cage (11 Piety)",
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:thorn-cage-11-piety"
+    ],
+    "scdc": [
+      "1.1.1:5.1.2.7:11"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/conduit/9th-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Intuition",
+      "t1": "10 + I damage; A < WEAK, restrained (save ends)",
+      "t2": "15 + I damage; A < AVERAGE, restrained (save ends)",
+      "t3": "21 + I damage; A < STRONG, restrained (save ends)"
+    },
+    {
+      "effect": "While restrained this way, the target takes 10 damage at the start of each of your turns."
+    }
+  ]
+}

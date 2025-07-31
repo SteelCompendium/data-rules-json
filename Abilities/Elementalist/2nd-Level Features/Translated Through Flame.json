@@ -1,0 +1,54 @@
+{
+  "name": "Translated Through Flame",
+  "cost": "5 Essence",
+  "flavor": "Your ally disappears, then reappears in a burst of fire.",
+  "keywords": [
+    "Fire",
+    "Magic",
+    "Ranged",
+    "Void"
+  ],
+  "type": "Main action",
+  "distance": "Ranged 10",
+  "target": "Self or one ally",
+  "metadata": {
+    "class": "elementalist",
+    "cost": "5 Essence",
+    "cost_amount": 5,
+    "cost_resource": "Essence",
+    "feature_type": "ability",
+    "file_dpath": "Elementalist/2nd-Level Features",
+    "item_id": "translated-through-flame-5-essence",
+    "item_index": "01",
+    "item_name": "Translated Through Flame (5 Essence)",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:translated-through-flame-5-essence"
+    ],
+    "scdc": [
+      "1.1.1:5.1.3.5:01"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/elementalist/2nd-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "The target is teleported to another space within distance. Make a power roll that affects each enemy adjacent to the target's new space."
+    },
+    {
+      "roll": "Power Roll + Reason",
+      "t1": "3 fire damage",
+      "t2": "5 fire damage",
+      "t3": "8 fire damage"
+    },
+    {
+      "effect": "###### Volcano's Embrace (5 Essence)\n*Wrap them up in fire and melting stone.*\n| **Earth, Fire, Magic, Ranged, Strike** |     **Main action** |\n| -------------------------------------- | ------------------: |\n| **📏 Ranged 10**                       | **🎯 One creature** |"
+    },
+    {
+      "roll": "Power Roll + Reason",
+      "t1": "5 + R fire damage; A < WEAK, restrained (save ends)",
+      "t2": "9 + R fire damage; A < AVERAGE, restrained (save ends)",
+      "t3": "12 + R fire damage; A < STRONG, restrained (save ends)"
+    }
+  ]
+}

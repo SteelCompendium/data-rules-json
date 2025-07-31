@@ -1,0 +1,41 @@
+{
+  "name": "Nature Judges Thee",
+  "cost": "5 Piety",
+  "flavor": "Mystical thorned vines appear at your bidding and bind your foes.",
+  "keywords": [
+    "Area",
+    "Magic",
+    "Ranged"
+  ],
+  "type": "Main action",
+  "distance": "3 cube within 10",
+  "target": "Each enemy in the area",
+  "metadata": {
+    "class": "conduit",
+    "cost": "5 Piety",
+    "cost_amount": 5,
+    "cost_resource": "Piety",
+    "feature_type": "ability",
+    "file_dpath": "Conduit/2nd-Level Features",
+    "item_id": "nature-judges-thee-5-piety",
+    "item_index": "12",
+    "item_name": "Nature Judges Thee (5 Piety)",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:nature-judges-thee-5-piety"
+    ],
+    "scdc": [
+      "1.1.1:5.1.2.5:12"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/conduit/2nd-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Intuition",
+      "t1": "2 damage; A < WEAK, restrained (save ends)",
+      "t2": "3 damage; A < AVERAGE, restrained (save ends)",
+      "t3": "7 damage; A < STRONG, restrained (save ends)"
+    }
+  ]
+}

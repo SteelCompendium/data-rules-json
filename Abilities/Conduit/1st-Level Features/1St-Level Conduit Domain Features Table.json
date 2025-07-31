@@ -1,0 +1,31 @@
+{
+  "name": "1st-Level Conduit Domain Features Table",
+  "keywords": [
+    "Domain"
+  ],
+  "type": "Feature",
+  "distance": "Creation",
+  "target": "Hands of the Maker",
+  "metadata": {
+    "class": "conduit",
+    "feature_type": "trait",
+    "file_dpath": "Conduit/1st-Level Features",
+    "item_id": "1st-level-conduit-domain-features-table",
+    "item_index": "16",
+    "item_name": "1st-Level Conduit Domain Features Table",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:1st-level-conduit-domain-features-table"
+    ],
+    "scdc": [
+      "1.1.1:5.2.2.1:16"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/conduit/1st-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "| Death      | Grave Speech                  | Lore          |\n| Fate       | Oracular Visions              | Lore          |\n| Knowledge  | Blessing of Comprehension     | Lore          |\n| Life       | Revitalizing Ritual           | Exploration   |\n| Love       | Blessing of Compassion        | Interpersonal |\n| Nature     | Faithful Friend               | Exploration   |\n| Protection | Protective Circle             | Exploration   |\n| Storm      | Blessing of Fortunate Weather | Exploration   |\n| Sun        | Inner Light                   | Lore          |\n| Trickery   | Inspired Deception            | Intrigue      |\n| War        | Sanctified Weapon             | Exploration   |"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Lightning Lord",
+  "cost": "9 Piety",
+  "flavor": "Lightning bursts forth from your body in several directions.",
+  "keywords": [
+    "Area",
+    "Magic"
+  ],
+  "type": "Main action",
+  "distance": "Three 10 × 1 lines within 1",
+  "target": "Each enemy in the area",
+  "metadata": {
+    "class": "conduit",
+    "cost": "9 Piety",
+    "cost_amount": 9,
+    "cost_resource": "Piety",
+    "feature_type": "ability",
+    "file_dpath": "Conduit/6th-Level Features",
+    "item_id": "lightning-lord-9-piety",
+    "item_index": "02",
+    "item_name": "Lightning Lord (9 Piety)",
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:lightning-lord-9-piety"
+    ],
+    "scdc": [
+      "1.1.1:5.1.2.3:02"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/conduit/6th-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Intuition",
+      "t1": "6 lightning damage; push 1",
+      "t2": "9 lightning damage; push 2",
+      "t3": "13 lightning damage; push 3"
+    },
+    {
+      "effect": "The targets are force moved one at a time, starting with the target nearest to you, and can be pushed into other targets in the same line."
+    }
+  ]
+}

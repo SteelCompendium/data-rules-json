@@ -1,0 +1,55 @@
+{
+  "name": "The Flesh, a Crucible",
+  "cost": "3 Essence",
+  "flavor": "Fire engulfs your target and continues to churn.",
+  "keywords": [
+    "Fire",
+    "Magic",
+    "Ranged",
+    "Strike"
+  ],
+  "type": "Main action",
+  "distance": "Ranged 10",
+  "target": "One creature or object",
+  "metadata": {
+    "class": "elementalist",
+    "cost": "3 Essence",
+    "cost_amount": 3,
+    "cost_resource": "Essence",
+    "feature_type": "ability",
+    "file_dpath": "Elementalist/1st-Level Features",
+    "item_id": "the-flesh-a-crucible-3-essence",
+    "item_index": "02",
+    "item_name": "The Flesh, a Crucible (3 Essence)",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:the-flesh-a-crucible-3-essence"
+    ],
+    "scdc": [
+      "1.1.1:5.1.3.1:02"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/elementalist/1st-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Reason",
+      "t1": "5 + R fire damage",
+      "t2": "8 + R fire damage",
+      "t3": "11 + R fire damage"
+    },
+    {
+      "effect": "If the target is within distance at the start of your turn, you can make the power roll again without spending essence (no action required).\n###### Invigorating Growth (3 Essence)\n*Mushrooms erupt from a foe, sapping their vitality to spread strengthening spores.*\n| **Green, Magic, Ranged, Strike** |     **Main action** |\n| -------------------------------- | ------------------: |\n| **📏 Ranged 10**                 | **🎯 One creature** |",
+      "name": "Persistent 1"
+    },
+    {
+      "roll": "Power Roll + Reason",
+      "t1": "4 + R poison damage",
+      "t2": "7 + R poison damage",
+      "t3": "11 + R poison damage"
+    },
+    {
+      "effect": "Mushrooms cover the target's body. While the mushrooms are on the target, you and any ally adjacent to the target gain 1 surge whenever the target takes damage. The mushrooms can be removed by the target or an adjacent creature as a main action."
+    }
+  ]
+}

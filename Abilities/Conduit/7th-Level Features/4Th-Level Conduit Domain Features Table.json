@@ -1,0 +1,31 @@
+{
+  "name": "4th-Level Conduit Domain Features Table",
+  "keywords": [
+    "Domain"
+  ],
+  "type": "Feature",
+  "distance": "Creation",
+  "target": "Improved Hands of the Maker",
+  "metadata": {
+    "class": "conduit",
+    "feature_type": "trait",
+    "file_dpath": "Conduit/7th-Level Features",
+    "item_id": "7th-level-conduit-domain-features-table",
+    "item_index": "12",
+    "item_name": "7th-Level Conduit Domain Features Table",
+    "level": 7,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:7th-level-conduit-domain-features-table"
+    ],
+    "scdc": [
+      "1.1.1:5.2.2.9:12"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/conduit/7th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "| Death      | Seance                      |\n| Fate       | Oracular Warning            |\n| Knowledge  | Saint's Epiphany            |\n| Life       | Blessing of Life            |\n| Love       | Invocation of the Heart     |\n| Nature     | Wode Road                   |\n| Protection | Impervious Touch            |\n| Storm      | Windwalk                    |\n| Sun        | Light of Revelation         |\n| Trickery   | Blessing of Secrets         |\n| War        | Improved Sanctified Weapon  |"
+    }
+  ]
+}

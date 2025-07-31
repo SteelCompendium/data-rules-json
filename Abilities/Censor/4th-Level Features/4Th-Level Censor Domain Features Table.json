@@ -1,0 +1,31 @@
+{
+  "name": "4th-Level Censor Domain Features Table",
+  "keywords": [
+    "Domain"
+  ],
+  "type": "Feature",
+  "distance": "Creation",
+  "target": "Improved Hands of the Maker",
+  "metadata": {
+    "class": "censor",
+    "feature_type": "trait",
+    "file_dpath": "Censor/4th-Level Features",
+    "item_id": "4th-level-censor-domain-features-table",
+    "item_index": "14",
+    "item_name": "4th-Level Censor Domain Features Table",
+    "level": 4,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.censor.4th-level-feature:4th-level-censor-domain-features-table"
+    ],
+    "scdc": [
+      "1.1.1:5.2.1.10:14"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/censor/4th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "| Death      | Seance                      |     |\n| Fate       | Oracular Warning            |     |\n| Knowledge  | Saint's Epiphany            |     |\n| Life       | Blessing of Life            |     |\n| Love       | Invocation of the Heart     |     |\n| Nature     | Wode Road                   |     |\n| Protection | Impervious Touch            |     |\n| Storm      | Windwalk                    |     |\n| Sun        | Light of Revelation         |     |\n| Trickery   | Blessing of Secrets         |     |\n| War        | Improved Sanctified Weapon  |     |"
+    }
+  ]
+}

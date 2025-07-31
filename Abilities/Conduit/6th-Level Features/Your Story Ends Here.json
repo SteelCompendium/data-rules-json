@@ -1,0 +1,44 @@
+{
+  "name": "Your Story Ends Here",
+  "cost": "9 Piety",
+  "flavor": "You bend the fate of a foe, willing them to die.",
+  "keywords": [
+    "Magic",
+    "Ranged",
+    "Strike"
+  ],
+  "type": "Main action",
+  "distance": "Ranged 10",
+  "target": "One creature",
+  "metadata": {
+    "class": "conduit",
+    "cost": "9 Piety",
+    "cost_amount": 9,
+    "cost_resource": "Piety",
+    "feature_type": "ability",
+    "file_dpath": "Conduit/6th-Level Features",
+    "item_id": "your-story-ends-here-9-piety",
+    "item_index": 9,
+    "item_name": "Your Story Ends Here (9 Piety)",
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:your-story-ends-here-9-piety"
+    ],
+    "scdc": [
+      "1.1.1:5.1.2.3:09"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/conduit/6th-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Intuition",
+      "t1": "9 + I corruption damage; R < WEAK, weakened (save ends)",
+      "t2": "14 + I corruption damage; R < AVERAGE, weakened (save ends)",
+      "t3": "19 + I corruption damage; R < STRONG, weakened (save ends)"
+    },
+    {
+      "effect": "If this damage kills the target, you and each ally within distance can spend a Recovery."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Drain",
+  "flavor": "You drain the energy from your target to revitalize yourself or an ally.",
+  "keywords": [
+    "Magic",
+    "Melee",
+    "Strike"
+  ],
+  "type": "Main action",
+  "distance": "Melee 1",
+  "target": "One creature",
+  "metadata": {
+    "class": "conduit",
+    "feature_type": "trait",
+    "file_dpath": "Conduit/1st-Level Features",
+    "item_id": "drain",
+    "item_index": "33",
+    "item_name": "Drain",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:drain"
+    ],
+    "scdc": [
+      "1.1.1:5.2.2.1:33"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/conduit/1st-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Intuition",
+      "t1": "2 + I corruption damage",
+      "t2": "5 + I corruption damage",
+      "t3": "7 + I corruption damage"
+    },
+    {
+      "effect": "You or one ally within distance can spend a Recovery."
+    }
+  ]
+}
