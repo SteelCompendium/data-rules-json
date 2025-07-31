@@ -1,0 +1,44 @@
+{
+  "name": "Debilitating Strike",
+  "cost": "9 Ferocity",
+  "flavor": "You need just one blow to sabotage your target.",
+  "keywords": [
+    "Melee",
+    "Strike",
+    "Weapon"
+  ],
+  "type": "Main action",
+  "distance": "Melee 1",
+  "target": "One creature",
+  "metadata": {
+    "class": "5th-level-features",
+    "cost": "9 Ferocity",
+    "cost_amount": 9,
+    "cost_resource": "Ferocity",
+    "feature_type": "ability",
+    "file_dpath": "5th-Level Features",
+    "item_id": "debilitating-strike-9-ferocity",
+    "item_index": "02",
+    "item_name": "Debilitating Strike (9 Ferocity)",
+    "level": 5,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.5th-level-features.5th-level-feature:debilitating-strike-9-ferocity"
+    ],
+    "scdc": [
+      "1.1.1:5.2.4.1:02"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/5th-level-features/5th-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Might",
+      "t1": "10 + M damage; M < WEAK, slowed (save ends)",
+      "t2": "14 + M damage; M < AVERAGE, slowed (save ends)",
+      "t3": "20 + M damage; M < STRONG, slowed (save ends)"
+    },
+    {
+      "effect": "While slowed this way, the target takes 1 damage for every square they move, including from forced movement."
+    }
+  ]
+}

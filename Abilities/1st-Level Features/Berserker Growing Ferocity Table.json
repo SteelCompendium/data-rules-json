@@ -1,0 +1,31 @@
+{
+  "name": "Berserker Growing Ferocity Table",
+  "keywords": [
+    "Ferocity"
+  ],
+  "type": "Benefit",
+  "distance": "2",
+  "target": "Whenever you use the Knockback maneuver, the forced movement distance gains a bonus equal to your Might score.",
+  "metadata": {
+    "class": "1st-level-features",
+    "feature_type": "trait",
+    "file_dpath": "1st-Level Features",
+    "item_id": "berserker-growing-ferocity-table",
+    "item_index": "17",
+    "item_name": "Berserker Growing Ferocity Table",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.1st-level-features.1st-level-feature:berserker-growing-ferocity-table"
+    ],
+    "scdc": [
+      "1.1.1:5.1.1.1:17"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/1st-level-features/1st-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "| 4               | The first time you push a creature on a turn, you gain 1 surge.                                                                                                                                                                |\n| 6               | You gain an edge on Might tests and the Knockback maneuver.                                                                                                                                                                    |\n| 8 (4th level)   | The first time you push a creature on a turn, you gain 2 surges.                                                                                                                                                               |\n| 10 (7th level)  | You have a double edge on Might tests and the Knockback maneuver.                                                                                                                                                              |\n| 12 (10th level) | Whenever you use a heroic ability, you gain 10 temporary Stamina. Additionally, whenever you make a power roll that imposes forced movement on a target, the forced movement distance gains a bonus equal to your Might score. |"
+    }
+  ]
+}

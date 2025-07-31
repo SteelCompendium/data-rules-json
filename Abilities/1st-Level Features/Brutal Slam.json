@@ -1,0 +1,37 @@
+{
+  "name": "Brutal Slam",
+  "flavor": "The heavy impact of your weapon attacks drives your foes ever back.",
+  "keywords": [
+    "Melee",
+    "Strike",
+    "Weapon"
+  ],
+  "type": "Main action",
+  "distance": "Melee 1",
+  "target": "One creature or object",
+  "metadata": {
+    "class": "1st-level-features",
+    "feature_type": "trait",
+    "file_dpath": "1st-Level Features",
+    "item_id": "brutal-slam",
+    "item_index": "02",
+    "item_name": "Brutal Slam",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.1st-level-features.1st-level-feature:brutal-slam"
+    ],
+    "scdc": [
+      "1.1.1:5.1.1.1:02"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/1st-level-features/1st-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Might",
+      "t1": "3 + M damage; push 1",
+      "t2": "6 + M damage; push 2",
+      "t3": "9 + M damage; push 4"
+    }
+  ]
+}

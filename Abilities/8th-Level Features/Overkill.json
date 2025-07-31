@@ -1,0 +1,45 @@
+{
+  "name": "Overkill",
+  "cost": "11 Ferocity",
+  "flavor": "You strike so no damage is wasted.",
+  "keywords": [
+    "Magic",
+    "Melee",
+    "Strike",
+    "Weapon"
+  ],
+  "type": "Main action",
+  "distance": "Melee 1",
+  "target": "One creature",
+  "metadata": {
+    "class": "8th-level-features",
+    "cost": "11 Ferocity",
+    "cost_amount": 11,
+    "cost_resource": "Ferocity",
+    "feature_type": "ability",
+    "file_dpath": "8th-Level Features",
+    "item_id": "overkill-11-ferocity",
+    "item_index": "02",
+    "item_name": "Overkill (11 Ferocity)",
+    "level": 8,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.8th-level-features.8th-level-feature:overkill-11-ferocity"
+    ],
+    "scdc": [
+      "1.1.1:5.2.2.1:02"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/8th-level-features/8th-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Might",
+      "t1": "6 + M damage",
+      "t2": "10 + M damage",
+      "t3": "14 + M damage"
+    },
+    {
+      "effect": "If the target is a minion or is winded but isn't a leader or solo creature, they are reduced to 0 Stamina before this ability's damage is dealt. If the target is killed by this damage, you can deal any damage over what was required to kill them to another creature within 5 squares of the target."
+    }
+  ]
+}

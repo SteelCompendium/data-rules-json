@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "class": "10th-level-features",
+    "feature_type": "trait",
+    "file_dpath": "10th-Level Features",
+    "item_id": "characteristic-increase",
+    "item_index": "05",
+    "item_name": "Characteristic Increase",
+    "level": 10,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.10th-level-features.10th-level-feature:characteristic-increase"
+    ],
+    "scdc": [
+      "1.1.1:5.1.4.1:05"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/10th-level-features/10th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Your Might and Agility scores each increase to 5."
+    }
+  ]
+}

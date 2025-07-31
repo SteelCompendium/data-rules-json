@@ -1,0 +1,37 @@
+{
+  "name": "Unearthly Reflexes",
+  "flavor": "You are as elusive as a hummingbird.",
+  "keywords": [
+    "-"
+  ],
+  "type": "Triggered",
+  "distance": "Self",
+  "target": "Self",
+  "trigger": "You take damage.",
+  "metadata": {
+    "class": "1st-level-features",
+    "feature_type": "trait",
+    "file_dpath": "1st-Level Features",
+    "item_id": "unearthly-reflexes",
+    "item_index": "12",
+    "item_name": "Unearthly Reflexes",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.1st-level-features.1st-level-feature:unearthly-reflexes"
+    ],
+    "scdc": [
+      "1.1.1:5.1.1.1:12"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/1st-level-features/1st-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "You take half the damage from the triggering effect and can shift up to a number of squares equal to your Agility score."
+    },
+    {
+      "effect": "If the damage has any potency effects associated with it, the potency is reduced by 1 for you.",
+      "cost": "Spend 1 Ferocity"
+    }
+  ]
+}

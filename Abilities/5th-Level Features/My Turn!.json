@@ -1,0 +1,45 @@
+{
+  "name": "My Turn!",
+  "cost": "9 Ferocity",
+  "flavor": "You quickly strike back at a foe.",
+  "keywords": [
+    "Melee",
+    "Strike",
+    "Weapon"
+  ],
+  "type": "Free triggered",
+  "distance": "Melee 1",
+  "target": "The triggering creature",
+  "trigger": "A creature causes you to be winded or dying, or damages you while you are winded or dying.",
+  "metadata": {
+    "class": "5th-level-features",
+    "cost": "9 Ferocity",
+    "cost_amount": 9,
+    "cost_resource": "Ferocity",
+    "feature_type": "ability",
+    "file_dpath": "5th-Level Features",
+    "item_id": "my-turn-9-ferocity",
+    "item_index": "03",
+    "item_name": "My Turn! (9 Ferocity)",
+    "level": 5,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.5th-level-features.5th-level-feature:my-turn-9-ferocity"
+    ],
+    "scdc": [
+      "1.1.1:5.2.4.1:03"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/5th-level-features/5th-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Might",
+      "t1": "6 + M damage",
+      "t2": "9 + M damage",
+      "t3": "13 + M damage"
+    },
+    {
+      "effect": "You can spend a Recovery."
+    }
+  ]
+}
