@@ -1,0 +1,44 @@
+{
+  "name": "Epic",
+  "cost": "11 Drama",
+  "flavor": "Your story tells a tale of the villain's waning power and how the heroes rose to the occasion to stop them.",
+  "keywords": [
+    "Magic",
+    "Melee",
+    "Ranged"
+  ],
+  "type": "Maneuver",
+  "distance": "Melee 1 or ranged 10",
+  "target": "One creature",
+  "metadata": {
+    "class": "troubadour",
+    "cost": "11 Drama",
+    "cost_amount": 11,
+    "cost_resource": "Drama",
+    "feature_type": "ability",
+    "file_dpath": "Troubadour/9th-Level Features",
+    "item_id": "epic-11-drama",
+    "item_index": "05",
+    "item_name": "Epic (11 Drama)",
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:epic-11-drama"
+    ],
+    "scdc": [
+      "1.1.1:5.2.3.7:05"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/troubadour/9th-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Presence",
+      "t1": "The target takes a bane on ability rolls (save ends).",
+      "t2": "The target has a double bane on ability rolls (save ends).",
+      "t3": "The target has a double bane on power rolls (save ends)."
+    },
+    {
+      "effect": "Choose one ally within distance. While the target is affected by this ability, each time they use an ability, that ally can make a free strike against them after the ability is resolved."
+    }
+  ]
+}

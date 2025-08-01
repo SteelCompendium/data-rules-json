@@ -1,0 +1,44 @@
+{
+  "name": "En Garde!",
+  "cost": "5 Drama",
+  "flavor": "Wait, it's … Guard! Turn! Parry! Dodge! Spin! Thrust! Ha!",
+  "keywords": [
+    "Melee",
+    "Strike",
+    "Weapon"
+  ],
+  "type": "Main action",
+  "distance": "Melee 1",
+  "target": "One creature",
+  "metadata": {
+    "class": "troubadour",
+    "cost": "5 Drama",
+    "cost_amount": 5,
+    "cost_resource": "Drama",
+    "feature_type": "ability",
+    "file_dpath": "Troubadour/2nd-Level Features",
+    "item_id": "en-garde-5-drama",
+    "item_index": "02",
+    "item_name": "En Garde! (5 Drama)",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:en-garde-5-drama"
+    ],
+    "scdc": [
+      "1.1.1:5.2.3.5:02"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/troubadour/2nd-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Agility",
+      "t1": "7 + A damage",
+      "t2": "11 + A damage",
+      "t3": "16 + A damage"
+    },
+    {
+      "effect": "The target can make a melee free strike against you. If they do, you can make a melee free strike against the target."
+    }
+  ]
+}
