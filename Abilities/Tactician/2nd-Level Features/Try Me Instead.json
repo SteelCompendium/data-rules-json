@@ -38,7 +38,7 @@
       "roll": "Power Roll + Reason",
       "t1": "2 + R damage; R < WEAK, frightened (save ends)",
       "t2": "3 + R damage; R < AVERAGE, frightened (save ends)",
-      "t3": "4 + Rdamage; R < STRONG, frightened (save ends)"
+      "t3": "4 + R damage; R < STRONG, frightened (save ends)"
     }
   ]
 }

@@ -32,7 +32,7 @@
       "roll": "Power Roll + Reason",
       "t1": "2 + R damage",
       "t2": "5 + R damage",
-      "t3": "7 + Rdamage"
+      "t3": "7 + R damage"
     },
     {
       "effect": "You slide one creature within 10 squares of the target up to 2 squares."

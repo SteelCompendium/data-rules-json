@@ -33,8 +33,8 @@
   "effects": [
     {
       "roll": "Power Roll + Presence",
-      "t1": "6damage; P < WEAK, the target can't willingly leave the area (EoT)",
-      "t2": "8damage; P < AVERAGE, the target can't willingly leave the area (save ends)",
+      "t1": "6 damage; P < WEAK, the target can't willingly leave the area (EoT)",
+      "t2": "8 damage; P < AVERAGE, the target can't willingly leave the area (save ends)",
       "t3": "12 damage; the target can't willingly leave the area (EoT); if P < STRONG, they can't willingly leave the area (save ends)"
     },
     {

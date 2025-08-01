@@ -34,8 +34,8 @@
   "effects": [
     {
       "roll": "Power Roll + Presence",
-      "t1": "6 + Pdamage; P < WEAK, dazed (save ends)",
-      "t2": "10 + Pdamage; P < AVERAGE, dazed (save ends)",
+      "t1": "6 + P damage; P < WEAK, dazed (save ends)",
+      "t2": "10 + P damage; P < AVERAGE, dazed (save ends)",
       "t3": "14 + P damage; P < STRONG, dazed (save ends)"
     },
     {
