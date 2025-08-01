@@ -1,0 +1,48 @@
+{
+  "name": "Gravitic Nova",
+  "cost": "11 Clarity",
+  "flavor": "Unbridled psionic energy erupts from your body and flashes outward, hurling your foes back.",
+  "keywords": [
+    "Area",
+    "Psionic",
+    "Telekinesis"
+  ],
+  "type": "Main action",
+  "distance": "3 burst",
+  "target": "Each enemy and object in the area",
+  "metadata": {
+    "class": "mindlink",
+    "cost": "11 Clarity",
+    "cost_amount": 11,
+    "cost_resource": "Clarity",
+    "feature_type": "ability",
+    "file_dpath": "Mindlink/9th-Level Features",
+    "item_id": "gravitic-nova-11-clarity",
+    "item_index": "04",
+    "item_name": "Gravitic Nova (11 Clarity)",
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.mindlink.9th-level-feature:gravitic-nova-11-clarity"
+    ],
+    "scdc": [
+      "1.1.1:5.2.2.1:04"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/mindlink/9th-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Reason",
+      "t1": "6 damage; push 7",
+      "t2": "9 damage; push 10",
+      "t3": "13 damage; push 15"
+    },
+    {
+      "effect": "On a critical hit, the size of the area increases by 3, and this ability deals an extra 10 damage."
+    },
+    {
+      "effect": "You are weakened (save ends). If you scored a critical hit with this ability, you die.",
+      "name": "Strained"
+    }
+  ]
+}

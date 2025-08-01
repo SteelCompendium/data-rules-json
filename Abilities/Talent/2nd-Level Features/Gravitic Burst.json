@@ -1,0 +1,45 @@
+{
+  "name": "Gravitic Burst",
+  "cost": "5 Clarity",
+  "flavor": "Everyone get away from me!",
+  "keywords": [
+    "Area",
+    "Psionic",
+    "Telekinesis"
+  ],
+  "type": "Main action",
+  "distance": "1 burst",
+  "target": "Each enemy in the area",
+  "metadata": {
+    "class": "talent",
+    "cost": "5 Clarity",
+    "cost_amount": 5,
+    "cost_resource": "Clarity",
+    "feature_type": "ability",
+    "file_dpath": "Talent/2nd-Level Features",
+    "item_id": "gravitic-burst-5-clarity",
+    "item_index": "05",
+    "item_name": "Gravitic Burst (5 Clarity)",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:gravitic-burst-5-clarity"
+    ],
+    "scdc": [
+      "1.1.1:5.2.1.4:05"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/talent/2nd-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Reason",
+      "t1": "3 damage; vertical push 2",
+      "t2": "6 damage; vertical push 4",
+      "t3": "9 damage; vertical push 6"
+    },
+    {
+      "effect": "The size of the burst increases by 1, and you are weakened until the end of your turn.",
+      "name": "Strained"
+    }
+  ]
+}

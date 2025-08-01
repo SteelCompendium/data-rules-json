@@ -11,7 +11,7 @@
       "mcdm.heroes.v1:feature.trait.tactician.1st-level-feature:focus-in-combat"
     ],
     "scdc": [
-      "1.1.1:5.2.2.1:09"
+      "1.1.1:5.1.4.1:09"
     ],
     "source": "mcdm.heroes.v1",
     "type": "feature/trait/tactician/1st-level-feature"

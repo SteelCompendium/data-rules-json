@@ -20,7 +20,7 @@
       "mcdm.heroes.v1:feature.trait.fury.1st-level-feature:lines-of-force"
     ],
     "scdc": [
-      "1.1.1:5.2.3.1:19"
+      "1.1.1:5.1.5.1:19"
     ],
     "source": "mcdm.heroes.v1",
     "type": "feature/trait/fury/1st-level-feature"

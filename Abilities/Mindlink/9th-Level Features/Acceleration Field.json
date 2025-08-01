@@ -1,0 +1,48 @@
+{
+  "name": "Acceleration Field",
+  "cost": "11 Clarity",
+  "flavor": "You forcibly stuff more moments into a critical point in time, knowing full well you might need to steal some of your own.",
+  "keywords": [
+    "Chronopathy",
+    "Psionic",
+    "Ranged"
+  ],
+  "type": "Main action",
+  "distance": "Ranged 5",
+  "target": "Three allies",
+  "metadata": {
+    "class": "mindlink",
+    "cost": "11 Clarity",
+    "cost_amount": 11,
+    "cost_resource": "Clarity",
+    "feature_type": "ability",
+    "file_dpath": "Mindlink/9th-Level Features",
+    "item_id": "acceleration-field-11-clarity",
+    "item_index": "02",
+    "item_name": "Acceleration Field (11 Clarity)",
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.mindlink.9th-level-feature:acceleration-field-11-clarity"
+    ],
+    "scdc": [
+      "1.1.1:5.2.2.1:02"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/mindlink/9th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Each target can use any main action available to them as a free triggered action, but they lose their main action on their next turn."
+    },
+    {
+      "effect": "Make a power roll that targets you and each enemy within distance.",
+      "name": "Strained"
+    },
+    {
+      "roll": "Power Roll + Presence",
+      "t1": "4 corruption damage; slowed (save ends)",
+      "t2": "6 corruption damage; slowed (save ends)",
+      "t3": "10 corruption damage; slowed (save ends)"
+    }
+  ]
+}
