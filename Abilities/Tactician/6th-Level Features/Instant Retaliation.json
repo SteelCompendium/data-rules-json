@@ -1,0 +1,43 @@
+{
+  "name": "Instant Retaliation",
+  "cost": "9 Focus",
+  "keywords": [
+    "Melee",
+    "Weapon"
+  ],
+  "type": "Free triggered",
+  "distance": "Melee 1",
+  "target": "One ally",
+  "trigger": "A creature deals damage to the target.",
+  "metadata": {
+    "class": "tactician",
+    "cost": "9 Focus",
+    "cost_amount": 9,
+    "cost_resource": "Focus",
+    "feature_type": "ability",
+    "file_dpath": "Tactician/6th-Level Features",
+    "item_id": "instant-retaliation-9-focus",
+    "item_index": "05",
+    "item_name": "Instant Retaliation (9 Focus)",
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:instant-retaliation-9-focus"
+    ],
+    "scdc": [
+      "1.1.1:5.1.2.3:05"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/tactician/6th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "The target takes half the damage. You then make a power roll against the triggering creature."
+    },
+    {
+      "roll": "Power Roll + Might",
+      "t1": "A < WEAK, dazed (save ends)",
+      "t2": "A < AVERAGE, dazed (save ends)",
+      "t3": "A < STRONG, dazed (save ends)"
+    }
+  ]
+}

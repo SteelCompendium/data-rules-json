@@ -1,0 +1,45 @@
+{
+  "name": "Panic in Their Lines",
+  "cost": "9 Focus",
+  "flavor": "You confuse your foes, causing them to turn on each other.",
+  "keywords": [
+    "Melee",
+    "Ranged",
+    "Strike",
+    "Weapon"
+  ],
+  "type": "Main action",
+  "distance": "Melee 1 or ranged 5",
+  "target": "Two creatures",
+  "metadata": {
+    "class": "tactician",
+    "cost": "9 Focus",
+    "cost_amount": 9,
+    "cost_resource": "Focus",
+    "feature_type": "ability",
+    "file_dpath": "Tactician/6th-Level Features",
+    "item_id": "panic-in-their-lines-9-focus",
+    "item_index": "04",
+    "item_name": "Panic in Their Lines (9 Focus)",
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:panic-in-their-lines-9-focus"
+    ],
+    "scdc": [
+      "1.1.1:5.1.2.3:04"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/tactician/6th-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Might",
+      "t1": "6 + M damage; slide 1",
+      "t2": "9 + M damage; slide 3",
+      "t3": "13 + M damage; slide 5"
+    },
+    {
+      "effect": "If a target is force moved into another creature, they must make a free strike against that creature."
+    }
+  ]
+}

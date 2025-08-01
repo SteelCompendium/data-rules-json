@@ -1,0 +1,40 @@
+{
+  "name": "Shadowgrasp",
+  "cost": "11 Insight",
+  "flavor": "The shadows around you give way, allowing the shadow creature within you to grasp at your foes.",
+  "keywords": [
+    "Area",
+    "Magic"
+  ],
+  "type": "Main action",
+  "distance": "2 burst",
+  "target": "Each enemy in the area",
+  "metadata": {
+    "class": "shadow",
+    "cost": "11 Insight",
+    "cost_amount": 11,
+    "cost_resource": "Insight",
+    "feature_type": "ability",
+    "file_dpath": "Shadow/8th-Level Features",
+    "item_id": "shadowgrasp-11-insight",
+    "item_index": "04",
+    "item_name": "Shadowgrasp (11 Insight)",
+    "level": 8,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:shadowgrasp-11-insight"
+    ],
+    "scdc": [
+      "1.1.1:5.1.1.2:04"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/shadow/8th-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Agility",
+      "t1": "11 corruption damage; A < WEAK, restrained (save ends)",
+      "t2": "16 corruption damage; A < AVERAGE, restrained (save ends)",
+      "t3": "21 corruption damage; A < STRONG, restrained (save ends)"
+    }
+  ]
+}

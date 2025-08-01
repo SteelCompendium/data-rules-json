@@ -1,0 +1,36 @@
+{
+  "name": "\"Strike Now!\"",
+  "flavor": "Your foe left an opening. You point this out to an ally!",
+  "keywords": [
+    "Ranged"
+  ],
+  "type": "Main action",
+  "distance": "Ranged 10",
+  "target": "One ally",
+  "metadata": {
+    "class": "tactician",
+    "feature_type": "trait",
+    "file_dpath": "Tactician/1st-Level Features",
+    "item_id": "strike-now",
+    "item_index": "13",
+    "item_name": "\"Strike Now!\"",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.tactician.1st-level-feature:strike-now"
+    ],
+    "scdc": [
+      "1.1.1:5.2.2.1:13"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/tactician/1st-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "The target can use a signature ability as a free triggered action."
+    },
+    {
+      "effect": "You target two allies instead of one.",
+      "cost": "Spend 5 Focus"
+    }
+  ]
+}

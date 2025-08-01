@@ -1,0 +1,36 @@
+{
+  "name": "Blot Out the Sun!",
+  "cost": "11 Focus",
+  "flavor": "What makes a good soldier? The ability to fire four shots a minute in any weather.",
+  "keywords": [
+    "Area"
+  ],
+  "type": "Main action",
+  "distance": "3 burst",
+  "target": "Self and each ally in the area",
+  "metadata": {
+    "class": "tactician",
+    "cost": "11 Focus",
+    "cost_amount": 11,
+    "cost_resource": "Focus",
+    "feature_type": "ability",
+    "file_dpath": "Tactician/9th-Level Features",
+    "item_id": "blot-out-the-sun-11-focus",
+    "item_index": "05",
+    "item_name": "Blot Out the Sun! (11 Focus)",
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:blot-out-the-sun-11-focus"
+    ],
+    "scdc": [
+      "1.1.1:5.1.2.7:05"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/tactician/9th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Each target can make a ranged free strike that gains an edge against any enemy marked by you within distance of their ranged free strike. A target ignores banes and double banes when making this strike."
+    }
+  ]
+}
