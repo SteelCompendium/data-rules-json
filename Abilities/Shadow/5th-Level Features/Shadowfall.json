@@ -1,0 +1,44 @@
+{
+  "name": "Shadowfall",
+  "cost": "9 Insight",
+  "flavor": "You vanish. They fall. You reappear.",
+  "keywords": [
+    "Area",
+    "Melee",
+    "Weapon"
+  ],
+  "type": "Main action",
+  "distance": "10 × 1 line within 1",
+  "target": "Each enemy in the area",
+  "metadata": {
+    "class": "shadow",
+    "cost": "9 Insight",
+    "cost_amount": 9,
+    "cost_resource": "Insight",
+    "feature_type": "ability",
+    "file_dpath": "Shadow/5th-Level Features",
+    "item_id": "shadowfall-9-insight",
+    "item_index": "01",
+    "item_name": "Shadowfall (9 Insight)",
+    "level": 5,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.shadow.5th-level-feature:shadowfall-9-insight"
+    ],
+    "scdc": [
+      "1.1.1:5.1.2.3:01"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/shadow/5th-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Agility",
+      "t1": "10 damage",
+      "t2": "14 damage",
+      "t3": "20 damage"
+    },
+    {
+      "effect": "You disappear before making the power roll. After the power roll is resolved, you appear in the first unoccupied space at the far end of the line."
+    }
+  ]
+}

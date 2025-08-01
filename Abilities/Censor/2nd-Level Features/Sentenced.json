@@ -26,7 +26,7 @@
       "mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:sentenced-5-wrath"
     ],
     "scdc": [
-      "1.1.1:5.2.3.5:02"
+      "1.1.1:5.1.5.5:02"
     ],
     "source": "mcdm.heroes.v1",
     "type": "feature/ability/censor/2nd-level-feature"

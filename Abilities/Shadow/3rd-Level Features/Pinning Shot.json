@@ -1,0 +1,41 @@
+{
+  "name": "Pinning Shot",
+  "cost": "7 Insight",
+  "flavor": "One missile—placed well and placed hard.",
+  "keywords": [
+    "Ranged",
+    "Strike",
+    "Weapon"
+  ],
+  "type": "Main action",
+  "distance": "Ranged 5",
+  "target": "One creature",
+  "metadata": {
+    "class": "shadow",
+    "cost": "7 Insight",
+    "cost_amount": 7,
+    "cost_resource": "Insight",
+    "feature_type": "ability",
+    "file_dpath": "Shadow/3rd-Level Features",
+    "item_id": "pinning-shot-7-insight",
+    "item_index": "02",
+    "item_name": "Pinning Shot (7 Insight)",
+    "level": 3,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:pinning-shot-7-insight"
+    ],
+    "scdc": [
+      "1.1.1:5.1.2.5:02"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/shadow/3rd-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Agility",
+      "t1": "8 + A damage; A < WEAK, restrained (save ends)",
+      "t2": "12 + A damage; A < AVERAGE, restrained (save ends)",
+      "t3": "16 + A damage; A < STRONG, restrained (save ends)"
+    }
+  ]
+}

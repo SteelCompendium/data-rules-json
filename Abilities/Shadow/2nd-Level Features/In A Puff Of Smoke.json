@@ -1,0 +1,50 @@
+{
+  "name": "In a Puff of Smoke",
+  "cost": "5 Insight",
+  "flavor": "You enchant a strike with your teleportation magic.",
+  "keywords": [
+    "Magic",
+    "Melee",
+    "Ranged",
+    "Strike",
+    "Weapon"
+  ],
+  "type": "Main action",
+  "distance": "Melee 1 or ranged 5",
+  "target": "One creature",
+  "trigger": "You use your In All This Confusion ability.",
+  "metadata": {
+    "class": "shadow",
+    "cost": "5 Insight",
+    "cost_amount": 5,
+    "cost_resource": "Insight",
+    "feature_type": "ability",
+    "file_dpath": "Shadow/2nd-Level Features",
+    "item_id": "in-a-puff-of-smoke-5-insight",
+    "item_index": "01",
+    "item_name": "In a Puff of Smoke (5 Insight)",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:in-a-puff-of-smoke-5-insight"
+    ],
+    "scdc": [
+      "1.1.1:5.1.2.4:01"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/shadow/2nd-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Agility",
+      "t1": "6 + A damage; you can teleport the target 1 square",
+      "t2": "10 + A damage; you can teleport the target up to 3 squares",
+      "t3": "14 + A damage; you can teleport the target up to 5 squares"
+    },
+    {
+      "effect": "###### Too Slow (5 Insight)\n*Your foe made a big mistake.*\n| **-**                  | **Free triggered** |\n| ---------------------- | -----------------: |\n| **📏 Self; see below** |        **🎯 Self** |"
+    },
+    {
+      "effect": "You ignore any effects associated with the damage that triggered your In All This Confusion ability. Before you teleport, you can make a free strike against a creature who damaged you to trigger In All This Confusion. After you teleport, you can spend a Recovery."
+    }
+  ]
+}
