@@ -23,7 +23,7 @@
       "mcdm.heroes.v1:feature.ability.null.3rd-level-feature:absorption-field-7-discipline"
     ],
     "scdc": [
-      "1.1.1:8.2.6.5:01"
+      "1.1.1:9.2.6.5:01"
     ],
     "source": "mcdm.heroes.v1",
     "type": "feature/ability/null/3rd-level-feature"
