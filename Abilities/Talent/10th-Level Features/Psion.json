@@ -1,20 +1,20 @@
 {
   "metadata": {
-    "class": "mindlink",
+    "class": "talent",
     "feature_type": "trait",
-    "file_dpath": "Mindlink/10th-Level Features",
+    "file_dpath": "Talent/10th-Level Features",
     "item_id": "psion",
     "item_index": "05",
     "item_name": "Psion",
     "level": 10,
     "scc": [
-      "mcdm.heroes.v1:feature.trait.mindlink.10th-level-feature:psion"
+      "mcdm.heroes.v1:feature.trait.talent.10th-level-feature:psion"
     ],
     "scdc": [
-      "1.1.1:5.1.2.1:05"
+      "1.1.1:5.1.1.4:05"
     ],
     "source": "mcdm.heroes.v1",
-    "type": "feature/trait/mindlink/10th-level-feature"
+    "type": "feature/trait/talent/10th-level-feature"
   },
   "effects": [
     {

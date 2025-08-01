@@ -11,24 +11,24 @@
   "distance": "Ranged 5",
   "target": "Three allies",
   "metadata": {
-    "class": "mindlink",
+    "class": "talent",
     "cost": "11 Clarity",
     "cost_amount": 11,
     "cost_resource": "Clarity",
     "feature_type": "ability",
-    "file_dpath": "Mindlink/9th-Level Features",
+    "file_dpath": "Talent/9th-Level Features",
     "item_id": "acceleration-field-11-clarity",
     "item_index": "02",
     "item_name": "Acceleration Field (11 Clarity)",
     "level": 9,
     "scc": [
-      "mcdm.heroes.v1:feature.ability.mindlink.9th-level-feature:acceleration-field-11-clarity"
+      "mcdm.heroes.v1:feature.ability.talent.9th-level-feature:acceleration-field-11-clarity"
     ],
     "scdc": [
-      "1.1.1:5.2.2.1:02"
+      "1.1.1:5.2.1.7:02"
     ],
     "source": "mcdm.heroes.v1",
-    "type": "feature/ability/mindlink/9th-level-feature"
+    "type": "feature/ability/talent/9th-level-feature"
   },
   "effects": [
     {

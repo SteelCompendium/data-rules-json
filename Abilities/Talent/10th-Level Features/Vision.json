@@ -1,20 +1,20 @@
 {
   "metadata": {
-    "class": "mindlink",
+    "class": "talent",
     "feature_type": "trait",
-    "file_dpath": "Mindlink/10th-Level Features",
+    "file_dpath": "Talent/10th-Level Features",
     "item_id": "vision",
     "item_index": "06",
     "item_name": "Vision",
     "level": 10,
     "scc": [
-      "mcdm.heroes.v1:feature.trait.mindlink.10th-level-feature:vision"
+      "mcdm.heroes.v1:feature.trait.talent.10th-level-feature:vision"
     ],
     "scdc": [
-      "1.1.1:5.1.2.1:06"
+      "1.1.1:5.1.1.4:06"
     ],
     "source": "mcdm.heroes.v1",
-    "type": "feature/trait/mindlink/10th-level-feature"
+    "type": "feature/trait/talent/10th-level-feature"
   },
   "effects": [
     {

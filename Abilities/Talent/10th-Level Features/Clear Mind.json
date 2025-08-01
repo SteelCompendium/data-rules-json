@@ -1,20 +1,20 @@
 {
   "metadata": {
-    "class": "mindlink",
+    "class": "talent",
     "feature_type": "trait",
-    "file_dpath": "Mindlink/10th-Level Features",
+    "file_dpath": "Talent/10th-Level Features",
     "item_id": "clear-mind",
     "item_index": "07",
     "item_name": "Clear Mind",
     "level": 10,
     "scc": [
-      "mcdm.heroes.v1:feature.trait.mindlink.10th-level-feature:clear-mind"
+      "mcdm.heroes.v1:feature.trait.talent.10th-level-feature:clear-mind"
     ],
     "scdc": [
-      "1.1.1:5.1.2.1:07"
+      "1.1.1:5.1.1.4:07"
     ],
     "source": "mcdm.heroes.v1",
-    "type": "feature/trait/mindlink/10th-level-feature"
+    "type": "feature/trait/talent/10th-level-feature"
   },
   "effects": [
     {
