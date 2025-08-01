@@ -1,0 +1,42 @@
+{
+  "name": "Kinetic Shield",
+  "cost": "5 Discipline",
+  "flavor": "You manifest a force barrier that absorbs incoming kinetic energy.",
+  "keywords": [
+    "Psionic"
+  ],
+  "type": "Maneuver",
+  "distance": "Self",
+  "target": "Self",
+  "metadata": {
+    "class": "null",
+    "cost": "5 Discipline",
+    "cost_amount": 5,
+    "cost_resource": "Discipline",
+    "feature_type": "ability",
+    "file_dpath": "Null/2nd-Level Features",
+    "item_id": "kinetic-shield-5-discipline",
+    "item_index": "05",
+    "item_name": "Kinetic Shield (5 Discipline)",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.null.2nd-level-feature:kinetic-shield-5-discipline"
+    ],
+    "scdc": [
+      "1.1.1:5.2.2.4:05"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/null/2nd-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Intuition",
+      "t1": "You gain 10 temporary Stamina.",
+      "t2": "You gain 15 temporary Stamina.",
+      "t3": "You gain 20 temporary Stamina."
+    },
+    {
+      "effect": "While you have temporary Stamina from this ability, you can't be made bleeding even while dying."
+    }
+  ]
+}

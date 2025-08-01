@@ -1,0 +1,38 @@
+{
+  "name": "Kinetic Strike",
+  "flavor": "Your opponent staggers. They cannot ignore you.",
+  "keywords": [
+    "Melee",
+    "Psionic",
+    "Strike",
+    "Weapon"
+  ],
+  "type": "Main action",
+  "distance": "Melee 1",
+  "target": "One creature or object",
+  "metadata": {
+    "class": "null",
+    "feature_type": "trait",
+    "file_dpath": "Null/1st-Level Features",
+    "item_id": "kinetic-strike",
+    "item_index": "04",
+    "item_name": "Kinetic Strike",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.null.1st-level-feature:kinetic-strike"
+    ],
+    "scdc": [
+      "1.1.1:5.1.2.1:04"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/null/1st-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Agility",
+      "t1": "4 + A damage; taunted (EoT)",
+      "t2": "5 + A damage; taunted (EoT), slide 1",
+      "t3": "6 + A damage; taunted (EoT), slide 2"
+    }
+  ]
+}

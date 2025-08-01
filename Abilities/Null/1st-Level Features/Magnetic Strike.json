@@ -1,0 +1,38 @@
+{
+  "name": "Magnetic Strike",
+  "flavor": "The force of your blow extends past the limits of your body, pulling your enemy closer.",
+  "keywords": [
+    "Melee",
+    "Psionic",
+    "Strike",
+    "Weapon"
+  ],
+  "type": "Main action",
+  "distance": "Melee 2",
+  "target": "One creature",
+  "metadata": {
+    "class": "null",
+    "feature_type": "trait",
+    "file_dpath": "Null/1st-Level Features",
+    "item_id": "magnetic-strike",
+    "item_index": 9,
+    "item_name": "Magnetic Strike",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.null.1st-level-feature:magnetic-strike"
+    ],
+    "scdc": [
+      "1.1.1:5.1.2.1:09"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/null/1st-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Agility",
+      "t1": "5 + A psychic damage; vertical pull 1",
+      "t2": "8 + A psychic damage; vertical pull 2",
+      "t3": "11 + A psychic damage; vertical pull 3"
+    }
+  ]
+}

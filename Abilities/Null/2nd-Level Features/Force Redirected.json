@@ -1,0 +1,42 @@
+{
+  "name": "Force Redirected",
+  "cost": "5 Discipline",
+  "flavor": "The force of your strike moves your target in a surprising direction.",
+  "keywords": [
+    "Melee",
+    "Psionic",
+    "Strike",
+    "Weapon"
+  ],
+  "type": "Main action",
+  "distance": "Melee 3",
+  "target": "One creature",
+  "metadata": {
+    "class": "null",
+    "cost": "5 Discipline",
+    "cost_amount": 5,
+    "cost_resource": "Discipline",
+    "feature_type": "ability",
+    "file_dpath": "Null/2nd-Level Features",
+    "item_id": "force-redirected-5-discipline",
+    "item_index": "06",
+    "item_name": "Force Redirected (5 Discipline)",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.null.2nd-level-feature:force-redirected-5-discipline"
+    ],
+    "scdc": [
+      "1.1.1:5.2.2.4:06"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/null/2nd-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Agility",
+      "t1": "8 + A damage; slide 1",
+      "t2": "12 + A damage; slide 3",
+      "t3": "16 + A damage; slide 5"
+    }
+  ]
+}
