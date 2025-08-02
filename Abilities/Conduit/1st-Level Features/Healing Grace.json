@@ -30,7 +30,7 @@
       "effect": "The target can spend a Recovery."
     },
     {
-      "effect": "For each piety spent, choose one of the following enhancements: - You can target one additional ally within distance. - You can end one effect on a target that is ended by a saving throw or that ends at the end of their turn. - A prone target can stand up. - A target can spend 1 additional Recovery.",
+      "effect": "For each piety spent, choose one of the following enhancements:\n- You can target one additional ally within distance.\n- You can end one effect on a target that is ended by a saving throw or that ends at the end of their turn.\n- A prone target can stand up.\n- A target can spend 1 additional Recovery.",
       "cost": "Spend 1+ Piety"
     }
   ]
