@@ -26,7 +26,7 @@
       "mcdm.heroes.v1:feature.ability.talent.5th-level-feature:hypersonic-9-clarity"
     ],
     "scdc": [
-      "1.1.1:14.2.1.4:04"
+      "1.1.1:13.2.1.4:04"
     ],
     "source": "mcdm.heroes.v1",
     "type": "feature/ability/talent/5th-level-feature"
