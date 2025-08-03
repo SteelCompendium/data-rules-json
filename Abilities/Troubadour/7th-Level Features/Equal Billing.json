@@ -1,4 +1,5 @@
 {
+  "name": "Equal Billing",
   "metadata": {
     "class": "troubadour",
     "feature_type": "trait",

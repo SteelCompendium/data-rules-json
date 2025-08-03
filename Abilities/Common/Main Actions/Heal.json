@@ -1,4 +1,5 @@
 {
+  "name": "Heal",
   "metadata": {
     "class": "combat",
     "file_dpath": "Abilities/Common/Main Actions",

@@ -1,4 +1,5 @@
 {
+  "name": "Disengage",
   "metadata": {
     "class": "combat",
     "file_dpath": "Abilities/Common/Move Actions",

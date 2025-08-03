@@ -1,4 +1,5 @@
 {
+  "name": "Censor Order",
   "metadata": {
     "class": "censor",
     "feature_type": "trait",

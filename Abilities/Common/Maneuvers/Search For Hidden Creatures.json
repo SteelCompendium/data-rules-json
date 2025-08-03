@@ -1,4 +1,5 @@
 {
+  "name": "Search for Hidden Creatures",
   "metadata": {
     "class": "combat",
     "file_dpath": "Abilities/Common/Maneuvers",

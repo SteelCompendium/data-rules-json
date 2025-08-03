@@ -1,4 +1,5 @@
 {
+  "name": "Distance Augmentation",
   "metadata": {
     "class": "talent",
     "feature_type": "trait",

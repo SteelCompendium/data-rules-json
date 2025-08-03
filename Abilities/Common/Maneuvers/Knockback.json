@@ -1,4 +1,5 @@
 {
+  "name": "Knockback",
   "metadata": {
     "class": "combat",
     "file_dpath": "Abilities/Common/Maneuvers",
