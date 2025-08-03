@@ -1,0 +1,39 @@
+{
+  "name": "Word of Judgment",
+  "flavor": "Your holy word saps an attacking enemy's strength.",
+  "keywords": [
+    "Magic",
+    "Ranged"
+  ],
+  "type": "Triggered",
+  "distance": "Ranged 10",
+  "target": "One ally",
+  "trigger": "The target would take damage from an ability that uses a power roll.",
+  "metadata": {
+    "class": "conduit",
+    "feature_type": "trait",
+    "file_basename": "Word of Judgment",
+    "file_dpath": "Conduit/1st-Level Features",
+    "item_id": "word-of-judgment",
+    "item_index": "28",
+    "item_name": "Word of Judgment",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:word-of-judgment"
+    ],
+    "scdc": [
+      "1.1.1:13.1.8.1:28"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/conduit/1st-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "The power roll takes a bane against the target."
+    },
+    {
+      "effect": "The power roll has a double bane against the target.",
+      "cost": "Spend 1 Piety"
+    }
+  ]
+}

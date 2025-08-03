@@ -17,6 +17,7 @@
     "cost_amount": 5,
     "cost_resource": "Wrath",
     "feature_type": "ability",
+    "file_basename": "Sentenced",
     "file_dpath": "Censor/2nd-Level Features",
     "item_id": "sentenced-5-wrath",
     "item_index": "02",

@@ -1,0 +1,41 @@
+{
+  "name": "Every Step … Death!",
+  "flavor": "You show your foe a glimpse of their fate after death. Magic, Ranged, Strike Main action",
+  "keywords": [
+    "Magic",
+    "Ranged",
+    "Strike"
+  ],
+  "type": "Main Action",
+  "distance": "Ranged 10",
+  "target": "One creature",
+  "metadata": {
+    "class": "censor",
+    "feature_type": "trait",
+    "file_basename": "Every Step Death",
+    "file_dpath": "Censor/1st-Level Features",
+    "item_id": "every-step-death",
+    "item_index": "21",
+    "item_name": "Every Step … Death!",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.censor.1st-level-feature:every-step-death"
+    ],
+    "scdc": [
+      "1.1.1:13.1.7.1:21"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/censor/1st-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Presence",
+      "t1": "5 + P psychic damage",
+      "t2": "7 + P psychic damage",
+      "t3": "10 + P psychic damage"
+    },
+    {
+      "effect": "Each time the target willingly moves before the end of your next turn, they take 1 psychic damage for each square they move."
+    }
+  ]
+}

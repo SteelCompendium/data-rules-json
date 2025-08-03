@@ -16,6 +16,7 @@
     "cost_amount": 11,
     "cost_resource": "Discipline",
     "feature_type": "ability",
+    "file_basename": "Heat Drain",
     "file_dpath": "Null/9th-Level Features",
     "item_id": "heat-drain-11-discipline",
     "item_index": "05",

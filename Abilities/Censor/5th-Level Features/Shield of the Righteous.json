@@ -1,0 +1,42 @@
+{
+  "name": "Shield of the Righteous",
+  "cost": "9 Wrath",
+  "flavor": "You strike a foe and create a fleet of divine shields that protect your allies.",
+  "keywords": [
+    "Melee",
+    "Strike",
+    "Weapon"
+  ],
+  "type": "Main Action",
+  "distance": "Melee 1",
+  "target": "One creature",
+  "metadata": {
+    "class": "censor",
+    "cost": "9 Wrath",
+    "cost_amount": 9,
+    "cost_resource": "Wrath",
+    "feature_type": "ability",
+    "file_basename": "Shield of the Righteous",
+    "file_dpath": "Censor/5th-Level Features",
+    "item_id": "shield-of-the-righteous-9-wrath",
+    "item_index": "03",
+    "item_name": "Shield of the Righteous (9 Wrath)",
+    "level": 5,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.censor.5th-level-feature:shield-of-the-righteous-9-wrath"
+    ],
+    "scdc": [
+      "1.1.1:13.2.7.4:03"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/censor/5th-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Might",
+      "t1": "10 + M damage; you and each ally adjacent to you gain 10 temporary Stamina",
+      "t2": "14 + M damage; you and each ally adjacent to you gain 15 temporary Stamina",
+      "t3": "20 + M damage; you and each ally adjacent to you gain 20 temporary Stamina"
+    }
+  ]
+}

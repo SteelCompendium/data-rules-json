@@ -1,0 +1,42 @@
+{
+  "name": "Saint's Tempest",
+  "cost": "5 Piety",
+  "flavor": "A raging storm appears, striking your foes with lightning and throwing them around with wind.",
+  "keywords": [
+    "Area",
+    "Magic",
+    "Ranged"
+  ],
+  "type": "Main action",
+  "distance": "3 cube within 10",
+  "target": "Each enemy in the area",
+  "metadata": {
+    "class": "conduit",
+    "cost": "5 Piety",
+    "cost_amount": 5,
+    "cost_resource": "Piety",
+    "feature_type": "ability",
+    "file_basename": "Saints Tempest",
+    "file_dpath": "Conduit/2nd-Level Features",
+    "item_id": "saints-tempest-5-piety",
+    "item_index": "01",
+    "item_name": "Saint's Tempest (5 Piety)",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:saints-tempest-5-piety"
+    ],
+    "scdc": [
+      "1.1.1:13.2.8.5:01"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/ability/conduit/2nd-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Intuition",
+      "t1": "2 lightning damage; vertical slide 1",
+      "t2": "5 lightning damage; vertical slide 2",
+      "t3": "7 lightning damage; vertical slide 3"
+    }
+  ]
+}
