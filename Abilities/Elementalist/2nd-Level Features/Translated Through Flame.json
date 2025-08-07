@@ -41,15 +41,6 @@
       "t1": "3 fire damage",
       "t2": "5 fire damage",
       "t3": "8 fire damage"
-    },
-    {
-      "effect": "###### Volcano's Embrace (5 Essence)\n*Wrap them up in fire and melting stone.*\n| **Earth, Fire, Magic, Ranged, Strike** |     **Main action** |\n| -------------------------------------- | ------------------: |\n| **📏 Ranged 10**                       | **🎯 One creature** |"
-    },
-    {
-      "roll": "Power Roll + Reason",
-      "t1": "5 + R fire damage; A < WEAK, restrained (save ends)",
-      "t2": "9 + R fire damage; A < AVERAGE, restrained (save ends)",
-      "t3": "12 + R fire damage; A < STRONG, restrained (save ends)"
     }
   ]
 }

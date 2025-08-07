@@ -31,7 +31,7 @@
   "effects": [
     {
       "roll": "Power Roll + Agility",
-      "t1": "\\\\4 + A damage; push 2",
+      "t1": "4 + A damage; push 2",
       "t2": "6 + A damage; push 4",
       "t3": "8 + A damage; push 6"
     },

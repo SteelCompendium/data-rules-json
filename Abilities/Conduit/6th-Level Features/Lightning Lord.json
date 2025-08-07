@@ -7,7 +7,7 @@
     "Magic"
   ],
   "type": "Main action",
-  "distance": "Three 10 × 1 lines within 1",
+  "distance": "Three 10 x 1 lines within 1",
   "target": "Each enemy in the area",
   "metadata": {
     "class": "conduit",

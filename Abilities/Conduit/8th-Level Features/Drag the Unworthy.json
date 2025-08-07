@@ -1,6 +1,15 @@
 {
   "name": "Drag the Unworthy",
   "cost": "11 Piety",
+  "flavor": "You conjure an angel who moves a foe and heals your allies.",
+  "keywords": [
+    "Magic",
+    "Ranged",
+    "Strike"
+  ],
+  "type": "Main action",
+  "distance": "Ranged 10",
+  "target": "One creature or object",
   "metadata": {
     "class": "conduit",
     "cost": "11 Piety",
@@ -23,9 +32,6 @@
     "type": "feature/ability/conduit/8th-level-feature"
   },
   "effects": [
-    {
-      "effect": "You conjure an angel who moves a foe and heals your allies.\\*\n| **Magic, Ranged, Strike** |               **Main action** |\n| ------------------------- | ----------------------------: |\n| **📏 Ranged 10**          | **🎯 One creature or object** |"
-    },
     {
       "roll": "Power Roll + Intuition",
       "t1": "9 + I holy damage; slide 3",

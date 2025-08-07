@@ -9,7 +9,7 @@
     "Telekinesis"
   ],
   "type": "Main action",
-  "distance": "5 × 2 line within 1",
+  "distance": "5 x 2 line within 1",
   "target": "Each enemy in the area",
   "metadata": {
     "class": "talent",

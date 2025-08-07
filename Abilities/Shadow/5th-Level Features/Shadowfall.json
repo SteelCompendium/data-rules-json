@@ -8,7 +8,7 @@
     "Weapon"
   ],
   "type": "Main action",
-  "distance": "10 × 1 line within 1",
+  "distance": "10 x 1 line within 1",
   "target": "Each enemy in the area",
   "metadata": {
     "class": "shadow",

@@ -30,7 +30,7 @@
   "effects": [
     {
       "roll": "Power Roll + Might",
-      "t1": "3 + M damage\\\\",
+      "t1": "3 + M damage",
       "t2": "6 + M damage",
       "t3": "9 + M damage"
     },

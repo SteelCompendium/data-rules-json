@@ -37,7 +37,7 @@
       "roll": "Power Roll + Reason",
       "t1": "13 + R fire damage; I < WEAK, dazed (save ends)",
       "t2": "18 + R fire damage; I < AVERAGE, dazed (save ends)",
-      "t3": "25 + Rfire damage; I < STRONG, dazed (save ends)"
+      "t3": "25 + R fire damage; I < STRONG, dazed (save ends)"
     },
     {
       "effect": "This damage ignores immunity."

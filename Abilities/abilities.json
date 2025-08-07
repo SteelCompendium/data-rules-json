@@ -1378,17 +1378,8 @@
         "t3": "11 + R fire damage"
       },
       {
-        "effect": "If the target is within distance at the start of your turn, you can make the power roll again without spending essence (no action required).\n###### Invigorating Growth (3 Essence)\n*Mushrooms erupt from a foe, sapping their vitality to spread strengthening spores.*\n| **Green, Magic, Ranged, Strike** |     **Main action** |\n| -------------------------------- | ------------------: |\n| **📏 Ranged 10**                 | **🎯 One creature** |",
+        "effect": "If the target is within distance at the start of your turn, you can make the power roll again without spending essence (no action required).",
         "name": "Persistent 1"
-      },
-      {
-        "roll": "Power Roll + Reason",
-        "t1": "4 + R poison damage",
-        "t2": "7 + R poison damage",
-        "t3": "11 + R poison damage"
-      },
-      {
-        "effect": "Mushrooms cover the target's body. While the mushrooms are on the target, you and any ally adjacent to the target gain 1 surge whenever the target takes damage. The mushrooms can be removed by the target or an adjacent creature as a main action."
       }
     ]
   },  {
@@ -1473,14 +1464,14 @@
       "file_basename": "Breath of Dawn Remembered",
       "file_dpath": "Elementalist/1st-Level Features",
       "item_id": "breath-of-dawn-remembered",
-      "item_index": "33",
+      "item_index": "34",
       "item_name": "Breath of Dawn Remembered",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.elementalist.1st-level-feature:breath-of-dawn-remembered"
       ],
       "scdc": [
-        "1.1.1:13.1.9.1:33"
+        "1.1.1:13.1.9.1:34"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/elementalist/1st-level-feature"
@@ -1579,6 +1570,31 @@
       }
     ]
   },  {
+    "name": "Earth: Acolyte of Earth",
+    "metadata": {
+      "class": "elementalist",
+      "feature_type": "trait",
+      "file_basename": "Earth Acolyte of Earth",
+      "file_dpath": "Elementalist/1st-Level Features",
+      "item_id": "earth-acolyte-of-earth",
+      "item_index": "33",
+      "item_name": "Earth: Acolyte of Earth",
+      "level": 1,
+      "scc": [
+        "mcdm.heroes.v1:feature.trait.elementalist.1st-level-feature:earth-acolyte-of-earth"
+      ],
+      "scdc": [
+        "1.1.1:13.1.9.1:33"
+      ],
+      "source": "mcdm.heroes.v1",
+      "type": "feature/trait/elementalist/1st-level-feature"
+    },
+    "effects": [
+      {
+        "effect": "You harness the flow of earth magic to become harder to move. Whenever you use an ability that has the Earth and Magic keywords, your stability increases by 1 until the start of your next turn. This benefit is cumulative."
+      }
+    ]
+  },  {
     "name": "Enchantment of Distance",
     "metadata": {
       "class": "elementalist",
@@ -1586,14 +1602,14 @@
       "file_basename": "Enchantment of Distance",
       "file_dpath": "Elementalist/1st-Level Features",
       "item_id": "enchantment-of-distance",
-      "item_index": "34",
+      "item_index": "35",
       "item_name": "Enchantment of Distance",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.elementalist.1st-level-feature:enchantment-of-distance"
       ],
       "scdc": [
-        "1.1.1:13.1.9.1:34"
+        "1.1.1:13.1.9.1:35"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/elementalist/1st-level-feature"
@@ -1626,6 +1642,51 @@
     "effects": [
       {
         "effect": "You can wear light armor and wield light weapons effectively, even though you don't have a kit. While you wear light armor, you gain a +3 bonus to Stamina, and that bonus increases by 3 at 4th, 7th, and 10th levels. While you wield a light weapon, you gain a +1 damage bonus with weapon abilities, including free strikes. You can use light armor treasures and light weapon treasures.\nIf you have a kit, you can't take this enchantment."
+      }
+    ]
+  },  {
+    "name": "Invigorating Growth",
+    "cost": "3 Essence",
+    "flavor": "Mushrooms erupt from a foe, sapping their vitality to spread strengthening spores.",
+    "keywords": [
+      "Green",
+      "Magic",
+      "Ranged",
+      "Strike"
+    ],
+    "type": "Main action",
+    "distance": "Ranged 10",
+    "target": "One creature",
+    "metadata": {
+      "class": "elementalist",
+      "cost": "3 Essence",
+      "cost_amount": 3,
+      "cost_resource": "Essence",
+      "feature_type": "ability",
+      "file_basename": "Invigorating Growth",
+      "file_dpath": "Elementalist/1st-Level Features",
+      "item_id": "invigorating-growth-3-essence",
+      "item_index": "04",
+      "item_name": "Invigorating Growth (3 Essence)",
+      "level": 1,
+      "scc": [
+        "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:invigorating-growth-3-essence"
+      ],
+      "scdc": [
+        "1.1.1:13.2.9.1:04"
+      ],
+      "source": "mcdm.heroes.v1",
+      "type": "feature/ability/elementalist/1st-level-feature"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Reason",
+        "t1": "4 + R poison damage",
+        "t2": "7 + R poison damage",
+        "t3": "11 + R poison damage"
+      },
+      {
+        "effect": "Mushrooms cover the target's body. While the mushrooms are on the target, you and any ally adjacent to the target gain 1 surge whenever the target takes damage. The mushrooms can be removed by the target or an adjacent creature as a main action."
       }
     ]
   },  {
@@ -1795,7 +1856,7 @@
         "t3": "M < STRONG, prone"
       },
       {
-        "effect": "You create a fissure in the ground adjacent to you that is a 10 × 2 line and 6 squares deep. Each creature in the area who is prone and size 2 or smaller falls in. Other creatures can enter the fissure or can shift to the nearest unoccupied space of their choice outside it."
+        "effect": "You create a fissure in the ground adjacent to you that is a 10 x 2 line and 6 squares deep. Each creature in the area who is prone and size 2 or smaller falls in. Other creatures can enter the fissure or can shift to the nearest unoccupied space of their choice outside it."
       }
     ]
   },  {
@@ -2714,6 +2775,49 @@
       }
     ]
   },  {
+    "name": "Volcano's Embrace",
+    "cost": "5 Essence",
+    "flavor": "Wrap them up in fire and melting stone.",
+    "keywords": [
+      "Earth",
+      "Fire",
+      "Magic",
+      "Ranged",
+      "Strike"
+    ],
+    "type": "Main action",
+    "distance": "Ranged 10",
+    "target": "One creature",
+    "metadata": {
+      "class": "elementalist",
+      "cost": "5 Essence",
+      "cost_amount": 5,
+      "cost_resource": "Essence",
+      "feature_type": "ability",
+      "file_basename": "Volcanos Embrace",
+      "file_dpath": "Elementalist/2nd-Level Features",
+      "item_id": "volcanos-embrace-5-essence",
+      "item_index": "02",
+      "item_name": "Volcano's Embrace (5 Essence)",
+      "level": 2,
+      "scc": [
+        "mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:volcanos-embrace-5-essence"
+      ],
+      "scdc": [
+        "1.1.1:13.2.9.5:02"
+      ],
+      "source": "mcdm.heroes.v1",
+      "type": "feature/ability/elementalist/2nd-level-feature"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Reason",
+        "t1": "5 + R fire damage; A < WEAK, restrained (save ends)",
+        "t2": "9 + R fire damage; A < AVERAGE, restrained (save ends)",
+        "t3": "12 + R fire damage; A < STRONG, restrained (save ends)"
+      }
+    ]
+  },  {
     "name": "Disciple of Earth",
     "metadata": {
       "class": "elementalist",
@@ -2781,15 +2885,6 @@
         "t1": "3 fire damage",
         "t2": "5 fire damage",
         "t3": "8 fire damage"
-      },
-      {
-        "effect": "###### Volcano's Embrace (5 Essence)\n*Wrap them up in fire and melting stone.*\n| **Earth, Fire, Magic, Ranged, Strike** |     **Main action** |\n| -------------------------------------- | ------------------: |\n| **📏 Ranged 10**                       | **🎯 One creature** |"
-      },
-      {
-        "roll": "Power Roll + Reason",
-        "t1": "5 + R fire damage; A < WEAK, restrained (save ends)",
-        "t2": "9 + R fire damage; A < AVERAGE, restrained (save ends)",
-        "t3": "12 + R fire damage; A < STRONG, restrained (save ends)"
       }
     ]
   },  {
@@ -3242,7 +3337,7 @@
         "roll": "Power Roll + Reason",
         "t1": "13 + R fire damage; I < WEAK, dazed (save ends)",
         "t2": "18 + R fire damage; I < AVERAGE, dazed (save ends)",
-        "t3": "25 + Rfire damage; I < STRONG, dazed (save ends)"
+        "t3": "25 + R fire damage; I < STRONG, dazed (save ends)"
       },
       {
         "effect": "This damage ignores immunity."
@@ -3962,7 +4057,8 @@
     },
     "effects": [
       {
-        "effect": "- \\*\\*Piety:\\*\\*You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes damage greater than 10 + your level in a single turn.\n- **Prayer Effect:** Choose up to three allies within 10 squares of you, or choose yourself instead of one ally. Each target gains 2 surges."
+        "effect": "You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes damage greater than 10 + your level in a single turn.\n- **Prayer Effect:** Choose up to three allies within 10 squares of you, or choose yourself instead of one ally. Each target gains 2 surges.",
+        "name": "Piety"
       }
     ]
   },  {
@@ -5492,6 +5588,15 @@
   },  {
     "name": "Drag the Unworthy",
     "cost": "11 Piety",
+    "flavor": "You conjure an angel who moves a foe and heals your allies.",
+    "keywords": [
+      "Magic",
+      "Ranged",
+      "Strike"
+    ],
+    "type": "Main action",
+    "distance": "Ranged 10",
+    "target": "One creature or object",
     "metadata": {
       "class": "conduit",
       "cost": "11 Piety",
@@ -5514,9 +5619,6 @@
       "type": "feature/ability/conduit/8th-level-feature"
     },
     "effects": [
-      {
-        "effect": "You conjure an angel who moves a foe and heals your allies.\\*\n| **Magic, Ranged, Strike** |               **Main action** |\n| ------------------------- | ----------------------------: |\n| **📏 Ranged 10**          | **🎯 One creature or object** |"
-      },
       {
         "roll": "Power Roll + Intuition",
         "t1": "9 + I holy damage; slide 3",
@@ -5598,7 +5700,7 @@
       "Magic"
     ],
     "type": "Main action",
-    "distance": "Three 10 × 1 lines within 1",
+    "distance": "Three 10 x 1 lines within 1",
     "target": "Each enemy in the area",
     "metadata": {
       "class": "conduit",
@@ -5635,7 +5737,7 @@
   },  {
     "name": "Invocation of Mystery",
     "cost": "9 Piety",
-    "flavor": "\"Now you see us …\"",
+    "flavor": "\"Now you see us...\"",
     "keywords": [
       "Area",
       "Magic"
@@ -8528,46 +8630,6 @@
       }
     ]
   },  {
-    "name": "Every Step … Death!",
-    "flavor": "You show your foe a glimpse of their fate after death. Magic, Ranged, Strike Main action",
-    "keywords": [
-      "Magic",
-      "Ranged",
-      "Strike"
-    ],
-    "type": "Main Action",
-    "distance": "Ranged 10",
-    "target": "One creature",
-    "metadata": {
-      "class": "censor",
-      "feature_type": "trait",
-      "file_basename": "Every Step Death",
-      "file_dpath": "Censor/1st-Level Features",
-      "item_id": "every-step-death",
-      "item_index": "21",
-      "item_name": "Every Step … Death!",
-      "level": 1,
-      "scc": [
-        "mcdm.heroes.v1:feature.trait.censor.1st-level-feature:every-step-death"
-      ],
-      "scdc": [
-        "1.1.1:13.1.7.1:21"
-      ],
-      "source": "mcdm.heroes.v1",
-      "type": "feature/trait/censor/1st-level-feature"
-    },
-    "effects": [
-      {
-        "roll": "Power Roll + Presence",
-        "t1": "5 + P psychic damage",
-        "t2": "7 + P psychic damage",
-        "t3": "10 + P psychic damage"
-      },
-      {
-        "effect": "Each time the target willingly moves before the end of your next turn, they take 1 psychic damage for each square they move."
-      }
-    ]
-  },  {
     "name": "Judgment Order Benefit",
     "metadata": {
       "class": "censor",
@@ -8600,14 +8662,14 @@
       "file_basename": "Blessing of Compassion",
       "file_dpath": "Censor/1st-Level Features",
       "item_id": "blessing-of-compassion",
-      "item_index": "23",
+      "item_index": "22",
       "item_name": "Blessing of Compassion",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.censor.1st-level-feature:blessing-of-compassion"
       ],
       "scdc": [
-        "1.1.1:13.1.7.1:23"
+        "1.1.1:13.1.7.1:22"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/censor/1st-level-feature"
@@ -9002,14 +9064,14 @@
       "file_basename": "Halt Miscreant",
       "file_dpath": "Censor/1st-Level Features",
       "item_id": "halt-miscreant",
-      "item_index": "22",
+      "item_index": "21",
       "item_name": "Halt Miscreant!",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.censor.1st-level-feature:halt-miscreant"
       ],
       "scdc": [
-        "1.1.1:13.1.7.1:22"
+        "1.1.1:13.1.7.1:21"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/censor/1st-level-feature"
@@ -11181,7 +11243,7 @@
     },
     "effects": [
       {
-        "effect": "The target takes their turn after the triggering hero, and immediately removes all conditions and negative effects on themself. During their turn, the target has a double edge on poºwer rolls."
+        "effect": "The target takes their turn after the triggering hero, and immediately removes all conditions and negative effects on themself. During their turn, the target has a double edge on power rolls."
       }
     ]
   },  {
@@ -12659,7 +12721,7 @@
     "effects": [
       {
         "roll": "Power Roll + Agility",
-        "t1": "\\\\4 + A damage; push 2",
+        "t1": "4 + A damage; push 2",
         "t2": "6 + A damage; push 4",
         "t3": "8 + A damage; push 6"
       },
@@ -16077,7 +16139,7 @@
     "effects": [
       {
         "roll": "Power Roll + Might",
-        "t1": "3 + M damage\\\\",
+        "t1": "3 + M damage",
         "t2": "6 + M damage",
         "t3": "9 + M damage"
       },
@@ -17042,7 +17104,7 @@
   },  {
     "name": "To Stone!",
     "cost": "9 Ferocity",
-    "flavor": "You channel the Primordial Chaos into blows that petrify your foe … literally.",
+    "flavor": "You channel the Primordial Chaos into blows that petrify your foe... literally.",
     "keywords": [
       "Magic",
       "Melee",
@@ -21366,7 +21428,7 @@
     ]
   },  {
     "name": "Revitalizing Limerick",
-    "flavor": "There once was a man from Capital ...",
+    "flavor": "There once was a man from Capital...",
     "keywords": [
       "Area",
       "Magic",
@@ -21462,7 +21524,7 @@
     ]
   },  {
     "name": "Blocking",
-    "flavor": "No, no, no, you lose the audience that way. Try it like this …",
+    "flavor": "No, no, no, you lose the audience that way. Try it like this...",
     "keywords": [
       "Area",
       "Magic",
@@ -22462,7 +22524,7 @@
   },  {
     "name": "You're All My Understudies",
     "cost": "9 Drama",
-    "flavor": "It's important for everyone to know each other's lines, just in case …",
+    "flavor": "It's important for everyone to know each other's lines, just in case...",
     "keywords": [
       "Area",
       "Magic"
@@ -23079,7 +23141,7 @@
   },  {
     "name": "Tough Crowd",
     "cost": "5 Drama",
-    "flavor": "Your fans don't seem to like the opening act …",
+    "flavor": "Your fans don't seem to like the opening act...",
     "keywords": [
       "Area",
       "Magic",
@@ -23272,7 +23334,7 @@
   },  {
     "name": "En Garde!",
     "cost": "5 Drama",
-    "flavor": "Wait, it's … Guard! Turn! Parry! Dodge! Spin! Thrust! Ha!",
+    "flavor": "Wait, it's... Guard! Turn! Parry! Dodge! Spin! Thrust! Ha!",
     "keywords": [
       "Melee",
       "Strike",
@@ -25315,7 +25377,7 @@
       "Weapon"
     ],
     "type": "Main action",
-    "distance": "5 × 1 line within 5",
+    "distance": "5 x 1 line within 5",
     "target": "Each enemy in the area",
     "metadata": {
       "class": "shadow",
@@ -26015,7 +26077,7 @@
       "Weapon"
     ],
     "type": "Main action",
-    "distance": "10 × 1 line within 1",
+    "distance": "10 x 1 line within 1",
     "target": "Each enemy in the area",
     "metadata": {
       "class": "shadow",
@@ -29558,7 +29620,7 @@
       "Telekinesis"
     ],
     "type": "Main action",
-    "distance": "5 × 2 line within 1",
+    "distance": "5 x 2 line within 1",
     "target": "Each enemy in the area",
     "metadata": {
       "class": "talent",
