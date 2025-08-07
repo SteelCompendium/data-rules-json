@@ -1,33 +1,33 @@
 {
-  "name": "Behold the Mystery",
-  "cost": "3 Essence",
-  "flavor": "You open a rift into the void to harry your foes.",
+  "name": "Conflagration",
+  "cost": "5 Essence",
+  "flavor": "A storm of fire descends upon your enemies.",
   "keywords": [
     "Area",
+    "Fire",
     "Magic",
-    "Ranged",
-    "Void"
+    "Ranged"
   ],
-  "type": "Main action",
+  "type": "Main Action",
   "distance": "3 cube within 10",
   "target": "Each enemy in the area",
   "metadata": {
     "class": "elementalist",
-    "cost": "3 Essence",
-    "cost_amount": 3,
+    "cost": "5 Essence",
+    "cost_amount": 5,
     "cost_resource": "Essence",
     "feature_type": "ability",
-    "file_basename": "Behold the Mystery",
+    "file_basename": "Conflagration",
     "file_dpath": "Elementalist/1st-Level Features",
-    "item_id": "behold-the-mystery-3-essence",
-    "item_index": "05",
-    "item_name": "Behold the Mystery (3 Essence)",
+    "item_id": "conflagration-5-essence",
+    "item_index": 8,
+    "item_name": "Conflagration (5 Essence)",
     "level": 1,
     "scc": [
-      "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:behold-the-mystery-3-essence"
+      "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:conflagration-5-essence"
     ],
     "scdc": [
-      "1.1.1:13.2.9.1:05"
+      "1.1.1:13.2.9.1:08"
     ],
     "source": "mcdm.heroes.v1",
     "type": "feature/ability/elementalist/1st-level-feature"
@@ -35,13 +35,13 @@
   "effects": [
     {
       "roll": "Power Roll + Reason",
-      "t1": "2 psychic damage",
-      "t2": "4 psychic damage",
-      "t3": "6 psychic damage"
+      "t1": "4 fire damage",
+      "t2": "6 fire damage",
+      "t3": "10 fire damage"
     },
     {
       "effect": "At the start of your turn, you can use a maneuver to use this ability again without spending essence.",
-      "name": "Persistent 1"
+      "name": "Persistent 2"
     }
   ]
 }
