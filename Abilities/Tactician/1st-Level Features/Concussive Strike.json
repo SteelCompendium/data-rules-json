@@ -35,9 +35,9 @@
   "effects": [
     {
       "roll": "Power Roll + Might",
-      "t1": "3\\\\+\\\\ M damage; M < WEAK, dazed (save ends)",
+      "t1": "3 + M damage; M < WEAK, dazed (save ends)",
       "t2": "5 + M damage; M < AVERAGE, dazed (save ends)",
-      "t3": "8\\\\+\\\\ M damage; M < STRONG, dazed (save ends)"
+      "t3": "8 + M damage; M < STRONG, dazed (save ends)"
     }
   ]
 }

@@ -35,9 +35,9 @@
   "effects": [
     {
       "roll": "Power Roll + Might",
-      "t1": "3\\\\+\\\\ M damage; you or one ally within 10 squares of you can spend a Recovery",
+      "t1": "3 + M damage; you or one ally within 10 squares of you can spend a Recovery",
       "t2": "5 + M damage; you or one ally within 10 squares of you can spend a Recovery",
-      "t3": "8\\\\+\\\\ M damage; you and one ally within 10 squares of you can spend a Recovery, and each of you gains an edge on the next ability roll you make during the encounter"
+      "t3": "8 + M damage; you and one ally within 10 squares of you can spend a Recovery, and each of you gains an edge on the next ability roll you make during the encounter"
     }
   ]
 }

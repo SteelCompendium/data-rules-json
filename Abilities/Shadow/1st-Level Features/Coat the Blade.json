@@ -2,11 +2,11 @@
   "name": "Coat the Blade",
   "flavor": "A little poison goes a long way.",
   "keywords": [
-    "—"
+    "-"
   ],
   "type": "Maneuver",
   "distance": "Self",
-  "target": "\\\\ Self",
+  "target": "Self",
   "metadata": {
     "class": "shadow",
     "feature_type": "trait",
