@@ -6,10 +6,10 @@
     "Ranged",
     "Void"
   ],
-  "type": "sTriggered",
+  "type": "Triggered",
   "distance": "Ranged 10",
   "target": "Self or one ally",
-  "trigger": "The target starts their turn, moves, or is force moved. **Effect:** You teleport the target up to a number of squares equal to your Reason score. If the target moves to trigger this ability, you can teleport them at any point during the move.",
+  "trigger": "The target starts their turn, moves, or is force moved.",
   "metadata": {
     "class": "elementalist",
     "feature_type": "trait",
@@ -29,6 +29,9 @@
     "type": "feature/trait/elementalist/1st-level-feature"
   },
   "effects": [
+    {
+      "effect": "You teleport the target up to a number of squares equal to your Reason score. If the target moves to trigger this ability, you can teleport them at any point during the move."
+    },
     {
       "effect": "You teleport the target up to a number of squares equal to twice your Reason score instead.",
       "cost": "Spend 1 Essence"

@@ -4,7 +4,7 @@
   "keywords": [
     "Magic"
   ],
-  "type": "Manuever",
+  "type": "Maneuver",
   "distance": "Self",
   "target": "Self",
   "metadata": {

@@ -683,7 +683,7 @@
       "Area",
       "Green",
       "Magic",
-      "Raned"
+      "Ranged"
     ],
     "type": "Main action",
     "distance": "3 cube within 10",
@@ -888,7 +888,7 @@
     "type": "Triggered",
     "distance": "Ranged 10",
     "target": "Self or one ally",
-    "trigger": "The target force moves a creature or object. **Effect:** The forced movement distance gains a bonus equal to your Reason score.",
+    "trigger": "The target force moves a creature or object.",
     "metadata": {
       "class": "elementalist",
       "feature_type": "trait",
@@ -908,6 +908,9 @@
       "type": "feature/trait/elementalist/1st-level-feature"
     },
     "effects": [
+      {
+        "effect": "The forced movement distance gains a bonus equal to your Reason score."
+      },
       {
         "effect": "The forced movement distance gains a bonus equal to twice your Reason score instead.",
         "cost": "Spend 1 Essence"
@@ -1005,10 +1008,10 @@
       "Ranged",
       "Void"
     ],
-    "type": "sTriggered",
+    "type": "Triggered",
     "distance": "Ranged 10",
     "target": "Self or one ally",
-    "trigger": "The target starts their turn, moves, or is force moved. **Effect:** You teleport the target up to a number of squares equal to your Reason score. If the target moves to trigger this ability, you can teleport them at any point during the move.",
+    "trigger": "The target starts their turn, moves, or is force moved.",
     "metadata": {
       "class": "elementalist",
       "feature_type": "trait",
@@ -1028,6 +1031,9 @@
       "type": "feature/trait/elementalist/1st-level-feature"
     },
     "effects": [
+      {
+        "effect": "You teleport the target up to a number of squares equal to your Reason score. If the target moves to trigger this ability, you can teleport them at any point during the move."
+      },
       {
         "effect": "You teleport the target up to a number of squares equal to twice your Reason score instead.",
         "cost": "Spend 1 Essence"
@@ -5504,7 +5510,7 @@
     "keywords": [
       "Area",
       "Magic",
-      "Range"
+      "Ranged"
     ],
     "type": "Main action",
     "distance": "3 cube within 10",
@@ -9043,7 +9049,7 @@
     "keywords": [
       "Magic"
     ],
-    "type": "Manuever",
+    "type": "Maneuver",
     "distance": "Self",
     "target": "Self",
     "metadata": {
@@ -9906,7 +9912,7 @@
     "flavor": "You curse your foe to become a bane to their allies.",
     "keywords": [
       "Melee",
-      "Stike",
+      "Strike",
       "Weapon"
     ],
     "type": "Main Action",
@@ -15524,7 +15530,7 @@
       "Strike",
       "Weapon"
     ],
-    "type": "Free trigger",
+    "type": "Free triggered",
     "distance": "Melee 1",
     "target": "One creature",
     "trigger": "The target moves or uses a main action.",
@@ -15812,14 +15818,14 @@
       "file_basename": "Hit and Run",
       "file_dpath": "Fury/1st-Level Features",
       "item_id": "hit-and-run",
-      "item_index": "11",
+      "item_index": "10",
       "item_name": "Hit and Run",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.fury.1st-level-feature:hit-and-run"
       ],
       "scdc": [
-        "1.1.1:13.1.5.1:11"
+        "1.1.1:13.1.5.1:10"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/fury/1st-level-feature"
@@ -15901,14 +15907,14 @@
       "file_basename": "Lines of Force",
       "file_dpath": "Fury/1st-Level Features",
       "item_id": "lines-of-force",
-      "item_index": "15",
+      "item_index": "14",
       "item_name": "Lines of Force",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.fury.1st-level-feature:lines-of-force"
       ],
       "scdc": [
-        "1.1.1:13.1.5.1:15"
+        "1.1.1:13.1.5.1:14"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/fury/1st-level-feature"
@@ -15938,14 +15944,14 @@
       "file_basename": "Furious Change",
       "file_dpath": "Fury/1st-Level Features",
       "item_id": "furious-change",
-      "item_index": "16",
+      "item_index": "15",
       "item_name": "Furious Change",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.fury.1st-level-feature:furious-change"
       ],
       "scdc": [
-        "1.1.1:13.1.5.1:16"
+        "1.1.1:13.1.5.1:15"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/fury/1st-level-feature"
@@ -16052,14 +16058,14 @@
       "file_basename": "Primordial Strength",
       "file_dpath": "Fury/1st-Level Features",
       "item_id": "primordial-strength",
-      "item_index": "13",
+      "item_index": "12",
       "item_name": "Primordial Strength",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.fury.1st-level-feature:primordial-strength"
       ],
       "scdc": [
-        "1.1.1:13.1.5.1:13"
+        "1.1.1:13.1.5.1:12"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/fury/1st-level-feature"
@@ -16086,14 +16092,14 @@
       "file_basename": "Impaled",
       "file_dpath": "Fury/1st-Level Features",
       "item_id": "impaled",
-      "item_index": "12",
+      "item_index": "11",
       "item_name": "Impaled!",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.fury.1st-level-feature:impaled"
       ],
       "scdc": [
-        "1.1.1:13.1.5.1:12"
+        "1.1.1:13.1.5.1:11"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/fury/1st-level-feature"
@@ -16226,37 +16232,6 @@
       }
     ]
   },  {
-    "name": "1st-Level Aspect Features Tables",
-    "keywords": [
-      "Aspect"
-    ],
-    "type": "Feature",
-    "distance": "Berserker",
-    "target": "Kit, Primordial Strength",
-    "metadata": {
-      "class": "fury",
-      "feature_type": "trait",
-      "file_basename": "1st Level Aspect Features Tables",
-      "file_dpath": "Fury/1st-Level Features",
-      "item_id": "1st-level-aspect-features-tables",
-      "item_index": "10",
-      "item_name": "1st-Level Aspect Features Tables",
-      "level": 1,
-      "scc": [
-        "mcdm.heroes.v1:feature.trait.fury.1st-level-feature:1st-level-aspect-features-tables"
-      ],
-      "scdc": [
-        "1.1.1:13.1.5.1:10"
-      ],
-      "source": "mcdm.heroes.v1",
-      "type": "feature/trait/fury/1st-level-feature"
-    },
-    "effects": [
-      {
-        "effect": "| Reaver     | Kit, Primordial Cunning        |\n| Stormwight | Beast Shape, Relentless Hunter |"
-      }
-    ]
-  },  {
     "name": "Ferocity in Combat",
     "metadata": {
       "class": "fury",
@@ -16264,14 +16239,14 @@
       "file_basename": "Ferocity in Combat",
       "file_dpath": "Fury/1st-Level Features",
       "item_id": "ferocity-in-combat",
-      "item_index": "17",
+      "item_index": "16",
       "item_name": "Ferocity in Combat",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.fury.1st-level-feature:ferocity-in-combat"
       ],
       "scdc": [
-        "1.1.1:13.1.5.1:17"
+        "1.1.1:13.1.5.1:16"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/fury/1st-level-feature"
@@ -16423,14 +16398,14 @@
       "file_basename": "Ferocity Outside of Combat",
       "file_dpath": "Fury/1st-Level Features",
       "item_id": "ferocity-outside-of-combat",
-      "item_index": "14",
+      "item_index": "13",
       "item_name": "Ferocity Outside of Combat",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.fury.1st-level-feature:ferocity-outside-of-combat"
       ],
       "scdc": [
-        "1.1.1:13.1.5.1:14"
+        "1.1.1:13.1.5.1:13"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/fury/1st-level-feature"
@@ -21828,7 +21803,7 @@
     "name": "Witty Banter",
     "flavor": "A lyrical (and physical) jab insults an enemy and inspires an ally.",
     "keywords": [
-      "Maigc",
+      "Magic",
       "Melee",
       "Ranged",
       "Strike"
