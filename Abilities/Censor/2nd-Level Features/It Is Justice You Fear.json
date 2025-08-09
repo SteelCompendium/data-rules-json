@@ -7,7 +7,7 @@
     "Ranged",
     "Strike"
   ],
-  "type": "Main Action",
+  "type": "Main action",
   "distance": "Ranged 10",
   "target": "One creature",
   "metadata": {

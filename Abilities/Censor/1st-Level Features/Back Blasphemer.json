@@ -7,7 +7,7 @@
     "Melee",
     "Weapon"
   ],
-  "type": "Main Action",
+  "type": "Main action",
   "distance": "2 cube within 1",
   "target": "Each enemy in the area",
   "metadata": {

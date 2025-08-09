@@ -1,6 +1,7 @@
 {
   "name": "Instant Retaliation",
   "cost": "9 Focus",
+  "flavor": "You parry with almost supernatural speed.",
   "keywords": [
     "Melee",
     "Weapon"

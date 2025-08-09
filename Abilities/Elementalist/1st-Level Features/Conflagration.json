@@ -8,7 +8,7 @@
     "Magic",
     "Ranged"
   ],
-  "type": "Main Action",
+  "type": "Main action",
   "distance": "3 cube within 10",
   "target": "Each enemy in the area",
   "metadata": {

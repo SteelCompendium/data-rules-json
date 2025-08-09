@@ -7,7 +7,7 @@
     "Melee",
     "Weapon"
   ],
-  "type": "Main Action",
+  "type": "Main action",
   "distance": "Self; see below",
   "target": "Self",
   "metadata": {

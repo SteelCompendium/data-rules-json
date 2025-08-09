@@ -4,7 +4,7 @@
   "keywords": [
     "Magic"
   ],
-  "type": "Main Action",
+  "type": "Main action",
   "distance": "Self",
   "target": "Self",
   "metadata": {

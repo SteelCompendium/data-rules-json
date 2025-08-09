@@ -1,6 +1,7 @@
 {
   "name": "Primordial Rage",
   "cost": "11 Ferocity",
+  "flavor": "Your ferocity manifests into primordial power.",
   "keywords": [
     "Magic"
   ],

@@ -1682,7 +1682,7 @@
       "Magic",
       "Ranged"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "3 cube within 10",
     "target": "Each enemy in the area",
     "metadata": {
@@ -1996,7 +1996,7 @@
         "effect": "**Boulder Bash**\n| **Melee, Ranged, Strike, Weapon** |                 **Signature** |\n| --------------------------------- | ----------------------------: |\n| **📏 Melee 2 or ranged 10**       | **🎯 One creature or object** |"
       },
       {
-        "roll": "2d10 + 3",
+        "roll": "Power Roll + 3",
         "t1": "5 damage; push 3",
         "t2": "9 damage; push 4",
         "t3": "12 damage; push 5"
@@ -4088,14 +4088,14 @@
       "file_basename": "Ray of Wrath",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "ray-of-wrath",
-      "item_index": "21",
+      "item_index": "22",
       "item_name": "Ray of Wrath",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:ray-of-wrath"
       ],
       "scdc": [
-        "1.1.1:13.2.8.1:21"
+        "1.1.1:13.2.8.1:22"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/ability/conduit/1st-level-feature"
@@ -4131,14 +4131,14 @@
       "file_basename": "Sermon of Grace",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "sermon-of-grace-5-piety",
-      "item_index": "22",
+      "item_index": "23",
       "item_name": "Sermon of Grace (5 Piety)",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:sermon-of-grace-5-piety"
       ],
       "scdc": [
-        "1.1.1:13.2.8.1:22"
+        "1.1.1:13.2.8.1:23"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/ability/conduit/1st-level-feature"
@@ -4156,14 +4156,14 @@
       "file_basename": "Blessing of Compassion",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "blessing-of-compassion",
-      "item_index": "31",
+      "item_index": "30",
       "item_name": "Blessing of Compassion",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:blessing-of-compassion"
       ],
       "scdc": [
-        "1.1.1:13.1.8.1:31"
+        "1.1.1:13.1.8.1:30"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -4232,14 +4232,14 @@
       "file_basename": "Prayer of Soldiers Skill",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "prayer-of-soldiers-skill",
-      "item_index": "27",
+      "item_index": "26",
       "item_name": "Prayer of Soldier's Skill",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:prayer-of-soldiers-skill"
       ],
       "scdc": [
-        "1.1.1:13.1.8.1:27"
+        "1.1.1:13.1.8.1:26"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -4570,14 +4570,14 @@
       "file_basename": "Deity and Domains",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "deity-and-domains",
-      "item_index": "32",
+      "item_index": "31",
       "item_name": "Deity and Domains",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:deity-and-domains"
       ],
       "scdc": [
-        "1.1.1:13.1.8.1:32"
+        "1.1.1:13.1.8.1:31"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -4804,14 +4804,14 @@
       "file_basename": "Spirit Ward",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "spirit-ward",
-      "item_index": "23",
+      "item_index": "22",
       "item_name": "Spirit Ward",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:spirit-ward"
       ],
       "scdc": [
-        "1.1.1:13.1.8.1:23"
+        "1.1.1:13.1.8.1:22"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -4829,14 +4829,14 @@
       "file_basename": "Prayer of Distance",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "prayer-of-distance",
-      "item_index": "25",
+      "item_index": "24",
       "item_name": "Prayer of Distance",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:prayer-of-distance"
       ],
       "scdc": [
-        "1.1.1:13.1.8.1:25"
+        "1.1.1:13.1.8.1:24"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -4923,14 +4923,14 @@
       "file_basename": "Quickness Ward",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "quickness-ward",
-      "item_index": "21",
+      "item_index": "20",
       "item_name": "Quickness Ward",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:quickness-ward"
       ],
       "scdc": [
-        "1.1.1:13.1.8.1:21"
+        "1.1.1:13.1.8.1:20"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -4948,14 +4948,14 @@
       "file_basename": "Protection Domain Piety and Effect",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "protection-domain-piety-and-effect",
-      "item_index": "24",
+      "item_index": "23",
       "item_name": "Protection Domain Piety and Effect",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:protection-domain-piety-and-effect"
       ],
       "scdc": [
-        "1.1.1:13.1.8.1:24"
+        "1.1.1:13.1.8.1:23"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -4974,14 +4974,14 @@
       "file_basename": "Prayer of Steel",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "prayer-of-steel",
-      "item_index": "33",
+      "item_index": "32",
       "item_name": "Prayer of Steel",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:prayer-of-steel"
       ],
       "scdc": [
-        "1.1.1:13.1.8.1:33"
+        "1.1.1:13.1.8.1:32"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -5024,14 +5024,14 @@
       "file_basename": "Oracular Visions",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "oracular-visions",
-      "item_index": "29",
+      "item_index": "28",
       "item_name": "Oracular Visions",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:oracular-visions"
       ],
       "scdc": [
-        "1.1.1:13.1.8.1:29"
+        "1.1.1:13.1.8.1:28"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -5142,14 +5142,14 @@
       "file_basename": "Sanctified Weapon",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "sanctified-weapon",
-      "item_index": "28",
+      "item_index": "27",
       "item_name": "Sanctified Weapon",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:sanctified-weapon"
       ],
       "scdc": [
-        "1.1.1:13.1.8.1:28"
+        "1.1.1:13.1.8.1:27"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -5322,14 +5322,14 @@
       "file_basename": "Drain",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "drain",
-      "item_index": "19",
+      "item_index": "20",
       "item_name": "Drain",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:drain"
       ],
       "scdc": [
-        "1.1.1:13.2.8.1:19"
+        "1.1.1:13.2.8.1:20"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/ability/conduit/1st-level-feature"
@@ -5353,14 +5353,14 @@
       "file_basename": "Storm Domain Piety and Effect",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "storm-domain-piety-and-effect",
-      "item_index": "22",
+      "item_index": "21",
       "item_name": "Storm Domain Piety and Effect",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:storm-domain-piety-and-effect"
       ],
       "scdc": [
-        "1.1.1:13.1.8.1:22"
+        "1.1.1:13.1.8.1:21"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -5455,14 +5455,14 @@
       "file_basename": "Violence Will Not Aid Thee",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "violence-will-not-aid-thee-3-piety",
-      "item_index": "20",
+      "item_index": "21",
       "item_name": "Violence Will Not Aid Thee (3 Piety)",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:violence-will-not-aid-thee-3-piety"
       ],
       "scdc": [
-        "1.1.1:13.2.8.1:20"
+        "1.1.1:13.2.8.1:21"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/ability/conduit/1st-level-feature"
@@ -5581,14 +5581,14 @@
       "file_basename": "Blessing of Comprehension",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "blessing-of-comprehension",
-      "item_index": "26",
+      "item_index": "25",
       "item_name": "Blessing of Comprehension",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:blessing-of-comprehension"
       ],
       "scdc": [
-        "1.1.1:13.1.8.1:26"
+        "1.1.1:13.1.8.1:25"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -5609,28 +5609,25 @@
     "target": "One dead creature",
     "metadata": {
       "class": "conduit",
-      "feature_type": "trait",
+      "feature_type": "ability",
       "file_basename": "Grave Speech",
-      "file_dpath": "Conduit/1st-Level Features",
+      "file_dpath": "Abilities/Conduit/1st-Level Features",
       "item_id": "grave-speech",
-      "item_index": "20",
+      "item_index": "19",
       "item_name": "Grave Speech",
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:grave-speech"
+        "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:grave-speech"
       ],
       "scdc": [
-        "1.1.1:13.1.8.1:20"
+        "1.1.1:13.2.8.1:19"
       ],
       "source": "mcdm.heroes.v1",
-      "type": "feature/trait/conduit/1st-level-feature"
+      "type": "feature/ability/conduit/1st-level-feature"
     },
     "effects": [
       {
-        "effect": "You can speak to the target if they are a creature who has died within the last 24 hours and who can speak a language you know, even if they are just a head. The target regards you as they would have in life, and you might need to make tests to influence them and convince them to speak with you. The trauma of dying can make a creature's memory of that event hazy, but the target otherwise knows all they knew in life. After 1 minute, the effect ends. You can't use this ability on the same creature twice.\n##### Hands of the Maker\nYou have the following ability.\n###### Hands of the Maker\n*You craft objects with the power of your mind.*\n| **Magic**   | **Maneuver** |\n| ----------- | -----------: |\n| **📏 Self** |  **🎯 Self** |"
-      },
-      {
-        "effect": "You create a mundane object of size 1S or smaller. You can maintain a number of objects created this way equal to your Intuition score. You can destroy an object created this way with a thought, no matter how far you are from it (no action required).\n##### Inner Light\nEach time you finish a respite, you can choose yourself or one ally who is also finishing a respite to gain the benefit of a divine ritual. You place a ray of morning light into the chosen character's soul, granting them a +1 bonus to saving throws that lasts until you finish another respite.\n##### Inspired Deception\nThe gods favor your thievery with magic. Whenever you make a test that uses a skill you have from the intrigue skill group, you can use Intuition on the test instead of another characteristic.\n##### Oracular Visions\nYour deity rewards you with hazy visions of things to come. Each time you earn 1 or more Victories, you earn an equal number of fate points. Whenever you or a creature within 10 squares makes a test, you can spend 1 fate point to tap into a vision of the outcome, granting that creature an edge on the test. You lose any remaining fate points when you finish a respite.\n##### Protective Circle\nYou can spend 10 uninterrupted minutes to create a protective circle on the ground large enough to hold one size 1 creature. The circle lasts for 24 hours, until you create another, or until you dismiss it (no action required). Only creatures you designate at the time of drawing the circle can enter and exit the area. While in the protective circle, a creature can't be targeted by strikes.\n##### Revitalizing Ritual\nEach time you finish a respite, you can choose yourself or one ally who is also finishing a respite to gain the benefit of a divine ritual. The chosen character gains a bonus to their recovery value equal to your level that lasts until you finish another respite.\n##### Sanctified Weapon\nAs a respite activity, you can bless a weapon. Any creature who wields the weapon gains a +1 bonus to rolled damage with abilities that use the weapon. This benefit lasts until you finish another respite."
+        "effect": "You can speak to the target if they are a creature who has died within the last 24 hours and who can speak a language you know, even if they are just a head. The target regards you as they would have in life, and you might need to make tests to influence them and convince them to speak with you. The trauma of dying can make a creature's memory of that event hazy, but the target otherwise knows all they knew in life. After 1 minute, the effect ends. You can't use this ability on the same creature twice."
       }
     ]
   },  {
@@ -5745,14 +5742,14 @@
       "file_basename": "Trickery Domain Piety and Effect",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "trickery-domain-piety-and-effect",
-      "item_index": "30",
+      "item_index": "29",
       "item_name": "Trickery Domain Piety and Effect",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:trickery-domain-piety-and-effect"
       ],
       "scdc": [
-        "1.1.1:13.1.8.1:30"
+        "1.1.1:13.1.8.1:29"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -6762,7 +6759,7 @@
       "Ranged",
       "Strike"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Ranged 10",
     "target": "One creature",
     "metadata": {
@@ -8962,7 +8959,7 @@
       "Strike",
       "Weapon"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Melee 1",
     "target": "One creature or object",
     "metadata": {
@@ -9008,7 +9005,7 @@
       "Strike",
       "Weapon"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Melee 1 or ranged 5",
     "target": "One creature",
     "metadata": {
@@ -9084,7 +9081,7 @@
       "Ranged",
       "Strike"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Ranged 10",
     "target": "One creature",
     "metadata": {
@@ -9126,7 +9123,7 @@
       "Strike",
       "Weapon"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Melee 1",
     "target": "One creature or object",
     "metadata": {
@@ -9195,7 +9192,7 @@
       "Strike",
       "Weapon"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Melee 1",
     "target": "One creature or object",
     "metadata": {
@@ -9329,7 +9326,7 @@
       "Strike",
       "Weapon"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Melee 1",
     "target": "One creature or object",
     "metadata": {
@@ -9397,7 +9394,7 @@
     "keywords": [
       "Magic"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Self",
     "target": "Self",
     "metadata": {
@@ -9431,7 +9428,7 @@
       "Strike",
       "Weapon"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Melee 1",
     "target": "One creature or object",
     "metadata": {
@@ -9547,7 +9544,7 @@
       "Strike",
       "Weapon"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Melee 1",
     "target": "One creature",
     "metadata": {
@@ -9617,7 +9614,7 @@
       "Strike",
       "Weapon"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Melee 1",
     "target": "One creature",
     "metadata": {
@@ -9661,7 +9658,7 @@
       "Melee",
       "Weapon"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "2 cube within 1",
     "target": "Each enemy in the area",
     "metadata": {
@@ -9871,7 +9868,7 @@
       "Strike",
       "Weapon"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Melee 1 or ranged 5",
     "target": "One creature",
     "metadata": {
@@ -9915,7 +9912,7 @@
       "Strike",
       "Weapon"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Melee 1",
     "target": "One creature",
     "metadata": {
@@ -9984,7 +9981,7 @@
       "Strike",
       "Weapon"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Ranged 10",
     "target": "One creature",
     "metadata": {
@@ -10028,7 +10025,7 @@
       "Strike",
       "Weapon"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Melee 1",
     "target": "One creature",
     "metadata": {
@@ -10122,7 +10119,7 @@
       "Strike",
       "Weapon"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Ranged 10",
     "target": "One creature",
     "metadata": {
@@ -10715,7 +10712,7 @@
       "Strike",
       "Weapon"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Melee 1",
     "target": "One creature",
     "metadata": {
@@ -10826,7 +10823,7 @@
       "Strike",
       "Weapon"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Melee 1",
     "target": "One creature",
     "metadata": {
@@ -10868,7 +10865,7 @@
       "Strike",
       "Weapon"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Melee 1",
     "target": "One creature",
     "metadata": {
@@ -11211,7 +11208,7 @@
       "Ranged",
       "Strike"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Ranged 10",
     "target": "One creature",
     "metadata": {
@@ -11529,7 +11526,7 @@
       "Strike",
       "Weapon"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Melee 1",
     "target": "One creature",
     "metadata": {
@@ -11573,7 +11570,7 @@
       "Ranged",
       "Strike"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Ranged 10",
     "target": "One creature",
     "metadata": {
@@ -11617,7 +11614,7 @@
       "Strike",
       "Weapon"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Melee 1",
     "target": "One creature",
     "metadata": {
@@ -11983,7 +11980,7 @@
       "Magic",
       "Ranged"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Ranged 10",
     "target": "Self and each ally",
     "metadata": {
@@ -14414,6 +14411,7 @@
   },  {
     "name": "Entropic Field",
     "cost": "5 Discipline",
+    "flavor": "You drastically increase the local entropy.",
     "keywords": [
       "Area",
       "Psionic",
@@ -15715,6 +15713,7 @@
     ]
   },  {
     "name": "Lines of Force",
+    "flavor": "You redirect the energy of motion.",
     "keywords": [
       "Magic",
       "Melee"
@@ -16381,6 +16380,7 @@
   },  {
     "name": "Primordial Rage",
     "cost": "11 Ferocity",
+    "flavor": "Your ferocity manifests into primordial power.",
     "keywords": [
       "Magic"
     ],
@@ -19023,6 +19023,7 @@
   },  {
     "name": "Floodgates Open",
     "cost": "11 Focus",
+    "flavor": "You direct your squad to strike in unison and with devastating effect.",
     "keywords": [
       "Ranged"
     ],
@@ -19462,6 +19463,7 @@
   },  {
     "name": "Instant Retaliation",
     "cost": "9 Focus",
+    "flavor": "You parry with almost supernatural speed.",
     "keywords": [
       "Melee",
       "Weapon"
@@ -20576,7 +20578,7 @@
       "Strike",
       "Weapon"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Melee 1 or ranged 5",
     "target": "One creature",
     "metadata": {
@@ -21164,7 +21166,7 @@
       "Ranged",
       "Strike"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Melee 1 or ranged 10",
     "target": "One creature or object",
     "metadata": {
@@ -21419,7 +21421,7 @@
       "Magic",
       "Ranged"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "3 cube within 10",
     "target": "Each enemy in the area",
     "metadata": {
@@ -23468,6 +23470,7 @@
   },  {
     "name": "Guest Star",
     "cost": "5 Drama",
+    "flavor": "We offered them a percentage of the gross. So they're working for free!",
     "keywords": [
       "Magic",
       "Ranged"
@@ -26673,6 +26676,7 @@
   },  {
     "name": "Staggering Blow",
     "cost": "7 Insight",
+    "flavor": "There's no recovering from this.",
     "keywords": [
       "Melee",
       "Ranged",
@@ -27034,7 +27038,7 @@
       "Melee",
       "Weapon"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Self; see below",
     "target": "Self",
     "metadata": {
@@ -28139,7 +28143,7 @@
         "t3": "9 + P damage"
       },
       {
-        "effect": "Effect: You gain 1 surge."
+        "effect": "You gain 1 surge."
       },
       {
         "effect": "The target takes an extra 3 damage. You also take 3 damage that can't be reduced in any way.",
@@ -29074,7 +29078,7 @@
       "Ranged",
       "Telekinesis"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "4 cube within 10",
     "target": "Each creature and object in the area",
     "metadata": {
@@ -29123,7 +29127,7 @@
       "Psionic",
       "Ranged"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "4 cube within 10",
     "target": "Each creature and object in the area",
     "metadata": {
@@ -30235,7 +30239,7 @@
       "Strike",
       "Telekinesis"
     ],
-    "type": "Main Action",
+    "type": "Main action",
     "distance": "Self; see below",
     "target": "Self",
     "metadata": {

@@ -35,7 +35,7 @@
       "effect": "**Boulder Bash**\n| **Melee, Ranged, Strike, Weapon** |                 **Signature** |\n| --------------------------------- | ----------------------------: |\n| **📏 Melee 2 or ranged 10**       | **🎯 One creature or object** |"
     },
     {
-      "roll": "2d10 + 3",
+      "roll": "Power Roll + 3",
       "t1": "5 damage; push 3",
       "t2": "9 damage; push 4",
       "t3": "12 damage; push 5"

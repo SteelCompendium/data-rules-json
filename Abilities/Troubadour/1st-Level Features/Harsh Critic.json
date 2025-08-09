@@ -8,7 +8,7 @@
     "Ranged",
     "Strike"
   ],
-  "type": "Main Action",
+  "type": "Main action",
   "distance": "Melee 1 or ranged 10",
   "target": "One creature or object",
   "metadata": {

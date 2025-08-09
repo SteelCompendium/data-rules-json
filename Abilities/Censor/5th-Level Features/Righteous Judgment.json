@@ -7,7 +7,7 @@
     "Strike",
     "Weapon"
   ],
-  "type": "Main Action",
+  "type": "Main action",
   "distance": "Melee 1",
   "target": "One creature",
   "metadata": {
