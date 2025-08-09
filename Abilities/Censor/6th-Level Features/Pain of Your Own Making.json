@@ -6,7 +6,7 @@
     "Magic",
     "Ranged"
   ],
-  "type": "Free Triggered",
+  "type": "Free triggered",
   "distance": "Ranged 10",
   "target": "Self or one ally",
   "trigger": "The target gains a condition or effect that is ended by a saving throw or that ends at the end of their turn.",
