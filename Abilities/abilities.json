@@ -8002,7 +8002,7 @@
     ],
     "type": "Maneuver",
     "distance": "Ranged 10",
-    "target": "one ally",
+    "target": "One ally",
     "metadata": {
       "class": "conduit",
       "cost": "11 Piety",
@@ -9385,7 +9385,7 @@
     },
     "effects": [
       {
-        "effect": "The target is judged by you until the end of the encounter, you use this ability again, you willingly end this effect (no action required), or another censor judges the target.\nWhenever a creature judged by you uses a main action and is within your line of effect, you can use a free triggered action to deal holy damage equal to twice your Presence score to them. When a creature judged by you is reduced to 0 Stamina, you can use a free triggered action to use this ability against a new target. Additionally, you can spend 1 wrath to take one of the following free triggered actions:\n- When an adjacent creature judged by you starts to shift, you make a melee free strike against them and their speed becomes 0 until the end of the current turn, preventing them from shifting.\n- When a creature judged by you within 10 squares makes a power roll, you cause them to take a bane on the roll.\n- When a creature judged by you within 10 squares uses an ability with a potency that targets only one creature, the potency is reduced by 1 for that creature.\n- If you damage a creature judged by you with a melee ability, the creature is taunted by you until the end of their next turn. You can choose only one free triggered action option at a time, even if multiple options are triggered by the same effect."
+        "effect": "The target is judged by you until the end of the encounter, you use this ability again, you willingly end this effect (no action required), or another censor judges the target.\nWhenever a creature judged by you uses a main action and is within your line of effect, you can use a free triggered action to deal holy damage equal to twice your Presence score to them. When a creature judged by you is reduced to 0 Stamina, you can use a free triggered action to use this ability against a new target. Additionally, you can spend 1 wrath to take one of the following free triggered actions:\n- When an adjacent creature judged by you starts to shift, you make a melee free strike against them and their speed becomes 0 until the end of the current turn, preventing them from shifting.\n- When a creature judged by you within 10 squares makes a power roll, you cause them to take a bane on the roll.\n- When a creature judged by you within 10 squares uses an ability with a potency that targets only one creature, the potency is reduced by 1 for that creature.\n- If you damage a creature judged by you with a melee ability, the creature is taunted by you until the end of their next turn.\nYou can choose only one free triggered action option at a time, even if multiple options are triggered by the same effect."
       }
     ]
   },  {
@@ -15110,31 +15110,6 @@
       }
     ]
   },  {
-    "name": "5th-Level Tradition Feature",
-    "metadata": {
-      "class": "null",
-      "feature_type": "trait",
-      "file_basename": "5th Level Tradition Feature",
-      "file_dpath": "Null/4th-Level Features",
-      "item_id": "5th-level-tradition-feature",
-      "item_index": "05",
-      "item_name": "5th-Level Tradition Feature",
-      "level": 4,
-      "scc": [
-        "mcdm.heroes.v1:feature.trait.null.4th-level-feature:5th-level-tradition-feature"
-      ],
-      "scdc": [
-        "1.1.1:13.1.6.9:05"
-      ],
-      "source": "mcdm.heroes.v1",
-      "type": "feature/trait/null/4th-level-feature"
-    },
-    "effects": [
-      {
-        "effect": "Your null tradition grants you a feature, as shown on the 5th-Level Tradition Features table.\n| Tradition     | Feature            |\n| ------------- | ------------------ |\n| Chronokinetic | Instant Action     |\n| Cryokinetic   | Chilling Readiness |\n| Metakinetic   | Inertial Fulcrum   |"
-      }
-    ]
-  },  {
     "name": "Phase Leap",
     "cost": "9 Discipline",
     "flavor": "You leap beyond reality, leaving an afterimage of yourself.",
@@ -15223,14 +15198,14 @@
       "file_basename": "Instant Action",
       "file_dpath": "Null/4th-Level Features",
       "item_id": "instant-action",
-      "item_index": 8,
+      "item_index": "07",
       "item_name": "Instant Action",
       "level": 4,
       "scc": [
         "mcdm.heroes.v1:feature.trait.null.4th-level-feature:instant-action"
       ],
       "scdc": [
-        "1.1.1:13.1.6.9:08"
+        "1.1.1:13.1.6.9:07"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/null/4th-level-feature"
@@ -15273,14 +15248,14 @@
       "file_basename": "Discipline Mastery Improvement",
       "file_dpath": "Null/4th-Level Features",
       "item_id": "discipline-mastery-improvement",
-      "item_index": "07",
+      "item_index": "06",
       "item_name": "Discipline Mastery Improvement",
       "level": 4,
       "scc": [
         "mcdm.heroes.v1:feature.trait.null.4th-level-feature:discipline-mastery-improvement"
       ],
       "scdc": [
-        "1.1.1:13.1.6.9:07"
+        "1.1.1:13.1.6.9:06"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/null/4th-level-feature"
@@ -15298,14 +15273,14 @@
       "file_basename": "Characteristic Increase",
       "file_dpath": "Null/4th-Level Features",
       "item_id": "characteristic-increase",
-      "item_index": "06",
+      "item_index": "05",
       "item_name": "Characteristic Increase",
       "level": 4,
       "scc": [
         "mcdm.heroes.v1:feature.trait.null.4th-level-feature:characteristic-increase"
       ],
       "scdc": [
-        "1.1.1:13.1.6.9:06"
+        "1.1.1:13.1.6.9:05"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/null/4th-level-feature"
@@ -15323,14 +15298,14 @@
       "file_basename": "Regenerative Field",
       "file_dpath": "Null/4th-Level Features",
       "item_id": "regenerative-field",
-      "item_index": 9,
+      "item_index": 8,
       "item_name": "Regenerative Field",
       "level": 4,
       "scc": [
         "mcdm.heroes.v1:feature.trait.null.4th-level-feature:regenerative-field"
       ],
       "scdc": [
-        "1.1.1:13.1.6.9:09"
+        "1.1.1:13.1.6.9:08"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/null/4th-level-feature"
@@ -15394,14 +15369,14 @@
       "file_basename": "Enhanced Null Field",
       "file_dpath": "Null/4th-Level Features",
       "item_id": "enhanced-null-field",
-      "item_index": "10",
+      "item_index": 9,
       "item_name": "Enhanced Null Field",
       "level": 4,
       "scc": [
         "mcdm.heroes.v1:feature.trait.null.4th-level-feature:enhanced-null-field"
       ],
       "scdc": [
-        "1.1.1:13.1.6.9:10"
+        "1.1.1:13.1.6.9:09"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/null/4th-level-feature"
@@ -15943,7 +15918,7 @@
       "Weapon"
     ],
     "type": "Main action",
-    "distance": "5x1 line within 1",
+    "distance": "5 x 1 line within 1",
     "target": "Each enemy in the area",
     "metadata": {
       "class": "fury",
@@ -24532,7 +24507,7 @@
     ],
     "type": "Maneuver",
     "distance": "Self",
-    "target": "\\\\ Self",
+    "target": "Self",
     "metadata": {
       "class": "shadow",
       "feature_type": "ability",
@@ -24635,7 +24610,7 @@
     ],
     "type": "Triggered",
     "distance": "Self",
-    "target": "\\\\ Self",
+    "target": "Self",
     "trigger": "An enemy targets you with a strike.",
     "metadata": {
       "class": "shadow",
@@ -24748,7 +24723,7 @@
     ],
     "type": "Triggered",
     "distance": "Self",
-    "target": "\\\\ Self",
+    "target": "Self",
     "trigger": "You take damage.",
     "metadata": {
       "class": "shadow",
@@ -25194,7 +25169,7 @@
       "Ranged"
     ],
     "type": "Main action",
-    "distance": "Self; see below 5",
+    "distance": "Self; see below",
     "target": "Self",
     "metadata": {
       "class": "shadow",

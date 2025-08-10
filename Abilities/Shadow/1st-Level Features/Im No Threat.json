@@ -6,7 +6,7 @@
   ],
   "type": "Maneuver",
   "distance": "Self",
-  "target": "\\\\ Self",
+  "target": "Self",
   "metadata": {
     "class": "shadow",
     "feature_type": "ability",

@@ -7,7 +7,7 @@
   ],
   "type": "Triggered",
   "distance": "Self",
-  "target": "\\\\ Self",
+  "target": "Self",
   "trigger": "An enemy targets you with a strike.",
   "metadata": {
     "class": "shadow",
