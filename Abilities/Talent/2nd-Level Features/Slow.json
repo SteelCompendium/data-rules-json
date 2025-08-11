@@ -34,7 +34,7 @@
   "effects": [
     {
       "roll": "Power Roll + Presence",
-      "t1": "The target's speed is halved (save ends), or if p",
+      "t1": "The target's speed is halved (save ends), or if P < WEAK, the target is slowed (save ends).",
       "t2": "The target is slowed (save ends), or if P < AVERAGE, the target's speed is 0 (save ends).",
       "t3": "The target is slowed (save ends), or if P < STRONG, the target's speed is 0 (save ends)."
     },

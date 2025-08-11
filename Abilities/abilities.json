@@ -14707,7 +14707,7 @@
     },
     "effects": [
       {
-        "effect": "Until the end of the encounter, the size of your Null Field ability increases by 1. While the area of that ability is enlarged this way, each enemy who has i"
+        "effect": "Until the end of the encounter, the size of your Null Field ability increases by 1. While the area of that ability is enlarged this way, each enemy who has I < AVERAGE and enters the area for the first time in a combat round or starts their turn there is bleeding (save ends). Each ally who enters the area for the first time in a combat round or starts their turn there gains temporary Stamina equal to your Intuition score."
       }
     ]
   },  {
@@ -28441,9 +28441,9 @@
     "effects": [
       {
         "roll": "Power Roll + Presence",
-        "t1": "2 + P corruption damage; p",
-        "t2": "3 + P corruption damage; p",
-        "t3": "5 + P corruption damage; p"
+        "t1": "2 + P corruption damage; P < WEAK, slowed (save ends)",
+        "t2": "3 + P corruption damage; P < AVERAGE, slowed (save ends)",
+        "t3": "5 + P corruption damage; P < STRONG, slowed (save ends)"
       },
       {
         "effect": "The target takes an extra 1 corruption damage for each additional time they are targeted by this ability during the encounter."
@@ -29906,7 +29906,7 @@
     "effects": [
       {
         "roll": "Power Roll + Presence",
-        "t1": "The target's speed is halved (save ends), or if p",
+        "t1": "The target's speed is halved (save ends), or if P < WEAK, the target is slowed (save ends).",
         "t2": "The target is slowed (save ends), or if P < AVERAGE, the target's speed is 0 (save ends).",
         "t3": "The target is slowed (save ends), or if P < STRONG, the target's speed is 0 (save ends)."
       },
