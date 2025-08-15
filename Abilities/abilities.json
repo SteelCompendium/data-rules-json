@@ -7829,7 +7829,7 @@
     },
     "effects": [
       {
-        "effect": "Until the end of the encounter or until you are dying, no target can approach within 5 squares of you by moving or by being force moved by any enemy. Targets can be force moved closer to you by you or your allies, or can move closer because of your movement."
+        "effect": "Until the end of the encounter or until you are dying, no enemy can approach within 5 squares of you. by moving or by being force moved by any enemy. Targets can be force moved closer to you by you or your allies, or can move closer because of your movement."
       }
     ]
   },  {
@@ -10053,7 +10053,7 @@
         "t3": "12 + P damage; I < STRONG, slowed (save ends)"
       },
       {
-        "effect": "While the target is slowed this way, each ally who starts their turn within 5 squares of them must use a free maneuver to make a free strike against the target. Additionally, while the target is slowed this way, each ally within 5 squares of them who can make a triggered free strike against a different creature must make the free strike against the target instead."
+        "effect": "While the target is slowed this way, each of their allies who starts their turn within 5 squares of them must use a free maneuver to make a free strike against the target. Additionally, while the target is slowed this way, each of their allies within 5 squares of them who can make a triggered free strike against a different creature must make the free strike against the target instead."
       }
     ]
   },  {
@@ -13972,7 +13972,7 @@
     },
     "effects": [
       {
-        "roll": "Power Roll + Reason",
+        "roll": "Power Roll + Intuition",
         "t1": "Vertical slide 6",
         "t2": "Vertical slide 8",
         "t3": "Vertical slide 10"
@@ -20342,7 +20342,7 @@
     },
     "effects": [
       {
-        "effect": "You have learned to leverage your marked foes' psychology and goad them into acting before they're tactically ready. Whenever a creature marked by you uses a strike that targets you or any ally within your line of effect, you can use a free triggered action to change the target of the strike to you or another ally within your line of effect."
+        "effect": "You have learned to leverage your marked foes' psychology and goad them into acting before they're tactically ready. Whenever a creature marked by you uses a strike that targets you or any ally within your line of effect, you can use a free triggered action to change one target of the strike to you or another ally within your line of effect. The new target must be within distance of the ability and within line of effect of the creature using it."
       }
     ]
   },  {
@@ -22421,7 +22421,7 @@
     },
     "effects": [
       {
-        "effect": "While this performance is active, each target who is dead can choose to continue taking turns after death. On each of their turns, a target can move and use either a main action or a maneuver, but can't spend Recoveries or use triggered actions At the end of the encounter, each target who chose to take turns this way turns to dust and blows away."
+        "effect": "While this performance is active, each target who is dead can choose to continue taking turns after death. On each of their turns, a target can move and use either a main action or a maneuver, but can't spend Recoveries or use triggered actions. At the end of the encounter, each target who chose to take turns this way turns to dust and blows away."
       }
     ]
   },  {
@@ -29733,7 +29733,7 @@
     },
     "effects": [
       {
-        "effect": "Until the start of your next turn, the target has cold immunity 10 and fire immunity 10, and their strikes deal extra fire damage equal to twice your Reason score. Additionally, whenever an enemy attempts uses a melee ability against the target while they are under this effect, the enemy takes 5 fire damage."
+        "effect": "Until the start of your next turn, the target has cold immunity 10 and fire immunity 10, and their strikes deal extra fire damage equal to twice your Reason score. Additionally, whenever an enemy uses a melee ability against the target while they are under this effect, the enemy takes 5 fire damage."
       },
       {
         "effect": "The target gains 2 surges. You are weakened and slowed (save ends).",
@@ -30785,7 +30785,7 @@
     },
     "effects": [
       {
-        "effect": "Each time you finish a respite, you can choose a number of skills you have up to your Reason score and replace them with an equal number of skills from the interpersonal and lore skill groups. These replacements last unil the end of your next respite."
+        "effect": "Each time you finish a respite, you can choose a number of skills you have up to your Reason score and replace them with an equal number of skills from the interpersonal and lore skill groups. These replacements last until the end of your next respite."
       }
     ]
   },  {
