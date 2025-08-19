@@ -9,7 +9,7 @@
     "Weapon"
   ],
   "type": "Main action",
-  "distance": "Melee 1",
+  "distance": "Melee 1 or ranged 5",
   "target": "One creature",
   "metadata": {
     "class": "shadow",
