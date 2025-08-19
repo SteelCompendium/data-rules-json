@@ -12,6 +12,7 @@
   "distance": "Ranged 10",
   "target": "One enemy or object",
   "metadata": {
+    "action_type": "Main action",
     "class": "elementalist",
     "cost": "11 Essence",
     "cost_amount": 11,
@@ -39,7 +40,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One enemy or object",
-    "type": "Main action"
+    "type": "feature/ability/elementalist/9th-level-feature"
   },
   "effects": [
     {

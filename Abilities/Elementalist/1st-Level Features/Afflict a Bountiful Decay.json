@@ -12,6 +12,7 @@
   "distance": "Ranged 10",
   "target": "One creature",
   "metadata": {
+    "action_type": "Main action",
     "class": "elementalist",
     "distance": "Ranged 10",
     "feature_type": "ability",
@@ -37,7 +38,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature",
-    "type": "Main action"
+    "type": "feature/ability/elementalist/1st-level-feature"
   },
   "effects": [
     {

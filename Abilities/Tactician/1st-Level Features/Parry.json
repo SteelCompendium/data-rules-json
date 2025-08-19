@@ -10,6 +10,7 @@
   "target": "Self or one ally",
   "trigger": "A creature deals damage to the target.",
   "metadata": {
+    "action_type": "Triggered",
     "class": "tactician",
     "distance": "Melee 2",
     "feature_type": "ability",
@@ -32,7 +33,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self or one ally",
-    "type": "Triggered"
+    "type": "feature/ability/tactician/1st-level-feature"
   },
   "effects": [
     {

@@ -10,6 +10,7 @@
   "target": "One creature",
   "trigger": "The target deals damage to an ally.",
   "metadata": {
+    "action_type": "Triggered",
     "class": "talent",
     "distance": "Ranged 10",
     "feature_type": "ability",
@@ -32,7 +33,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature",
-    "type": "Triggered"
+    "type": "feature/ability/talent/1st-level-feature"
   },
   "effects": [
     {

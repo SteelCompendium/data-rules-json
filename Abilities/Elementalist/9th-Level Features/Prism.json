@@ -10,6 +10,7 @@
   "distance": "Self",
   "target": "Self",
   "metadata": {
+    "action_type": "Main action",
     "class": "elementalist",
     "cost": "11 Essence",
     "cost_amount": 11,
@@ -35,7 +36,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self",
-    "type": "Main action"
+    "type": "feature/ability/elementalist/9th-level-feature"
   },
   "effects": [
     {

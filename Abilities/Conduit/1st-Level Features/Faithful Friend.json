@@ -8,6 +8,7 @@
   "distance": "Self",
   "target": "Self",
   "metadata": {
+    "action_type": "Main action",
     "class": "conduit",
     "distance": "Self",
     "feature_type": "ability",
@@ -29,7 +30,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self",
-    "type": "Main action"
+    "type": "feature/ability/conduit/1st-level-feature"
   },
   "effects": [
     {

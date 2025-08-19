@@ -10,6 +10,7 @@
   "distance": "Ranged 10",
   "target": "Special",
   "metadata": {
+    "action_type": "Main action",
     "class": "conduit",
     "cost": "3 Piety",
     "cost_amount": 3,
@@ -35,7 +36,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Special",
-    "type": "Main action"
+    "type": "feature/ability/conduit/1st-level-feature"
   },
   "effects": [
     {

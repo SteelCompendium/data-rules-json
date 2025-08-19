@@ -10,6 +10,7 @@
   "distance": "5 aura",
   "target": "Self and each ally in the area",
   "metadata": {
+    "action_type": "No action",
     "class": "troubadour",
     "distance": "5 aura",
     "feature_type": "ability",
@@ -33,7 +34,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self and each ally in the area",
-    "type": "No action"
+    "type": "feature/ability/troubadour/6th-level-feature"
   },
   "effects": [
     {

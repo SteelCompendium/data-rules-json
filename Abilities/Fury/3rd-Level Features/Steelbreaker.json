@@ -9,6 +9,7 @@
   "distance": "Self",
   "target": "Self",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "fury",
     "cost": "7 Ferocity",
     "cost_amount": 7,
@@ -33,7 +34,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self",
-    "type": "Maneuver"
+    "type": "feature/ability/fury/3rd-level-feature"
   },
   "effects": [
     {

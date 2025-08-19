@@ -10,6 +10,7 @@
   "distance": "2 aura",
   "target": "Each creature in the area",
   "metadata": {
+    "action_type": "No action",
     "class": "troubadour",
     "distance": "2 aura",
     "feature_type": "ability",
@@ -33,7 +34,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Each creature in the area",
-    "type": "No action"
+    "type": "feature/ability/troubadour/1st-level-feature"
   },
   "effects": [
     {

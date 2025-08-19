@@ -11,6 +11,7 @@
   "target": "One creature",
   "trigger": "The target dies.",
   "metadata": {
+    "action_type": "Free triggered",
     "class": "conduit",
     "cost": "11 Piety",
     "cost_amount": 11,
@@ -36,7 +37,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature",
-    "type": "Free triggered"
+    "type": "feature/ability/conduit/9th-level-feature"
   },
   "effects": [
     {

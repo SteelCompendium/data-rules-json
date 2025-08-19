@@ -10,6 +10,7 @@
   "distance": "Melee 1",
   "target": "One mundane wooden object",
   "metadata": {
+    "action_type": "Main action",
     "class": "elementalist",
     "distance": "Melee 1",
     "feature_type": "ability",
@@ -33,7 +34,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One mundane wooden object",
-    "type": "Main action"
+    "type": "feature/ability/elementalist/3rd-level-feature"
   },
   "effects": [
     {

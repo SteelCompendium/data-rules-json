@@ -9,6 +9,7 @@
   "distance": "Ranged 10",
   "target": "Self and each ally",
   "metadata": {
+    "action_type": "Main action",
     "class": "conduit",
     "distance": "Ranged 10",
     "feature_type": "ability",
@@ -31,7 +32,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self and each ally",
-    "type": "Main action"
+    "type": "feature/ability/conduit/7th-level-feature"
   },
   "effects": [
     {

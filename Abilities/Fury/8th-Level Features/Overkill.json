@@ -12,6 +12,7 @@
   "distance": "Melee 1",
   "target": "One creature",
   "metadata": {
+    "action_type": "Main action",
     "class": "fury",
     "cost": "11 Ferocity",
     "cost_amount": 11,
@@ -39,7 +40,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature",
-    "type": "Main action"
+    "type": "feature/ability/fury/8th-level-feature"
   },
   "effects": [
     {

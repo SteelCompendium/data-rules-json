@@ -10,6 +10,7 @@
   "target": "One ally",
   "trigger": "The target uses an ability to deal rolled damage to a creature while hidden.",
   "metadata": {
+    "action_type": "Free triggered",
     "class": "tactician",
     "cost": "9 Focus",
     "cost_amount": 9,
@@ -34,7 +35,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One ally",
-    "type": "Free triggered"
+    "type": "feature/ability/tactician/6th-level-feature"
   },
   "effects": [
     {

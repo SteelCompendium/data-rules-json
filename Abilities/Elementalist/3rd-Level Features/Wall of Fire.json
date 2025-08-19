@@ -12,6 +12,7 @@
   "distance": "10 wall within 10",
   "target": "Special",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "elementalist",
     "cost": "7 Essence",
     "cost_amount": 7,
@@ -39,7 +40,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Special",
-    "type": "Maneuver"
+    "type": "feature/ability/elementalist/3rd-level-feature"
   },
   "effects": [
     {

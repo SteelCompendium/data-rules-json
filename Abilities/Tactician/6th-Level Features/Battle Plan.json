@@ -9,6 +9,7 @@
   "distance": "Ranged 10",
   "target": "Three creatures",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "tactician",
     "cost": "9 Focus",
     "cost_amount": 9,
@@ -33,7 +34,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Three creatures",
-    "type": "Maneuver"
+    "type": "feature/ability/tactician/6th-level-feature"
   },
   "effects": [
     {

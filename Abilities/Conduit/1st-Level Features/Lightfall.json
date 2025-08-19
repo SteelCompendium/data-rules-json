@@ -9,6 +9,7 @@
   "distance": "2 burst",
   "target": "Each enemy in the area",
   "metadata": {
+    "action_type": "Main action",
     "class": "conduit",
     "distance": "2 burst",
     "feature_type": "ability",
@@ -31,7 +32,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Each enemy in the area",
-    "type": "Main action"
+    "type": "feature/ability/conduit/1st-level-feature"
   },
   "effects": [
     {

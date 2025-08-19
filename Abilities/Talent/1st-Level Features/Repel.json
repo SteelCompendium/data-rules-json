@@ -10,6 +10,7 @@
   "target": "Self or one ally",
   "trigger": "The target takes damage or is force moved.",
   "metadata": {
+    "action_type": "Triggered",
     "class": "talent",
     "distance": "Ranged 10",
     "feature_type": "ability",
@@ -32,7 +33,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self or one ally",
-    "type": "Triggered"
+    "type": "feature/ability/talent/1st-level-feature"
   },
   "effects": [
     {

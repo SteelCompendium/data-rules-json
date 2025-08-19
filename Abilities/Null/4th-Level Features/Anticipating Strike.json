@@ -13,6 +13,7 @@
   "target": "One creature",
   "trigger": "The target moves or uses a main action.",
   "metadata": {
+    "action_type": "Free triggered",
     "class": "null",
     "cost": "9 Discipline",
     "cost_amount": 9,
@@ -40,7 +41,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature",
-    "type": "Free triggered"
+    "type": "feature/ability/null/4th-level-feature"
   },
   "effects": [
     {

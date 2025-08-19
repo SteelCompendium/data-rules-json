@@ -10,6 +10,7 @@
   "target": "One ally",
   "trigger": "The target takes damage from another creature's ability while you are hidden.",
   "metadata": {
+    "action_type": "Triggered",
     "class": "shadow",
     "distance": "Ranged 5",
     "feature_type": "ability",
@@ -32,7 +33,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One ally",
-    "type": "Triggered"
+    "type": "feature/ability/shadow/4th-level-feature"
   },
   "effects": [
     {

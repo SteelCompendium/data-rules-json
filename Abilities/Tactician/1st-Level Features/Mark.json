@@ -8,6 +8,7 @@
   "distance": "Ranged 10",
   "target": "One creature",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "tactician",
     "distance": "Ranged 10",
     "feature_type": "ability",
@@ -29,7 +30,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature",
-    "type": "Maneuver"
+    "type": "feature/ability/tactician/1st-level-feature"
   },
   "effects": [
     {

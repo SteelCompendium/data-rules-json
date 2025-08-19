@@ -11,6 +11,7 @@
   "distance": "10 x 1 line within 1",
   "target": "Each enemy in the area",
   "metadata": {
+    "action_type": "Main action",
     "class": "shadow",
     "cost": "9 Insight",
     "cost_amount": 9,
@@ -37,7 +38,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Each enemy in the area",
-    "type": "Main action"
+    "type": "feature/ability/shadow/5th-level-feature"
   },
   "effects": [
     {

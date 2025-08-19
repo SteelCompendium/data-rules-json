@@ -11,6 +11,7 @@
   "distance": "3 aura",
   "target": "Special",
   "metadata": {
+    "action_type": "Main action",
     "class": "talent",
     "cost": "7 Clarity",
     "cost_amount": 7,
@@ -37,7 +38,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Special",
-    "type": "Main action"
+    "type": "feature/ability/talent/3rd-level-feature"
   },
   "effects": [
     {

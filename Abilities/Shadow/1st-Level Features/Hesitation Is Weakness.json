@@ -10,6 +10,7 @@
   "target": "Self",
   "trigger": "Another hero ends their turn. That hero can't have used this ability to start their turn.",
   "metadata": {
+    "action_type": "Free triggered",
     "class": "shadow",
     "cost": "1 Insight",
     "cost_amount": 1,
@@ -34,7 +35,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self",
-    "type": "Free triggered"
+    "type": "feature/ability/shadow/1st-level-feature"
   },
   "effects": [
     {

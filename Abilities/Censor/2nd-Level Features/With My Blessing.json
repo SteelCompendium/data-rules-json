@@ -10,6 +10,7 @@
   "distance": "Ranged 10",
   "target": "Self or one ally",
   "metadata": {
+    "action_type": "Main action",
     "class": "censor",
     "cost": "5 Wrath",
     "cost_amount": 5,
@@ -35,7 +36,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self or one ally",
-    "type": "Main action"
+    "type": "feature/ability/censor/2nd-level-feature"
   },
   "effects": [
     {

@@ -9,6 +9,7 @@
   "target": "One enemy",
   "trigger": "You lose Stamina and are not dying.",
   "metadata": {
+    "action_type": "Triggered",
     "class": "fury",
     "distance": "Ranged 10",
     "feature_type": "ability",
@@ -30,7 +31,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One enemy",
-    "type": "Triggered"
+    "type": "feature/ability/fury/1st-level-feature"
   },
   "effects": [
     {

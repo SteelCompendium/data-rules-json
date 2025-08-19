@@ -10,6 +10,7 @@
   "distance": "Self; see below",
   "target": "Self",
   "metadata": {
+    "action_type": "Main action",
     "class": "shadow",
     "cost": "5 Insight",
     "cost_amount": 5,
@@ -35,7 +36,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self",
-    "type": "Main action"
+    "type": "feature/ability/shadow/1st-level-feature"
   },
   "effects": [
     {

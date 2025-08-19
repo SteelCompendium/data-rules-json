@@ -9,6 +9,7 @@
   "target": "Self",
   "trigger": "You take damage.",
   "metadata": {
+    "action_type": "Triggered",
     "class": "null",
     "distance": "Self",
     "feature_type": "ability",
@@ -30,7 +31,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self",
-    "type": "Triggered"
+    "type": "feature/ability/null/1st-level-feature"
   },
   "effects": [
     {

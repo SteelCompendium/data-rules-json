@@ -13,6 +13,7 @@
   "distance": "Ranged 10",
   "target": "Self or one ally",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "elementalist",
     "cost": "9 Essence",
     "cost_amount": 9,
@@ -41,7 +42,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self or one ally",
-    "type": "Maneuver"
+    "type": "feature/ability/elementalist/6th-level-feature"
   },
   "effects": [
     {

@@ -12,6 +12,7 @@
   "distance": "Melee 1 or ranged 5",
   "target": "One creature",
   "metadata": {
+    "action_type": "Main action",
     "class": "tactician",
     "cost": "11 Focus",
     "cost_amount": 11,
@@ -39,7 +40,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature",
-    "type": "Main action"
+    "type": "feature/ability/tactician/8th-level-feature"
   },
   "effects": [
     {

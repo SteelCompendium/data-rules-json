@@ -9,6 +9,7 @@
   "distance": "Self",
   "target": "Self",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "null",
     "cost": "11 Discipline",
     "cost_amount": 11,
@@ -33,7 +34,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self",
-    "type": "Maneuver"
+    "type": "feature/ability/null/9th-level-feature"
   },
   "effects": [
     {

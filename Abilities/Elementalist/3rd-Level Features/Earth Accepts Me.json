@@ -9,6 +9,7 @@
   "distance": "Self",
   "target": "Self",
   "metadata": {
+    "action_type": "Main action",
     "class": "elementalist",
     "distance": "Self",
     "feature_type": "ability",
@@ -31,7 +32,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self",
-    "type": "Main action"
+    "type": "feature/ability/elementalist/3rd-level-feature"
   },
   "effects": [
     {

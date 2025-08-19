@@ -13,6 +13,7 @@
   "distance": "Melee 1 or ranged 5",
   "target": "One creature",
   "metadata": {
+    "action_type": "Main action",
     "class": "shadow",
     "cost": "5 Insight",
     "cost_amount": 5,
@@ -41,7 +42,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature",
-    "type": "Main action"
+    "type": "feature/ability/shadow/2nd-level-feature"
   },
   "effects": [
     {

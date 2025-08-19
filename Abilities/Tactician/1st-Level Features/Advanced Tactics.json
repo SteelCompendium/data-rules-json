@@ -9,6 +9,7 @@
   "target": "One ally",
   "trigger": "The target deals damage to another creature.",
   "metadata": {
+    "action_type": "Triggered",
     "class": "tactician",
     "distance": "Ranged 10",
     "feature_type": "ability",
@@ -30,7 +31,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One ally",
-    "type": "Triggered"
+    "type": "feature/ability/tactician/1st-level-feature"
   },
   "effects": [
     {

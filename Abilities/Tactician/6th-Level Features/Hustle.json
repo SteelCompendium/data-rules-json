@@ -9,6 +9,7 @@
   "distance": "2 burst",
   "target": "Self and each ally in the area",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "tactician",
     "cost": "9 Focus",
     "cost_amount": 9,
@@ -33,7 +34,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self and each ally in the area",
-    "type": "Maneuver"
+    "type": "feature/ability/tactician/6th-level-feature"
   },
   "effects": [
     {

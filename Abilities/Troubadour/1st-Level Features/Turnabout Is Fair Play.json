@@ -9,6 +9,7 @@
   "target": "One creature",
   "trigger": "The target makes an ability roll that has an edge, a double edge, a bane, or a double bane.",
   "metadata": {
+    "action_type": "Triggered",
     "class": "troubadour",
     "distance": "Ranged 10",
     "feature_type": "ability",
@@ -30,7 +31,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature",
-    "type": "Triggered"
+    "type": "feature/ability/troubadour/1st-level-feature"
   },
   "effects": [
     {

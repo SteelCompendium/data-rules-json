@@ -11,6 +11,7 @@
   "distance": "Melee 2",
   "target": "Self or one ally",
   "metadata": {
+    "action_type": "Main action",
     "class": "talent",
     "cost": "3 Clarity",
     "cost_amount": 3,
@@ -37,7 +38,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self or one ally",
-    "type": "Main action"
+    "type": "feature/ability/talent/1st-level-feature"
   },
   "effects": [
     {

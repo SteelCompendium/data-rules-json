@@ -10,6 +10,7 @@
   "distance": "Ranged 10",
   "target": "One creature",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "shadow",
     "cost": "11 Insight",
     "cost_amount": 11,
@@ -35,7 +36,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature",
-    "type": "Maneuver"
+    "type": "feature/ability/shadow/9th-level-feature"
   },
   "effects": [
     {

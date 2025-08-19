@@ -11,6 +11,7 @@
   "distance": "5 x 1 line within 1",
   "target": "Each enemy in the area",
   "metadata": {
+    "action_type": "Main action",
     "class": "fury",
     "cost": "5 Ferocity",
     "cost_amount": 5,
@@ -37,7 +38,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Each enemy in the area",
-    "type": "Main action"
+    "type": "feature/ability/fury/1st-level-feature"
   },
   "effects": [
     {

@@ -10,6 +10,7 @@
   "target": "Self or one creature",
   "trigger": "The target would be force moved.",
   "metadata": {
+    "action_type": "Triggered",
     "class": "fury",
     "distance": "Melee 1",
     "feature_type": "ability",
@@ -32,7 +33,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self or one creature",
-    "type": "Triggered"
+    "type": "feature/ability/fury/1st-level-feature"
   },
   "effects": [
     {

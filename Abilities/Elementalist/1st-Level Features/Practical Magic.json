@@ -8,6 +8,7 @@
   "distance": "Self; see below",
   "target": "Self",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "elementalist",
     "distance": "Self; see below",
     "feature_type": "ability",
@@ -29,7 +30,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self",
-    "type": "Maneuver"
+    "type": "feature/ability/elementalist/1st-level-feature"
   },
   "effects": [
     {

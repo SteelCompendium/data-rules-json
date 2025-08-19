@@ -9,6 +9,7 @@
   "distance": "Ranged 10",
   "target": "Three allies",
   "metadata": {
+    "action_type": "Main action",
     "class": "tactician",
     "cost": "11 Focus",
     "cost_amount": 11,
@@ -33,7 +34,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Three allies",
-    "type": "Main action"
+    "type": "feature/ability/tactician/8th-level-feature"
   },
   "effects": [
     {

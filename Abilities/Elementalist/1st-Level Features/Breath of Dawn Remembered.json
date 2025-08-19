@@ -11,6 +11,7 @@
   "target": "Self or one ally",
   "trigger": "The target starts their turn or takes damage.",
   "metadata": {
+    "action_type": "Triggered",
     "class": "elementalist",
     "distance": "Ranged 10",
     "feature_type": "ability",
@@ -34,7 +35,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self or one ally",
-    "type": "Triggered"
+    "type": "feature/ability/elementalist/1st-level-feature"
   },
   "effects": [
     {

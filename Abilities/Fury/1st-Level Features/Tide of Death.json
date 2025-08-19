@@ -10,6 +10,7 @@
   "distance": "Self; see below",
   "target": "Self",
   "metadata": {
+    "action_type": "Main action",
     "class": "fury",
     "cost": "3 Ferocity",
     "cost_amount": 3,
@@ -35,7 +36,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self",
-    "type": "Main action"
+    "type": "feature/ability/fury/1st-level-feature"
   },
   "effects": [
     {

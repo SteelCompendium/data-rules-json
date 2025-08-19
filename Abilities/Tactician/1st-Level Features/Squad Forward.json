@@ -9,6 +9,7 @@
   "distance": "Ranged 10",
   "target": "Self and two allies",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "tactician",
     "cost": "3 Focus",
     "cost_amount": 3,
@@ -33,7 +34,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self and two allies",
-    "type": "Maneuver"
+    "type": "feature/ability/tactician/1st-level-feature"
   },
   "effects": [
     {

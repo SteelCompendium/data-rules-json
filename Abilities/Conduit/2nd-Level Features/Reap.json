@@ -10,6 +10,7 @@
   "distance": "Ranged 10",
   "target": "Each ally",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "conduit",
     "cost": "5 Piety",
     "cost_amount": 5,
@@ -35,7 +36,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Each ally",
-    "type": "Maneuver"
+    "type": "feature/ability/conduit/2nd-level-feature"
   },
   "effects": [
     {

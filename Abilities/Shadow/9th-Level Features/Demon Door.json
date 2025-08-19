@@ -12,6 +12,7 @@
   "distance": "Melee 3",
   "target": "One creature",
   "metadata": {
+    "action_type": "Main action",
     "class": "shadow",
     "cost": "11 Insight",
     "cost_amount": 11,
@@ -39,7 +40,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature",
-    "type": "Main action"
+    "type": "feature/ability/shadow/9th-level-feature"
   },
   "effects": [
     {

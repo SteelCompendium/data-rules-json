@@ -10,6 +10,7 @@
   "target": "One ally",
   "trigger": "The target uses an ability that targets only one enemy and costs 3 or fewer of their Heroic Resource.",
   "metadata": {
+    "action_type": "Triggered",
     "class": "troubadour",
     "cost": "3 Drama",
     "cost_amount": 3,
@@ -34,7 +35,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One ally",
-    "type": "Triggered"
+    "type": "feature/ability/troubadour/1st-level-feature"
   },
   "effects": [
     {

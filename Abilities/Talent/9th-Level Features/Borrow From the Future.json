@@ -11,6 +11,7 @@
   "distance": "2 burst",
   "target": "Each ally in the area",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "talent",
     "cost": "11 Clarity",
     "cost_amount": 11,
@@ -37,7 +38,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Each ally in the area",
-    "type": "Maneuver"
+    "type": "feature/ability/talent/9th-level-feature"
   },
   "effects": [
     {

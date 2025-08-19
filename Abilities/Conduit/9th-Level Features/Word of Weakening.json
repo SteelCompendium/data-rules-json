@@ -11,6 +11,7 @@
   "distance": "Ranged 10",
   "target": "One creature or object",
   "metadata": {
+    "action_type": "Main action",
     "class": "conduit",
     "cost": "11 Piety",
     "cost_amount": 11,
@@ -37,7 +38,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature or object",
-    "type": "Main action"
+    "type": "feature/ability/conduit/9th-level-feature"
   },
   "effects": [
     {

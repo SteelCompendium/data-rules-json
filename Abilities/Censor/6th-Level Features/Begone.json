@@ -10,6 +10,7 @@
   "distance": "3 burst",
   "target": "Each enemy in the area",
   "metadata": {
+    "action_type": "Main action",
     "class": "censor",
     "cost": "9 Wrath",
     "cost_amount": 9,
@@ -35,7 +36,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Each enemy in the area",
-    "type": "Main action"
+    "type": "feature/ability/censor/6th-level-feature"
   },
   "effects": [
     {

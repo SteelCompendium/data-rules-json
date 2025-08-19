@@ -12,6 +12,7 @@
   "distance": "Ranged 10",
   "target": "One creature",
   "metadata": {
+    "action_type": "Main action",
     "class": "talent",
     "cost": "3 Clarity",
     "cost_amount": 3,
@@ -39,7 +40,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature",
-    "type": "Main action"
+    "type": "feature/ability/talent/1st-level-feature"
   },
   "effects": [
     {

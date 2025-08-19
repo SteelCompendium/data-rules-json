@@ -12,6 +12,7 @@
   "distance": "Ranged 10",
   "target": "Special",
   "metadata": {
+    "action_type": "Main action",
     "class": "elementalist",
     "cost": "11 Essence",
     "cost_amount": 11,
@@ -39,7 +40,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Special",
-    "type": "Main action"
+    "type": "feature/ability/elementalist/8th-level-feature"
   },
   "effects": [
     {

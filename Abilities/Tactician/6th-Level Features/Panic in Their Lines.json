@@ -12,6 +12,7 @@
   "distance": "Melee 1 or ranged 5",
   "target": "Two creatures",
   "metadata": {
+    "action_type": "Main action",
     "class": "tactician",
     "cost": "9 Focus",
     "cost_amount": 9,
@@ -39,7 +40,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Two creatures",
-    "type": "Main action"
+    "type": "feature/ability/tactician/6th-level-feature"
   },
   "effects": [
     {

@@ -10,6 +10,7 @@
   "distance": "Ranged 10",
   "target": "One ally",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "conduit",
     "cost": "7 Piety",
     "cost_amount": 7,
@@ -35,7 +36,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One ally",
-    "type": "Maneuver"
+    "type": "feature/ability/conduit/3rd-level-feature"
   },
   "effects": [
     {

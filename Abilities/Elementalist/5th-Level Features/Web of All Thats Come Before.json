@@ -12,6 +12,7 @@
   "distance": "4 cube within 10",
   "target": "Each enemy in the area",
   "metadata": {
+    "action_type": "Main action",
     "class": "elementalist",
     "cost": "9 Essence",
     "cost_amount": 9,
@@ -39,7 +40,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Each enemy in the area",
-    "type": "Main action"
+    "type": "feature/ability/elementalist/5th-level-feature"
   },
   "effects": [
     {

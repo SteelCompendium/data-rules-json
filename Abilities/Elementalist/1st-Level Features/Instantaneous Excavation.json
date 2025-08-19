@@ -11,6 +11,7 @@
   "distance": "Ranged 10",
   "target": "Special",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "elementalist",
     "cost": "5 Essence",
     "cost_amount": 5,
@@ -37,7 +38,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Special",
-    "type": "Maneuver"
+    "type": "feature/ability/elementalist/1st-level-feature"
   },
   "effects": [
     {

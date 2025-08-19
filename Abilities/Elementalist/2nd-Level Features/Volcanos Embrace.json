@@ -13,6 +13,7 @@
   "distance": "Ranged 10",
   "target": "One creature",
   "metadata": {
+    "action_type": "Main action",
     "class": "elementalist",
     "cost": "5 Essence",
     "cost_amount": 5,
@@ -41,7 +42,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature",
-    "type": "Main action"
+    "type": "feature/ability/elementalist/2nd-level-feature"
   },
   "effects": [
     {

@@ -8,6 +8,7 @@
   "distance": "Self",
   "target": "Self",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "shadow",
     "distance": "Self",
     "feature_type": "ability",
@@ -29,7 +30,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self",
-    "type": "Maneuver"
+    "type": "feature/ability/shadow/1st-level-feature"
   },
   "effects": [
     {

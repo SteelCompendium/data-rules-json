@@ -11,6 +11,7 @@
   "distance": "Ranged 10",
   "target": "Three enemies",
   "metadata": {
+    "action_type": "Main action",
     "class": "tactician",
     "cost": "11 Focus",
     "cost_amount": 11,
@@ -37,7 +38,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Three enemies",
-    "type": "Main action"
+    "type": "feature/ability/tactician/9th-level-feature"
   },
   "effects": [
     {

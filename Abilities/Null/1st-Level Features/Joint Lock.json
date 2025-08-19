@@ -11,6 +11,7 @@
   "distance": "Melee 1",
   "target": "One creature or object",
   "metadata": {
+    "action_type": "Main action",
     "class": "null",
     "distance": "Melee 1",
     "feature_type": "ability",
@@ -35,7 +36,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature or object",
-    "type": "Main action"
+    "type": "feature/ability/null/1st-level-feature"
   },
   "effects": [
     {

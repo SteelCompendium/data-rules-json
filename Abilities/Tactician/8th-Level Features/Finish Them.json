@@ -10,6 +10,7 @@
   "target": "One creature",
   "trigger": "The target is not a leader or solo creature, and becomes winded.",
   "metadata": {
+    "action_type": "Free triggered",
     "class": "tactician",
     "cost": "11 Focus",
     "cost_amount": 11,
@@ -34,7 +35,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature",
-    "type": "Free triggered"
+    "type": "feature/ability/tactician/8th-level-feature"
   },
   "effects": [
     {

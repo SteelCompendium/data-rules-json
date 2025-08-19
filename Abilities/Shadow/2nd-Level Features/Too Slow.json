@@ -10,6 +10,7 @@
   "target": "Self",
   "trigger": "You use your In All This Confusion ability.",
   "metadata": {
+    "action_type": "Free triggered",
     "class": "shadow",
     "cost": "5 Insight",
     "cost_amount": 5,
@@ -34,7 +35,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self",
-    "type": "Free triggered"
+    "type": "feature/ability/shadow/2nd-level-feature"
   },
   "effects": [
     {

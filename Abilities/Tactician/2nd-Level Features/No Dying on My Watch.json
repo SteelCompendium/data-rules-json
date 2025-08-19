@@ -12,6 +12,7 @@
   "target": "One enemy",
   "trigger": "The target deals damage to an ally.",
   "metadata": {
+    "action_type": "Triggered",
     "class": "tactician",
     "cost": "5 Focus",
     "cost_amount": 5,
@@ -38,7 +39,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One enemy",
-    "type": "Triggered"
+    "type": "feature/ability/tactician/2nd-level-feature"
   },
   "effects": [
     {

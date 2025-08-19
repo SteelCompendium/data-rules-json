@@ -11,6 +11,7 @@
   "target": "One ally",
   "trigger": "You or another hero ends their turn.",
   "metadata": {
+    "action_type": "Triggered",
     "class": "censor",
     "cost": "11 Wrath",
     "cost_amount": 11,
@@ -36,7 +37,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One ally",
-    "type": "Triggered"
+    "type": "feature/ability/censor/9th-level-feature"
   },
   "effects": [
     {

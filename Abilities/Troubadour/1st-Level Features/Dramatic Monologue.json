@@ -9,6 +9,7 @@
   "distance": "Ranged 10",
   "target": "Special",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "troubadour",
     "distance": "Ranged 10",
     "feature_type": "ability",
@@ -31,7 +32,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Special",
-    "type": "Maneuver"
+    "type": "feature/ability/troubadour/1st-level-feature"
   },
   "effects": [
     {

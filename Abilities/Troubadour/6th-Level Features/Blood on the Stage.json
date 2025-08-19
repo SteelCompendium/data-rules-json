@@ -11,6 +11,7 @@
   "distance": "Melee 1",
   "target": "One creature or object",
   "metadata": {
+    "action_type": "Main action",
     "class": "troubadour",
     "cost": "9 Drama",
     "cost_amount": 9,
@@ -37,7 +38,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature or object",
-    "type": "Main action"
+    "type": "feature/ability/troubadour/6th-level-feature"
   },
   "effects": [
     {

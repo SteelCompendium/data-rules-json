@@ -11,6 +11,7 @@
   "target": "Self or one ally",
   "trigger": "An enemy within 10 squares starts their turn.",
   "metadata": {
+    "action_type": "Triggered",
     "class": "censor",
     "cost": "5 Wrath",
     "cost_amount": 5,
@@ -36,7 +37,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self or one ally",
-    "type": "Triggered"
+    "type": "feature/ability/censor/2nd-level-feature"
   },
   "effects": [
     {

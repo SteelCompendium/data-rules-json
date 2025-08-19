@@ -11,6 +11,7 @@
   "distance": "Self; see below",
   "target": "Self",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "troubadour",
     "cost": "3 Drama",
     "cost_amount": 3,
@@ -37,7 +38,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self",
-    "type": "Maneuver"
+    "type": "feature/ability/troubadour/1st-level-feature"
   },
   "effects": [
     {

@@ -10,6 +10,7 @@
   "distance": "4 burst",
   "target": "Self and each ally in the area",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "troubadour",
     "cost": "9 Drama",
     "cost_amount": 9,
@@ -35,7 +36,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self and each ally in the area",
-    "type": "Maneuver"
+    "type": "feature/ability/troubadour/6th-level-feature"
   },
   "effects": [
     {

@@ -11,6 +11,7 @@
   "distance": "Ranged 10",
   "target": "Three creatures",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "conduit",
     "cost": "9 Piety",
     "cost_amount": 9,
@@ -37,7 +38,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Three creatures",
-    "type": "Maneuver"
+    "type": "feature/ability/conduit/6th-level-feature"
   },
   "effects": [
     {

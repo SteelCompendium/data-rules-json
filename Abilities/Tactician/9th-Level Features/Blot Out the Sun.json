@@ -9,6 +9,7 @@
   "distance": "3 burst",
   "target": "Self and each ally in the area",
   "metadata": {
+    "action_type": "Main action",
     "class": "tactician",
     "cost": "11 Focus",
     "cost_amount": 11,
@@ -33,7 +34,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self and each ally in the area",
-    "type": "Main action"
+    "type": "feature/ability/tactician/9th-level-feature"
   },
   "effects": [
     {

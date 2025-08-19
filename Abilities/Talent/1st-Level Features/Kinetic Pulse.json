@@ -10,6 +10,7 @@
   "distance": "1 burst",
   "target": "Each enemy in the area",
   "metadata": {
+    "action_type": "Main action",
     "class": "talent",
     "distance": "1 burst",
     "feature_type": "ability",
@@ -33,7 +34,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Each enemy in the area",
-    "type": "Main action"
+    "type": "feature/ability/talent/1st-level-feature"
   },
   "effects": [
     {

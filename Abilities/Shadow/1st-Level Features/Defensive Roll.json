@@ -9,6 +9,7 @@
   "target": "Self",
   "trigger": "Another creature damages you.",
   "metadata": {
+    "action_type": "Triggered",
     "class": "shadow",
     "distance": "Self",
     "feature_type": "ability",
@@ -30,7 +31,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self",
-    "type": "Triggered"
+    "type": "feature/ability/shadow/1st-level-feature"
   },
   "effects": [
     {

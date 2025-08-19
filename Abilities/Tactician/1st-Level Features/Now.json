@@ -9,6 +9,7 @@
   "distance": "Ranged 10",
   "target": "Three allies",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "tactician",
     "cost": "5 Focus",
     "cost_amount": 5,
@@ -33,7 +34,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Three allies",
-    "type": "Maneuver"
+    "type": "feature/ability/tactician/1st-level-feature"
   },
   "effects": [
     {

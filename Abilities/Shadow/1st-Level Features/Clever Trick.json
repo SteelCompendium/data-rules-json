@@ -10,6 +10,7 @@
   "target": "Self",
   "trigger": "An enemy targets you with a strike.",
   "metadata": {
+    "action_type": "Triggered",
     "class": "shadow",
     "cost": "1 Insight",
     "cost_amount": 1,
@@ -34,7 +35,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self",
-    "type": "Triggered"
+    "type": "feature/ability/shadow/1st-level-feature"
   },
   "effects": [
     {

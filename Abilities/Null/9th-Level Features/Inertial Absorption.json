@@ -10,6 +10,7 @@
   "target": "Self",
   "trigger": "Another creature damages you using an ability.",
   "metadata": {
+    "action_type": "Free triggered",
     "class": "null",
     "cost": "11 Discipline",
     "cost_amount": 11,
@@ -34,7 +35,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self",
-    "type": "Free triggered"
+    "type": "feature/ability/null/9th-level-feature"
   },
   "effects": [
     {

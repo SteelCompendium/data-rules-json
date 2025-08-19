@@ -9,6 +9,7 @@
   "target": "Self or one ally",
   "trigger": "The target takes damage from a melee strike.",
   "metadata": {
+    "action_type": "Triggered",
     "class": "troubadour",
     "distance": "Melee 1",
     "feature_type": "ability",
@@ -30,7 +31,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self or one ally",
-    "type": "Triggered"
+    "type": "feature/ability/troubadour/1st-level-feature"
   },
   "effects": [
     {

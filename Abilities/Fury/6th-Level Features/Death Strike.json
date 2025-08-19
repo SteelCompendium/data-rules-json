@@ -12,6 +12,7 @@
   "target": "Self",
   "trigger": "You reduce a creature to 0 Stamina with a strike.",
   "metadata": {
+    "action_type": "Free triggered",
     "class": "fury",
     "cost": "9 Ferocity",
     "cost_amount": 9,
@@ -38,7 +39,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self",
-    "type": "Free triggered"
+    "type": "feature/ability/fury/6th-level-feature"
   },
   "effects": [
     {

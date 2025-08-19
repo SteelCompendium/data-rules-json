@@ -10,6 +10,7 @@
   "distance": "Ranged 10",
   "target": "Three creatures or objects",
   "metadata": {
+    "action_type": "Main action",
     "class": "null",
     "cost": "9 Discipline",
     "cost_amount": 9,
@@ -35,7 +36,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Three creatures or objects",
-    "type": "Main action"
+    "type": "feature/ability/null/6th-level-feature"
   },
   "effects": [
     {

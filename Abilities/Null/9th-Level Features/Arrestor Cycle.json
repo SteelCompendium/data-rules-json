@@ -11,6 +11,7 @@
   "target": "One creature",
   "trigger": "The triggering creature starts their turn.",
   "metadata": {
+    "action_type": "Free triggered",
     "class": "null",
     "cost": "11 Discipline",
     "cost_amount": 11,
@@ -36,7 +37,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature",
-    "type": "Free triggered"
+    "type": "feature/ability/null/9th-level-feature"
   },
   "effects": [
     {

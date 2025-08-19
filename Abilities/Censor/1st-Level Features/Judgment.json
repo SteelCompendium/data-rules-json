@@ -9,6 +9,7 @@
   "distance": "Ranged 10",
   "target": "One enemy",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "censor",
     "distance": "Ranged 10",
     "feature_type": "ability",
@@ -31,7 +32,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One enemy",
-    "type": "Maneuver"
+    "type": "feature/ability/censor/1st-level-feature"
   },
   "effects": [
     {

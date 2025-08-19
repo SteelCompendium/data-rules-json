@@ -10,6 +10,7 @@
   "distance": "5 burst",
   "target": "Each enemy in the area",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "shadow",
     "cost": "9 Insight",
     "cost_amount": 9,
@@ -35,7 +36,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "Each enemy in the area",
-    "type": "Maneuver"
+    "type": "feature/ability/shadow/6th-level-feature"
   },
   "effects": [
     {

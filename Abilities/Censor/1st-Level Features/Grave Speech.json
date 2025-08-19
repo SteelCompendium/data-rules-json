@@ -8,6 +8,7 @@
   "distance": "Melee 1",
   "target": "One dead creature",
   "metadata": {
+    "action_type": "Maneuver",
     "class": "censor",
     "distance": "Melee 1",
     "feature_type": "ability",
@@ -29,7 +30,7 @@
     ],
     "source": "mcdm.heroes.v1",
     "target": "One dead creature",
-    "type": "Maneuver"
+    "type": "feature/ability/censor/1st-level-feature"
   },
   "effects": [
     {
