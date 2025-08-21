@@ -40,7 +40,8 @@
   },
   "effects": [
     {
-      "effect": "The target gains 20 temporary Stamina and 3 surges."
+      "effect": "The target gains 20 temporary Stamina and 3 surges.",
+      "name": "Effect"
     }
   ]
 }

@@ -42,6 +42,7 @@
   },
   "effects": [
     {
+      "name": "Effect",
       "effect": "You shift up to your speed. You make one power roll that targets each enemy you move adjacent to during this shift."
     },
     {

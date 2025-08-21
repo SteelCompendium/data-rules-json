@@ -37,7 +37,8 @@
   },
   "effects": [
     {
-      "effect": "The power roll gains an edge."
+      "effect": "The power roll gains an edge.",
+      "name": "Effect"
     },
     {
       "effect": "The power roll has a double edge.",

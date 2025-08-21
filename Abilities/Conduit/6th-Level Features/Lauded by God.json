@@ -40,7 +40,8 @@
   },
   "effects": [
     {
-      "effect": "Each target gains 3 of their Heroic Resource."
+      "effect": "Each target gains 3 of their Heroic Resource.",
+      "name": "Effect"
     }
   ]
 }

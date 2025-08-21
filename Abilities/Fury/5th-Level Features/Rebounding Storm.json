@@ -48,7 +48,8 @@
       "t3": "19 damage; push 7"
     },
     {
-      "effect": "When a target would end this forced movement by colliding with a creature or object, they take damage as usual, then are pushed the remaining distance away from the creature or object in the direction they came from. As long as forced movement remains, this effect continues if the target collides with another creature or object."
+      "effect": "When a target would end this forced movement by colliding with a creature or object, they take damage as usual, then are pushed the remaining distance away from the creature or object in the direction they came from. As long as forced movement remains, this effect continues if the target collides with another creature or object.",
+      "name": "Effect"
     }
   ]
 }

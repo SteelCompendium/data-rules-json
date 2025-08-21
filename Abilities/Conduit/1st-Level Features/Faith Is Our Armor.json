@@ -40,6 +40,7 @@
   },
   "effects": [
     {
+      "name": "Effect",
       "effect": "You can target yourself instead of one ally with this ability."
     },
     {

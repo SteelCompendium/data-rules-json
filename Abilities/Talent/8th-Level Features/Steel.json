@@ -42,7 +42,8 @@
   },
   "effects": [
     {
-      "effect": "The target has damage immunity 5 and can't be made slowed or weakened until the start of your next turn. Whenever the target force moves a creature or object while under this effect, the forced movement distance gains a +5 bonus."
+      "effect": "The target has damage immunity 5 and can't be made slowed or weakened until the start of your next turn. Whenever the target force moves a creature or object while under this effect, the forced movement distance gains a +5 bonus.",
+      "name": "Effect"
     },
     {
       "effect": "You can't use maneuvers (save ends).",

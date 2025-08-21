@@ -42,7 +42,8 @@
   },
   "effects": [
     {
-      "effect": "Choose two of the following effects:\n- The target can spend any number of Recoveries.\n- The target gains 1 of their Heroic Resource, and can end any effects on them that are ended by a saving throw or that end at the end of their turn.\n- The target gains 2 surges, and gains a +3 bonus to speed until the end of the encounter."
+      "effect": "Choose two of the following effects:\n- The target can spend any number of Recoveries.\n- The target gains 1 of their Heroic Resource, and can end any effects on them that are ended by a saving throw or that end at the end of their turn.\n- The target gains 2 surges, and gains a +3 bonus to speed until the end of the encounter.",
+      "name": "Effect"
     },
     {
       "effect": "You and the target both permanently grow visibly younger (the equivalent of 20 human years, to the minimum of an 18-yearold). Additionally, you are weakened and slowed (save ends).",

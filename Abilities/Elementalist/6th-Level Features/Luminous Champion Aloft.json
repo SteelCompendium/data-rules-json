@@ -46,7 +46,8 @@
   },
   "effects": [
     {
-      "effect": "The target has a +3 bonus to speed, they can fly, and their abilities ignore concealment. Additionally, whenever the target gains their Heroic Resource, they gain 1 additional Heroic Resource. This effect lasts until the start of your next turn."
+      "effect": "The target has a +3 bonus to speed, they can fly, and their abilities ignore concealment. Additionally, whenever the target gains their Heroic Resource, they gain 1 additional Heroic Resource. This effect lasts until the start of your next turn.",
+      "name": "Effect"
     },
     {
       "effect": "The effect lasts until the start of your next turn.",

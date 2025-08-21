@@ -50,7 +50,8 @@
       "t3": "7 damage"
     },
     {
-      "effect": "The area lasts until the start of your next turn. It is difficult terrain for enemies, and you and your allies have concealment while in the area."
+      "effect": "The area lasts until the start of your next turn. It is difficult terrain for enemies, and you and your allies have concealment while in the area.",
+      "name": "Effect"
     },
     {
       "effect": "The area remains until the start of your next turn, and you can move it up to 5 squares (no action required). As a maneuver, you can make the power roll again without spending essence.",

@@ -50,7 +50,8 @@
       "t3": "18 + A damage; push 10; I < STRONG, dazed (save ends)"
     },
     {
-      "effect": "The target and each creature or object they collide with from this forced movement takes psychic damage equal to the total number of squares the target was force moved. While the target is dazed this way, they see glimpses of creatures from other parts of the timescape."
+      "effect": "The target and each creature or object they collide with from this forced movement takes psychic damage equal to the total number of squares the target was force moved. While the target is dazed this way, they see glimpses of creatures from other parts of the timescape.",
+      "name": "Effect"
     }
   ]
 }

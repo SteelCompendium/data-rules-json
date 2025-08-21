@@ -42,11 +42,12 @@
   },
   "effects": [
     {
+      "name": "Effect",
       "effect": "Each target can use any main action available to them as a free triggered action, but they lose their main action on their next turn."
     },
     {
-      "effect": "Make a power roll that targets you and each enemy within distance.",
-      "name": "Strained"
+      "name": "Strained",
+      "effect": "Make a power roll that targets you and each enemy within distance."
     },
     {
       "roll": "Power Roll + Presence",

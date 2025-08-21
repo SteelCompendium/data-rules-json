@@ -37,7 +37,8 @@
   },
   "effects": [
     {
-      "effect": "The power roll takes a bane against the target."
+      "effect": "The power roll takes a bane against the target.",
+      "name": "Effect"
     },
     {
       "effect": "The power roll has a double bane against the target.",

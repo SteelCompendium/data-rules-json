@@ -52,7 +52,8 @@
       "t3": "12 + M holy damage; M < STRONG, the target has fire weakness 7 (save ends)"
     },
     {
-      "effect": "While the target has fire weakness from this ability, you can choose to have your abilities deal fire damage to the target instead of holy damage."
+      "effect": "While the target has fire weakness from this ability, you can choose to have your abilities deal fire damage to the target instead of holy damage.",
+      "name": "Effect"
     }
   ]
 }

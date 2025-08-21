@@ -39,7 +39,8 @@
   },
   "effects": [
     {
-      "effect": "You take your turn after the triggering hero."
+      "effect": "You take your turn after the triggering hero.",
+      "name": "Effect"
     }
   ]
 }

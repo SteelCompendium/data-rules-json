@@ -44,6 +44,7 @@
   },
   "effects": [
     {
+      "name": "Effect",
       "effect": "The target is teleported to another space within distance. Make a power roll that affects each enemy adjacent to the target's new space."
     },
     {

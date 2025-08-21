@@ -50,7 +50,8 @@
       "t3": "12 + M damage; two allies within 10 squares of you can each use a strike signature ability that gains an edge against the target as a free triggered action"
     },
     {
-      "effect": "If the target is reduced to 0 Stamina before one or both chosen allies has made their strike, the ally or allies can pick a different target."
+      "effect": "If the target is reduced to 0 Stamina before one or both chosen allies has made their strike, the ally or allies can pick a different target.",
+      "name": "Effect"
     }
   ]
 }

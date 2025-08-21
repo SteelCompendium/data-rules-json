@@ -40,7 +40,8 @@
   },
   "effects": [
     {
-      "effect": "Until the end of the encounter or until you are dying, each enemy in the area takes a bane on power rolls, and you and each ally in the area gain 1 surge at the end of each of your turns."
+      "effect": "Until the end of the encounter or until you are dying, each enemy in the area takes a bane on power rolls, and you and each ally in the area gain 1 surge at the end of each of your turns.",
+      "name": "Effect"
     }
   ]
 }

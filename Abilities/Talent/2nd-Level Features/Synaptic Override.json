@@ -48,7 +48,8 @@
       "t3": "The target moves up to their speed and uses their signature ability against any enemies of your choice."
     },
     {
-      "effect": "You control the target's movement. The target can't be moved in a way that would harm them (such as over a cliff), leave them dying, or result in them suffering a condition or other negative effect. However, you can move them to provoke opportunity attacks."
+      "effect": "You control the target's movement. The target can't be moved in a way that would harm them (such as over a cliff), leave them dying, or result in them suffering a condition or other negative effect. However, you can move them to provoke opportunity attacks.",
+      "name": "Effect"
     },
     {
       "effect": "You take 1d6 damage and are weakened until the end of your turn.",

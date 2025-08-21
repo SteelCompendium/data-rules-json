@@ -46,7 +46,8 @@
       "t3": "9 + R corruption damage"
     },
     {
-      "effect": "You can teleport up to a number of squares equal to your Reason score."
+      "effect": "You can teleport up to a number of squares equal to your Reason score.",
+      "name": "Effect"
     }
   ]
 }

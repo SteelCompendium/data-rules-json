@@ -50,7 +50,8 @@
       "t3": "17 damage; A < STRONG, the target is stitched to the other target (save ends)"
     },
     {
-      "effect": "If any target becomes stitched to the other, both targets are stitched together. While stitched together, a target takes a bane on power rolls while not adjacent to a creature they're stitched to. Whenever a stitched target takes damage that wasn't dealt by or also taken by another stitched target, each other stitched target takes half the damage the initial target took."
+      "effect": "If any target becomes stitched to the other, both targets are stitched together. While stitched together, a target takes a bane on power rolls while not adjacent to a creature they're stitched to. Whenever a stitched target takes damage that wasn't dealt by or also taken by another stitched target, each other stitched target takes half the damage the initial target took.",
+      "name": "Effect"
     },
     {
       "effect": "You target yourself and three enemies instead.",

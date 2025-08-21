@@ -40,7 +40,8 @@
   },
   "effects": [
     {
-      "effect": "Until the end of the encounter, you gain the target's damage immunities and speed (if they are better than yours), and can use any types of movement they can use. You can also use the target's signature ability, using their bonus for the power roll."
+      "effect": "Until the end of the encounter, you gain the target's damage immunities and speed (if they are better than yours), and can use any types of movement they can use. You can also use the target's signature ability, using their bonus for the power roll.",
+      "name": "Effect"
     }
   ]
 }

@@ -38,7 +38,8 @@
   },
   "effects": [
     {
-      "effect": "You mark two enemies within 10 squares of you. Each target can shift up to their speed. You and each target gain 2 surges."
+      "effect": "You mark two enemies within 10 squares of you. Each target can shift up to their speed. You and each target gain 2 surges.",
+      "name": "Effect"
     }
   ]
 }

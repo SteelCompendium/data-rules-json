@@ -40,7 +40,8 @@
   },
   "effects": [
     {
-      "effect": "The target is removed from the encounter map until the start of their next turn and can spend any number of Recoveries. At the start of their turn, the target reappears in the space they left or the nearest unoccupied space of their choice."
+      "effect": "The target is removed from the encounter map until the start of their next turn and can spend any number of Recoveries. At the start of their turn, the target reappears in the space they left or the nearest unoccupied space of their choice.",
+      "name": "Effect"
     }
   ]
 }

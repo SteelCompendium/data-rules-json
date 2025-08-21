@@ -50,7 +50,8 @@
       "t3": "13 + P sonic damage"
     },
     {
-      "effect": "The first time the target uses an ability before the start of your next turn, any effects from the ability's tier outcomes other than damage are negated for all targets. Ability effects that always happen regardless of the power roll work as usual."
+      "effect": "The first time the target uses an ability before the start of your next turn, any effects from the ability's tier outcomes other than damage are negated for all targets. Ability effects that always happen regardless of the power roll work as usual.",
+      "name": "Effect"
     }
   ]
 }

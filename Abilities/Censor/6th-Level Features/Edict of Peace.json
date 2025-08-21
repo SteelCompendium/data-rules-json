@@ -40,7 +40,8 @@
   },
   "effects": [
     {
-      "effect": "Until the end of the encounter or until you are dying, whenever any target takes a triggered action or a free triggered action, that action is negated and the target takes holy damage equal to your Presence score."
+      "effect": "Until the end of the encounter or until you are dying, whenever any target takes a triggered action or a free triggered action, that action is negated and the target takes holy damage equal to your Presence score.",
+      "name": "Effect"
     }
   ]
 }

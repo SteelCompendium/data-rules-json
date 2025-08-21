@@ -50,7 +50,8 @@
       "t3": "10 fire damage; A < STRONG, weakened (save ends)"
     },
     {
-      "effect": "Each ally in the area can shift up to 2 squares."
+      "effect": "Each ally in the area can shift up to 2 squares.",
+      "name": "Effect"
     }
   ]
 }

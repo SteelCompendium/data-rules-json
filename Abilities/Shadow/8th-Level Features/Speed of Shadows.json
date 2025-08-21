@@ -38,7 +38,8 @@
   },
   "effects": [
     {
-      "effect": "You can use a strike signature ability four times, use a strike signature ability that gains an edge three times, or use a strike signature ability that has a double edge twice. You can shift up to 2 squares between each use."
+      "effect": "You can use a strike signature ability four times, use a strike signature ability that gains an edge three times, or use a strike signature ability that has a double edge twice. You can shift up to 2 squares between each use.",
+      "name": "Effect"
     }
   ]
 }

@@ -35,7 +35,8 @@
   },
   "effects": [
     {
-      "effect": "An edge on the triggering roll becomes a bane, or a double edge becomes an edge. A bane becomes an edge, or a double bane becomes a bane."
+      "effect": "An edge on the triggering roll becomes a bane, or a double edge becomes an edge. A bane becomes an edge, or a double bane becomes a bane.",
+      "name": "Effect"
     },
     {
       "effect": "An edge on the triggering roll becomes a double bane, or a double edge is negated. A bane becomes a double edge, or a double bane is negated.",

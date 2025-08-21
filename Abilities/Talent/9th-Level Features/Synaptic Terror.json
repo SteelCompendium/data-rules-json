@@ -42,6 +42,7 @@
   },
   "effects": [
     {
+      "name": "Effect",
       "effect": "You and each target ally can't obtain lower than a tier 2 outcome on power rolls until the start of your next turn. Each target enemy is affected by the ability's power roll."
     },
     {

@@ -42,7 +42,8 @@
   },
   "effects": [
     {
-      "effect": "Until the end of the encounter or until you are dying, the area is filled with magic darkness that your enemies can't see through, but you and your allies can."
+      "effect": "Until the end of the encounter or until you are dying, the area is filled with magic darkness that your enemies can't see through, but you and your allies can.",
+      "name": "Effect"
     }
   ]
 }

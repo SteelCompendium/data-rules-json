@@ -41,6 +41,7 @@
   },
   "effects": [
     {
+      "name": "Effect",
       "effect": "The target takes half the damage. You then make a power roll against the triggering creature."
     },
     {

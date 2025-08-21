@@ -38,7 +38,8 @@
   },
   "effects": [
     {
-      "effect": "You can use up to three signature abilities, each of which gains an edge."
+      "effect": "You can use up to three signature abilities, each of which gains an edge.",
+      "name": "Effect"
     }
   ]
 }

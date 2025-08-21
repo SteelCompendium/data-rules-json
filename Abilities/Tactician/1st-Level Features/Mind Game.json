@@ -44,6 +44,7 @@
   },
   "effects": [
     {
+      "name": "Effect",
       "effect": "You mark the target."
     },
     {
@@ -53,7 +54,8 @@
       "t3": "10 + M damage; R < STRONG, weakened (save ends)"
     },
     {
-      "effect": "Before the start of your next turn, the first time any ally deals damage to any target marked by you, that ally can spend a Recovery."
+      "effect": "Before the start of your next turn, the first time any ally deals damage to any target marked by you, that ally can spend a Recovery.",
+      "name": "Effect"
     }
   ]
 }

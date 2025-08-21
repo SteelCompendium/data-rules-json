@@ -50,7 +50,8 @@
       "t3": "6 + A psychic damage; I < STRONG, the target goes out of phase (save ends)"
     },
     {
-      "effect": "A target who goes out of phase is slowed, has their stability reduced by 2, and can't obtain a tier 3 outcome on ability rolls."
+      "effect": "A target who goes out of phase is slowed, has their stability reduced by 2, and can't obtain a tier 3 outcome on ability rolls.",
+      "name": "Effect"
     }
   ]
 }

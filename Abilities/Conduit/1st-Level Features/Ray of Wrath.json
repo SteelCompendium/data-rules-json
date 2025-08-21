@@ -44,7 +44,8 @@
       "t3": "6 + I damage"
     },
     {
-      "effect": "You can have this ability deal holy damage."
+      "effect": "You can have this ability deal holy damage.",
+      "name": "Effect"
     }
   ]
 }

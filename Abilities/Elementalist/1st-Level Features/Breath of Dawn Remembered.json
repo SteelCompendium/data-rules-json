@@ -39,7 +39,8 @@
   },
   "effects": [
     {
-      "effect": "The target can spend a Recovery."
+      "effect": "The target can spend a Recovery.",
+      "name": "Effect"
     },
     {
       "effect": "The target can spend an additional Recovery for each essence spent.",

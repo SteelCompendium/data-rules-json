@@ -40,7 +40,8 @@
   },
   "effects": [
     {
-      "effect": "Until the end of the encounter, whenever one target takes damage, the other target can use a free triggered action to take the damage instead. The original target suffers any effects associated with the damage. Additionally, whenever one target spends a Recovery, the other target can use a free triggered action to spend a Recovery."
+      "effect": "Until the end of the encounter, whenever one target takes damage, the other target can use a free triggered action to take the damage instead. The original target suffers any effects associated with the damage. Additionally, whenever one target spends a Recovery, the other target can use a free triggered action to spend a Recovery.",
+      "name": "Effect"
     }
   ]
 }

@@ -37,7 +37,8 @@
   },
   "effects": [
     {
-      "effect": "The target takes psychic damage equal to half the triggering damage."
+      "effect": "The target takes psychic damage equal to half the triggering damage.",
+      "name": "Effect"
     }
   ]
 }

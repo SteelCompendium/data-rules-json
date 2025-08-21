@@ -44,6 +44,7 @@
   },
   "effects": [
     {
+      "name": "Effect",
       "effect": "You teleport to a square on the opposite side of the area before making the power roll."
     },
     {

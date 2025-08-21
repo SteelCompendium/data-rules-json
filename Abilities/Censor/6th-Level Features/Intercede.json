@@ -41,7 +41,8 @@
   },
   "effects": [
     {
-      "effect": "The target is unaffected by the strike and you become the target instead, even if you aren't a valid target for it. You take half the damage from the strike, and the target gains 3 surges."
+      "effect": "The target is unaffected by the strike and you become the target instead, even if you aren't a valid target for it. You take half the damage from the strike, and the target gains 3 surges.",
+      "name": "Effect"
     }
   ]
 }

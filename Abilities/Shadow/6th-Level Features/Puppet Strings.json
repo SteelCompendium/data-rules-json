@@ -50,7 +50,8 @@
       "t3": "7 damage; if the target has R < STRONG, before the damage is resolved, they can shift up to their speed and use a main action ability of your choice."
     },
     {
-      "effect": "You choose the new targets for the original target's free strike or ability. Additionally, if you are hidden or disguised, using this ability doesn't cause you to be revealed."
+      "effect": "You choose the new targets for the original target's free strike or ability. Additionally, if you are hidden or disguised, using this ability doesn't cause you to be revealed.",
+      "name": "Effect"
     }
   ]
 }

@@ -38,7 +38,8 @@
   },
   "effects": [
     {
-      "effect": "Each target can move up to their speed."
+      "effect": "Each target can move up to their speed.",
+      "name": "Effect"
     }
   ]
 }

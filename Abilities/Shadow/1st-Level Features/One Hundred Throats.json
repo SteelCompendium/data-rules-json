@@ -40,6 +40,7 @@
   },
   "effects": [
     {
+      "name": "Effect",
       "effect": "You shift up to your speed and make one power roll that targets up to three enemies who came adjacent to you during the move."
     },
     {

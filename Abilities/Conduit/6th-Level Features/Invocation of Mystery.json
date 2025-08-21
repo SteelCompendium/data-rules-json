@@ -40,7 +40,8 @@
   },
   "effects": [
     {
-      "effect": "Each target is invisible until the start of your next turn."
+      "effect": "Each target is invisible until the start of your next turn.",
+      "name": "Effect"
     }
   ]
 }

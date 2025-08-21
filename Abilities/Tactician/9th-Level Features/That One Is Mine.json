@@ -44,6 +44,7 @@
   },
   "effects": [
     {
+      "name": "Effect",
       "effect": "The target is marked by you."
     },
     {
@@ -53,7 +54,8 @@
       "t3": "17 + M damage"
     },
     {
-      "effect": "Until the end of the encounter or until you are dying, you can use a signature or heroic ability instead of a free strike against any target marked by you."
+      "effect": "Until the end of the encounter or until you are dying, you can use a signature or heroic ability instead of a free strike against any target marked by you.",
+      "name": "Effect"
     }
   ]
 }

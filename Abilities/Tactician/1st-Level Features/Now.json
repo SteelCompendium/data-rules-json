@@ -38,7 +38,8 @@
   },
   "effects": [
     {
-      "effect": "Each target can make a free strike."
+      "effect": "Each target can make a free strike.",
+      "name": "Effect"
     }
   ]
 }

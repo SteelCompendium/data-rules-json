@@ -47,7 +47,8 @@
       "t3": "I < STRONG, the target loses their turn"
     },
     {
-      "effect": "If the target loses their turn, the round continues as if they had acted. A target who doesn't lose their turn takes psychic damage equal to twice your Intuition score for each main action they take until the end of their next turn."
+      "effect": "If the target loses their turn, the round continues as if they had acted. A target who doesn't lose their turn takes psychic damage equal to twice your Intuition score for each main action they take until the end of their next turn.",
+      "name": "Effect"
     }
   ]
 }

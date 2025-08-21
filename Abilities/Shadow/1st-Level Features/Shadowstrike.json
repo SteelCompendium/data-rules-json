@@ -42,7 +42,8 @@
   },
   "effects": [
     {
-      "effect": "You use a strike signature ability twice."
+      "effect": "You use a strike signature ability twice.",
+      "name": "Effect"
     }
   ]
 }

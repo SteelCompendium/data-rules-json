@@ -40,7 +40,8 @@
   },
   "effects": [
     {
-      "effect": "The target can use a free triggered action to use a strike signature ability or a strike heroic ability, and has a double edge on that ability. If a heroic ability is chosen, reduce its Heroic Resource cost by 3 (to a minimum cost of 0)."
+      "effect": "The target can use a free triggered action to use a strike signature ability or a strike heroic ability, and has a double edge on that ability. If a heroic ability is chosen, reduce its Heroic Resource cost by 3 (to a minimum cost of 0).",
+      "name": "Effect"
     }
   ]
 }

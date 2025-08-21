@@ -44,8 +44,8 @@
   },
   "effects": [
     {
-      "effect": "The number of creatures you target with this ability is determined by your power roll.",
-      "name": "Special"
+      "name": "Special",
+      "effect": "The number of creatures you target with this ability is determined by your power roll."
     },
     {
       "roll": "Power Roll + Reason",
@@ -54,7 +54,8 @@
       "t3": "Three creatures"
     },
     {
-      "effect": "Each target begins to fade from existence (save ends). On their first turn while fading from existence, a target takes a bane on power rolls. At the end of their first turn, they have a double bane on power rolls. At the end of their second turn, they fade from existence for 1 hour, after which they reappear in their original space or the nearest unoccupied space."
+      "effect": "Each target begins to fade from existence (save ends). On their first turn while fading from existence, a target takes a bane on power rolls. At the end of their first turn, they have a double bane on power rolls. At the end of their second turn, they fade from existence for 1 hour, after which they reappear in their original space or the nearest unoccupied space.",
+      "name": "Effect"
     }
   ]
 }

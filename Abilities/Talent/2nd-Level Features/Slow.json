@@ -48,7 +48,8 @@
       "t3": "The target is slowed (save ends), or if P < STRONG, the target's speed is 0 (save ends)."
     },
     {
-      "effect": "A target can't use triggered actions while their speed is reduced this way."
+      "effect": "A target can't use triggered actions while their speed is reduced this way.",
+      "name": "Effect"
     },
     {
       "effect": "The potency of this ability increases by 1 and you take 1d6 damage. At the start of each combat round while any target is affected by this ability, you take 1d6 damage. You can end the effect on all affected targets at any time (no action required).",

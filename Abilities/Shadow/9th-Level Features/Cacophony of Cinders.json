@@ -42,6 +42,7 @@
   },
   "effects": [
     {
+      "name": "Effect",
       "effect": "You shift up to twice your speed, making one power roll that targets each creature you come adjacent to during the shift."
     },
     {

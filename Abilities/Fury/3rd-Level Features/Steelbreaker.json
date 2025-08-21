@@ -38,7 +38,8 @@
   },
   "effects": [
     {
-      "effect": "You gain 20 temporary Stamina."
+      "effect": "You gain 20 temporary Stamina.",
+      "name": "Effect"
     }
   ]
 }

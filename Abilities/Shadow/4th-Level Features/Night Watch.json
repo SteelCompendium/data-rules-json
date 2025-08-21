@@ -37,7 +37,8 @@
   },
   "effects": [
     {
-      "effect": "The target takes half the damage. You remain hidden."
+      "effect": "The target takes half the damage. You remain hidden.",
+      "name": "Effect"
     }
   ]
 }

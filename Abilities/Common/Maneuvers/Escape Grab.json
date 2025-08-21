@@ -27,7 +27,8 @@
       "t3": "You are no longer grabbed."
     },
     {
-      "effect": "You take a bane on this maneuver if your size is smaller than the size of the creature, object, or effect that has you grabbed.\nSee [Conditions](#page-91-2) in [Chapter 5: Classes](#page-83-2) for information on the grabbed condition."
+      "effect": "You take a bane on this maneuver if your size is smaller than the size of the creature, object, or effect that has you grabbed.\nSee [Conditions](#page-91-2) in [Chapter 5: Classes](#page-83-2) for information on the grabbed condition.",
+      "name": "Effect"
     }
   ]
 }

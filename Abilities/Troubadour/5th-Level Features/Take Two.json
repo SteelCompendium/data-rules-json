@@ -38,7 +38,8 @@
   },
   "effects": [
     {
-      "effect": "While this performance is active, each target who starts their turn in the area can reroll the first power roll that turn that obtains a tier 2 outcome. They must use the new roll."
+      "effect": "While this performance is active, each target who starts their turn in the area can reroll the first power roll that turn that obtains a tier 2 outcome. They must use the new roll.",
+      "name": "Effect"
     }
   ]
 }

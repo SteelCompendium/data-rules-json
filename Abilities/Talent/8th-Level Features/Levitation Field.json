@@ -36,7 +36,8 @@
   },
   "effects": [
     {
-      "effect": "Each target can fly until the start of your next turn, and can immediately shift up to their speed. You can also shift up to your speed. While flying, a target's stability is reduced to 0 and can't be increased."
+      "effect": "Each target can fly until the start of your next turn, and can immediately shift up to their speed. You can also shift up to your speed. While flying, a target's stability is reduced to 0 and can't be increased.",
+      "name": "Effect"
     },
     {
       "effect": "The effects last for 1 hour instead.",

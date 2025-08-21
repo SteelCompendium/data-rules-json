@@ -46,7 +46,8 @@
       "t3": "7 holy damage"
     },
     {
-      "effect": "Each ally in the area can spend a Recovery."
+      "effect": "Each ally in the area can spend a Recovery.",
+      "name": "Effect"
     }
   ]
 }

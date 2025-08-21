@@ -38,6 +38,7 @@
   },
   "effects": [
     {
+      "name": "Effect",
       "effect": "You jump up to your maximum jump distance and make one power roll that targets each creature adjacent to the space where you land."
     },
     {

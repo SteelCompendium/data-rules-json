@@ -36,7 +36,8 @@
   },
   "effects": [
     {
-      "effect": "The target shifts up to a number of squares equal to your Reason score."
+      "effect": "The target shifts up to a number of squares equal to your Reason score.",
+      "name": "Effect"
     },
     {
       "effect": "The target can use a maneuver.",

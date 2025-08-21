@@ -27,7 +27,8 @@
       "t3": "The target is grabbed by you."
     },
     {
-      "effect": "You can usually target only creatures of your size or smaller. If your Might score is 2 or higher, you can target any creature with a size equal to or less than your Might score.\nUnless otherwise indicated, a creature can grab only one creature at a time.\nSee [Conditions](#page-91-2) in [Chapter 5: Classes](#page-83-2) for information on the grabbed condition."
+      "effect": "You can usually target only creatures of your size or smaller. If your Might score is 2 or higher, you can target any creature with a size equal to or less than your Might score.\nUnless otherwise indicated, a creature can grab only one creature at a time.\nSee [Conditions](#page-91-2) in [Chapter 5: Classes](#page-83-2) for information on the grabbed condition.",
+      "name": "Effect"
     }
   ]
 }

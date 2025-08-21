@@ -48,7 +48,8 @@
       "t3": "15 damage"
     },
     {
-      "effect": "This ability deals your primordial damage type and ignores damage immunity."
+      "effect": "This ability deals your primordial damage type and ignores damage immunity.",
+      "name": "Effect"
     }
   ]
 }
