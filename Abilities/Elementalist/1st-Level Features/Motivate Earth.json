@@ -7,12 +7,12 @@
     "Melee"
   ],
   "type": "Main action",
-  "distance": "Ranged 10",
+  "distance": "Melee 1",
   "target": "Special",
   "metadata": {
     "action_type": "Main action",
     "class": "elementalist",
-    "distance": "Ranged 10",
+    "distance": "Melee 1",
     "feature_type": "ability",
     "file_basename": "Motivate Earth",
     "file_dpath": "Elementalist/1st-Level Features",
