@@ -9,13 +9,13 @@
       "item_index": "02",
       "item_name": "Heal",
       "scc": [
-        "mcdm.heroes.v1:common\\_ability.main\\_action:heal"
+        "mcdm.heroes.v1:common-ability.main-action:heal"
       ],
       "scdc": [
         "1.1.1:14.1:02"
       ],
       "source": "mcdm.heroes.v1",
-      "type": "common\\_ability/main\\_action"
+      "type": "common-ability/main-action"
     },
     "effects": [
       {
@@ -32,13 +32,13 @@
       "item_index": "04",
       "item_name": "Free Strike",
       "scc": [
-        "mcdm.heroes.v1:common\\_ability.main\\_action:free-strike"
+        "mcdm.heroes.v1:common-ability.main-action:free-strike"
       ],
       "scdc": [
         "1.1.1:14.1:04"
       ],
       "source": "mcdm.heroes.v1",
-      "type": "common\\_ability/main\\_action"
+      "type": "common-ability/main-action"
     },
     "effects": [
       {
@@ -55,13 +55,13 @@
       "item_index": "03",
       "item_name": "Charge",
       "scc": [
-        "mcdm.heroes.v1:common\\_ability.main\\_action:charge"
+        "mcdm.heroes.v1:common-ability.main-action:charge"
       ],
       "scdc": [
         "1.1.1:14.1:03"
       ],
       "source": "mcdm.heroes.v1",
-      "type": "common\\_ability/main\\_action"
+      "type": "common-ability/main-action"
     },
     "effects": [
       {
@@ -78,13 +78,13 @@
       "item_index": "01",
       "item_name": "Defend",
       "scc": [
-        "mcdm.heroes.v1:common\\_ability.main\\_action:defend"
+        "mcdm.heroes.v1:common-ability.main-action:defend"
       ],
       "scdc": [
         "1.1.1:14.1:01"
       ],
       "source": "mcdm.heroes.v1",
-      "type": "common\\_ability/main\\_action"
+      "type": "common-ability/main-action"
     },
     "effects": [
       {
@@ -101,13 +101,13 @@
       "item_index": "02",
       "item_name": "Advance",
       "scc": [
-        "mcdm.heroes.v1:common\\_ability.move\\_action:advance"
+        "mcdm.heroes.v1:common-ability.move-action:advance"
       ],
       "scdc": [
         "1.1.1:14.2:02"
       ],
       "source": "mcdm.heroes.v1",
-      "type": "common\\_ability/move\\_action"
+      "type": "common-ability/move-action"
     },
     "effects": [
       {
@@ -124,13 +124,13 @@
       "item_index": "01",
       "item_name": "Disengage",
       "scc": [
-        "mcdm.heroes.v1:common\\_ability.move\\_action:disengage"
+        "mcdm.heroes.v1:common-ability.move-action:disengage"
       ],
       "scdc": [
         "1.1.1:14.2:01"
       ],
       "source": "mcdm.heroes.v1",
-      "type": "common\\_ability/move\\_action"
+      "type": "common-ability/move-action"
     },
     "effects": [
       {
@@ -147,13 +147,13 @@
       "item_index": "03",
       "item_name": "Ride",
       "scc": [
-        "mcdm.heroes.v1:common\\_ability.move\\_action:ride"
+        "mcdm.heroes.v1:common-ability.move-action:ride"
       ],
       "scdc": [
         "1.1.1:14.2:03"
       ],
       "source": "mcdm.heroes.v1",
-      "type": "common\\_ability/move\\_action"
+      "type": "common-ability/move-action"
     },
     "effects": [
       {
@@ -170,13 +170,13 @@
       "item_index": "06",
       "item_name": "Aid Attack",
       "scc": [
-        "mcdm.heroes.v1:common\\_ability.maneuver:aid-attack"
+        "mcdm.heroes.v1:common-ability.maneuver:aid-attack"
       ],
       "scdc": [
         "1.1.1:14.3:06"
       ],
       "source": "mcdm.heroes.v1",
-      "type": "common\\_ability/maneuver"
+      "type": "common-ability/maneuver"
     },
     "effects": [
       {
@@ -193,13 +193,13 @@
       "item_index": "10",
       "item_name": "Grab",
       "scc": [
-        "mcdm.heroes.v1:common\\_ability.maneuver:grab"
+        "mcdm.heroes.v1:common-ability.maneuver:grab"
       ],
       "scdc": [
         "1.1.1:14.3:10"
       ],
       "source": "mcdm.heroes.v1",
-      "type": "common\\_ability/maneuver"
+      "type": "common-ability/maneuver"
     },
     "effects": [
       {
@@ -226,13 +226,13 @@
       "item_index": 8,
       "item_name": "Escape Grab",
       "scc": [
-        "mcdm.heroes.v1:common\\_ability.maneuver:escape-grab"
+        "mcdm.heroes.v1:common-ability.maneuver:escape-grab"
       ],
       "scdc": [
         "1.1.1:14.3:08"
       ],
       "source": "mcdm.heroes.v1",
-      "type": "common\\_ability/maneuver"
+      "type": "common-ability/maneuver"
     },
     "effects": [
       {
@@ -259,13 +259,13 @@
       "item_index": "01",
       "item_name": "Make or Assist a Test",
       "scc": [
-        "mcdm.heroes.v1:common\\_ability.maneuver:make-or-assist-a-test"
+        "mcdm.heroes.v1:common-ability.maneuver:make-or-assist-a-test"
       ],
       "scdc": [
         "1.1.1:14.3:01"
       ],
       "source": "mcdm.heroes.v1",
-      "type": "common\\_ability/maneuver"
+      "type": "common-ability/maneuver"
     },
     "effects": [
       {
@@ -282,13 +282,13 @@
       "item_index": "05",
       "item_name": "Knockback",
       "scc": [
-        "mcdm.heroes.v1:common\\_ability.maneuver:knockback"
+        "mcdm.heroes.v1:common-ability.maneuver:knockback"
       ],
       "scdc": [
         "1.1.1:14.3:05"
       ],
       "source": "mcdm.heroes.v1",
-      "type": "common\\_ability/maneuver"
+      "type": "common-ability/maneuver"
     },
     "effects": [
       {
@@ -315,13 +315,13 @@
       "item_index": "02",
       "item_name": "Catch Breath",
       "scc": [
-        "mcdm.heroes.v1:common\\_ability.maneuver:catch-breath"
+        "mcdm.heroes.v1:common-ability.maneuver:catch-breath"
       ],
       "scdc": [
         "1.1.1:14.3:02"
       ],
       "source": "mcdm.heroes.v1",
-      "type": "common\\_ability/maneuver"
+      "type": "common-ability/maneuver"
     },
     "effects": [
       {
@@ -338,13 +338,13 @@
       "item_index": "03",
       "item_name": "Stand Up",
       "scc": [
-        "mcdm.heroes.v1:common\\_ability.maneuver:stand-up"
+        "mcdm.heroes.v1:common-ability.maneuver:stand-up"
       ],
       "scdc": [
         "1.1.1:14.3:03"
       ],
       "source": "mcdm.heroes.v1",
-      "type": "common\\_ability/maneuver"
+      "type": "common-ability/maneuver"
     },
     "effects": [
       {
@@ -361,13 +361,13 @@
       "item_index": 9,
       "item_name": "Hide",
       "scc": [
-        "mcdm.heroes.v1:common\\_ability.maneuver:hide"
+        "mcdm.heroes.v1:common-ability.maneuver:hide"
       ],
       "scdc": [
         "1.1.1:14.3:09"
       ],
       "source": "mcdm.heroes.v1",
-      "type": "common\\_ability/maneuver"
+      "type": "common-ability/maneuver"
     },
     "effects": [
       {
@@ -384,13 +384,13 @@
       "item_index": "04",
       "item_name": "Search for Hidden Creatures",
       "scc": [
-        "mcdm.heroes.v1:common\\_ability.maneuver:search-for-hidden-creatures"
+        "mcdm.heroes.v1:common-ability.maneuver:search-for-hidden-creatures"
       ],
       "scdc": [
         "1.1.1:14.3:04"
       ],
       "source": "mcdm.heroes.v1",
-      "type": "common\\_ability/maneuver"
+      "type": "common-ability/maneuver"
     },
     "effects": [
       {
@@ -407,13 +407,13 @@
       "item_index": "07",
       "item_name": "Use Consumable",
       "scc": [
-        "mcdm.heroes.v1:common\\_ability.maneuver:use-consumable"
+        "mcdm.heroes.v1:common-ability.maneuver:use-consumable"
       ],
       "scdc": [
         "1.1.1:14.3:07"
       ],
       "source": "mcdm.heroes.v1",
-      "type": "common\\_ability/maneuver"
+      "type": "common-ability/maneuver"
     },
     "effects": [
       {
