@@ -1,5 +1,6 @@
 {
-  "name": "Ventriloquist",
+  "name": "",
+  "icon": "Ventriloquist",
   "metadata": {
     "class": "shadow",
     "feature_type": "trait",

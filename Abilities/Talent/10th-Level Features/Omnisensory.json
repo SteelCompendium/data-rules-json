@@ -1,5 +1,6 @@
 {
-  "name": "Omnisensory",
+  "name": "",
+  "icon": "Omnisensory",
   "metadata": {
     "class": "talent",
     "feature_type": "trait",

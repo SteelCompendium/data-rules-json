@@ -1,5 +1,6 @@
 {
-  "name": "Oracular Visions",
+  "name": "",
+  "icon": "Oracular Visions",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

@@ -1,5 +1,6 @@
 {
-  "name": "Master of Void",
+  "name": "",
+  "icon": "Master of Void",
   "metadata": {
     "class": "elementalist",
     "feature_type": "trait",
@@ -20,7 +21,7 @@
   },
   "effects": [
     {
-      "effect": "Whenever you willingly move, you can teleport.\nAdditionally, your mind is connected to the mystery and helps you find the answers you seek. You no longer require project sources for research projects. Whenever you use a respite activity to make a project roll for a research project, you automatically complete the project."
+      "effect": "Whenever you willingly move, you can teleport.\n\nAdditionally, your mind is connected to the mystery and helps you find the answers you seek. You no longer require project sources for research projects. Whenever you use a respite activity to make a project roll for a research project, you automatically complete the project."
     }
   ]
 }

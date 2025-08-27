@@ -1,5 +1,6 @@
 {
-  "name": "Thunderstruck",
+  "name": "",
+  "icon": "Thunderstruck",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

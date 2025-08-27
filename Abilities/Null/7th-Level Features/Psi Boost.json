@@ -1,5 +1,6 @@
 {
-  "name": "Psi Boost",
+  "name": "",
+  "icon": "Psi Boost",
   "metadata": {
     "class": "null",
     "feature_type": "trait",
@@ -20,7 +21,7 @@
   },
   "effects": [
     {
-      "effect": "Whenever you use an ability that is a main action or a maneuver with the Psionic keyword, you can spend additional discipline to apply a psi boost to it and enhance its effects. A psi boost's effects only last until the end of the turn which the ability is first used. You can apply multiple psi boosts to an ability, but only one instance of each specific boost. You can use the following psi boosts.\n##### Dynamic Power (1 Discipline)\nIf the ability force moves a target, the forced movement distance gains a bonus equal to your Intuition score.\n##### Expanded Power (3 Discipline)\nIf the ability targets an area, you increase the size of the area by 1. If the area is a line, you increase the size of one dimension, not both.\n##### Extended Power (1 Discipline)\nIf the ability is ranged, the distance gains a bonus equal to your Intuition score. If the ability is melee, the distance gains a +2 bonus.\n##### Heightened Power (1 Discipline)\nIf the ability deals rolled damage, it deals extra damage equal to your Intuition score.\n##### Magnified Power (5 Discipline)\nIf the ability has a potency, you increase that potency by an amount equal to your Intuition score.\n##### Shared Power (5 Discipline)\nIf the ability targets individual creatures or objects, you target one additional creature or object within distance.\n##### Sharpened Power (1 Discipline)\nIf the ability has any power roll, that roll gains an edge."
+      "effect": "Whenever you use an ability that is a main action or a maneuver with the Psionic keyword, you can spend additional discipline to apply a psi boost to it and enhance its effects. A psi boost's effects only last until the end of the turn which the ability is first used. You can apply multiple psi boosts to an ability, but only one instance of each specific boost. You can use the following psi boosts.\n\n##### Dynamic Power (1 Discipline)\nIf the ability force moves a target, the forced movement distance gains a bonus equal to your Intuition score.\n##### Expanded Power (3 Discipline)\nIf the ability targets an area, you increase the size of the area by 1. If the area is a line, you increase the size of one dimension, not both.\n##### Extended Power (1 Discipline)\nIf the ability is ranged, the distance gains a bonus equal to your Intuition score. If the ability is melee, the distance gains a +2 bonus.\n##### Heightened Power (1 Discipline)\nIf the ability deals rolled damage, it deals extra damage equal to your Intuition score.\n##### Magnified Power (5 Discipline)\nIf the ability has a potency, you increase that potency by an amount equal to your Intuition score.\n##### Shared Power (5 Discipline)\nIf the ability targets individual creatures or objects, you target one additional creature or object within distance.\n##### Sharpened Power (1 Discipline)\nIf the ability has any power roll, that roll gains an edge."
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "name": "Escape Grab",
+  "name": "",
+  "icon": "Escape Grab",
   "metadata": {
     "class": "combat",
     "file_basename": "Escape Grab",
@@ -18,7 +19,7 @@
   },
   "effects": [
     {
-      "effect": "A creature who is grabbed by another creature, an object, or an effect (see [Grab](#page-287-5) below) can attempt to escape by using the following ability.\n###### Escape Grab\n| **-**       | **Maneuver** |\n| ----------- | -----------: |\n| **📏 Self** |  **🎯 Self** |"
+      "effect": "A creature who is grabbed by another creature, an object, or an effect (see [Grab](#page-287-5) below) can attempt to escape by using the following ability.\n\n###### Escape Grab\n| **-**       | **Maneuver** |\n| ----------- | -----------: |\n| **📏 Self** |  **🎯 Self** |"
     },
     {
       "roll": "Power Roll + Might or Agility",

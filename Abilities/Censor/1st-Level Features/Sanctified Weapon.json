@@ -1,5 +1,6 @@
 {
-  "name": "Sanctified Weapon",
+  "name": "",
+  "icon": "Sanctified Weapon",
   "metadata": {
     "class": "censor",
     "feature_type": "trait",

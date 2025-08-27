@@ -1,5 +1,6 @@
 {
-  "name": "Light of the Burning Sun",
+  "name": "",
+  "icon": "Light of the Burning Sun",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

@@ -1,5 +1,6 @@
 {
-  "name": "Tactical Offensive",
+  "name": "",
+  "icon": "Tactical Offensive",
   "metadata": {
     "class": "tactician",
     "feature_type": "trait",

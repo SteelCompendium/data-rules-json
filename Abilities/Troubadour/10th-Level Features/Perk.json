@@ -1,5 +1,6 @@
 {
-  "name": "Perk",
+  "name": "",
+  "icon": "Perk",
   "metadata": {
     "class": "troubadour",
     "feature_type": "trait",

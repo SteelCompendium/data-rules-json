@@ -1,5 +1,6 @@
 {
-  "name": "Oracular Warning",
+  "name": "",
+  "icon": "Oracular Warning",
   "metadata": {
     "class": "censor",
     "feature_type": "trait",

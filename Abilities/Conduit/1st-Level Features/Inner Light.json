@@ -1,5 +1,6 @@
 {
-  "name": "Inner Light",
+  "name": "",
+  "icon": "Inner Light",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

@@ -1,5 +1,6 @@
 {
-  "name": "Perk",
+  "name": "",
+  "icon": "Perk",
   "metadata": {
     "class": "tactician",
     "feature_type": "trait",

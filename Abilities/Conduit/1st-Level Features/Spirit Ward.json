@@ -1,5 +1,6 @@
 {
-  "name": "Spirit Ward",
+  "name": "",
+  "icon": "Spirit Ward",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

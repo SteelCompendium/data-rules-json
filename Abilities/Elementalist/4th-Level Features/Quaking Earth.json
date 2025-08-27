@@ -1,5 +1,6 @@
 {
-  "name": "Quaking Earth",
+  "name": "",
+  "icon": "Quaking Earth",
   "metadata": {
     "class": "elementalist",
     "feature_type": "trait",

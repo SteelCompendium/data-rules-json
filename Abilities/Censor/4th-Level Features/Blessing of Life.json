@@ -1,5 +1,6 @@
 {
-  "name": "Blessing of Life",
+  "name": "",
+  "icon": "Blessing of Life",
   "metadata": {
     "class": "censor",
     "feature_type": "trait",

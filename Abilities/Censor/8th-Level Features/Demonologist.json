@@ -1,5 +1,6 @@
 {
-  "name": "Demonologist",
+  "name": "",
+  "icon": "Demonologist",
   "metadata": {
     "class": "censor",
     "feature_type": "trait",

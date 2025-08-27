@@ -1,5 +1,6 @@
 {
-  "name": "Improved Implement of Wrath",
+  "name": "",
+  "icon": "Improved Implement of Wrath",
   "metadata": {
     "class": "censor",
     "feature_type": "trait",
@@ -20,7 +21,7 @@
   },
   "effects": [
     {
-      "effect": "The weapon you target with your Implement of Wrath feature gains the following additional benefits:\n- The weapon's wielder and each ally adjacent to them gain a +2 bonus to saving throws.\n- At the end of each of the weapon wielder's turns, each ally adjacent to the wielder makes a saving throw against each effect on them that is ended by a saving throw.\n- The weapon's wielder has corruption immunity 10."
+      "effect": "The weapon you target with your Implement of Wrath feature gains the following additional benefits:\n\n- The weapon's wielder and each ally adjacent to them gain a +2 bonus to saving throws.\n- At the end of each of the weapon wielder's turns, each ally adjacent to the wielder makes a saving throw against each effect on them that is ended by a saving throw.\n- The weapon's wielder has corruption immunity 10."
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "name": "Fortress of Perfect Thought",
+  "name": "",
+  "icon": "Fortress of Perfect Thought",
   "metadata": {
     "class": "talent",
     "feature_type": "trait",
@@ -20,7 +21,7 @@
   },
   "effects": [
     {
-      "effect": "Your mind is an impenetrable palace that shields you from danger. You gain the following effects:\n- You can breathe even when there is no breathable air.\n- You have psychic immunity 10.\n- Creatures can't read your thoughts unless you allow them to.\n- Your Reason and Intuition are treated as 2 higher for the purpose of resisting the potency of abilities.\n- You can't be made taunted or frightened."
+      "effect": "Your mind is an impenetrable palace that shields you from danger. You gain the following effects:\n\n- You can breathe even when there is no breathable air.\n- You have psychic immunity 10.\n- Creatures can't read your thoughts unless you allow them to.\n- Your Reason and Intuition are treated as 2 higher for the purpose of resisting the potency of abilities.\n- You can't be made taunted or frightened."
     }
   ]
 }

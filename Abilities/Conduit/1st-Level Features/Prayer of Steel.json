@@ -1,5 +1,6 @@
 {
-  "name": "Prayer of Steel",
+  "name": "",
+  "icon": "Prayer of Steel",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

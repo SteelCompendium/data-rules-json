@@ -1,5 +1,6 @@
 {
-  "name": "Master of Arms",
+  "name": "",
+  "icon": "Master of Arms",
   "metadata": {
     "class": "tactician",
     "feature_type": "trait",

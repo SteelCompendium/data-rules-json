@@ -1,5 +1,6 @@
 {
-  "name": "Seance",
+  "name": "",
+  "icon": "Seance",
   "metadata": {
     "class": "censor",
     "feature_type": "trait",

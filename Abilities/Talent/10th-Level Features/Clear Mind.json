@@ -1,5 +1,6 @@
 {
-  "name": "Clear Mind",
+  "name": "",
+  "icon": "Clear Mind",
   "metadata": {
     "class": "talent",
     "feature_type": "trait",

@@ -1,5 +1,6 @@
 {
-  "name": "Free Strike",
+  "name": "",
+  "icon": "Free Strike",
   "metadata": {
     "class": "combat",
     "file_basename": "Free Strike",

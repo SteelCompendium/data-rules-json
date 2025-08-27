@@ -1,5 +1,6 @@
 {
-  "name": "Quickness Ward",
+  "name": "",
+  "icon": "Quickness Ward",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

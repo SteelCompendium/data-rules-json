@@ -1,5 +1,6 @@
 {
-  "name": "Master of Fire",
+  "name": "",
+  "icon": "Master of Fire",
   "metadata": {
     "class": "elementalist",
     "feature_type": "trait",
@@ -20,7 +21,7 @@
   },
   "effects": [
     {
-      "effect": "The damage bonus of your Acolyte of Fire feature increases to +5 and applies to all your magic abilities.\nAdditionally, your Return to Formlessness ability can be used on supernatural objects (but not on artifacts). When you melt a treasure (see Chapter 13: Rewards), you gain breath equal to its echelon."
+      "effect": "The damage bonus of your Acolyte of Fire feature increases to +5 and applies to all your magic abilities.\n\nAdditionally, your Return to Formlessness ability can be used on supernatural objects (but not on artifacts). When you melt a treasure (see Chapter 13: Rewards), you gain breath equal to its echelon."
     }
   ]
 }

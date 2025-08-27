@@ -1,5 +1,6 @@
 {
-  "name": "Primordial Power",
+  "name": "",
+  "icon": "Primordial Power",
   "metadata": {
     "class": "fury",
     "feature_type": "trait",
@@ -20,7 +21,7 @@
   },
   "effects": [
     {
-      "effect": "You have an epic resource called primordial power. Each time you finish a respite, you gain primordial power equal to the XP you gain. You can spend primordial power on your abilities as if it were ferocity.\nAdditionally, you can spend any amount of primordial power as a free maneuver, ending one effect on you for each primordial power spent.\nYou can also spend 3 primordial power to create a portal to Quintessence without needing a source of elemental power.\nPrimordial power remains until you spend it."
+      "effect": "You have an epic resource called primordial power. Each time you finish a respite, you gain primordial power equal to the XP you gain. You can spend primordial power on your abilities as if it were ferocity.\n\nAdditionally, you can spend any amount of primordial power as a free maneuver, ending one effect on you for each primordial power spent.\nYou can also spend 3 primordial power to create a portal to Quintessence without needing a source of elemental power.\nPrimordial power remains until you spend it."
     }
   ]
 }

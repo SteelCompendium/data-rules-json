@@ -1,5 +1,6 @@
 {
-  "name": "Infiltration Tactics",
+  "name": "",
+  "icon": "Infiltration Tactics",
   "metadata": {
     "class": "tactician",
     "feature_type": "trait",

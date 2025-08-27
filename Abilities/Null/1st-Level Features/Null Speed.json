@@ -1,5 +1,6 @@
 {
-  "name": "Null Speed",
+  "name": "",
+  "icon": "Null Speed",
   "metadata": {
     "class": "null",
     "feature_type": "trait",

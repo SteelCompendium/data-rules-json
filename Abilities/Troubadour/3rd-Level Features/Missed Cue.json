@@ -1,5 +1,6 @@
 {
-  "name": "Missed Cue",
+  "name": "",
+  "icon": "Missed Cue",
   "metadata": {
     "class": "troubadour",
     "feature_type": "trait",

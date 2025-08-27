@@ -1,5 +1,6 @@
 {
-  "name": "Faithful's Reward",
+  "name": "",
+  "icon": "Faithful's Reward",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

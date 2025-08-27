@@ -1,5 +1,6 @@
 {
-  "name": "Oracular Warning",
+  "name": "",
+  "icon": "Oracular Warning",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

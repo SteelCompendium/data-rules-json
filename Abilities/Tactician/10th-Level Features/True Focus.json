@@ -1,5 +1,6 @@
 {
-  "name": "True Focus",
+  "name": "",
+  "icon": "True Focus",
   "metadata": {
     "class": "tactician",
     "feature_type": "trait",

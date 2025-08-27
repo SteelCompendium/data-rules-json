@@ -1,5 +1,6 @@
 {
-  "name": "Blessing of Fortunate Weather",
+  "name": "",
+  "icon": "Blessing of Fortunate Weather",
   "metadata": {
     "class": "censor",
     "feature_type": "trait",

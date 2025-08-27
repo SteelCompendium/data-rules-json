@@ -1,5 +1,6 @@
 {
-  "name": "Cinder Step",
+  "name": "",
+  "icon": "Cinder Step",
   "metadata": {
     "class": "shadow",
     "feature_type": "trait",

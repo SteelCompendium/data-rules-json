@@ -1,5 +1,6 @@
 {
-  "name": "Skill",
+  "name": "",
+  "icon": "Skill",
   "metadata": {
     "class": "talent",
     "feature_type": "trait",

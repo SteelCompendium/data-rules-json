@@ -1,5 +1,6 @@
 {
-  "name": "Skill",
+  "name": "",
+  "icon": "Skill",
   "metadata": {
     "class": "shadow",
     "feature_type": "trait",

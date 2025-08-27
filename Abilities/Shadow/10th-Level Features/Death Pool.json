@@ -1,5 +1,6 @@
 {
-  "name": "Death Pool",
+  "name": "",
+  "icon": "Death Pool",
   "metadata": {
     "class": "shadow",
     "feature_type": "trait",

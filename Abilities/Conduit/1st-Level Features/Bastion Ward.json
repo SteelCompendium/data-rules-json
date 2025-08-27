@@ -1,5 +1,6 @@
 {
-  "name": "Bastion Ward",
+  "name": "",
+  "icon": "Bastion Ward",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

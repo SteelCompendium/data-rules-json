@@ -1,5 +1,6 @@
 {
-  "name": "Blessed Domain",
+  "name": "",
+  "icon": "Blessed Domain",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

@@ -1,5 +1,6 @@
 {
-  "name": "Surge of Insight",
+  "name": "",
+  "icon": "Surge of Insight",
   "metadata": {
     "class": "shadow",
     "feature_type": "trait",
@@ -20,7 +21,7 @@
   },
   "effects": [
     {
-      "effect": "The first time each combat round that you deal damage incorporating 1 or more surges, you gain 2 insight instead of 1.\nAs a 5th-level shadow, you gain the following features."
+      "effect": "The first time each combat round that you deal damage incorporating 1 or more surges, you gain 2 insight instead of 1.\n\nAs a 5th-level shadow, you gain the following features."
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "name": "Gods' Library",
+  "name": "",
+  "icon": "Gods' Library",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

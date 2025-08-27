@@ -1,5 +1,6 @@
 {
-  "name": "Saint's Epiphany",
+  "name": "",
+  "icon": "Saint's Epiphany",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

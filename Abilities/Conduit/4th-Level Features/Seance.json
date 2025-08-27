@@ -1,5 +1,6 @@
 {
-  "name": "Seance",
+  "name": "",
+  "icon": "Seance",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

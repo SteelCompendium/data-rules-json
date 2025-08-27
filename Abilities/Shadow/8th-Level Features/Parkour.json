@@ -1,5 +1,6 @@
 {
-  "name": "Parkour",
+  "name": "",
+  "icon": "Parkour",
   "metadata": {
     "class": "shadow",
     "feature_type": "trait",
