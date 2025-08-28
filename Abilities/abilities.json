@@ -422,6 +422,7 @@
     ]
   },  {
     "name": "Unquiet Ground",
+    "cost": "Signature",
     "flavor": "A sudden storm of detritus assaults your foes and leaves them struggling to move.",
     "keywords": [
       "Area",
@@ -435,6 +436,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "elementalist",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "2 cube within 10",
       "feature_type": "ability",
       "file_basename": "Unquiet Ground",
@@ -507,11 +510,14 @@
       "Strike"
     ],
     "type": "Main action",
+    "cost": "Signature",
     "distance": "Melee 1",
     "target": "One creature or object",
     "metadata": {
       "action_type": "Main action",
       "class": "elementalist",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "feature_type": "ability",
       "file_basename": "Meteoric Introduction",
@@ -628,6 +634,7 @@
     ]
   },  {
     "name": "Grasp of Beyond",
+    "cost": "Signature",
     "flavor": "You absorb the life energy of another creature and use it to teleport.",
     "keywords": [
       "Magic",
@@ -641,6 +648,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "elementalist",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "feature_type": "ability",
       "file_basename": "Grasp of Beyond",
@@ -1177,6 +1186,7 @@
     ]
   },  {
     "name": "Bifurcated Incineration",
+    "cost": "Signature",
     "flavor": "Two jets of flame lance out at your command.",
     "keywords": [
       "Fire",
@@ -1190,6 +1200,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "elementalist",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Ranged 10",
       "feature_type": "ability",
       "file_basename": "Bifurcated Incineration",
@@ -1225,6 +1237,7 @@
     ]
   },  {
     "name": "Afflict a Bountiful Decay",
+    "cost": "Signature",
     "flavor": "Your curse causes your foe's flesh to rot off as spores that aid your allies.",
     "keywords": [
       "Green",
@@ -1239,6 +1252,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "elementalist",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Ranged 10",
       "feature_type": "ability",
       "file_basename": "Afflict a Bountiful Decay",
@@ -1324,6 +1339,7 @@
     ]
   },  {
     "name": "The Green Within, the Green Without",
+    "cost": "Signature",
     "flavor": "Whipping vines erupt from a foe's body to grasp at another close by.",
     "keywords": [
       "Green",
@@ -1337,6 +1353,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "elementalist",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Ranged 10",
       "feature_type": "ability",
       "file_basename": "The Green Within the Green Without",
@@ -1427,6 +1445,7 @@
     ]
   },  {
     "name": "Viscous Fire",
+    "cost": "Signature",
     "flavor": "A jet of heavy fire erupts where you strike.",
     "keywords": [
       "Fire",
@@ -1440,6 +1459,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "elementalist",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Ranged 10",
       "feature_type": "ability",
       "file_basename": "Viscous Fire",
@@ -1946,6 +1967,7 @@
     ]
   },  {
     "name": "Ray of Agonizing Self-Reflection",
+    "cost": "Signature",
     "flavor": "You inflict pain and doubt in equal measure.",
     "keywords": [
       "Magic",
@@ -1959,6 +1981,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "elementalist",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Ranged 10",
       "feature_type": "ability",
       "file_basename": "Ray of Agonizing Self Reflection",
@@ -5145,6 +5169,7 @@
     ]
   },  {
     "name": "Wither",
+    "cost": "Signature",
     "flavor": "A bolt of holy energy saps the life from a foe.",
     "keywords": [
       "Magic",
@@ -5157,6 +5182,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "conduit",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Ranged 10",
       "feature_type": "ability",
       "file_basename": "Wither",
@@ -5319,6 +5346,7 @@
     ]
   },  {
     "name": "Warrior's Prayer",
+    "cost": "Signature",
     "flavor": "Your quickly uttered prayer lends aggressive divine energy to a friend engaged in melee.",
     "keywords": [
       "Magic",
@@ -5331,6 +5359,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "conduit",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Ranged 10",
       "feature_type": "ability",
       "file_basename": "Warriors Prayer",
@@ -5407,6 +5437,7 @@
     ]
   },  {
     "name": "Blessed Light",
+    "cost": "Signature",
     "flavor": "Burning radiance falls upon your foe, transferring some of their energy to a nearby ally.",
     "keywords": [
       "Magic",
@@ -5419,6 +5450,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "conduit",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Ranged 10",
       "feature_type": "ability",
       "file_basename": "Blessed Light",
@@ -5532,6 +5565,7 @@
     ]
   },  {
     "name": "Staggering Curse",
+    "cost": "Signature",
     "flavor": "A blast of judgment disorients your foe.",
     "keywords": [
       "Magic",
@@ -5544,6 +5578,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "conduit",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "feature_type": "ability",
       "file_basename": "Staggering Curse",
@@ -6002,6 +6038,7 @@
     ]
   },  {
     "name": "Holy Lash",
+    "cost": "Signature",
     "flavor": "A tendril of divine energy shoots forth to draw in your foe.",
     "keywords": [
       "Magic",
@@ -6014,6 +6051,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "conduit",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Ranged 10",
       "feature_type": "ability",
       "file_basename": "Holy Lash",
@@ -6048,6 +6087,7 @@
     ]
   },  {
     "name": "Drain",
+    "cost": "Signature",
     "flavor": "You drain the energy from your target to revitalize yourself or an ally.",
     "keywords": [
       "Magic",
@@ -6060,6 +6100,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "conduit",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "feature_type": "ability",
       "file_basename": "Drain",
@@ -6428,6 +6470,7 @@
     ]
   },  {
     "name": "Lightfall",
+    "cost": "Signature",
     "flavor": "A rain of holy light scours your enemies and repositions your allies.",
     "keywords": [
       "Area",
@@ -6439,6 +6482,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "conduit",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "2 burst",
       "feature_type": "ability",
       "file_basename": "Lightfall",
@@ -6501,6 +6546,7 @@
     ]
   },  {
     "name": "Sacrificial Offer",
+    "cost": "Signature",
     "flavor": "Divine magic tears at your foe and defends a nearby friend.",
     "keywords": [
       "Magic",
@@ -6513,6 +6559,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "conduit",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Ranged 10",
       "feature_type": "ability",
       "file_basename": "Sacrificial Offer",
@@ -10244,6 +10292,7 @@
     ]
   },  {
     "name": "Every Step... Death!",
+    "cost": "Signature",
     "flavor": "You show your foe a glimpse of their fate after death.",
     "keywords": [
       "Magic",
@@ -10256,6 +10305,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "censor",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Ranged 10",
       "feature_type": "ability",
       "file_basename": "Every Step Death",
@@ -10778,6 +10829,7 @@
     ]
   },  {
     "name": "Halt Miscreant!",
+    "cost": "Signature",
     "flavor": "You infuse your weapon with holy magic that makes it difficult for your foe to get away.",
     "keywords": [
       "Melee",
@@ -10790,6 +10842,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "censor",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "feature_type": "ability",
       "file_basename": "Halt Miscreant",
@@ -10907,6 +10961,7 @@
     ]
   },  {
     "name": "Your Allies Cannot Save You!",
+    "cost": "Signature",
     "flavor": "Your magic strike turns your foe's guilt into a burst of holy power.",
     "keywords": [
       "Melee",
@@ -10919,6 +10974,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "censor",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "feature_type": "ability",
       "file_basename": "Your Allies Cannot Save You",
@@ -11170,6 +11227,7 @@
     ]
   },  {
     "name": "Back Blasphemer!",
+    "cost": "Signature",
     "flavor": "You channel power through your weapon to repel foes.",
     "keywords": [
       "Area",
@@ -11183,6 +11241,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "censor",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "2 cube within 1",
       "feature_type": "ability",
       "file_basename": "Back Blasphemer",
@@ -14432,6 +14492,7 @@
     ]
   },  {
     "name": "Faster Than the Eye",
+    "cost": "Signature",
     "flavor": "You strike so quickly that your hands become a blur.",
     "keywords": [
       "Melee",
@@ -14445,6 +14506,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "null",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "feature_type": "ability",
       "file_basename": "Faster Than the Eye",
@@ -14484,6 +14547,7 @@
     ]
   },  {
     "name": "Joint Lock",
+    "cost": "Signature",
     "flavor": "You contort your enemy's body into a stance they struggle to escape from.",
     "keywords": [
       "Melee",
@@ -14497,6 +14561,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "null",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "feature_type": "ability",
       "file_basename": "Joint Lock",
@@ -14893,6 +14959,7 @@
     ]
   },  {
     "name": "Inertial Step",
+    "cost": "Signature",
     "flavor": "You flit about the battlefield and take an opportunistic strike.",
     "keywords": [
       "Melee",
@@ -14906,6 +14973,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "null",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "feature_type": "ability",
       "file_basename": "Inertial Step",
@@ -14973,6 +15042,7 @@
     ]
   },  {
     "name": "Phase Inversion Strike",
+    "cost": "Signature",
     "flavor": "You step momentarily out of phase as you pull an enemy through you.",
     "keywords": [
       "Melee",
@@ -14986,6 +15056,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "null",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "feature_type": "ability",
       "file_basename": "Phase Inversion Strike",
@@ -15050,6 +15122,7 @@
     ]
   },  {
     "name": "Magnetic Strike",
+    "cost": "Signature",
     "flavor": "The force of your blow extends past the limits of your body, pulling your enemy closer.",
     "keywords": [
       "Melee",
@@ -15063,6 +15136,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "null",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 2",
       "feature_type": "ability",
       "file_basename": "Magnetic Strike",
@@ -15194,6 +15269,7 @@
     ]
   },  {
     "name": "Kinetic Strike",
+    "cost": "Signature",
     "flavor": "Your opponent staggers. They cannot ignore you.",
     "keywords": [
       "Melee",
@@ -15207,6 +15283,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "null",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "feature_type": "ability",
       "file_basename": "Kinetic Strike",
@@ -15242,6 +15320,7 @@
     ]
   },  {
     "name": "Pressure Points",
+    "cost": "Signature",
     "flavor": "You strike at key nerve clusters to leave your foe staggered.",
     "keywords": [
       "Melee",
@@ -15255,6 +15334,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "null",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "feature_type": "ability",
       "file_basename": "Pressure Points",
@@ -15315,6 +15396,7 @@
     ]
   },  {
     "name": "Dance of Blows",
+    "cost": "Signature",
     "flavor": "You strike everywhere at once, tricking an enemy into moving out of position.",
     "keywords": [
       "Area",
@@ -15327,6 +15409,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "null",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "1 burst",
       "feature_type": "ability",
       "file_basename": "Dance of Blows",
@@ -17928,6 +18012,7 @@
     ]
   },  {
     "name": "Brutal Slam",
+    "cost": "Signature",
     "flavor": "The heavy impact of your weapon attacks drives your foes ever back.",
     "keywords": [
       "Melee",
@@ -17940,6 +18025,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "fury",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "feature_type": "ability",
       "file_basename": "Brutal Slam",
@@ -18018,6 +18105,7 @@
     ]
   },  {
     "name": "Hit and Run",
+    "cost": "Signature",
     "flavor": "Staying in constant motion helps you slip out of reach after a brutal assault.",
     "keywords": [
       "Melee",
@@ -18030,6 +18118,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "fury",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "feature_type": "ability",
       "file_basename": "Hit and Run",
@@ -18344,6 +18434,7 @@
     ]
   },  {
     "name": "Impaled!",
+    "cost": "Signature",
     "flavor": "You skewer your enemy like a boar upon a spit.",
     "keywords": [
       "Melee",
@@ -18356,6 +18447,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "fury",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "feature_type": "ability",
       "file_basename": "Impaled",
@@ -18674,6 +18767,7 @@
     ]
   },  {
     "name": "To the Death!",
+    "cost": "Signature",
     "flavor": "Your reckless assault leaves you tactically vulnerable.",
     "keywords": [
       "Melee",
@@ -18686,6 +18780,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "fury",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "feature_type": "ability",
       "file_basename": "To the Death",
@@ -25028,6 +25124,7 @@
     ]
   },  {
     "name": "Witty Banter",
+    "cost": "Signature",
     "flavor": "A lyrical (and physical) jab insults an enemy and inspires an ally.",
     "keywords": [
       "Magic",
@@ -25041,6 +25138,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "troubadour",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1 or ranged 5",
       "feature_type": "ability",
       "file_basename": "Witty Banter",
@@ -25112,6 +25211,7 @@
     ]
   },  {
     "name": "Artful Flourish",
+    "cost": "Signature",
     "flavor": "And they said practicing fencing was a waste!",
     "keywords": [
       "Melee",
@@ -25124,6 +25224,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "troubadour",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "feature_type": "ability",
       "file_basename": "Artful Flourish",
@@ -25381,6 +25483,7 @@
     ]
   },  {
     "name": "Cutting Sarcasm",
+    "cost": "Signature",
     "flavor": "There you are, radiating your usual charisma.",
     "keywords": [
       "Magic",
@@ -25394,6 +25497,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "troubadour",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Ranged 10",
       "feature_type": "ability",
       "file_basename": "Cutting Sarcasm",
@@ -25500,6 +25605,7 @@
     ]
   },  {
     "name": "Instigator",
+    "cost": "Signature",
     "flavor": "I didn't do it! What?",
     "keywords": [
       "Melee",
@@ -25512,6 +25618,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "troubadour",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "feature_type": "ability",
       "file_basename": "Instigator",
@@ -28344,6 +28452,7 @@
     ]
   },  {
     "name": "I Work Better Alone",
+    "cost": "Signature",
     "flavor": "\"It's better, just you and me. Isn't it?\"",
     "keywords": [
       "Melee",
@@ -28357,6 +28466,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "shadow",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1 or ranged 5",
       "feature_type": "ability",
       "file_basename": "I Work Better Alone",
@@ -28663,6 +28774,7 @@
     ]
   },  {
     "name": "Gasping in Pain",
+    "cost": "Signature",
     "flavor": "Your precise strikes let your allies take advantage of a target's agony.",
     "keywords": [
       "Melee",
@@ -28675,6 +28787,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "shadow",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "feature_type": "ability",
       "file_basename": "Gasping in Pain",
@@ -28913,6 +29027,7 @@
     ]
   },  {
     "name": "Teamwork Has Its Place",
+    "cost": "Signature",
     "flavor": "You attack an enemy as an ally exposes their weakness.",
     "keywords": [
       "Melee",
@@ -28926,6 +29041,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "shadow",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1 or ranged 5",
       "feature_type": "ability",
       "file_basename": "Teamwork Has Its Place",
@@ -29035,6 +29152,7 @@
     ]
   },  {
     "name": "You Were Watching the Wrong One",
+    "cost": "Signature",
     "flavor": "They can't watch both of you at once.",
     "keywords": [
       "Melee",
@@ -29047,6 +29165,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "shadow",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "feature_type": "ability",
       "file_basename": "You Were Watching the Wrong One",
@@ -31778,6 +31898,7 @@
     ]
   },  {
     "name": "Exploding Arrow",
+    "cost": "Signature",
     "flavor": "Your ammunition explodes with magical energy.",
     "keywords": [
       "Magic",
@@ -31791,6 +31912,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "ignored",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Ranged 15",
       "file_basename": "Exploding Arrow",
       "file_dpath": "Abilities/Kits/Arcane Archer",
@@ -31829,6 +31952,7 @@
     ]
   },  {
     "name": "Net and Stab",
+    "cost": "Signature",
     "flavor": "The well-thrown net that follows your main attack leaves your foes right where you want them.",
     "keywords": [
       "Melee",
@@ -31841,6 +31965,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "ignored",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 2",
       "file_basename": "Net and Stab",
       "file_dpath": "Abilities/Kits/Retiarius",
@@ -31874,6 +32000,7 @@
     ]
   },  {
     "name": "Unmooring",
+    "cost": "Signature",
     "flavor": "Your weapon unleashes psionic energy that reduces your target's weight.",
     "keywords": [
       "Melee",
@@ -31887,6 +32014,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "ignored",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "file_basename": "Unmooring",
       "file_dpath": "Abilities/Kits/Battlemind",
@@ -31925,6 +32054,7 @@
     ]
   },  {
     "name": "Shield Bash",
+    "cost": "Signature",
     "flavor": "In your hands, a shield isn't just for protection.",
     "keywords": [
       "Melee",
@@ -31937,6 +32067,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "ignored",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "file_basename": "Shield Bash",
       "file_dpath": "Abilities/Kits/Sword and Board",
@@ -31970,6 +32102,7 @@
     ]
   },  {
     "name": "Raider's Awe",
+    "cost": "Signature",
     "flavor": "You execute a brutal strike that leaves your foe reeling. (Previously known as \"Shock and Awe\")",
     "keywords": [
       "Melee",
@@ -31983,6 +32116,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "ignored",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1 or ranged 10",
       "file_basename": "Raiders Awe",
       "file_dpath": "Abilities/Kits/Raider",
@@ -32021,6 +32156,7 @@
     ]
   },  {
     "name": "Fade",
+    "cost": "Signature",
     "flavor": "A stab, and a few quick, careful steps back.",
     "keywords": [
       "Melee",
@@ -32034,6 +32170,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "ignored",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1 or ranged 10",
       "file_basename": "Fade",
       "file_dpath": "Abilities/Kits/Cloak and Dagger",
@@ -32068,6 +32206,7 @@
     ]
   },  {
     "name": "Forward Thrust, Backward Smash",
+    "cost": "Signature",
     "flavor": "In your hands, the haft is as good as the head.",
     "keywords": [
       "Melee",
@@ -32080,6 +32219,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "ignored",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 2",
       "file_basename": "Forward Thrust Backward Smash",
       "file_dpath": "Abilities/Kits/Guisarmier",
@@ -32113,6 +32254,7 @@
     ]
   },  {
     "name": "Fancy Footwork",
+    "cost": "Signature",
     "flavor": "All combat is a dance—and you'll be the one leading.",
     "keywords": [
       "Melee",
@@ -32125,6 +32267,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "ignored",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "file_basename": "Fancy Footwork",
       "file_dpath": "Abilities/Kits/Swashbuckler",
@@ -32162,6 +32306,7 @@
     ]
   },  {
     "name": "Extension of My Arm",
+    "cost": "Signature",
     "flavor": "When you draw your whip back after an attack, your enemy is drawn ever closer.",
     "keywords": [
       "Melee",
@@ -32174,6 +32319,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "ignored",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 3",
       "file_basename": "Extension of My Arm",
       "file_dpath": "Abilities/Kits/Whirlwind",
@@ -32207,6 +32354,7 @@
     ]
   },  {
     "name": "Patient Shot",
+    "cost": "Signature",
     "flavor": "Breathe... aim... wait... then strike!",
     "keywords": [
       "Ranged",
@@ -32219,6 +32367,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "ignored",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Ranged 15",
       "file_basename": "Patient Shot",
       "file_dpath": "Abilities/Kits/Sniper",
@@ -32256,6 +32406,7 @@
     ]
   },  {
     "name": "Weakening Brand",
+    "cost": "Signature",
     "flavor": "The impact of your weapon brands your target for destruction.",
     "keywords": [
       "Magic",
@@ -32269,6 +32420,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "ignored",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "file_basename": "Weakening Brand",
       "file_dpath": "Abilities/Kits/Warrior Priest",
@@ -32307,6 +32460,7 @@
     ]
   },  {
     "name": "Hamstring Shot",
+    "cost": "Signature",
     "flavor": "A well-placed shot leaves your enemy struggling to move.",
     "keywords": [
       "Ranged",
@@ -32319,6 +32473,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "ignored",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Ranged 10",
       "file_basename": "Hamstring Shot",
       "file_dpath": "Abilities/Kits/Ranger",
@@ -32352,6 +32508,7 @@
     ]
   },  {
     "name": "Two Shot",
+    "cost": "Signature",
     "flavor": "When you fire two arrows back-to-back, both hit their mark.",
     "keywords": [
       "Ranged",
@@ -32364,6 +32521,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "ignored",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Ranged 12",
       "file_basename": "Two Shot",
       "file_dpath": "Abilities/Kits/Rapid Fire",
@@ -32397,6 +32556,7 @@
     ]
   },  {
     "name": "Devastating Rush",
+    "cost": "Signature",
     "flavor": "The faster you move, the harder you hit.",
     "keywords": [
       "Melee",
@@ -32409,6 +32569,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "ignored",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "file_basename": "Devastating Rush",
       "file_dpath": "Abilities/Kits/Panther",
@@ -32446,6 +32608,7 @@
     ]
   },  {
     "name": "Let's Dance",
+    "cost": "Signature",
     "flavor": "Keeping your enemies stumbling around the battlefield is second nature to you.",
     "keywords": [
       "Melee",
@@ -32458,6 +32621,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "ignored",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "file_basename": "Lets Dance",
       "file_dpath": "Abilities/Kits/Pugilist",
@@ -32495,6 +32660,7 @@
     ]
   },  {
     "name": "Battle Grace",
+    "cost": "Signature",
     "flavor": "You feint to move your enemies into perfect position.",
     "keywords": [
       "Melee",
@@ -32507,6 +32673,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "ignored",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "file_basename": "Battle Grace",
       "file_dpath": "Abilities/Kits/Martial Artist",
@@ -32544,6 +32712,7 @@
     ]
   },  {
     "name": "Protective Attack",
+    "cost": "Signature",
     "flavor": "The strength of your assault makes it impossible for your foe to ignore you.",
     "keywords": [
       "Melee",
@@ -32556,6 +32725,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "ignored",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "file_basename": "Protective Attack",
       "file_dpath": "Abilities/Kits/Shining Armor",
@@ -32593,6 +32764,7 @@
     ]
   },  {
     "name": "Pain for Pain",
+    "cost": "Signature",
     "flavor": "An enemy who tagged you will pay for that.",
     "keywords": [
       "Melee",
@@ -32605,6 +32777,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "ignored",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "file_basename": "Pain for Pain",
       "file_dpath": "Abilities/Kits/Mountain",
@@ -32642,6 +32816,7 @@
     ]
   },  {
     "name": "Double Strike",
+    "cost": "Signature",
     "flavor": "Why strike once when you could do it twice?",
     "keywords": [
       "Melee",
@@ -32654,6 +32829,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "ignored",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "file_basename": "Double Strike",
       "file_dpath": "Abilities/Kits/Dual Wielder",
@@ -32691,6 +32868,7 @@
     ]
   },  {
     "name": "Leaping Lightning",
+    "cost": "Signature",
     "flavor": "Lightning jumps from your weapon as you strike to harm a nearby foe.",
     "keywords": [
       "Magic",
@@ -32704,6 +32882,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "ignored",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 1",
       "file_basename": "Leaping Lightning",
       "file_dpath": "Abilities/Kits/Spellsword",
@@ -32742,6 +32922,7 @@
     ]
   },  {
     "name": "Where I Want You",
+    "cost": "Signature",
     "flavor": "When your stick speaks, your enemy moves.",
     "keywords": [
       "Melee",
@@ -32754,6 +32935,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "ignored",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 2",
       "file_basename": "Where I Want You",
       "file_dpath": "Abilities/Kits/Stick and Robe",
@@ -32837,6 +33020,7 @@
     ]
   },  {
     "name": "Optic Blast",
+    "cost": "Signature",
     "flavor": "Your eyes emit rays of powerful enervating force.",
     "keywords": [
       "Metamorphosis",
@@ -32850,6 +33034,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "talent",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Ranged 10",
       "feature_type": "ability",
       "file_basename": "Optic Blast",
@@ -33098,6 +33284,7 @@
     ]
   },  {
     "name": "Kinetic Grip",
+    "cost": "Signature",
     "flavor": "You lift and hurl your foe away from you.",
     "keywords": [
       "Psionic",
@@ -33110,6 +33297,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "talent",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Ranged 10",
       "feature_type": "ability",
       "file_basename": "Kinetic Grip",
@@ -33440,6 +33629,7 @@
     ]
   },  {
     "name": "Incinerate",
+    "cost": "Signature",
     "flavor": "The air erupts into a column of smokeless flame.",
     "keywords": [
       "Area",
@@ -33454,6 +33644,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "talent",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "3 cube within 10",
       "feature_type": "ability",
       "file_basename": "Incinerate",
@@ -33703,6 +33895,7 @@
     ]
   },  {
     "name": "Spirit Sword",
+    "cost": "Signature",
     "flavor": "You form a blade of mind energy and stab your target, invigorating yourself.",
     "keywords": [
       "Animapathy",
@@ -33716,6 +33909,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "talent",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Melee 2",
       "feature_type": "ability",
       "file_basename": "Spirit Sword",
@@ -33863,6 +34058,7 @@
     ]
   },  {
     "name": "Kinetic Pulse",
+    "cost": "Signature",
     "flavor": "The force of your mind hurls enemies backward.",
     "keywords": [
       "Area",
@@ -33875,6 +34071,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "talent",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "1 burst",
       "feature_type": "ability",
       "file_basename": "Kinetic Pulse",
@@ -33938,6 +34136,7 @@
     ]
   },  {
     "name": "Hoarfrost",
+    "cost": "Signature",
     "flavor": "You blast a foe with a pulse of cold energy.",
     "keywords": [
       "Cryokinesis",
@@ -33951,6 +34150,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "talent",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Ranged 10",
       "feature_type": "ability",
       "file_basename": "Hoarfrost",
@@ -34151,6 +34352,7 @@
     ]
   },  {
     "name": "Entropic Bolt",
+    "cost": "Signature",
     "flavor": "You advance an enemy's age for a moment.",
     "keywords": [
       "Chronopathy",
@@ -34164,6 +34366,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "talent",
+      "cost": "Signature",
+      "cost_resource": "Signature",
       "distance": "Ranged 10",
       "feature_type": "ability",
       "file_basename": "Entropic Bolt",
