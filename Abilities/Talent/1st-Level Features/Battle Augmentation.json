@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Battle Augmentation",
+  "name": "Battle Augmentation",
   "metadata": {
     "class": "talent",
     "feature_type": "trait",

@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Enhanced Null Field",
+  "name": "Enhanced Null Field",
   "metadata": {
     "class": "null",
     "feature_type": "trait",

@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Sanctified Weapon",
+  "name": "Sanctified Weapon",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Prayer of Speed",
+  "name": "Prayer of Speed",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Focus in Combat",
+  "name": "Focus in Combat",
   "metadata": {
     "class": "tactician",
     "feature_type": "trait",

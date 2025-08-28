@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "icon": "Synaptic Override (5 Clarity)",
+  "name": "Synaptic Override",
+  "cost": "5 Clarity",
   "flavor": "You control an enemy's nervous system. How pleasant for them.",
   "keywords": [
     "Psionic",

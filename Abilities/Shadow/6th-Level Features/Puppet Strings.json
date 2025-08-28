@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "icon": "Puppet Strings (9 Insight)",
+  "name": "Puppet Strings",
+  "cost": "9 Insight",
   "flavor": "You prick little needles on the tips of your fingers into the nerves of your enemies and cause them to lose control.",
   "keywords": [
     "Magic",

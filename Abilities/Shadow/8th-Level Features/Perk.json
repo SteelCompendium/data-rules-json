@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Perk",
+  "name": "Perk",
   "metadata": {
     "class": "shadow",
     "feature_type": "trait",

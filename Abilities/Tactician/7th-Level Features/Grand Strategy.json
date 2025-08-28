@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Grand Strategy",
+  "name": "Grand Strategy",
   "metadata": {
     "class": "tactician",
     "feature_type": "trait",

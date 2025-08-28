@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Heal",
+  "name": "Heal",
   "metadata": {
     "class": "combat",
     "file_basename": "Heal",

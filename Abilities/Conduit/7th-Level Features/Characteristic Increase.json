@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Characteristic Increase",
+  "name": "Characteristic Increase",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

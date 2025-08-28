@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Distracted",
+  "name": "Distracted",
   "metadata": {
     "class": "tactician",
     "feature_type": "trait",

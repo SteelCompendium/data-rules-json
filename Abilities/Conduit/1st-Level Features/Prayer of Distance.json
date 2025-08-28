@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Prayer of Distance",
+  "name": "Prayer of Distance",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

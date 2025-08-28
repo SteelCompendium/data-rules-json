@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "icon": "Sticky Bomb (5 Insight)",
+  "name": "Sticky Bomb",
+  "cost": "5 Insight",
   "flavor": "Explosives are best when they're attached to an enemy.",
   "keywords": [
     "Ranged"

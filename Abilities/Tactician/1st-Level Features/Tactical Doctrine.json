@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Tactical Doctrine",
+  "name": "Tactical Doctrine",
   "metadata": {
     "class": "tactician",
     "feature_type": "trait",

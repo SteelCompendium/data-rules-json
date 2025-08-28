@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "icon": "Behold the Mystery (3 Essence)",
+  "name": "Behold the Mystery",
+  "cost": "3 Essence",
   "flavor": "You open a rift into the void to harry your foes.",
   "keywords": [
     "Area",

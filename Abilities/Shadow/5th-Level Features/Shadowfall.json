@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "icon": "Shadowfall (9 Insight)",
+  "name": "Shadowfall",
+  "cost": "9 Insight",
   "flavor": "You vanish. They fall. You reappear.",
   "keywords": [
     "Area",

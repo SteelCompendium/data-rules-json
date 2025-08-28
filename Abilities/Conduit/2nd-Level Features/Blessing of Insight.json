@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "icon": "Blessing of Insight (5 Piety)",
+  "name": "Blessing of Insight",
+  "cost": "5 Piety",
   "flavor": "The gods grant insight revealing where best to strike your enemies.",
   "keywords": [
     "Magic",

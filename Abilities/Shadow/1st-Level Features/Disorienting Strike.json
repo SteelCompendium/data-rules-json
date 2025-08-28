@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "icon": "Disorienting Strike (3 Insight)",
+  "name": "Disorienting Strike",
+  "cost": "3 Insight",
   "flavor": "Your attack leaves them reeling, allowing you to follow up.",
   "keywords": [
     "Melee",

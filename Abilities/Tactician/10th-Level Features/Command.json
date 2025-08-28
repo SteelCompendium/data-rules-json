@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Command",
+  "name": "Command",
   "metadata": {
     "class": "tactician",
     "feature_type": "trait",

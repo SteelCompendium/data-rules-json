@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Prayer of Soldier's Skill",
+  "name": "Prayer of Soldier's Skill",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

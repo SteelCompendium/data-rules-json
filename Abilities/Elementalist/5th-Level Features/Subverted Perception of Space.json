@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "icon": "Subverted Perception of Space (9 Essence)",
+  "name": "Subverted Perception of Space",
+  "cost": "9 Essence",
   "flavor": "You rip an enemy's world in twain.",
   "keywords": [
     "Magic",

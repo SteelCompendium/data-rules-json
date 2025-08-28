@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "icon": "Gravitic Well (9 Clarity)",
+  "name": "Gravitic Well",
+  "cost": "9 Clarity",
   "flavor": "You bend gravity into a fine point and pull your foes toward it.",
   "keywords": [
     "Area",

@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Templar",
+  "name": "Templar",
   "metadata": {
     "class": "censor",
     "feature_type": "trait",

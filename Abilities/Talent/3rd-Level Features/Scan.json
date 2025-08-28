@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Scan",
+  "name": "Scan",
   "metadata": {
     "class": "talent",
     "feature_type": "trait",

@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "icon": "To Me Squad! (9 Focus)",
+  "name": "To Me Squad!",
+  "cost": "9 Focus",
   "flavor": "You lead your allies in a charge.",
   "keywords": [
     "Charge",

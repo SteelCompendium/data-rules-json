@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Inertial Dampener",
+  "name": "Inertial Dampener",
   "metadata": {
     "class": "null",
     "feature_type": "trait",

@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Insight in Combat",
+  "name": "Insight in Combat",
   "metadata": {
     "class": "shadow",
     "feature_type": "trait",

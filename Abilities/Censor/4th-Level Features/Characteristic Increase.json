@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Characteristic Increase",
+  "name": "Characteristic Increase",
   "metadata": {
     "class": "censor",
     "feature_type": "trait",

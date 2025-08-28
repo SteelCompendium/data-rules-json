@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Immovable Object",
+  "name": "Immovable Object",
   "metadata": {
     "class": "fury",
     "feature_type": "trait",

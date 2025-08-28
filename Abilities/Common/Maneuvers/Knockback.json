@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Knockback",
+  "name": "Knockback",
   "metadata": {
     "class": "combat",
     "file_basename": "Knockback",

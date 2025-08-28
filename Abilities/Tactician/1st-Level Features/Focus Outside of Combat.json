@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Focus Outside of Combat",
+  "name": "Focus Outside of Combat",
   "metadata": {
     "class": "tactician",
     "feature_type": "trait",

@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Protective Circle",
+  "name": "Protective Circle",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

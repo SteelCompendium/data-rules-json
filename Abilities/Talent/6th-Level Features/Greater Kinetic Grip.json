@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "icon": "Greater Kinetic Grip (9 Clarity)",
+  "name": "Greater Kinetic Grip",
+  "cost": "9 Clarity",
   "flavor": "You raise the target into the air without breaking a sweat.",
   "keywords": [
     "Psionic",

@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "icon": "Corruption's Curse (5 Piety)",
+  "name": "Corruption's Curse",
+  "cost": "5 Piety",
   "flavor": "Cursed by you, your enemy takes more damage from your allies.",
   "keywords": [
     "Magic",

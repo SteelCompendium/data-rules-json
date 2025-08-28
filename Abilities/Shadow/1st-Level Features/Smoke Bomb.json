@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Smoke Bomb",
+  "name": "Smoke Bomb",
   "metadata": {
     "class": "shadow",
     "feature_type": "trait",

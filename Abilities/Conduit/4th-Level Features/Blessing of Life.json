@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Blessing of Life",
+  "name": "Blessing of Life",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

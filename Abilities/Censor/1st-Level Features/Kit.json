@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Kit",
+  "name": "Kit",
   "metadata": {
     "class": "censor",
     "feature_type": "trait",

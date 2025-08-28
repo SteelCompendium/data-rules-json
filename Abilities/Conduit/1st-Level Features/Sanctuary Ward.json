@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Sanctuary Ward",
+  "name": "Sanctuary Ward",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

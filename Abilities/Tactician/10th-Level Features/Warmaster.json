@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Warmaster",
+  "name": "Warmaster",
   "metadata": {
     "class": "tactician",
     "feature_type": "trait",

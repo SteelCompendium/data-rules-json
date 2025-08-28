@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "icon": "Magma Titan (9 Essence)",
+  "name": "Magma Titan",
+  "cost": "9 Essence",
   "flavor": "Their body swells with lava, mud, and might, towering over their enemies.",
   "keywords": [
     "Earth",

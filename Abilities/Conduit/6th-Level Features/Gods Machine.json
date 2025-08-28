@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "icon": "Gods' Machine (9 Piety)",
+  "name": "Gods' Machine",
+  "cost": "9 Piety",
   "flavor": "You conjure a whirring tank made of blades and metal.",
   "keywords": [
     "Magic",

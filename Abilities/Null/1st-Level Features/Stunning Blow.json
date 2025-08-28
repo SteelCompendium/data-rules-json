@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "icon": "Stunning Blow (3 Discipline)",
+  "name": "Stunning Blow",
+  "cost": "3 Discipline",
   "flavor": "You focus your psionic technique into a concussive punch.",
   "keywords": [
     "Melee",

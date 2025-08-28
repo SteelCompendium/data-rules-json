@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Troubadour Abilities",
+  "name": "Troubadour Abilities",
   "metadata": {
     "class": "troubadour",
     "feature_type": "trait",

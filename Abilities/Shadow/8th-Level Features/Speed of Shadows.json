@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "icon": "Speed of Shadows (11 Insight)",
+  "name": "Speed of Shadows",
+  "cost": "11 Insight",
   "flavor": "You make multiple strikes against a foe before they even notice they're dead.",
   "keywords": [
     "Magic"

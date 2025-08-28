@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Word of Death Deferred",
+  "name": "Word of Death Deferred",
   "metadata": {
     "class": "conduit",
     "feature_type": "trait",

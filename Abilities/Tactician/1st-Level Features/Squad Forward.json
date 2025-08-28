@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "icon": "Squad! Forward! (3 Focus)",
+  "name": "Squad! Forward!",
+  "cost": "3 Focus",
   "flavor": "On your command, you and your allies force back the enemy line.",
   "keywords": [
     "Ranged"

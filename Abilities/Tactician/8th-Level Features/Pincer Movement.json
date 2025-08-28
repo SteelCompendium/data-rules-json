@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Pincer Movement",
+  "name": "Pincer Movement",
   "metadata": {
     "class": "tactician",
     "feature_type": "trait",

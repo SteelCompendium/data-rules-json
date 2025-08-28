@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "icon": "Classic Chandelier Stunt (5 Drama)",
+  "name": "Classic Chandelier Stunt",
+  "cost": "5 Drama",
   "flavor": "Audiences love this bit.",
   "keywords": [
     "Melee",

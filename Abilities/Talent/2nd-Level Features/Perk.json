@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "icon": "Perk",
+  "name": "Perk",
   "metadata": {
     "class": "talent",
     "feature_type": "trait",
