@@ -43,7 +43,7 @@
       "roll": "Power Roll + Presence",
       "t1": "2 psychic damage; P < WEAK, frightened (save ends)",
       "t2": "5 psychic damage; P < AVERAGE, frightened (save ends)",
-      "t3": "7 damage; P < STRONG, frightened (save ends)"
+      "t3": "7 psychic damage; P < STRONG, frightened (save ends)"
     }
   ]
 }

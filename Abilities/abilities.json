@@ -12101,7 +12101,7 @@
     },
     "effects": [
       {
-        "effect": "You are the ultimate representation of your god's justice in the timescape. Whenever you use your Judgment ability, you can use a free triggered action to use a conduit domain effect (see [Domain Piety and Effects](#page-110-0) in the [Conduit](#page-108-0) section) associated with your chosen domain, or a domain you access with virtue (see below). If the effect calls for the use of your Intuition score, you use your Presence score instead. If the effect uses your conduit level, use your censor level instead.\n\nAdditionally, whenever you take a respite, you can open a portal to rest in the presence of your deity and bring along any allies. When you do, you can ask your deity three questions, which the Director must\nanswer honestly if your deity knows the answers (though they might answer cryptically or incompletely). When you finish your respite, you and your allies can appear at any location in the timescape where someone worships your deity.\nWhile you rest in their presence, your god might also give you priority targets to enact justice upon. You and your allies each have a double edge on power rolls made against such targets. If you attempt to open a portal to your deity again before you have defeated your priority targets, you suffer your god's wrath, as determined by the Director."
+        "effect": "You are the ultimate representation of your god's justice in the timescape. Whenever you use your Judgment ability, you can use a free triggered action to use a conduit domain effect (see [Domain Piety and Effects](#page-110-0) in the [Conduit](#page-108-0) section) associated with your chosen domain, or a domain you access with virtue (see below). If the effect calls for the use of your Intuition score, you use your Presence score instead. If the effect uses your conduit level, use your censor level instead.\n\nAdditionally, whenever you take a respite, you can open a portal to rest in the presence of your deity and bring along any allies. When you do, you can ask your deity three questions, which the Director must answer honestly if your deity knows the answers (though they might answer cryptically or incompletely). When you finish your respite, you and your allies can appear at any location in the timescape where someone worships your deity.\nWhile you rest in their presence, your god might also give you priority targets to enact justice upon. You and your allies each have a double edge on power rolls made against such targets. If you attempt to open a portal to your deity again before you have defeated your priority targets, you suffer your god's wrath, as determined by the Director."
       }
     ]
   },  {
@@ -21072,7 +21072,7 @@
     },
     "effects": [
       {
-        "effect": "The target is marked by you until the end of the encounter, until you are dying, or until you use this ability again. You can willingly end your mark on a creature (no action required), and if another tactician marks a creature, your mark on that creature ends. When a creature marked by you is reduced to 0 Stamina, you can use a free triggered action to mark a new target within distance.\nYou can initially mark only one creature using this ability, though other tactician abilities allow you to mark additional creatures at the same time. The mastermind tactical doctrine's Anticipation feature allows you to target additional creatures with this ability starting at 5th level.\nWhile a creature marked by you is within your line of effect, you and allies within your line of effect gain an edge on power rolls made against that creature. Additionally, whenever you or any ally uses an ability to deal rolled damage to a creature marked by you, you can spend 1 focus to gain one of the following benefits as a free triggered action:\n- The ability deals extra damage equal to twice your Reason score.\n- The creature dealing the damage can spend a Recovery.\n- The creature dealing the damage can shift up to a number of squares equal to your Reason score.\n- If you damage a creature marked by you with a melee ability, the creature is taunted by you until the end of their next turn. You can't gain more than one benefit from the same trigger.",
+        "effect": "The target is marked by you until the end of the encounter, until you are dying, or until you use this ability again. You can willingly end your mark on a creature (no action required), and if another tactician marks a creature, your mark on that creature ends. When a creature marked by you is reduced to 0 Stamina, you can use a free triggered action to mark a new target within distance.\nYou can initially mark only one creature using this ability, though other tactician abilities allow you to mark additional creatures at the same time. The mastermind tactical doctrine's Anticipation feature allows you to target additional creatures with this ability starting at 5th level.\nWhile a creature marked by you is within your line of effect, you and allies within your line of effect gain an edge on power rolls made against that creature. Additionally, whenever you or any ally uses an ability to deal rolled damage to a creature marked by you, you can spend 1 focus to gain one of the following benefits as a free triggered action:\n- The ability deals extra damage equal to twice your Reason score.\n- The creature dealing the damage can spend a Recovery.\n- The creature dealing the damage can shift up to a number of squares equal to your Reason score.\n- If you damage a creature marked by you with a melee ability, the creature is taunted by you until the end of their next turn.\nYou can't gain more than one benefit from the same trigger.",
         "name": "Effect"
       }
     ]
@@ -22887,8 +22887,12 @@
     },
     "effects": [
       {
-        "effect": "Each target is marked by you, and you gain two surges. Mark Benefit: Until the end of the encounter, whenever you or any ally makes a strike against a creature marked by you, you can spend 2 focus to add one additional target to the strike.",
+        "effect": "Each target is marked by you, and you gain two surges.",
         "name": "Effect"
+      },
+      {
+        "effect": "Until the end of the encounter, whenever you or any ally makes a strike against a creature marked by you, you can spend 2 focus to add one additional target to the strike.",
+        "name": "Mark Benefit"
       }
     ]
   },  {
@@ -23475,7 +23479,7 @@
       "file_dpath": "Tactician/9th-Level Features",
       "flavor": "You trick your enemies into attacking each other and leave them confused by the aftermath.",
       "item_id": "their-lack-of-focus-is-their-undoing-11-focus",
-      "item_index": "03",
+      "item_index": "04",
       "item_name": "Their Lack of Focus Is Their Undoing (11 Focus)",
       "keywords": [
         "Magic",
@@ -23487,7 +23491,7 @@
         "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:their-lack-of-focus-is-their-undoing-11-focus"
       ],
       "scdc": [
-        "1.1.1:13.2.4.7:03"
+        "1.1.1:13.2.4.7:04"
       ],
       "source": "mcdm.heroes.v1",
       "target": "Three enemies",
@@ -23530,7 +23534,7 @@
       "file_dpath": "Tactician/9th-Level Features",
       "flavor": "You focus on making an enemy irrelevant.",
       "item_id": "that-one-is-mine-11-focus",
-      "item_index": "04",
+      "item_index": "05",
       "item_name": "That One Is Mine! (11 Focus)",
       "keywords": [
         "Melee",
@@ -23543,7 +23547,7 @@
         "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:that-one-is-mine-11-focus"
       ],
       "scdc": [
-        "1.1.1:13.2.4.7:04"
+        "1.1.1:13.2.4.7:05"
       ],
       "source": "mcdm.heroes.v1",
       "target": "One creature",
@@ -23612,7 +23616,7 @@
       "file_dpath": "Tactician/9th-Level Features",
       "flavor": "I had to pry this secret from the shadow colleges.",
       "item_id": "squad-hit-and-run-11-focus",
-      "item_index": "05",
+      "item_index": "06",
       "item_name": "Squad! Hit and Run! (11 Focus)",
       "keywords": [
         "Ranged"
@@ -23622,7 +23626,7 @@
         "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:squad-hit-and-run-11-focus"
       ],
       "scdc": [
-        "1.1.1:13.2.4.7:05"
+        "1.1.1:13.2.4.7:06"
       ],
       "source": "mcdm.heroes.v1",
       "target": "Self and two allies",
@@ -23631,6 +23635,66 @@
     "effects": [
       {
         "effect": "Each target gains 2 surges, and can use a free triggered action to use a signature ability that gains an edge. After resolving their ability, each target can shift up to 2 squares and become hidden even if they have no cover or concealment, or if they are observed.",
+        "name": "Effect"
+      }
+    ]
+  },  {
+    "name": "No Escape",
+    "cost": "11 Focus",
+    "flavor": "Nothing will stop you from reaching your foe.",
+    "keywords": [
+      "Charge",
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Melee 1",
+    "target": "One creature",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "tactician",
+      "cost": "11 Focus",
+      "cost_amount": 11,
+      "cost_resource": "Focus",
+      "distance": "Melee 1",
+      "feature_type": "ability",
+      "file_basename": "No Escape",
+      "file_dpath": "Tactician/9th-Level Features",
+      "flavor": "Nothing will stop you from reaching your foe.",
+      "item_id": "no-escape-11-focus",
+      "item_index": "03",
+      "item_name": "No Escape (11 Focus)",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "level": 9,
+      "scc": [
+        "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:no-escape-11-focus"
+      ],
+      "scdc": [
+        "1.1.1:13.2.4.7:03"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One creature",
+      "type": "feature/ability/tactician/9th-level-feature"
+    },
+    "effects": [
+      {
+        "name": "Effect",
+        "effect": "You mark the target."
+      },
+      {
+        "roll": "Power Roll + Might",
+        "t1": "11 + M damage",
+        "t2": "16 + M damage",
+        "t3": "21 + M damage"
+      },
+      {
+        "effect": "If you use this ability as part of the Charge main action, enemies' spaces don't count as difficult terrain for your movement. Additionally, if you move through any creature's space, you can slide that creature 1 square out of the path of your charge.",
         "name": "Effect"
       }
     ]
@@ -25825,7 +25889,7 @@
         "roll": "Power Roll + Presence",
         "t1": "2 psychic damage; P < WEAK, frightened (save ends)",
         "t2": "5 psychic damage; P < AVERAGE, frightened (save ends)",
-        "t3": "7 damage; P < STRONG, frightened (save ends)"
+        "t3": "7 psychic damage; P < STRONG, frightened (save ends)"
       }
     ]
   },  {
@@ -31250,7 +31314,7 @@
     },
     "effects": [
       {
-        "effect": "The first time each combat round that you deal damage incorporating 1 or more surges, you gain 2 insight instead of 1.\n\nAs a 5th-level shadow, you gain the following features."
+        "effect": "The first time each combat round that you deal damage incorporating 1 or more surges, you gain 2 insight instead of 1."
       }
     ]
   },  {
@@ -33085,7 +33149,7 @@
         "name": "Effect"
       },
       {
-        "effect": "You and the target both permanently grow visibly younger (the equivalent of 20 human years, to the minimum of an 18-yearold). Additionally, you are weakened and slowed (save ends).",
+        "effect": "You and the target both permanently grow visibly younger (the equivalent of 20 human years, to the minimum of an 18-year-old). Additionally, you are weakened and slowed (save ends).",
         "name": "Strained"
       }
     ]
@@ -33869,7 +33933,7 @@
     },
     "effects": [
       {
-        "effect": "You have a +10 bonus to the distance of your ranged abilities. Addition ally, you don't need line of effect to a target of a ranged ability if the target is a creature capable of thought who you have previously had line of effect to."
+        "effect": "You have a +10 bonus to the distance of your ranged abilities. Additionally, you don't need line of effect to a target of a ranged ability if the target is a creature capable of thought who you have previously had line of effect to."
       }
     ]
   },  {
