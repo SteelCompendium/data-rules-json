@@ -31488,6 +31488,7 @@
         "Strike",
         "Weapon"
       ],
+      "kit": "Arcane Archer",
       "scc": [
         "mcdm.heroes.v1:kit-ability.arcane-archer:exploding-arrow"
       ],
@@ -31536,6 +31537,7 @@
         "Strike",
         "Weapon"
       ],
+      "kit": "Retiarius",
       "scc": [
         "mcdm.heroes.v1:kit-ability.retiarius:net-and-stab"
       ],
@@ -31582,6 +31584,7 @@
         "Strike",
         "Weapon"
       ],
+      "kit": "Battlemind",
       "scc": [
         "mcdm.heroes.v1:kit-ability.battlemind:unmooring"
       ],
@@ -31630,6 +31633,7 @@
         "Strike",
         "Weapon"
       ],
+      "kit": "Sword and Board",
       "scc": [
         "mcdm.heroes.v1:kit-ability.sword-and-board:shield-bash"
       ],
@@ -31676,6 +31680,7 @@
         "Strike",
         "Weapon"
       ],
+      "kit": "Raider",
       "scc": [
         "mcdm.heroes.v1:kit-ability.raider:raiders-awe"
       ],
@@ -31726,6 +31731,7 @@
         "Strike",
         "Weapon"
       ],
+      "kit": "Cloak and Dagger",
       "scc": [
         "mcdm.heroes.v1:kit-ability.cloak-and-dagger:fade"
       ],
@@ -31770,6 +31776,7 @@
         "Strike",
         "Weapon"
       ],
+      "kit": "Guisarmier",
       "scc": [
         "mcdm.heroes.v1:kit-ability.guisarmier:forward-thrust-backward-smash"
       ],
@@ -31814,6 +31821,7 @@
         "Strike",
         "Weapon"
       ],
+      "kit": "Swashbuckler",
       "scc": [
         "mcdm.heroes.v1:kit-ability.swashbuckler:fancy-footwork"
       ],
@@ -31862,6 +31870,7 @@
         "Strike",
         "Weapon"
       ],
+      "kit": "Whirlwind",
       "scc": [
         "mcdm.heroes.v1:kit-ability.whirlwind:extension-of-my-arm"
       ],
@@ -31906,6 +31915,7 @@
         "Strike",
         "Weapon"
       ],
+      "kit": "Sniper",
       "scc": [
         "mcdm.heroes.v1:kit-ability.sniper:patient-shot"
       ],
@@ -31956,6 +31966,7 @@
         "Strike",
         "Weapon"
       ],
+      "kit": "Warrior Priest",
       "scc": [
         "mcdm.heroes.v1:kit-ability.warrior-priest:weakening-brand"
       ],
@@ -32004,6 +32015,7 @@
         "Strike",
         "Weapon"
       ],
+      "kit": "Ranger",
       "scc": [
         "mcdm.heroes.v1:kit-ability.ranger:hamstring-shot"
       ],
@@ -32048,6 +32060,7 @@
         "Strike",
         "Weapon"
       ],
+      "kit": "Rapid Fire",
       "scc": [
         "mcdm.heroes.v1:kit-ability.rapid-fire:two-shot"
       ],
@@ -32092,6 +32105,7 @@
         "Strike",
         "Weapon"
       ],
+      "kit": "Panther",
       "scc": [
         "mcdm.heroes.v1:kit-ability.panther:devastating-rush"
       ],
@@ -32140,6 +32154,7 @@
         "Strike",
         "Weapon"
       ],
+      "kit": "Pugilist",
       "scc": [
         "mcdm.heroes.v1:kit-ability.pugilist:lets-dance"
       ],
@@ -32188,6 +32203,7 @@
         "Strike",
         "Weapon"
       ],
+      "kit": "Martial Artist",
       "scc": [
         "mcdm.heroes.v1:kit-ability.martial-artist:battle-grace"
       ],
@@ -32236,6 +32252,7 @@
         "Strike",
         "Weapon"
       ],
+      "kit": "Shining Armor",
       "scc": [
         "mcdm.heroes.v1:kit-ability.shining-armor:protective-attack"
       ],
@@ -32284,6 +32301,7 @@
         "Strike",
         "Weapon"
       ],
+      "kit": "Mountain",
       "scc": [
         "mcdm.heroes.v1:kit-ability.mountain:pain-for-pain"
       ],
@@ -32332,6 +32350,7 @@
         "Strike",
         "Weapon"
       ],
+      "kit": "Dual Wielder",
       "scc": [
         "mcdm.heroes.v1:kit-ability.dual-wielder:double-strike"
       ],
@@ -32382,6 +32401,7 @@
         "Strike",
         "Weapon"
       ],
+      "kit": "Spellsword",
       "scc": [
         "mcdm.heroes.v1:kit-ability.spellsword:leaping-lightning"
       ],
@@ -32430,6 +32450,7 @@
         "Strike",
         "Weapon"
       ],
+      "kit": "Stick and Robe",
       "scc": [
         "mcdm.heroes.v1:kit-ability.stick-and-robe:where-i-want-you"
       ],
