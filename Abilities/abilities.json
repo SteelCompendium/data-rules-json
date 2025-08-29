@@ -12,7 +12,7 @@
         "mcdm.heroes.v1:common-ability.main-action:heal"
       ],
       "scdc": [
-        "1.1.1:14.1:02"
+        "1.1.1:15.1:02"
       ],
       "source": "mcdm.heroes.v1",
       "type": "common-ability/main-action"
@@ -35,7 +35,7 @@
         "mcdm.heroes.v1:common-ability.main-action:free-strike"
       ],
       "scdc": [
-        "1.1.1:14.1:04"
+        "1.1.1:15.1:04"
       ],
       "source": "mcdm.heroes.v1",
       "type": "common-ability/main-action"
@@ -58,7 +58,7 @@
         "mcdm.heroes.v1:common-ability.main-action:charge"
       ],
       "scdc": [
-        "1.1.1:14.1:03"
+        "1.1.1:15.1:03"
       ],
       "source": "mcdm.heroes.v1",
       "type": "common-ability/main-action"
@@ -81,7 +81,7 @@
         "mcdm.heroes.v1:common-ability.main-action:defend"
       ],
       "scdc": [
-        "1.1.1:14.1:01"
+        "1.1.1:15.1:01"
       ],
       "source": "mcdm.heroes.v1",
       "type": "common-ability/main-action"
@@ -104,7 +104,7 @@
         "mcdm.heroes.v1:common-ability.move-action:advance"
       ],
       "scdc": [
-        "1.1.1:14.2:02"
+        "1.1.1:15.2:02"
       ],
       "source": "mcdm.heroes.v1",
       "type": "common-ability/move-action"
@@ -127,7 +127,7 @@
         "mcdm.heroes.v1:common-ability.move-action:disengage"
       ],
       "scdc": [
-        "1.1.1:14.2:01"
+        "1.1.1:15.2:01"
       ],
       "source": "mcdm.heroes.v1",
       "type": "common-ability/move-action"
@@ -150,7 +150,7 @@
         "mcdm.heroes.v1:common-ability.move-action:ride"
       ],
       "scdc": [
-        "1.1.1:14.2:03"
+        "1.1.1:15.2:03"
       ],
       "source": "mcdm.heroes.v1",
       "type": "common-ability/move-action"
@@ -173,7 +173,7 @@
         "mcdm.heroes.v1:common-ability.maneuver:aid-attack"
       ],
       "scdc": [
-        "1.1.1:14.3:06"
+        "1.1.1:15.3:06"
       ],
       "source": "mcdm.heroes.v1",
       "type": "common-ability/maneuver"
@@ -196,7 +196,7 @@
         "mcdm.heroes.v1:common-ability.maneuver:grab"
       ],
       "scdc": [
-        "1.1.1:14.3:10"
+        "1.1.1:15.3:10"
       ],
       "source": "mcdm.heroes.v1",
       "type": "common-ability/maneuver"
@@ -229,7 +229,7 @@
         "mcdm.heroes.v1:common-ability.maneuver:escape-grab"
       ],
       "scdc": [
-        "1.1.1:14.3:08"
+        "1.1.1:15.3:08"
       ],
       "source": "mcdm.heroes.v1",
       "type": "common-ability/maneuver"
@@ -262,7 +262,7 @@
         "mcdm.heroes.v1:common-ability.maneuver:make-or-assist-a-test"
       ],
       "scdc": [
-        "1.1.1:14.3:01"
+        "1.1.1:15.3:01"
       ],
       "source": "mcdm.heroes.v1",
       "type": "common-ability/maneuver"
@@ -285,7 +285,7 @@
         "mcdm.heroes.v1:common-ability.maneuver:knockback"
       ],
       "scdc": [
-        "1.1.1:14.3:05"
+        "1.1.1:15.3:05"
       ],
       "source": "mcdm.heroes.v1",
       "type": "common-ability/maneuver"
@@ -318,7 +318,7 @@
         "mcdm.heroes.v1:common-ability.maneuver:catch-breath"
       ],
       "scdc": [
-        "1.1.1:14.3:02"
+        "1.1.1:15.3:02"
       ],
       "source": "mcdm.heroes.v1",
       "type": "common-ability/maneuver"
@@ -341,7 +341,7 @@
         "mcdm.heroes.v1:common-ability.maneuver:stand-up"
       ],
       "scdc": [
-        "1.1.1:14.3:03"
+        "1.1.1:15.3:03"
       ],
       "source": "mcdm.heroes.v1",
       "type": "common-ability/maneuver"
@@ -364,7 +364,7 @@
         "mcdm.heroes.v1:common-ability.maneuver:hide"
       ],
       "scdc": [
-        "1.1.1:14.3:09"
+        "1.1.1:15.3:09"
       ],
       "source": "mcdm.heroes.v1",
       "type": "common-ability/maneuver"
@@ -387,7 +387,7 @@
         "mcdm.heroes.v1:common-ability.maneuver:search-for-hidden-creatures"
       ],
       "scdc": [
-        "1.1.1:14.3:04"
+        "1.1.1:15.3:04"
       ],
       "source": "mcdm.heroes.v1",
       "type": "common-ability/maneuver"
@@ -410,7 +410,7 @@
         "mcdm.heroes.v1:common-ability.maneuver:use-consumable"
       ],
       "scdc": [
-        "1.1.1:14.3:07"
+        "1.1.1:15.3:07"
       ],
       "source": "mcdm.heroes.v1",
       "type": "common-ability/maneuver"
@@ -31458,6 +31458,994 @@
     "effects": [
       {
         "effect": "You gain one perk of your choice."
+      }
+    ]
+  },  {
+    "name": "Exploding Arrow",
+    "flavor": "Your ammunition explodes with magical energy.",
+    "keywords": [
+      "Magic",
+      "Ranged",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Ranged 15",
+    "target": "One creature or object",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "ignored",
+      "distance": "Ranged 15",
+      "file_basename": "Exploding Arrow",
+      "file_dpath": "Abilities/Kits/Arcane Archer",
+      "flavor": "Your ammunition explodes with magical energy.",
+      "item_id": "exploding-arrow",
+      "item_index": "01",
+      "item_name": "Exploding Arrow",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "scc": [
+        "mcdm.heroes.v1:kit-ability.arcane-archer:exploding-arrow"
+      ],
+      "scdc": [
+        "1.1.1:14.1:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One creature or object",
+      "type": "kit-ability/arcane-archer"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Agility, Reason, Intuition, or Presence",
+        "t1": "5 + A, R, I, or P fire damage",
+        "t2": "7 + A, R, I, or P fire damage",
+        "t3": "10 + A, R, I, or P fire damage"
+      },
+      {
+        "effect": "One creature or object of your choice within 2 squares of the target takes fire damage equal to the characteristic score used for this ability's power roll.",
+        "name": "Effect"
+      }
+    ]
+  },  {
+    "name": "Net and Stab",
+    "flavor": "The well-thrown net that follows your main attack leaves your foes right where you want them.",
+    "keywords": [
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Melee 2",
+    "target": "One creature",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "ignored",
+      "distance": "Melee 2",
+      "file_basename": "Net and Stab",
+      "file_dpath": "Abilities/Kits/Retiarius",
+      "flavor": "The well-thrown net that follows your main attack leaves your foes right where you want them.",
+      "item_id": "net-and-stab",
+      "item_index": "01",
+      "item_name": "Net and Stab",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "scc": [
+        "mcdm.heroes.v1:kit-ability.retiarius:net-and-stab"
+      ],
+      "scdc": [
+        "1.1.1:14.2:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One creature",
+      "type": "kit-ability/retiarius"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might or Agility",
+        "t1": "4 + M or A damage; A < WEAK, slowed (EoT)",
+        "t2": "6 + M or A damage; A < AVERAGE, slowed (EoT)",
+        "t3": "8 + M or A damage; A < STRONG, restrained (EoT)"
+      }
+    ]
+  },  {
+    "name": "Unmooring",
+    "flavor": "Your weapon unleashes psionic energy that reduces your target's weight.",
+    "keywords": [
+      "Melee",
+      "Psionic",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Melee 1",
+    "target": "One creature",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "ignored",
+      "distance": "Melee 1",
+      "file_basename": "Unmooring",
+      "file_dpath": "Abilities/Kits/Battlemind",
+      "flavor": "Your weapon unleashes psionic energy that reduces your target's weight.",
+      "item_id": "unmooring",
+      "item_index": "01",
+      "item_name": "Unmooring",
+      "keywords": [
+        "Melee",
+        "Psionic",
+        "Strike",
+        "Weapon"
+      ],
+      "scc": [
+        "mcdm.heroes.v1:kit-ability.battlemind:unmooring"
+      ],
+      "scdc": [
+        "1.1.1:14.3:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One creature",
+      "type": "kit-ability/battlemind"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might, Reason, Intuition, or Presence",
+        "t1": "5 + M, R, I, or P damage",
+        "t2": "8 + M, R, I, or P damage",
+        "t3": "11 + M, R, I, or P damage"
+      },
+      {
+        "effect": "Until the end of the target's next turn, any forced movement that affects the target has its distance increased by 2.",
+        "name": "Effect"
+      }
+    ]
+  },  {
+    "name": "Shield Bash",
+    "flavor": "In your hands, a shield isn't just for protection.",
+    "keywords": [
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Melee 1",
+    "target": "One creature",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "ignored",
+      "distance": "Melee 1",
+      "file_basename": "Shield Bash",
+      "file_dpath": "Abilities/Kits/Sword and Board",
+      "flavor": "In your hands, a shield isn't just for protection.",
+      "item_id": "shield-bash",
+      "item_index": "01",
+      "item_name": "Shield Bash",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "scc": [
+        "mcdm.heroes.v1:kit-ability.sword-and-board:shield-bash"
+      ],
+      "scdc": [
+        "1.1.1:14.4:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One creature",
+      "type": "kit-ability/sword-and-board"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might or Agility",
+        "t1": "4 + M or A damage; push 1",
+        "t2": "7 + M or A damage; push 2",
+        "t3": "9 + M or A damage; push 3; M < STRONG, prone"
+      }
+    ]
+  },  {
+    "name": "Raider's Awe",
+    "flavor": "You execute a brutal strike that leaves your foe reeling. (Previously known as \"Shock and Awe\")",
+    "keywords": [
+      "Melee",
+      "Ranged",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Melee 1 or ranged 10",
+    "target": "One creature",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "ignored",
+      "distance": "Melee 1 or ranged 10",
+      "file_basename": "Raiders Awe",
+      "file_dpath": "Abilities/Kits/Raider",
+      "flavor": "You execute a brutal strike that leaves your foe reeling. (Previously known as \"Shock and Awe\")",
+      "item_id": "raiders-awe",
+      "item_index": "01",
+      "item_name": "Raider's Awe",
+      "keywords": [
+        "Melee",
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "scc": [
+        "mcdm.heroes.v1:kit-ability.raider:raiders-awe"
+      ],
+      "scdc": [
+        "1.1.1:14.5:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One creature",
+      "type": "kit-ability/raider"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might or Agility",
+        "t1": "3 + M or A damage",
+        "t2": "6 + M or A damage",
+        "t3": "8 + M or A damage"
+      },
+      {
+        "effect": "The target takes a bane on their next power roll made before the end of their next turn.",
+        "name": "Effect"
+      }
+    ]
+  },  {
+    "name": "Fade",
+    "flavor": "A stab, and a few quick, careful steps back.",
+    "keywords": [
+      "Melee",
+      "Ranged",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Melee 1 or ranged 10",
+    "target": "One creature",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "ignored",
+      "distance": "Melee 1 or ranged 10",
+      "file_basename": "Fade",
+      "file_dpath": "Abilities/Kits/Cloak and Dagger",
+      "flavor": "A stab, and a few quick, careful steps back.",
+      "item_id": "fade",
+      "item_index": "01",
+      "item_name": "Fade",
+      "keywords": [
+        "Melee",
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "scc": [
+        "mcdm.heroes.v1:kit-ability.cloak-and-dagger:fade"
+      ],
+      "scdc": [
+        "1.1.1:14.6:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One creature",
+      "type": "kit-ability/cloak-and-dagger"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might or Agility",
+        "t1": "3 + M or A damage; you can shift 1 square",
+        "t2": "6 + M or A damage; you can shift up to 2 squares",
+        "t3": "8 + M or A damage; you can shift up to 3 squares"
+      }
+    ]
+  },  {
+    "name": "Forward Thrust, Backward Smash",
+    "flavor": "In your hands, the haft is as good as the head.",
+    "keywords": [
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Melee 2",
+    "target": "Two creatures or objects",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "ignored",
+      "distance": "Melee 2",
+      "file_basename": "Forward Thrust Backward Smash",
+      "file_dpath": "Abilities/Kits/Guisarmier",
+      "flavor": "In your hands, the haft is as good as the head.",
+      "item_id": "forward-thrust-backward-smash",
+      "item_index": "01",
+      "item_name": "Forward Thrust, Backward Smash",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "scc": [
+        "mcdm.heroes.v1:kit-ability.guisarmier:forward-thrust-backward-smash"
+      ],
+      "scdc": [
+        "1.1.1:14.7:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "Two creatures or objects",
+      "type": "kit-ability/guisarmier"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might or Agility",
+        "t1": "4 damage",
+        "t2": "7 damage",
+        "t3": "9 damage"
+      }
+    ]
+  },  {
+    "name": "Fancy Footwork",
+    "flavor": "All combat is a dance-and you'll be the one leading.",
+    "keywords": [
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Melee 1",
+    "target": "One creature",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "ignored",
+      "distance": "Melee 1",
+      "file_basename": "Fancy Footwork",
+      "file_dpath": "Abilities/Kits/Swashbuckler",
+      "flavor": "All combat is a dance-and you'll be the one leading.",
+      "item_id": "fancy-footwork",
+      "item_index": "01",
+      "item_name": "Fancy Footwork",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "scc": [
+        "mcdm.heroes.v1:kit-ability.swashbuckler:fancy-footwork"
+      ],
+      "scdc": [
+        "1.1.1:14.8:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One creature",
+      "type": "kit-ability/swashbuckler"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might or Agility",
+        "t1": "5 + M or A damage",
+        "t2": "7 + M or A damage; push 1",
+        "t3": "10 + M or A damage; push 2"
+      },
+      {
+        "effect": "You can shift into any square the target leaves after you push them.",
+        "name": "Effect"
+      }
+    ]
+  },  {
+    "name": "Extension of My Arm",
+    "flavor": "When you draw your whip back after an attack, your enemy is drawn ever closer.",
+    "keywords": [
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Melee 3",
+    "target": "One creature",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "ignored",
+      "distance": "Melee 3",
+      "file_basename": "Extension of My Arm",
+      "file_dpath": "Abilities/Kits/Whirlwind",
+      "flavor": "When you draw your whip back after an attack, your enemy is drawn ever closer.",
+      "item_id": "extension-of-my-arm",
+      "item_index": "01",
+      "item_name": "Extension of My Arm",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "scc": [
+        "mcdm.heroes.v1:kit-ability.whirlwind:extension-of-my-arm"
+      ],
+      "scdc": [
+        "1.1.1:14.9:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One creature",
+      "type": "kit-ability/whirlwind"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might or Agility",
+        "t1": "4 + M or A damage; vertical pull 1",
+        "t2": "7 + M or A damage; vertical pull 2",
+        "t3": "10 + M or A damage; vertical pull 3"
+      }
+    ]
+  },  {
+    "name": "Patient Shot",
+    "flavor": "Breathe... aim... wait... then strike!",
+    "keywords": [
+      "Ranged",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Ranged 15",
+    "target": "One creature",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "ignored",
+      "distance": "Ranged 15",
+      "file_basename": "Patient Shot",
+      "file_dpath": "Abilities/Kits/Sniper",
+      "flavor": "Breathe... aim... wait... then strike!",
+      "item_id": "patient-shot",
+      "item_index": "01",
+      "item_name": "Patient Shot",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "scc": [
+        "mcdm.heroes.v1:kit-ability.sniper:patient-shot"
+      ],
+      "scdc": [
+        "1.1.1:14.10:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One creature",
+      "type": "kit-ability/sniper"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might or Agility",
+        "t1": "3 + M or A damage",
+        "t2": "6 + M or A damage",
+        "t3": "13 + M or A damage"
+      },
+      {
+        "effect": "If you don't take a move action this turn, this strike deals extra damage equal to your Might or Agility score (your choice).",
+        "name": "Effect"
+      }
+    ]
+  },  {
+    "name": "Weakening Brand",
+    "flavor": "The impact of your weapon brands your target for destruction.",
+    "keywords": [
+      "Magic",
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Melee 1",
+    "target": "One creature or object",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "ignored",
+      "distance": "Melee 1",
+      "file_basename": "Weakening Brand",
+      "file_dpath": "Abilities/Kits/Warrior Priest",
+      "flavor": "The impact of your weapon brands your target for destruction.",
+      "item_id": "weakening-brand",
+      "item_index": "01",
+      "item_name": "Weakening Brand",
+      "keywords": [
+        "Magic",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "scc": [
+        "mcdm.heroes.v1:kit-ability.warrior-priest:weakening-brand"
+      ],
+      "scdc": [
+        "1.1.1:14.11:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One creature or object",
+      "type": "kit-ability/warrior-priest"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might, Reason, Intuition, or Presence",
+        "t1": "3 + M, R, I, or P holy damage",
+        "t2": "5 + M, R, I, or P holy damage",
+        "t3": "8 + M, R, I, or P holy damage"
+      },
+      {
+        "effect": "Until the end of the target's next turn, they have damage weakness equal to the characteristic score used for this ability's power roll.",
+        "name": "Effect"
+      }
+    ]
+  },  {
+    "name": "Hamstring Shot",
+    "flavor": "A well-placed shot leaves your enemy struggling to move.",
+    "keywords": [
+      "Ranged",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Ranged 10",
+    "target": "One creature",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "ignored",
+      "distance": "Ranged 10",
+      "file_basename": "Hamstring Shot",
+      "file_dpath": "Abilities/Kits/Ranger",
+      "flavor": "A well-placed shot leaves your enemy struggling to move.",
+      "item_id": "hamstring-shot",
+      "item_index": "01",
+      "item_name": "Hamstring Shot",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "scc": [
+        "mcdm.heroes.v1:kit-ability.ranger:hamstring-shot"
+      ],
+      "scdc": [
+        "1.1.1:14.12:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One creature",
+      "type": "kit-ability/ranger"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might or Agility",
+        "t1": "3 + M or A damage; A < WEAK, slowed (save ends)",
+        "t2": "5 + M or A damage; A < AVERAGE, slowed (save ends)",
+        "t3": "7 + M or A damage; A < STRONG, slowed (save ends)"
+      }
+    ]
+  },  {
+    "name": "Two Shot",
+    "flavor": "When you fire two arrows back-to-back, both hit their mark.",
+    "keywords": [
+      "Ranged",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Ranged 12",
+    "target": "Two creatures or objects",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "ignored",
+      "distance": "Ranged 12",
+      "file_basename": "Two Shot",
+      "file_dpath": "Abilities/Kits/Rapid Fire",
+      "flavor": "When you fire two arrows back-to-back, both hit their mark.",
+      "item_id": "two-shot",
+      "item_index": "01",
+      "item_name": "Two Shot",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "scc": [
+        "mcdm.heroes.v1:kit-ability.rapid-fire:two-shot"
+      ],
+      "scdc": [
+        "1.1.1:14.13:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "Two creatures or objects",
+      "type": "kit-ability/rapid-fire"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might or Agility",
+        "t1": "4 damage",
+        "t2": "6 damage",
+        "t3": "8 damage"
+      }
+    ]
+  },  {
+    "name": "Devastating Rush",
+    "flavor": "The faster you move, the harder you hit.",
+    "keywords": [
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Melee 1",
+    "target": "One creature or object",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "ignored",
+      "distance": "Melee 1",
+      "file_basename": "Devastating Rush",
+      "file_dpath": "Abilities/Kits/Panther",
+      "flavor": "The faster you move, the harder you hit.",
+      "item_id": "devastating-rush",
+      "item_index": "01",
+      "item_name": "Devastating Rush",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "scc": [
+        "mcdm.heroes.v1:kit-ability.panther:devastating-rush"
+      ],
+      "scdc": [
+        "1.1.1:14.14:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One creature or object",
+      "type": "kit-ability/panther"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might or Agility",
+        "t1": "3 + M or A damage",
+        "t2": "6 + M or A damage",
+        "t3": "13 + M or A damage"
+      },
+      {
+        "effect": "You can move up to 3 squares straight toward the target before this strike, which deals extra damage equal to the number of squares you move this way.",
+        "name": "Effect"
+      }
+    ]
+  },  {
+    "name": "Let's Dance",
+    "flavor": "Keeping your enemies stumbling around the battlefield is second nature to you.",
+    "keywords": [
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Melee 1",
+    "target": "One creature",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "ignored",
+      "distance": "Melee 1",
+      "file_basename": "Lets Dance",
+      "file_dpath": "Abilities/Kits/Pugilist",
+      "flavor": "Keeping your enemies stumbling around the battlefield is second nature to you.",
+      "item_id": "lets-dance",
+      "item_index": "01",
+      "item_name": "Let's Dance",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "scc": [
+        "mcdm.heroes.v1:kit-ability.pugilist:lets-dance"
+      ],
+      "scdc": [
+        "1.1.1:14.15:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One creature",
+      "type": "kit-ability/pugilist"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might or Agility",
+        "t1": "3 + M or A damage",
+        "t2": "6 + M or A damage; slide 1",
+        "t3": "8 + M or A damage; slide 2"
+      },
+      {
+        "effect": "You can shift into any square the target leaves after you slide them.",
+        "name": "Effect"
+      }
+    ]
+  },  {
+    "name": "Battle Grace",
+    "flavor": "You feint to move your enemies into perfect position.",
+    "keywords": [
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Melee 1",
+    "target": "One creature",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "ignored",
+      "distance": "Melee 1",
+      "file_basename": "Battle Grace",
+      "file_dpath": "Abilities/Kits/Martial Artist",
+      "flavor": "You feint to move your enemies into perfect position.",
+      "item_id": "battle-grace",
+      "item_index": "01",
+      "item_name": "Battle Grace",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "scc": [
+        "mcdm.heroes.v1:kit-ability.martial-artist:battle-grace"
+      ],
+      "scdc": [
+        "1.1.1:14.16:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One creature",
+      "type": "kit-ability/martial-artist"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might or Agility",
+        "t1": "5 + M or A damage",
+        "t2": "8 + M or A damage; you can swap places with the target",
+        "t3": "11 + M or A damage; you can swap places with the target"
+      },
+      {
+        "effect": "If you obtain a tier 2 or tier 3 outcome and can't swap places with the target because one or both of you is too big to fit into the swapped space, you both remain in your original spaces and the target takes 1 extra damage.",
+        "name": "Effect"
+      }
+    ]
+  },  {
+    "name": "Protective Attack",
+    "flavor": "The strength of your assault makes it impossible for your foe to ignore you.",
+    "keywords": [
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Melee 1",
+    "target": "One creature",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "ignored",
+      "distance": "Melee 1",
+      "file_basename": "Protective Attack",
+      "file_dpath": "Abilities/Kits/Shining Armor",
+      "flavor": "The strength of your assault makes it impossible for your foe to ignore you.",
+      "item_id": "protective-attack",
+      "item_index": "01",
+      "item_name": "Protective Attack",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "scc": [
+        "mcdm.heroes.v1:kit-ability.shining-armor:protective-attack"
+      ],
+      "scdc": [
+        "1.1.1:14.17:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One creature",
+      "type": "kit-ability/shining-armor"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might or Agility",
+        "t1": "5 + M or A damage",
+        "t2": "8 + M or A damage",
+        "t3": "11 + M or A damage"
+      },
+      {
+        "effect": "The target is taunted until the end of their next turn.",
+        "name": "Effect"
+      }
+    ]
+  },  {
+    "name": "Pain for Pain",
+    "flavor": "An enemy who tagged you will pay for that.",
+    "keywords": [
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Melee 1",
+    "target": "One creature",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "ignored",
+      "distance": "Melee 1",
+      "file_basename": "Pain for Pain",
+      "file_dpath": "Abilities/Kits/Mountain",
+      "flavor": "An enemy who tagged you will pay for that.",
+      "item_id": "pain-for-pain",
+      "item_index": "01",
+      "item_name": "Pain for Pain",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "scc": [
+        "mcdm.heroes.v1:kit-ability.mountain:pain-for-pain"
+      ],
+      "scdc": [
+        "1.1.1:14.18:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One creature",
+      "type": "kit-ability/mountain"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might or Agility",
+        "t1": "3 + M or A damage",
+        "t2": "5 + M or A damage",
+        "t3": "13 + M or A damage"
+      },
+      {
+        "effect": "If the target dealt damage to you since the end of your last turn, this strike deals additional damage equal to your Might or Agility score (your choice).",
+        "name": "Effect"
+      }
+    ]
+  },  {
+    "name": "Double Strike",
+    "flavor": "Why strike once when you could do it twice?",
+    "keywords": [
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Melee 1",
+    "target": "Two creatures or objects",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "ignored",
+      "distance": "Melee 1",
+      "file_basename": "Double Strike",
+      "file_dpath": "Abilities/Kits/Dual Wielder",
+      "flavor": "Why strike once when you could do it twice?",
+      "item_id": "double-strike",
+      "item_index": "01",
+      "item_name": "Double Strike",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "scc": [
+        "mcdm.heroes.v1:kit-ability.dual-wielder:double-strike"
+      ],
+      "scdc": [
+        "1.1.1:14.19:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "Two creatures or objects",
+      "type": "kit-ability/dual-wielder"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might or Agility",
+        "t1": "4 damage",
+        "t2": "6 damage",
+        "t3": "8 damage"
+      },
+      {
+        "effect": "If you use this ability on your turn, you can use it against one target, then use your maneuver and your move action for that turn before using the ability against a second target. You still use the same power roll for both targets.",
+        "name": "Effect"
+      }
+    ]
+  },  {
+    "name": "Leaping Lightning",
+    "flavor": "Lightning jumps from your weapon as you strike to harm a nearby foe.",
+    "keywords": [
+      "Magic",
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Melee 1",
+    "target": "One creature or object",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "ignored",
+      "distance": "Melee 1",
+      "file_basename": "Leaping Lightning",
+      "file_dpath": "Abilities/Kits/Spellsword",
+      "flavor": "Lightning jumps from your weapon as you strike to harm a nearby foe.",
+      "item_id": "leaping-lightning",
+      "item_index": "01",
+      "item_name": "Leaping Lightning",
+      "keywords": [
+        "Magic",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "scc": [
+        "mcdm.heroes.v1:kit-ability.spellsword:leaping-lightning"
+      ],
+      "scdc": [
+        "1.1.1:14.20:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One creature or object",
+      "type": "kit-ability/spellsword"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might, Reason, Intuition, or Presence",
+        "t1": "5 + M, R, I, or P lightning damage",
+        "t2": "8 + M, R, I, or P lightning damage",
+        "t3": "11 + M, R, I, or P lightning damage"
+      },
+      {
+        "effect": "A creature or object of your choice within 2 squares of the target takes lightning damage equal to the characteristic score used for this ability's power roll.",
+        "name": "Effect"
+      }
+    ]
+  },  {
+    "name": "Where I Want You",
+    "flavor": "When your stick speaks, your enemy moves.",
+    "keywords": [
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "type": "Main action",
+    "distance": "Melee 2",
+    "target": "One creature",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "ignored",
+      "distance": "Melee 2",
+      "file_basename": "Where I Want You",
+      "file_dpath": "Abilities/Kits/Stick and Robe",
+      "flavor": "When your stick speaks, your enemy moves.",
+      "item_id": "where-i-want-you",
+      "item_index": "01",
+      "item_name": "Where I Want You",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "scc": [
+        "mcdm.heroes.v1:kit-ability.stick-and-robe:where-i-want-you"
+      ],
+      "scdc": [
+        "1.1.1:14.21:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One creature",
+      "type": "kit-ability/stick-and-robe"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might or Agility",
+        "t1": "4 + M or A damage",
+        "t2": "7 + M or A damage; slide 1",
+        "t3": "10 + M or A damage; slide 3"
       }
     ]
   },  {

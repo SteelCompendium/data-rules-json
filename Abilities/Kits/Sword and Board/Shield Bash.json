@@ -1,0 +1,45 @@
+{
+  "name": "Shield Bash",
+  "flavor": "In your hands, a shield isn't just for protection.",
+  "keywords": [
+    "Melee",
+    "Strike",
+    "Weapon"
+  ],
+  "type": "Main action",
+  "distance": "Melee 1",
+  "target": "One creature",
+  "metadata": {
+    "action_type": "Main action",
+    "class": "ignored",
+    "distance": "Melee 1",
+    "file_basename": "Shield Bash",
+    "file_dpath": "Abilities/Kits/Sword and Board",
+    "flavor": "In your hands, a shield isn't just for protection.",
+    "item_id": "shield-bash",
+    "item_index": "01",
+    "item_name": "Shield Bash",
+    "keywords": [
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "scc": [
+      "mcdm.heroes.v1:kit-ability.sword-and-board:shield-bash"
+    ],
+    "scdc": [
+      "1.1.1:14.4:01"
+    ],
+    "source": "mcdm.heroes.v1",
+    "target": "One creature",
+    "type": "kit-ability/sword-and-board"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Might or Agility",
+      "t1": "4 + M or A damage; push 1",
+      "t2": "7 + M or A damage; push 2",
+      "t3": "9 + M or A damage; push 3; M < STRONG, prone"
+    }
+  ]
+}

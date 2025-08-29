@@ -1,0 +1,45 @@
+{
+  "name": "Where I Want You",
+  "flavor": "When your stick speaks, your enemy moves.",
+  "keywords": [
+    "Melee",
+    "Strike",
+    "Weapon"
+  ],
+  "type": "Main action",
+  "distance": "Melee 2",
+  "target": "One creature",
+  "metadata": {
+    "action_type": "Main action",
+    "class": "ignored",
+    "distance": "Melee 2",
+    "file_basename": "Where I Want You",
+    "file_dpath": "Abilities/Kits/Stick and Robe",
+    "flavor": "When your stick speaks, your enemy moves.",
+    "item_id": "where-i-want-you",
+    "item_index": "01",
+    "item_name": "Where I Want You",
+    "keywords": [
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "scc": [
+      "mcdm.heroes.v1:kit-ability.stick-and-robe:where-i-want-you"
+    ],
+    "scdc": [
+      "1.1.1:14.21:01"
+    ],
+    "source": "mcdm.heroes.v1",
+    "target": "One creature",
+    "type": "kit-ability/stick-and-robe"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Might or Agility",
+      "t1": "4 + M or A damage",
+      "t2": "7 + M or A damage; slide 1",
+      "t3": "10 + M or A damage; slide 3"
+    }
+  ]
+}
