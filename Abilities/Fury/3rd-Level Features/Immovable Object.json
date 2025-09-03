@@ -16,6 +16,7 @@
       "1.1.1:13.1.5.7:01"
     ],
     "source": "mcdm.heroes.v1",
+    "subclass": "Berserker",
     "type": "feature/trait/fury/3rd-level-feature"
   },
   "effects": [

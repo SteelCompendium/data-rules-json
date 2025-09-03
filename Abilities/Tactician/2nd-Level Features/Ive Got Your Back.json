@@ -37,6 +37,7 @@
       "1.1.1:13.2.4.5:03"
     ],
     "source": "mcdm.heroes.v1",
+    "subclass": "Mastermind",
     "target": "One creature",
     "type": "feature/ability/tactician/2nd-level-feature"
   },

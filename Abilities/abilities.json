@@ -987,6 +987,7 @@
         "1.1.1:13.2.9.1:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Fire",
       "target": "Self or one ally",
       "type": "feature/ability/elementalist/1st-level-feature"
     },
@@ -1060,6 +1061,7 @@
         "1.1.1:13.2.9.1:21"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Earth",
       "target": "Special",
       "type": "feature/ability/elementalist/1st-level-feature"
     },
@@ -1105,6 +1107,7 @@
         "1.1.1:13.2.9.1:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Void",
       "target": "Self or one ally",
       "type": "feature/ability/elementalist/1st-level-feature"
     },
@@ -1309,6 +1312,7 @@
         "1.1.1:13.2.9.1:12"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Void",
       "target": "Special",
       "type": "feature/ability/elementalist/1st-level-feature"
     },
@@ -1388,6 +1392,7 @@
         "1.1.1:13.1.9.1:10"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Void",
       "type": "feature/trait/elementalist/1st-level-feature"
     },
     "effects": [
@@ -1617,6 +1622,7 @@
         "1.1.1:13.1.9.1:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Fire",
       "type": "feature/trait/elementalist/1st-level-feature"
     },
     "effects": [
@@ -1660,6 +1666,7 @@
         "1.1.1:13.2.9.1:14"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Earth",
       "target": "Self or one ally",
       "type": "feature/ability/elementalist/1st-level-feature"
     },
@@ -1709,6 +1716,7 @@
         "1.1.1:13.2.9.1:24"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Green",
       "target": "Self or one ally",
       "type": "feature/ability/elementalist/1st-level-feature"
     },
@@ -1798,6 +1806,7 @@
         "1.1.1:13.1.9.1:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Green",
       "type": "feature/trait/elementalist/1st-level-feature"
     },
     "effects": [
@@ -1823,6 +1832,7 @@
         "1.1.1:13.1.9.1:12"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Green",
       "type": "feature/trait/elementalist/1st-level-feature"
     },
     "effects": [
@@ -1865,6 +1875,7 @@
         "1.1.1:13.2.9.1:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Fire",
       "target": "One mundane object",
       "type": "feature/ability/elementalist/1st-level-feature"
     },
@@ -1996,6 +2007,7 @@
         "1.1.1:13.1.9.1:16"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Earth",
       "type": "feature/trait/elementalist/1st-level-feature"
     },
     "effects": [
@@ -2328,6 +2340,7 @@
         "1.1.1:13.1.9.2:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Green",
       "type": "feature/trait/elementalist/8th-level-feature"
     },
     "effects": [
@@ -2353,6 +2366,7 @@
         "1.1.1:13.1.9.2:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Void",
       "type": "feature/trait/elementalist/8th-level-feature"
     },
     "effects": [
@@ -2395,6 +2409,7 @@
         "1.1.1:13.2.9.2:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Earth",
       "target": "Special",
       "type": "feature/ability/elementalist/8th-level-feature"
     },
@@ -2426,6 +2441,7 @@
         "1.1.1:13.1.9.2:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Fire",
       "type": "feature/trait/elementalist/8th-level-feature"
     },
     "effects": [
@@ -2852,6 +2868,7 @@
         "1.1.1:13.1.9.4:09"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Green",
       "type": "feature/trait/elementalist/10th-level-feature"
     },
     "effects": [
@@ -2902,6 +2919,7 @@
         "1.1.1:13.1.9.4:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Fire",
       "type": "feature/trait/elementalist/10th-level-feature"
     },
     "effects": [
@@ -2927,6 +2945,7 @@
         "1.1.1:13.1.9.4:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Earth",
       "type": "feature/trait/elementalist/10th-level-feature"
     },
     "effects": [
@@ -2952,6 +2971,7 @@
         "1.1.1:13.1.9.4:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Void",
       "type": "feature/trait/elementalist/10th-level-feature"
     },
     "effects": [
@@ -3027,6 +3047,7 @@
         "1.1.1:13.1.9.5:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Void",
       "type": "feature/trait/elementalist/5th-level-feature"
     },
     "effects": [
@@ -3052,6 +3073,7 @@
         "1.1.1:13.1.9.5:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Earth",
       "type": "feature/trait/elementalist/5th-level-feature"
     },
     "effects": [
@@ -3137,6 +3159,7 @@
         "1.1.1:13.1.9.5:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Green",
       "type": "feature/trait/elementalist/5th-level-feature"
     },
     "effects": [
@@ -3162,6 +3185,7 @@
         "1.1.1:13.1.9.5:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Fire",
       "type": "feature/trait/elementalist/5th-level-feature"
     },
     "effects": [
@@ -3409,6 +3433,7 @@
         "1.1.1:13.1.9.6:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Earth",
       "type": "feature/trait/elementalist/2nd-level-feature"
     },
     "effects": [
@@ -3621,6 +3646,7 @@
         "1.1.1:13.2.9.5:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Void",
       "target": "Special",
       "type": "feature/ability/elementalist/2nd-level-feature"
     },
@@ -3648,6 +3674,7 @@
         "1.1.1:13.1.9.6:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Fire",
       "type": "feature/trait/elementalist/2nd-level-feature"
     },
     "effects": [
@@ -3698,6 +3725,7 @@
         "1.1.1:13.1.9.7:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Void",
       "type": "feature/trait/elementalist/3rd-level-feature"
     },
     "effects": [
@@ -3798,6 +3826,7 @@
         "1.1.1:13.2.9.6:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Green",
       "target": "One mundane wooden object",
       "type": "feature/ability/elementalist/3rd-level-feature"
     },
@@ -3941,6 +3970,7 @@
         "1.1.1:13.1.9.7:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Fire",
       "type": "feature/trait/elementalist/3rd-level-feature"
     },
     "effects": [
@@ -4035,6 +4065,7 @@
         "1.1.1:13.2.9.6:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Earth",
       "target": "Self",
       "type": "feature/ability/elementalist/3rd-level-feature"
     },
@@ -4422,6 +4453,7 @@
         "1.1.1:13.1.9.10:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Earth",
       "type": "feature/trait/elementalist/4th-level-feature"
     },
     "effects": [
@@ -4472,6 +4504,7 @@
         "1.1.1:13.1.9.10:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Fire",
       "type": "feature/trait/elementalist/4th-level-feature"
     },
     "effects": [
@@ -4497,6 +4530,7 @@
         "1.1.1:13.1.9.10:08"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Void",
       "type": "feature/trait/elementalist/4th-level-feature"
     },
     "effects": [
@@ -4522,6 +4556,7 @@
         "1.1.1:13.1.9.10:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Green",
       "type": "feature/trait/elementalist/4th-level-feature"
     },
     "effects": [
@@ -4601,12 +4636,10 @@
     },
     "effects": [
       {
-        "effect": "You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes acid, cold, fire, lightning, poison, or sonic damage.",
-        "name": "Piety"
+        "effect": "- **Piety:** You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes acid, cold, fire, lightning, poison, or sonic damage."
       },
       {
-        "effect": "Vines whip up from the floor or ground within 10 squares, wrapping around a number of creatures equal to your Intuition score. You can slide each creature up to a number of squares equal to your Intuition score. The vines then fade away.",
-        "name": "Prayer Effect"
+        "effect": "- **Prayer Effect:** Vines whip up from the floor or ground within 10 squares, wrapping around a number of creatures equal to your Intuition score. You can slide each creature up to a number of squares equal to your Intuition score. The vines then fade away."
       }
     ]
   },  {
@@ -4723,6 +4756,7 @@
         "1.1.1:13.1.8.1:30"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Love",
       "type": "feature/trait/conduit/1st-level-feature"
     },
     "effects": [
@@ -4752,12 +4786,10 @@
     },
     "effects": [
       {
-        "effect": "You gain 2 piety the first time in an encounter that an enemy within 10 squares takes fire or holy damage.",
-        "name": "Piety"
+        "effect": "- **Piety:** You gain 2 piety the first time in an encounter that an enemy within 10 squares takes fire or holy damage."
       },
       {
-        "effect": "One enemy within 10 squares takes fire damage equal to three times your Intuition score.",
-        "name": "Prayer Effect"
+        "effect": "- **Prayer Effect:** One enemy within 10 squares takes fire damage equal to three times your Intuition score."
       }
     ]
   },  {
@@ -4878,12 +4910,10 @@
     },
     "effects": [
       {
-        "effect": "You gain 2 piety the first time in an encounter that you or any ally within 10 squares uses the Aid Attack maneuver or an ability that targets an ally.",
-        "name": "Piety"
+        "effect": "- **Piety:** You gain 2 piety the first time in an encounter that you or any ally within 10 squares uses the Aid Attack maneuver or an ability that targets an ally."
       },
       {
-        "effect": "Each ally within 10 squares of you gains temporary Stamina equal to two times your Intuition score.",
-        "name": "Prayer Effect"
+        "effect": "- **Prayer Effect:** Each ally within 10 squares of you gains temporary Stamina equal to two times your Intuition score."
       }
     ]
   },  {
@@ -4908,12 +4938,10 @@
     },
     "effects": [
       {
-        "effect": "You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes damage greater than 10 + your level in a single turn.",
-        "name": "Piety"
+        "effect": "- **Piety:** You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes damage greater than 10 + your level in a single turn."
       },
       {
-        "effect": "Choose up to three allies within 10 squares of you, or choose yourself instead of one ally. Each target gains 2 surges.",
-        "name": "Prayer Effect"
+        "effect": "- **Prayer Effect:** Choose up to three allies within 10 squares of you, or choose yourself instead of one ally. Each target gains 2 surges."
       }
     ]
   },  {
@@ -4938,12 +4966,10 @@
     },
     "effects": [
       {
-        "effect": "You gain 2 piety the first time in an encounter that a creature within 10 squares who isn't a minion is reduced to 0 Stamina, or the first time in an encounter that a solo creature within 10 squares becomes winded.",
-        "name": "Piety"
+        "effect": "- **Piety:** You gain 2 piety the first time in an encounter that a creature within 10 squares who isn't a minion is reduced to 0 Stamina, or the first time in an encounter that a solo creature within 10 squares becomes winded."
       },
       {
-        "effect": "You inflict a deadly curse on up to two enemies within 10 squares of you. Each target takes corruption damage equal to twice your Intuition score.",
-        "name": "Prayer Effect"
+        "effect": "- **Prayer Effect:** You inflict a deadly curse on up to two enemies within 10 squares of you. Each target takes corruption damage equal to twice your Intuition score."
       }
     ]
   },  {
@@ -5023,6 +5049,7 @@
         "1.1.1:13.2.8.1:15"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Creation",
       "target": "Self",
       "type": "feature/ability/conduit/1st-level-feature"
     },
@@ -5054,12 +5081,10 @@
     },
     "effects": [
       {
-        "effect": "You gain 2 piety the first time in an encounter that an ally within 10 squares obtains a tier 3 outcome on a power roll, or an enemy within 10 squares obtains a tier 1 outcome on a power roll.",
-        "name": "Piety"
+        "effect": "- **Piety:** You gain 2 piety the first time in an encounter that an ally within 10 squares obtains a tier 3 outcome on a power roll, or an enemy within 10 squares obtains a tier 1 outcome on a power roll."
       },
       {
-        "effect": "You call on the forces of fate to create a reliable future. Choose a creature within 10 squares. That creature automatically obtains a tier 1 or tier 3 outcome (your choice) on their next power roll made before the end of the encounter.",
-        "name": "Prayer Effect"
+        "effect": "- **Prayer Effect:** You call on the forces of fate to create a reliable future. Choose a creature within 10 squares. That creature automatically obtains a tier 1 or tier 3 outcome (your choice) on their next power roll made before the end of the encounter."
       }
     ]
   },  {
@@ -5280,12 +5305,10 @@
     },
     "effects": [
       {
-        "effect": "You gain 2 piety the first time in an encounter that a creature within 10 squares regains Stamina.",
-        "name": "Piety"
+        "effect": "- **Piety:** You gain 2 piety the first time in an encounter that a creature within 10 squares regains Stamina."
       },
       {
-        "effect": "Choose yourself or one ally within 10 squares. That character can spend a Recovery, can end one effect on them that is ended by a saving throw or that ends at the end of their turn, or can stand up if they are prone. Alternatively, you or one ally within 10 squares gains temporary Stamina equal to two times your Intuition score.",
-        "name": "Prayer Effect"
+        "effect": "- **Prayer Effect:** Choose yourself or one ally within 10 squares. That character can spend a Recovery, can end one effect on them that is ended by a saving throw or that ends at the end of their turn, or can stand up if they are prone. Alternatively, you or one ally within 10 squares gains temporary Stamina equal to two times your Intuition score."
       }
     ]
   },  {
@@ -5356,6 +5379,7 @@
         "1.1.1:13.1.8.1:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Storm",
       "type": "feature/trait/conduit/1st-level-feature"
     },
     "effects": [
@@ -5577,6 +5601,7 @@
         "1.1.1:13.2.8.1:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Nature",
       "target": "Self",
       "type": "feature/ability/conduit/1st-level-feature"
     },
@@ -5633,12 +5658,10 @@
     },
     "effects": [
       {
-        "effect": "You gain 2 piety the first time in an encounter that you or any ally within 10 squares gains temporary Stamina, or uses a triggered action to reduce incoming damage or to impose a bane or double bane on an enemy's power roll.",
-        "name": "Piety"
+        "effect": "- **Piety:** You gain 2 piety the first time in an encounter that you or any ally within 10 squares gains temporary Stamina, or uses a triggered action to reduce incoming damage or to impose a bane or double bane on an enemy's power roll."
       },
       {
-        "effect": "One ally within 10 squares gains temporary Stamina equal to four times your Intuition score.",
-        "name": "Prayer Effect"
+        "effect": "- **Prayer Effect:** One ally within 10 squares gains temporary Stamina equal to four times your Intuition score."
       }
     ]
   },  {
@@ -5709,6 +5732,7 @@
         "1.1.1:13.1.8.1:28"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Fate",
       "type": "feature/trait/conduit/1st-level-feature"
     },
     "effects": [
@@ -5810,12 +5834,10 @@
     },
     "effects": [
       {
-        "effect": "You gain 2 piety the first time in an encounter that the Director spends Malice (see *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)*).",
-        "name": "Piety"
+        "effect": "- **Piety:** You gain 2 piety the first time in an encounter that the Director spends Malice (see *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)*)."
       },
       {
-        "effect": "Choose up to five allies within 10 squares of you, or choose yourself instead of one ally. Each target gains 1 surge.",
-        "name": "Prayer Effect"
+        "effect": "- **Prayer Effect:** Choose up to five allies within 10 squares of you, or choose yourself instead of one ally. Each target gains 1 surge."
       }
     ]
   },  {
@@ -5836,6 +5858,7 @@
         "1.1.1:13.1.8.1:27"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "War",
       "type": "feature/trait/conduit/1st-level-feature"
     },
     "effects": [
@@ -5963,6 +5986,7 @@
         "1.1.1:13.1.8.1:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Trickery",
       "type": "feature/trait/conduit/1st-level-feature"
     },
     "effects": [
@@ -6088,12 +6112,10 @@
     },
     "effects": [
       {
-        "effect": "You gain 2 piety the first time in an encounter that an enemy within 10 squares is force moved.",
-        "name": "Piety"
+        "effect": "- **Piety:** You gain 2 piety the first time in an encounter that an enemy within 10 squares is force moved."
       },
       {
-        "effect": "Each enemy in a 3 cube within 10 squares takes lightning damage equal to twice your Intuition score.",
-        "name": "Prayer Effect"
+        "effect": "- **Prayer Effect:** Each enemy in a 3 cube within 10 squares takes lightning damage equal to twice your Intuition score."
       }
     ]
   },  {
@@ -6161,6 +6183,7 @@
         "1.1.1:13.1.8.1:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Sun",
       "type": "feature/trait/conduit/1st-level-feature"
     },
     "effects": [
@@ -6240,6 +6263,7 @@
         "1.1.1:13.1.8.1:13"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Protection",
       "type": "feature/trait/conduit/1st-level-feature"
     },
     "effects": [
@@ -6323,12 +6347,10 @@
     },
     "effects": [
       {
-        "effect": "You gain 2 piety the first time in an encounter that a creature within 10 squares uses an area ability.",
-        "name": "Piety"
+        "effect": "- **Piety:** You gain 2 piety the first time in an encounter that a creature within 10 squares uses an area ability."
       },
       {
-        "effect": "You summon the forces of creation and create a wall of stone within 10 squares whose size is 5 + your Intuition score. The wall lasts until the end of the encounter.",
-        "name": "Prayer Effect"
+        "effect": "- **Prayer Effect:** You summon the forces of creation and create a wall of stone within 10 squares whose size is 5 + your Intuition score. The wall lasts until the end of the encounter."
       }
     ]
   },  {
@@ -6349,6 +6371,7 @@
         "1.1.1:13.1.8.1:25"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Knowledge",
       "type": "feature/trait/conduit/1st-level-feature"
     },
     "effects": [
@@ -6387,6 +6410,7 @@
         "1.1.1:13.2.8.1:19"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Death",
       "target": "One dead creature",
       "type": "feature/ability/conduit/1st-level-feature"
     },
@@ -6541,12 +6565,10 @@
     },
     "effects": [
       {
-        "effect": "You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes the Aid Attack or Hide maneuver.",
-        "name": "Piety"
+        "effect": "- **Piety:** You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes the Aid Attack or Hide maneuver."
       },
       {
-        "effect": "You slide one creature within 10 squares of you up to a number of squares equal to 5 + your conduit level.",
-        "name": "Prayer Effect"
+        "effect": "- **Prayer Effect:** You slide one creature within 10 squares of you up to a number of squares equal to 5 + your conduit level."
       }
     ]
   },  {
@@ -6828,6 +6850,7 @@
         "1.1.1:13.2.8.3:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Storm",
       "target": "Each enemy in the area",
       "type": "feature/ability/conduit/6th-level-feature"
     },
@@ -6880,6 +6903,7 @@
         "1.1.1:13.2.8.3:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Trickery",
       "target": "Self and each ally in the area",
       "type": "feature/ability/conduit/6th-level-feature"
     },
@@ -6926,6 +6950,7 @@
         "1.1.1:13.2.8.3:12"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Creation",
       "target": "Special",
       "type": "feature/ability/conduit/6th-level-feature"
     },
@@ -6981,6 +7006,7 @@
         "1.1.1:13.2.8.3:10"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Life",
       "target": "Self and each ally in the area",
       "type": "feature/ability/conduit/6th-level-feature"
     },
@@ -7029,6 +7055,7 @@
         "1.1.1:13.2.8.3:08"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "War",
       "target": "One creature",
       "type": "feature/ability/conduit/6th-level-feature"
     },
@@ -7102,6 +7129,7 @@
         "1.1.1:13.2.8.3:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Death",
       "target": "Each creature in the area",
       "type": "feature/ability/conduit/6th-level-feature"
     },
@@ -7148,6 +7176,7 @@
         "1.1.1:13.2.8.3:07"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Sun",
       "target": "Self and each creature in the area",
       "type": "feature/ability/conduit/6th-level-feature"
     },
@@ -7196,6 +7225,7 @@
         "1.1.1:13.2.8.3:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Nature",
       "target": "Each enemy in the area",
       "type": "feature/ability/conduit/6th-level-feature"
     },
@@ -7244,6 +7274,7 @@
         "1.1.1:13.2.8.3:11"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Love",
       "target": "Two allies",
       "type": "feature/ability/conduit/6th-level-feature"
     },
@@ -7292,6 +7323,7 @@
         "1.1.1:13.2.8.3:09"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Fate",
       "target": "One creature",
       "type": "feature/ability/conduit/6th-level-feature"
     },
@@ -7344,6 +7376,7 @@
         "1.1.1:13.2.8.3:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Knowledge",
       "target": "Each enemy in the area",
       "type": "feature/ability/conduit/6th-level-feature"
     },
@@ -7398,6 +7431,7 @@
         "1.1.1:13.2.8.3:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Protection",
       "target": "Three creatures",
       "type": "feature/ability/conduit/6th-level-feature"
     },
@@ -7840,6 +7874,7 @@
         "1.1.1:13.2.8.5:08"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Life",
       "target": "Each ally in the area",
       "type": "feature/ability/conduit/2nd-level-feature"
     },
@@ -7886,6 +7921,7 @@
         "1.1.1:13.2.8.5:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Trickery",
       "target": "Self and each ally in the area",
       "type": "feature/ability/conduit/2nd-level-feature"
     },
@@ -7932,6 +7968,7 @@
         "1.1.1:13.2.8.5:12"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "War",
       "target": "Self and each ally",
       "type": "feature/ability/conduit/2nd-level-feature"
     },
@@ -7980,6 +8017,7 @@
         "1.1.1:13.2.8.5:07"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Knowledge",
       "target": "One creature",
       "type": "feature/ability/conduit/2nd-level-feature"
     },
@@ -8030,6 +8068,7 @@
         "1.1.1:13.2.8.5:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Storm",
       "target": "Each enemy in the area",
       "type": "feature/ability/conduit/2nd-level-feature"
     },
@@ -8078,6 +8117,7 @@
         "1.1.1:13.2.8.5:10"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Death",
       "target": "Each ally",
       "type": "feature/ability/conduit/2nd-level-feature"
     },
@@ -8124,6 +8164,7 @@
         "1.1.1:13.2.8.5:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Creation",
       "target": "Special",
       "type": "feature/ability/conduit/2nd-level-feature"
     },
@@ -8170,6 +8211,7 @@
         "1.1.1:13.2.8.5:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Protection",
       "target": "Self and one ally",
       "type": "feature/ability/conduit/2nd-level-feature"
     },
@@ -8216,6 +8258,7 @@
         "1.1.1:13.2.8.5:09"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Sun",
       "target": "Each enemy in the area",
       "type": "feature/ability/conduit/2nd-level-feature"
     },
@@ -8295,6 +8338,7 @@
         "1.1.1:13.2.8.5:11"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Nature",
       "target": "Each enemy in the area",
       "type": "feature/ability/conduit/2nd-level-feature"
     },
@@ -8368,6 +8412,7 @@
         "1.1.1:13.2.8.5:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Love",
       "target": "Self and one ally",
       "type": "feature/ability/conduit/2nd-level-feature"
     },
@@ -8414,6 +8459,7 @@
         "1.1.1:13.2.8.5:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Fate",
       "target": "Three creatures",
       "type": "feature/ability/conduit/2nd-level-feature"
     },
@@ -8743,6 +8789,7 @@
         "1.1.1:13.2.8.7:09"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "War",
       "target": "Special",
       "type": "feature/ability/conduit/9th-level-feature"
     },
@@ -8791,6 +8838,7 @@
         "1.1.1:13.2.8.7:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Knowledge",
       "target": "One creature or object",
       "type": "feature/ability/conduit/9th-level-feature"
     },
@@ -8843,6 +8891,7 @@
         "1.1.1:13.2.8.7:12"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Creation",
       "target": "Special",
       "type": "feature/ability/conduit/9th-level-feature"
     },
@@ -8904,6 +8953,7 @@
         "1.1.1:13.2.8.7:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Fate",
       "target": "Self or one ally",
       "type": "feature/ability/conduit/9th-level-feature"
     },
@@ -8952,6 +9002,7 @@
         "1.1.1:13.2.8.7:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Trickery",
       "target": "Special",
       "type": "feature/ability/conduit/9th-level-feature"
     },
@@ -8998,6 +9049,7 @@
         "1.1.1:13.2.8.7:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Protection",
       "target": "Self",
       "type": "feature/ability/conduit/9th-level-feature"
     },
@@ -9045,6 +9097,7 @@
         "1.1.1:13.2.8.7:08"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Death",
       "target": "One creature",
       "type": "feature/ability/conduit/9th-level-feature"
     },
@@ -9091,6 +9144,7 @@
         "1.1.1:13.2.8.7:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Life",
       "target": "Four allies",
       "type": "feature/ability/conduit/9th-level-feature"
     },
@@ -9139,6 +9193,7 @@
         "1.1.1:13.2.8.7:10"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Sun",
       "target": "Each enemy in the area",
       "type": "feature/ability/conduit/9th-level-feature"
     },
@@ -9189,6 +9244,7 @@
         "1.1.1:13.2.8.7:07"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Storm",
       "target": "Each enemy in the area",
       "type": "feature/ability/conduit/9th-level-feature"
     },
@@ -9241,6 +9297,7 @@
         "1.1.1:13.2.8.7:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Love",
       "target": "One ally",
       "type": "feature/ability/conduit/9th-level-feature"
     },
@@ -9314,6 +9371,7 @@
         "1.1.1:13.2.8.7:11"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Nature",
       "target": "One creature",
       "type": "feature/ability/conduit/9th-level-feature"
     },
@@ -9422,6 +9480,7 @@
         "1.1.1:13.1.8.9:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "War",
       "type": "feature/trait/conduit/7th-level-feature"
     },
     "effects": [
@@ -9447,6 +9506,7 @@
         "1.1.1:13.1.8.9:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Storm",
       "type": "feature/trait/conduit/7th-level-feature"
     },
     "effects": [
@@ -9472,6 +9532,7 @@
         "1.1.1:13.1.8.9:10"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Fate",
       "type": "feature/trait/conduit/7th-level-feature"
     },
     "effects": [
@@ -9522,6 +9583,7 @@
         "1.1.1:13.1.8.9:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Protection",
       "type": "feature/trait/conduit/7th-level-feature"
     },
     "effects": [
@@ -9618,6 +9680,7 @@
         "1.1.1:13.1.8.9:11"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Sun",
       "type": "feature/trait/conduit/7th-level-feature"
     },
     "effects": [
@@ -9658,6 +9721,7 @@
         "1.1.1:13.2.8.8:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Love",
       "target": "Self and each ally",
       "type": "feature/ability/conduit/7th-level-feature"
     },
@@ -9710,6 +9774,7 @@
         "1.1.1:13.1.8.9:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Creation",
       "type": "feature/trait/conduit/7th-level-feature"
     },
     "effects": [
@@ -9760,6 +9825,7 @@
         "1.1.1:13.1.8.10:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Fate",
       "type": "feature/trait/conduit/4th-level-feature"
     },
     "effects": [
@@ -9785,6 +9851,7 @@
         "1.1.1:13.1.8.10:11"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Sun",
       "type": "feature/trait/conduit/4th-level-feature"
     },
     "effects": [
@@ -9810,6 +9877,7 @@
         "1.1.1:13.1.8.10:13"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Knowledge",
       "type": "feature/trait/conduit/4th-level-feature"
     },
     "effects": [
@@ -9885,6 +9953,7 @@
         "1.1.1:13.1.8.10:12"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Love",
       "type": "feature/trait/conduit/4th-level-feature"
     },
     "effects": [
@@ -9910,6 +9979,7 @@
         "1.1.1:13.1.8.10:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Death",
       "type": "feature/trait/conduit/4th-level-feature"
     },
     "effects": [
@@ -9935,6 +10005,7 @@
         "1.1.1:13.1.8.10:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "War",
       "type": "feature/trait/conduit/4th-level-feature"
     },
     "effects": [
@@ -9960,6 +10031,7 @@
         "1.1.1:13.1.8.10:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Nature",
       "type": "feature/trait/conduit/4th-level-feature"
     },
     "effects": [
@@ -9985,6 +10057,7 @@
         "1.1.1:13.1.8.10:08"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Creation",
       "type": "feature/trait/conduit/4th-level-feature"
     },
     "effects": [
@@ -10010,6 +10083,7 @@
         "1.1.1:13.1.8.10:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Life",
       "type": "feature/trait/conduit/4th-level-feature"
     },
     "effects": [
@@ -10050,6 +10124,7 @@
         "1.1.1:13.2.8.9:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Trickery",
       "target": "Self and each ally in the area",
       "type": "feature/ability/conduit/4th-level-feature"
     },
@@ -10077,6 +10152,7 @@
         "1.1.1:13.1.8.10:10"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Protection",
       "type": "feature/trait/conduit/4th-level-feature"
     },
     "effects": [
@@ -10102,6 +10178,7 @@
         "1.1.1:13.1.8.10:15"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Storm",
       "type": "feature/trait/conduit/4th-level-feature"
     },
     "effects": [
@@ -10252,6 +10329,7 @@
         "1.1.1:13.1.7.1:14"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Love",
       "type": "feature/trait/censor/1st-level-feature"
     },
     "effects": [
@@ -10402,6 +10480,7 @@
         "1.1.1:13.2.7.1:10"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Creation",
       "target": "Self",
       "type": "feature/ability/censor/1st-level-feature"
     },
@@ -10639,6 +10718,7 @@
         "1.1.1:13.1.7.1:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Storm",
       "type": "feature/trait/censor/1st-level-feature"
     },
     "effects": [
@@ -10809,6 +10889,7 @@
         "1.1.1:13.2.7.1:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Nature",
       "target": "Self",
       "type": "feature/ability/censor/1st-level-feature"
     },
@@ -10911,6 +10992,7 @@
         "1.1.1:13.1.7.1:13"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Fate",
       "type": "feature/trait/censor/1st-level-feature"
     },
     "effects": [
@@ -10936,6 +11018,7 @@
         "1.1.1:13.1.7.1:12"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "War",
       "type": "feature/trait/censor/1st-level-feature"
     },
     "effects": [
@@ -11015,6 +11098,7 @@
         "1.1.1:13.1.7.1:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Trickery",
       "type": "feature/trait/censor/1st-level-feature"
     },
     "effects": [
@@ -11144,6 +11228,7 @@
         "1.1.1:13.1.7.1:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Sun",
       "type": "feature/trait/censor/1st-level-feature"
     },
     "effects": [
@@ -11216,6 +11301,7 @@
         "1.1.1:13.1.7.1:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Protection",
       "type": "feature/trait/censor/1st-level-feature"
     },
     "effects": [
@@ -11241,6 +11327,7 @@
         "1.1.1:13.1.7.1:10"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Knowledge",
       "type": "feature/trait/censor/1st-level-feature"
     },
     "effects": [
@@ -11279,6 +11366,7 @@
         "1.1.1:13.2.7.1:13"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Death",
       "target": "One dead creature",
       "type": "feature/ability/censor/1st-level-feature"
     },
@@ -11443,6 +11531,7 @@
         "1.1.1:13.1.7.2:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Exorcist",
       "type": "feature/trait/censor/8th-level-feature"
     },
     "effects": [
@@ -11576,6 +11665,7 @@
         "1.1.1:13.1.7.2:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Oracle",
       "type": "feature/trait/censor/8th-level-feature"
     },
     "effects": [
@@ -11601,6 +11691,7 @@
         "1.1.1:13.1.7.2:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Paragon",
       "type": "feature/trait/censor/8th-level-feature"
     },
     "effects": [
@@ -11726,6 +11817,7 @@
         "1.1.1:13.2.7.3:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Oracle",
       "target": "Three enemies",
       "type": "feature/ability/censor/6th-level-feature"
     },
@@ -11775,6 +11867,7 @@
         "1.1.1:13.2.7.3:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Exorcist",
       "target": "Self or one ally",
       "type": "feature/ability/censor/6th-level-feature"
     },
@@ -11822,6 +11915,7 @@
         "1.1.1:13.2.7.3:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Paragon",
       "target": "One ally",
       "type": "feature/ability/censor/6th-level-feature"
     },
@@ -11868,6 +11962,7 @@
         "1.1.1:13.2.7.3:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Exorcist",
       "target": "Each enemy in the area",
       "type": "feature/ability/censor/6th-level-feature"
     },
@@ -11943,6 +12038,7 @@
         "1.1.1:13.2.7.3:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Paragon",
       "target": "One creature",
       "type": "feature/ability/censor/6th-level-feature"
     },
@@ -11995,6 +12091,7 @@
         "1.1.1:13.2.7.3:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Oracle",
       "target": "Each enemy in the area",
       "type": "feature/ability/censor/6th-level-feature"
     },
@@ -12197,6 +12294,7 @@
         "1.1.1:13.1.7.5:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Exorcist",
       "type": "feature/trait/censor/5th-level-feature"
     },
     "effects": [
@@ -12222,6 +12320,7 @@
         "1.1.1:13.1.7.5:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Paragon",
       "type": "feature/trait/censor/5th-level-feature"
     },
     "effects": [
@@ -12345,6 +12444,7 @@
         "1.1.1:13.1.7.5:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Oracle",
       "type": "feature/trait/censor/5th-level-feature"
     },
     "effects": [
@@ -12493,6 +12593,7 @@
         "1.1.1:13.2.7.5:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Paragon",
       "target": "One creature",
       "type": "feature/ability/censor/2nd-level-feature"
     },
@@ -12545,6 +12646,7 @@
         "1.1.1:13.2.7.5:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Exorcist",
       "target": "Each enemy in the area",
       "type": "feature/ability/censor/2nd-level-feature"
     },
@@ -12572,6 +12674,7 @@
         "1.1.1:13.1.7.6:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Exorcist",
       "type": "feature/trait/censor/2nd-level-feature"
     },
     "effects": [
@@ -12616,6 +12719,7 @@
         "1.1.1:13.2.7.5:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Oracle",
       "target": "Self or one ally",
       "type": "feature/ability/censor/2nd-level-feature"
     },
@@ -12663,6 +12767,7 @@
         "1.1.1:13.2.7.5:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Oracle",
       "target": "Self or one ally",
       "type": "feature/ability/censor/2nd-level-feature"
     },
@@ -12690,6 +12795,7 @@
         "1.1.1:13.1.7.6:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Oracle",
       "type": "feature/trait/censor/2nd-level-feature"
     },
     "effects": [
@@ -12715,6 +12821,7 @@
         "1.1.1:13.1.7.6:07"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Exorcist",
       "type": "feature/trait/censor/2nd-level-feature"
     },
     "effects": [
@@ -12740,6 +12847,7 @@
         "1.1.1:13.1.7.6:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Paragon",
       "type": "feature/trait/censor/2nd-level-feature"
     },
     "effects": [
@@ -12765,6 +12873,7 @@
         "1.1.1:13.1.7.6:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Oracle",
       "type": "feature/trait/censor/2nd-level-feature"
     },
     "effects": [
@@ -12809,6 +12918,7 @@
         "1.1.1:13.2.7.5:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Paragon",
       "target": "Self and each ally in the area",
       "type": "feature/ability/censor/2nd-level-feature"
     },
@@ -12836,6 +12946,7 @@
         "1.1.1:13.1.7.6:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Paragon",
       "type": "feature/trait/censor/2nd-level-feature"
     },
     "effects": [
@@ -12882,6 +12993,7 @@
         "1.1.1:13.2.7.5:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Exorcist",
       "target": "One creature",
       "type": "feature/ability/censor/2nd-level-feature"
     },
@@ -13169,6 +13281,7 @@
         "1.1.1:13.2.7.7:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Oracle",
       "target": "One creature",
       "type": "feature/ability/censor/9th-level-feature"
     },
@@ -13216,6 +13329,7 @@
         "1.1.1:13.2.7.7:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Oracle",
       "target": "One ally",
       "type": "feature/ability/censor/9th-level-feature"
     },
@@ -13264,6 +13378,7 @@
         "1.1.1:13.2.7.7:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Exorcist",
       "target": "One creature",
       "type": "feature/ability/censor/9th-level-feature"
     },
@@ -13318,6 +13433,7 @@
         "1.1.1:13.2.7.7:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Exorcist",
       "target": "One creature",
       "type": "feature/ability/censor/9th-level-feature"
     },
@@ -13372,6 +13488,7 @@
         "1.1.1:13.2.7.7:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Paragon",
       "target": "One creature",
       "type": "feature/ability/censor/9th-level-feature"
     },
@@ -13449,6 +13566,7 @@
         "1.1.1:13.2.7.7:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Paragon",
       "target": "Self and each ally in the area",
       "type": "feature/ability/censor/9th-level-feature"
     },
@@ -13476,6 +13594,7 @@
         "1.1.1:13.1.7.9:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Knowledge",
       "type": "feature/trait/censor/7th-level-feature"
     },
     "effects": [
@@ -13501,6 +13620,7 @@
         "1.1.1:13.1.7.9:13"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Life",
       "type": "feature/trait/censor/7th-level-feature"
     },
     "effects": [
@@ -13645,6 +13765,7 @@
         "1.1.1:13.2.7.8:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Trickery",
       "target": "Self or one ally",
       "type": "feature/ability/censor/7th-level-feature"
     },
@@ -13697,6 +13818,7 @@
         "1.1.1:13.1.7.9:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Nature",
       "type": "feature/trait/censor/7th-level-feature"
     },
     "effects": [
@@ -13762,6 +13884,7 @@
         "1.1.1:13.2.7.8:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Love",
       "target": "Self and each ally",
       "type": "feature/ability/censor/7th-level-feature"
     },
@@ -13789,6 +13912,7 @@
         "1.1.1:13.1.7.9:12"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Death",
       "type": "feature/trait/censor/7th-level-feature"
     },
     "effects": [
@@ -13889,6 +14013,7 @@
         "1.1.1:13.1.7.10:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Fate",
       "type": "feature/trait/censor/4th-level-feature"
     },
     "effects": [
@@ -13914,6 +14039,7 @@
         "1.1.1:13.1.7.10:12"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Sun",
       "type": "feature/trait/censor/4th-level-feature"
     },
     "effects": [
@@ -13939,6 +14065,7 @@
         "1.1.1:13.1.7.10:14"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Knowledge",
       "type": "feature/trait/censor/4th-level-feature"
     },
     "effects": [
@@ -13989,6 +14116,7 @@
         "1.1.1:13.1.7.10:13"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Love",
       "type": "feature/trait/censor/4th-level-feature"
     },
     "effects": [
@@ -14039,6 +14167,7 @@
         "1.1.1:13.1.7.10:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Death",
       "type": "feature/trait/censor/4th-level-feature"
     },
     "effects": [
@@ -14064,6 +14193,7 @@
         "1.1.1:13.1.7.10:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "War",
       "type": "feature/trait/censor/4th-level-feature"
     },
     "effects": [
@@ -14089,6 +14219,7 @@
         "1.1.1:13.1.7.10:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Nature",
       "type": "feature/trait/censor/4th-level-feature"
     },
     "effects": [
@@ -14114,6 +14245,7 @@
         "1.1.1:13.1.7.10:08"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Creation",
       "type": "feature/trait/censor/4th-level-feature"
     },
     "effects": [
@@ -14139,6 +14271,7 @@
         "1.1.1:13.1.7.10:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Life",
       "type": "feature/trait/censor/4th-level-feature"
     },
     "effects": [
@@ -14179,6 +14312,7 @@
         "1.1.1:13.2.7.9:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Trickery",
       "target": "Self and each ally in the area",
       "type": "feature/ability/censor/4th-level-feature"
     },
@@ -14206,6 +14340,7 @@
         "1.1.1:13.1.7.10:10"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Protection",
       "type": "feature/trait/censor/4th-level-feature"
     },
     "effects": [
@@ -14231,6 +14366,7 @@
         "1.1.1:13.1.7.10:15"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Storm",
       "type": "feature/trait/censor/4th-level-feature"
     },
     "effects": [
@@ -15401,6 +15537,7 @@
         "1.1.1:13.1.6.2:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Cryokinetic",
       "type": "feature/trait/null/8th-level-feature"
     },
     "effects": [
@@ -15586,6 +15723,7 @@
         "1.1.1:13.1.6.2:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronokinetic",
       "type": "feature/trait/null/8th-level-feature"
     },
     "effects": [
@@ -15656,6 +15794,7 @@
         "1.1.1:13.1.6.2:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Metakinetic",
       "type": "feature/trait/null/8th-level-feature"
     },
     "effects": [
@@ -15723,6 +15862,7 @@
         "1.1.1:13.2.6.3:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Metakinetic",
       "target": "Self",
       "type": "feature/ability/null/6th-level-feature"
     },
@@ -15796,6 +15936,7 @@
         "1.1.1:13.2.6.3:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronokinetic",
       "target": "Self",
       "type": "feature/ability/null/6th-level-feature"
     },
@@ -15875,6 +16016,7 @@
         "1.1.1:13.2.6.3:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Cryokinetic",
       "target": "Special",
       "type": "feature/ability/null/6th-level-feature"
     },
@@ -15919,6 +16061,7 @@
         "1.1.1:13.2.6.3:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Metakinetic",
       "target": "Self",
       "type": "feature/ability/null/6th-level-feature"
     },
@@ -15971,6 +16114,7 @@
         "1.1.1:13.2.6.3:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Cryokinetic",
       "target": "Three creatures or objects",
       "type": "feature/ability/null/6th-level-feature"
     },
@@ -16021,6 +16165,7 @@
         "1.1.1:13.2.6.3:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronokinetic",
       "target": "Self",
       "type": "feature/ability/null/6th-level-feature"
     },
@@ -16348,6 +16493,7 @@
         "1.1.1:13.1.6.5:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronokinetic",
       "type": "feature/trait/null/5th-level-feature"
     },
     "effects": [
@@ -16373,6 +16519,7 @@
         "1.1.1:13.1.6.5:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Cryokinetic",
       "type": "feature/trait/null/5th-level-feature"
     },
     "effects": [
@@ -16501,6 +16648,7 @@
         "1.1.1:13.1.6.5:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Metakinetic",
       "type": "feature/trait/null/5th-level-feature"
     },
     "effects": [
@@ -16543,6 +16691,7 @@
         "1.1.1:13.2.6.5:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronokinetic",
       "target": "Self",
       "type": "feature/ability/null/2nd-level-feature"
     },
@@ -16587,6 +16736,7 @@
         "1.1.1:13.2.6.5:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Metakinetic",
       "target": "Self",
       "type": "feature/ability/null/2nd-level-feature"
     },
@@ -16620,6 +16770,7 @@
         "1.1.1:13.1.6.6:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Metakinetic",
       "type": "feature/trait/null/2nd-level-feature"
     },
     "effects": [
@@ -16668,6 +16819,7 @@
         "1.1.1:13.2.6.5:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronokinetic",
       "target": "One creature",
       "type": "feature/ability/null/2nd-level-feature"
     },
@@ -16697,6 +16849,7 @@
         "1.1.1:13.1.6.6:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Cryokinetic",
       "type": "feature/trait/null/2nd-level-feature"
     },
     "effects": [
@@ -16739,6 +16892,7 @@
         "1.1.1:13.2.6.5:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Cryokinetic",
       "target": "Self",
       "type": "feature/ability/null/2nd-level-feature"
     },
@@ -16766,6 +16920,7 @@
         "1.1.1:13.1.6.6:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronokinetic",
       "type": "feature/trait/null/2nd-level-feature"
     },
     "effects": [
@@ -16812,6 +16967,7 @@
         "1.1.1:13.2.6.5:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Cryokinetic",
       "target": "Each enemy in the area",
       "type": "feature/ability/null/2nd-level-feature"
     },
@@ -16864,6 +17020,7 @@
         "1.1.1:13.2.6.5:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Metakinetic",
       "target": "One creature",
       "type": "feature/ability/null/2nd-level-feature"
     },
@@ -17162,6 +17319,7 @@
         "1.1.1:13.2.6.7:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronokinetic",
       "target": "Self",
       "type": "feature/ability/null/9th-level-feature"
     },
@@ -17212,6 +17370,7 @@
         "1.1.1:13.2.6.7:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Metakinetic",
       "target": "One creature",
       "type": "feature/ability/null/9th-level-feature"
     },
@@ -17287,6 +17446,7 @@
         "1.1.1:13.2.6.7:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Cryokinetic",
       "target": "Self",
       "type": "feature/ability/null/9th-level-feature"
     },
@@ -17338,6 +17498,7 @@
         "1.1.1:13.2.6.7:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Metakinetic",
       "target": "Self",
       "type": "feature/ability/null/9th-level-feature"
     },
@@ -17385,6 +17546,7 @@
         "1.1.1:13.2.6.7:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronokinetic",
       "target": "One creature",
       "type": "feature/ability/null/9th-level-feature"
     },
@@ -17439,6 +17601,7 @@
         "1.1.1:13.2.6.7:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Cryokinetic",
       "target": "One creature",
       "type": "feature/ability/null/9th-level-feature"
     },
@@ -17915,6 +18078,7 @@
         "1.1.1:13.1.5.1:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Stormwight",
       "type": "feature/trait/fury/1st-level-feature"
     },
     "effects": [
@@ -17940,6 +18104,7 @@
         "1.1.1:13.1.5.1:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Reaver",
       "type": "feature/trait/fury/1st-level-feature"
     },
     "effects": [
@@ -17981,6 +18146,7 @@
         "1.1.1:13.2.5.1:11"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Berserker",
       "target": "Self or one creature",
       "type": "feature/ability/fury/1st-level-feature"
     },
@@ -18026,6 +18192,7 @@
         "1.1.1:13.2.5.1:14"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Stormwight",
       "target": "Self",
       "type": "feature/ability/fury/1st-level-feature"
     },
@@ -18161,6 +18328,7 @@
         "1.1.1:13.1.5.1:07"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Berserker",
       "type": "feature/trait/fury/1st-level-feature"
     },
     "effects": [
@@ -18354,6 +18522,7 @@
         "1.1.1:13.2.5.1:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Reaver",
       "target": "Self",
       "type": "feature/ability/fury/1st-level-feature"
     },
@@ -18410,6 +18579,7 @@
         "1.1.1:13.1.5.1:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Stormwight",
       "type": "feature/trait/fury/1st-level-feature"
     },
     "effects": [
@@ -18724,6 +18894,7 @@
         "1.1.1:13.1.5.2:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Berserker",
       "type": "feature/trait/fury/8th-level-feature"
     },
     "effects": [
@@ -18893,6 +19064,7 @@
         "1.1.1:13.1.5.2:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Stormwight",
       "type": "feature/trait/fury/8th-level-feature"
     },
     "effects": [
@@ -18918,6 +19090,7 @@
         "1.1.1:13.1.5.2:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Reaver",
       "type": "feature/trait/fury/8th-level-feature"
     },
     "effects": [
@@ -19043,6 +19216,7 @@
         "1.1.1:13.2.5.3:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Stormwight",
       "target": "Each creature in the area",
       "type": "feature/ability/fury/6th-level-feature"
     },
@@ -19095,6 +19269,7 @@
         "1.1.1:13.2.5.3:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Reaver",
       "target": "One creature",
       "type": "feature/ability/fury/6th-level-feature"
     },
@@ -19154,6 +19329,7 @@
         "1.1.1:13.2.5.3:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Reaver",
       "target": "Self",
       "type": "feature/ability/fury/6th-level-feature"
     },
@@ -19229,6 +19405,7 @@
         "1.1.1:13.2.5.3:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Stormwight",
       "target": "One creature",
       "type": "feature/ability/fury/6th-level-feature"
     },
@@ -19262,6 +19439,7 @@
         "1.1.1:13.1.5.3:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Stormwight",
       "type": "feature/trait/fury/6th-level-feature"
     },
     "effects": [
@@ -19304,6 +19482,7 @@
         "1.1.1:13.2.5.3:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Berserker",
       "target": "Self",
       "type": "feature/ability/fury/6th-level-feature"
     },
@@ -19358,6 +19537,7 @@
         "1.1.1:13.2.5.3:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Berserker",
       "target": "One creature",
       "type": "feature/ability/fury/6th-level-feature"
     },
@@ -19701,6 +19881,7 @@
         "1.1.1:13.1.5.5:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Reaver",
       "type": "feature/trait/fury/5th-level-feature"
     },
     "effects": [
@@ -19726,6 +19907,7 @@
         "1.1.1:13.1.5.5:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Stormwight",
       "type": "feature/trait/fury/5th-level-feature"
     },
     "effects": [
@@ -19751,6 +19933,7 @@
         "1.1.1:13.1.5.5:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Berserker",
       "type": "feature/trait/fury/5th-level-feature"
     },
     "effects": [
@@ -19885,6 +20068,7 @@
         "1.1.1:13.1.5.6:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Stormwight",
       "type": "feature/trait/fury/2nd-level-feature"
     },
     "effects": [
@@ -19910,6 +20094,7 @@
         "1.1.1:13.1.5.6:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Reaver",
       "type": "feature/trait/fury/2nd-level-feature"
     },
     "effects": [
@@ -19935,6 +20120,7 @@
         "1.1.1:13.1.5.6:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Berserker",
       "type": "feature/trait/fury/2nd-level-feature"
     },
     "effects": [
@@ -20029,6 +20215,7 @@
         "1.1.1:13.1.5.7:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Stormwight",
       "type": "feature/trait/fury/3rd-level-feature"
     },
     "effects": [
@@ -20054,6 +20241,7 @@
         "1.1.1:13.1.5.7:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Berserker",
       "type": "feature/trait/fury/3rd-level-feature"
     },
     "effects": [
@@ -20215,6 +20403,7 @@
         "1.1.1:13.1.5.7:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Reaver",
       "type": "feature/trait/fury/3rd-level-feature"
     },
     "effects": [
@@ -20261,6 +20450,7 @@
         "1.1.1:13.2.5.6:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Reaver",
       "target": "One creature",
       "type": "feature/ability/fury/9th-level-feature"
     },
@@ -20317,6 +20507,7 @@
         "1.1.1:13.2.5.6:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Reaver",
       "target": "One creature",
       "type": "feature/ability/fury/9th-level-feature"
     },
@@ -20373,6 +20564,7 @@
         "1.1.1:13.2.5.6:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Berserker",
       "target": "Each enemy in the area",
       "type": "feature/ability/fury/9th-level-feature"
     },
@@ -20450,6 +20642,7 @@
         "1.1.1:13.2.5.6:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Stormwight",
       "target": "Each enemy in the area",
       "type": "feature/ability/fury/9th-level-feature"
     },
@@ -20502,6 +20695,7 @@
         "1.1.1:13.2.5.6:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Berserker",
       "target": "Each enemy in the area",
       "type": "feature/ability/fury/9th-level-feature"
     },
@@ -20556,6 +20750,7 @@
         "1.1.1:13.2.5.6:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Stormwight",
       "target": "Each enemy in the area",
       "type": "feature/ability/fury/9th-level-feature"
     },
@@ -21108,6 +21303,7 @@
         "1.1.1:13.2.4.1:13"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Mastermind",
       "target": "One creature",
       "type": "feature/ability/tactician/1st-level-feature"
     },
@@ -21208,6 +21404,7 @@
         "1.1.1:13.1.4.1:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Insurgent",
       "type": "feature/trait/tactician/1st-level-feature"
     },
     "effects": [
@@ -21233,6 +21430,7 @@
         "1.1.1:13.1.4.1:08"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Vanguard",
       "type": "feature/trait/tactician/1st-level-feature"
     },
     "effects": [
@@ -21327,6 +21525,7 @@
         "1.1.1:13.2.4.1:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Vanguard",
       "target": "Self or one ally",
       "type": "feature/ability/tactician/1st-level-feature"
     },
@@ -21404,6 +21603,7 @@
         "1.1.1:13.1.4.1:07"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Mastermind",
       "type": "feature/trait/tactician/1st-level-feature"
     },
     "effects": [
@@ -21499,6 +21699,7 @@
         "1.1.1:13.2.4.1:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Insurgent",
       "target": "One ally",
       "type": "feature/ability/tactician/1st-level-feature"
     },
@@ -21726,6 +21927,7 @@
         "1.1.1:13.1.4.2:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Insurgent",
       "type": "feature/trait/tactician/8th-level-feature"
     },
     "effects": [
@@ -21899,6 +22101,7 @@
         "1.1.1:13.1.4.2:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Mastermind",
       "type": "feature/trait/tactician/8th-level-feature"
     },
     "effects": [
@@ -21928,6 +22131,7 @@
         "1.1.1:13.1.4.2:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Vanguard",
       "type": "feature/trait/tactician/8th-level-feature"
     },
     "effects": [
@@ -22044,6 +22248,7 @@
         "1.1.1:13.2.4.3:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Mastermind",
       "target": "Self and each ally in the area",
       "type": "feature/ability/tactician/6th-level-feature"
     },
@@ -22088,6 +22293,7 @@
         "1.1.1:13.2.4.3:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Mastermind",
       "target": "Three creatures",
       "type": "feature/ability/tactician/6th-level-feature"
     },
@@ -22142,6 +22348,7 @@
         "1.1.1:13.2.4.3:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Vanguard",
       "target": "One creature",
       "type": "feature/ability/tactician/6th-level-feature"
     },
@@ -22193,6 +22400,7 @@
         "1.1.1:13.2.4.3:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Insurgent",
       "target": "One ally",
       "type": "feature/ability/tactician/6th-level-feature"
     },
@@ -22243,6 +22451,7 @@
         "1.1.1:13.2.4.3:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Insurgent",
       "target": "Two creatures",
       "type": "feature/ability/tactician/6th-level-feature"
     },
@@ -22296,6 +22505,7 @@
         "1.1.1:13.2.4.3:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Vanguard",
       "target": "One ally",
       "type": "feature/ability/tactician/6th-level-feature"
     },
@@ -22529,6 +22739,7 @@
         "1.1.1:13.1.4.5:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Mastermind",
       "type": "feature/trait/tactician/5th-level-feature"
     },
     "effects": [
@@ -22554,6 +22765,7 @@
         "1.1.1:13.1.4.5:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Insurgent",
       "type": "feature/trait/tactician/5th-level-feature"
     },
     "effects": [
@@ -22677,6 +22889,7 @@
         "1.1.1:13.1.4.5:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Vanguard",
       "type": "feature/trait/tactician/5th-level-feature"
     },
     "effects": [
@@ -22702,6 +22915,7 @@
         "1.1.1:13.1.4.5:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Mastermind",
       "type": "feature/trait/tactician/5th-level-feature"
     },
     "effects": [
@@ -22727,6 +22941,7 @@
         "1.1.1:13.1.4.5:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Vanguard",
       "type": "feature/trait/tactician/5th-level-feature"
     },
     "effects": [
@@ -22796,6 +23011,7 @@
         "1.1.1:13.1.4.5:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Insurgent",
       "type": "feature/trait/tactician/5th-level-feature"
     },
     "effects": [
@@ -22882,6 +23098,7 @@
         "1.1.1:13.2.4.5:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Mastermind",
       "target": "Two creatures",
       "type": "feature/ability/tactician/2nd-level-feature"
     },
@@ -22913,6 +23130,7 @@
         "1.1.1:13.1.4.6:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Insurgent",
       "type": "feature/trait/tactician/2nd-level-feature"
     },
     "effects": [
@@ -22938,6 +23156,7 @@
         "1.1.1:13.1.4.6:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Vanguard",
       "type": "feature/trait/tactician/2nd-level-feature"
     },
     "effects": [
@@ -22989,6 +23208,7 @@
         "1.1.1:13.2.4.5:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Vanguard",
       "target": "One enemy",
       "type": "feature/ability/tactician/2nd-level-feature"
     },
@@ -23039,6 +23259,7 @@
         "1.1.1:13.2.4.5:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Vanguard",
       "target": "Self and each ally in the area",
       "type": "feature/ability/tactician/2nd-level-feature"
     },
@@ -23087,6 +23308,7 @@
         "1.1.1:13.2.4.5:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Insurgent",
       "target": "Self",
       "type": "feature/ability/tactician/2nd-level-feature"
     },
@@ -23137,6 +23359,7 @@
         "1.1.1:13.2.4.5:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Insurgent",
       "target": "Two creatures",
       "type": "feature/ability/tactician/2nd-level-feature"
     },
@@ -23189,6 +23412,7 @@
         "1.1.1:13.2.4.5:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Mastermind",
       "target": "One creature",
       "type": "feature/ability/tactician/2nd-level-feature"
     },
@@ -23222,6 +23446,7 @@
         "1.1.1:13.1.4.6:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Mastermind",
       "type": "feature/trait/tactician/2nd-level-feature"
     },
     "effects": [
@@ -23494,6 +23719,7 @@
         "1.1.1:13.2.4.7:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Insurgent",
       "target": "Three enemies",
       "type": "feature/ability/tactician/9th-level-feature"
     },
@@ -23550,6 +23776,7 @@
         "1.1.1:13.2.4.7:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Vanguard",
       "target": "One creature",
       "type": "feature/ability/tactician/9th-level-feature"
     },
@@ -23629,6 +23856,7 @@
         "1.1.1:13.2.4.7:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Insurgent",
       "target": "Self and two allies",
       "type": "feature/ability/tactician/9th-level-feature"
     },
@@ -23679,6 +23907,7 @@
         "1.1.1:13.2.4.7:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Vanguard",
       "target": "One creature",
       "type": "feature/ability/tactician/9th-level-feature"
     },
@@ -23733,6 +23962,7 @@
         "1.1.1:13.2.4.7:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Mastermind",
       "target": "Self and each ally in the area",
       "type": "feature/ability/tactician/9th-level-feature"
     },
@@ -23777,6 +24007,7 @@
         "1.1.1:13.2.4.7:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Mastermind",
       "target": "Self",
       "type": "feature/ability/tactician/9th-level-feature"
     },
@@ -23804,6 +24035,7 @@
         "1.1.1:13.1.4.9:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Insurgent",
       "type": "feature/trait/tactician/7th-level-feature"
     },
     "effects": [
@@ -23879,6 +24111,7 @@
         "1.1.1:13.1.4.9:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Mastermind",
       "type": "feature/trait/tactician/7th-level-feature"
     },
     "effects": [
@@ -23904,6 +24137,7 @@
         "1.1.1:13.1.4.9:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Vanguard",
       "type": "feature/trait/tactician/7th-level-feature"
     },
     "effects": [
@@ -24121,6 +24355,7 @@
         "1.1.1:13.2.3.1:17"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Duelist",
       "target": "Self and each ally in the area",
       "type": "feature/ability/troubadour/1st-level-feature"
     },
@@ -24165,6 +24400,7 @@
         "1.1.1:13.2.3.1:21"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Duelist",
       "target": "Self",
       "type": "feature/ability/troubadour/1st-level-feature"
     },
@@ -24210,6 +24446,7 @@
         "1.1.1:13.2.3.1:12"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Duelist",
       "target": "Self or one ally",
       "type": "feature/ability/troubadour/1st-level-feature"
     },
@@ -24356,6 +24593,7 @@
         "1.1.1:13.2.3.1:09"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Virtuoso",
       "target": "Each enemy in the area",
       "type": "feature/ability/troubadour/1st-level-feature"
     },
@@ -24403,6 +24641,7 @@
         "1.1.1:13.2.3.1:23"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Virtuoso",
       "target": "One ally",
       "type": "feature/ability/troubadour/1st-level-feature"
     },
@@ -24606,6 +24845,7 @@
         "1.1.1:13.2.3.1:19"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Auteur",
       "target": "One creature",
       "type": "feature/ability/troubadour/1st-level-feature"
     },
@@ -24696,6 +24936,7 @@
         "1.1.1:13.2.3.1:18"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Auteur",
       "target": "Special",
       "type": "feature/ability/troubadour/1st-level-feature"
     },
@@ -24769,6 +25010,7 @@
         "1.1.1:13.2.3.1:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Auteur",
       "target": "Each creature in the area",
       "type": "feature/ability/troubadour/1st-level-feature"
     },
@@ -25005,6 +25247,7 @@
         "1.1.1:13.2.3.1:22"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Virtuoso",
       "target": "Self and each ally in the area",
       "type": "feature/ability/troubadour/1st-level-feature"
     },
@@ -25388,6 +25631,7 @@
         "1.1.1:13.2.3.1:15"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Virtuoso",
       "target": "One creature",
       "type": "feature/ability/troubadour/1st-level-feature"
     },
@@ -25465,6 +25709,7 @@
         "1.1.1:13.1.3.2:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Auteur",
       "type": "feature/trait/troubadour/8th-level-feature"
     },
     "effects": [
@@ -25490,6 +25735,7 @@
         "1.1.1:13.1.3.2:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Duelist",
       "type": "feature/trait/troubadour/8th-level-feature"
     },
     "effects": [
@@ -25630,6 +25876,7 @@
         "1.1.1:13.2.3.2:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Virtuoso",
       "target": "Self and each ally in the area",
       "type": "feature/ability/troubadour/8th-level-feature"
     },
@@ -25720,6 +25967,7 @@
         "1.1.1:13.2.3.2:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Virtuoso",
       "target": "Each ally in the area",
       "type": "feature/ability/troubadour/8th-level-feature"
     },
@@ -25791,6 +26039,7 @@
         "1.1.1:13.2.3.3:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Virtuoso",
       "target": "Self and each ally in the area",
       "type": "feature/ability/troubadour/6th-level-feature"
     },
@@ -25881,6 +26130,7 @@
         "1.1.1:13.2.3.3:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Auteur",
       "target": "Each enemy in the area",
       "type": "feature/ability/troubadour/6th-level-feature"
     },
@@ -25929,6 +26179,7 @@
         "1.1.1:13.2.3.3:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Virtuoso",
       "target": "Each enemy in the area",
       "type": "feature/ability/troubadour/6th-level-feature"
     },
@@ -25981,6 +26232,7 @@
         "1.1.1:13.2.3.3:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Auteur",
       "target": "Each ally in the area",
       "type": "feature/ability/troubadour/6th-level-feature"
     },
@@ -26029,6 +26281,7 @@
         "1.1.1:13.2.3.3:07"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Duelist",
       "target": "One creature",
       "type": "feature/ability/troubadour/6th-level-feature"
     },
@@ -26077,6 +26330,7 @@
         "1.1.1:13.2.3.3:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Duelist",
       "target": "One creature or object",
       "type": "feature/ability/troubadour/6th-level-feature"
     },
@@ -26344,6 +26598,7 @@
         "1.1.1:13.2.3.4:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Duelist",
       "target": "Self and each ally in the area",
       "type": "feature/ability/troubadour/5th-level-feature"
     },
@@ -26388,6 +26643,7 @@
         "1.1.1:13.2.3.4:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Auteur",
       "target": "Self and each ally in the area",
       "type": "feature/ability/troubadour/5th-level-feature"
     },
@@ -26469,6 +26725,7 @@
         "1.1.1:13.1.3.5:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Auteur",
       "type": "feature/trait/troubadour/5th-level-feature"
     },
     "effects": [
@@ -26494,6 +26751,7 @@
         "1.1.1:13.1.3.5:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Virtuoso",
       "type": "feature/trait/troubadour/5th-level-feature"
     },
     "effects": [
@@ -26519,6 +26777,7 @@
         "1.1.1:13.1.3.5:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Virtuoso",
       "type": "feature/trait/troubadour/5th-level-feature"
     },
     "effects": [
@@ -26544,6 +26803,7 @@
         "1.1.1:13.1.3.5:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Duelist",
       "type": "feature/trait/troubadour/5th-level-feature"
     },
     "effects": [
@@ -26684,6 +26944,7 @@
         "1.1.1:13.2.3.5:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Virtuoso",
       "target": "Special",
       "type": "feature/ability/troubadour/2nd-level-feature"
     },
@@ -26736,6 +26997,7 @@
         "1.1.1:13.2.3.5:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Auteur",
       "target": "One dead enemy",
       "type": "feature/ability/troubadour/2nd-level-feature"
     },
@@ -26832,6 +27094,7 @@
         "1.1.1:13.2.3.5:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Virtuoso",
       "target": "Special",
       "type": "feature/ability/troubadour/2nd-level-feature"
     },
@@ -26905,6 +27168,7 @@
         "1.1.1:13.2.3.5:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Duelist",
       "target": "One creature",
       "type": "feature/ability/troubadour/2nd-level-feature"
     },
@@ -26982,6 +27246,7 @@
         "1.1.1:13.2.3.5:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Auteur",
       "target": "Special",
       "type": "feature/ability/troubadour/2nd-level-feature"
     },
@@ -27030,6 +27295,7 @@
         "1.1.1:13.2.3.5:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Duelist",
       "target": "Self and one willing ally",
       "type": "feature/ability/troubadour/2nd-level-feature"
     },
@@ -27140,6 +27406,7 @@
         "1.1.1:13.1.3.7:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Duelist",
       "type": "feature/trait/troubadour/3rd-level-feature"
     },
     "effects": [
@@ -27217,6 +27484,7 @@
         "1.1.1:13.1.3.7:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Auteur",
       "type": "feature/trait/troubadour/3rd-level-feature"
     },
     "effects": [
@@ -27259,6 +27527,7 @@
         "1.1.1:13.2.3.6:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Virtuoso",
       "target": "Self and each ally in the area",
       "type": "feature/ability/troubadour/3rd-level-feature"
     },
@@ -27405,6 +27674,7 @@
         "1.1.1:13.2.3.6:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Virtuoso",
       "target": "Self and each ally in the area",
       "type": "feature/ability/troubadour/3rd-level-feature"
     },
@@ -27453,6 +27723,7 @@
         "1.1.1:13.2.3.7:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Duelist",
       "target": "One creature",
       "type": "feature/ability/troubadour/9th-level-feature"
     },
@@ -27505,6 +27776,7 @@
         "1.1.1:13.2.3.7:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Auteur",
       "target": "One ally",
       "type": "feature/ability/troubadour/9th-level-feature"
     },
@@ -27553,6 +27825,7 @@
         "1.1.1:13.2.3.7:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Auteur",
       "target": "One creature",
       "type": "feature/ability/troubadour/9th-level-feature"
     },
@@ -27609,6 +27882,7 @@
         "1.1.1:13.2.3.7:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Virtuoso",
       "target": "One creature or object",
       "type": "feature/ability/troubadour/9th-level-feature"
     },
@@ -27686,6 +27960,7 @@
         "1.1.1:13.2.3.7:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Virtuoso",
       "target": "Each enemy in the area",
       "type": "feature/ability/troubadour/9th-level-feature"
     },
@@ -27742,6 +28017,7 @@
         "1.1.1:13.2.3.7:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Duelist",
       "target": "One creature or object",
       "type": "feature/ability/troubadour/9th-level-feature"
     },
@@ -28197,6 +28473,7 @@
         "1.1.1:13.2.2.1:17"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Harlequin Mask",
       "target": "Self",
       "type": "feature/ability/shadow/1st-level-feature"
     },
@@ -28278,6 +28555,7 @@
         "1.1.1:13.1.2.1:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Caustic Alchemy",
       "type": "feature/trait/shadow/1st-level-feature"
     },
     "effects": [
@@ -28321,6 +28599,7 @@
         "1.1.1:13.2.2.1:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Harlequin Mask",
       "target": "Self",
       "type": "feature/ability/shadow/1st-level-feature"
     },
@@ -28362,6 +28641,7 @@
         "1.1.1:13.2.2.1:13"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Caustic Alchemy",
       "target": "Self",
       "type": "feature/ability/shadow/1st-level-feature"
     },
@@ -28457,6 +28737,7 @@
         "1.1.1:13.2.2.1:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Black Ash",
       "target": "Self",
       "type": "feature/ability/shadow/1st-level-feature"
     },
@@ -28827,6 +29108,7 @@
         "1.1.1:13.2.2.1:11"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Caustic Alchemy",
       "target": "Self",
       "type": "feature/ability/shadow/1st-level-feature"
     },
@@ -28896,6 +29178,7 @@
         "1.1.1:13.2.2.1:19"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Black Ash",
       "target": "Self",
       "type": "feature/ability/shadow/1st-level-feature"
     },
@@ -29133,6 +29416,7 @@
         "1.1.1:13.1.2.2:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Black Ash",
       "type": "feature/trait/shadow/8th-level-feature"
     },
     "effects": [
@@ -29250,6 +29534,7 @@
         "1.1.1:13.1.2.2:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Harlequin Mask",
       "type": "feature/trait/shadow/8th-level-feature"
     },
     "effects": [
@@ -29340,6 +29625,7 @@
         "1.1.1:13.2.2.2:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Caustic Alchemy",
       "target": "Each enemy in the area",
       "type": "feature/ability/shadow/8th-level-feature"
     },
@@ -29415,6 +29701,7 @@
         "1.1.1:13.2.2.3:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Harlequin Mask",
       "target": "Each enemy in the area",
       "type": "feature/ability/shadow/6th-level-feature"
     },
@@ -29459,6 +29746,7 @@
         "1.1.1:13.2.2.3:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Caustic Alchemy",
       "target": "Three creatures",
       "type": "feature/ability/shadow/6th-level-feature"
     },
@@ -29534,6 +29822,7 @@
         "1.1.1:13.2.2.3:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Harlequin Mask",
       "target": "Two enemies",
       "type": "feature/ability/shadow/6th-level-feature"
     },
@@ -29590,6 +29879,7 @@
         "1.1.1:13.2.2.3:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Black Ash",
       "target": "One creature",
       "type": "feature/ability/shadow/6th-level-feature"
     },
@@ -29640,6 +29930,7 @@
         "1.1.1:13.2.2.3:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Black Ash",
       "target": "Self and each ally in the area",
       "type": "feature/ability/shadow/6th-level-feature"
     },
@@ -29684,6 +29975,7 @@
         "1.1.1:13.2.2.3:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Caustic Alchemy",
       "target": "Three creatures",
       "type": "feature/ability/shadow/6th-level-feature"
     },
@@ -29917,6 +30209,7 @@
         "1.1.1:13.1.2.5:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Caustic Alchemy",
       "type": "feature/trait/shadow/5th-level-feature"
     },
     "effects": [
@@ -30044,6 +30337,7 @@
         "1.1.1:13.1.2.5:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Harlequin Mask",
       "type": "feature/trait/shadow/5th-level-feature"
     },
     "effects": [
@@ -30179,6 +30473,7 @@
         "1.1.1:13.1.2.5:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Black Ash",
       "type": "feature/trait/shadow/5th-level-feature"
     },
     "effects": [
@@ -30204,6 +30499,7 @@
         "1.1.1:13.1.2.6:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Black Ash",
       "type": "feature/trait/shadow/2nd-level-feature"
     },
     "effects": [
@@ -30248,6 +30544,7 @@
         "1.1.1:13.2.2.5:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Caustic Alchemy",
       "target": "Each creature in the area",
       "type": "feature/ability/shadow/2nd-level-feature"
     },
@@ -30298,6 +30595,7 @@
         "1.1.1:13.2.2.5:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Caustic Alchemy",
       "target": "One creature",
       "type": "feature/ability/shadow/2nd-level-feature"
     },
@@ -30356,6 +30654,7 @@
         "1.1.1:13.2.2.5:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Black Ash",
       "target": "One creature",
       "type": "feature/ability/shadow/2nd-level-feature"
     },
@@ -30403,6 +30702,7 @@
         "1.1.1:13.2.2.5:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Black Ash",
       "target": "Self",
       "type": "feature/ability/shadow/2nd-level-feature"
     },
@@ -30430,6 +30730,7 @@
         "1.1.1:13.1.2.6:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Harlequin Mask",
       "type": "feature/trait/shadow/2nd-level-feature"
     },
     "effects": [
@@ -30473,6 +30774,7 @@
         "1.1.1:13.2.2.5:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Harlequin Mask",
       "target": "Self",
       "type": "feature/ability/shadow/2nd-level-feature"
     },
@@ -30521,6 +30823,7 @@
         "1.1.1:13.2.2.5:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Harlequin Mask",
       "target": "Each creature in the area",
       "type": "feature/ability/shadow/2nd-level-feature"
     },
@@ -30554,6 +30857,7 @@
         "1.1.1:13.1.2.6:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Caustic Alchemy",
       "type": "feature/trait/shadow/2nd-level-feature"
     },
     "effects": [
@@ -30869,6 +31173,7 @@
         "1.1.1:13.2.2.7:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Black Ash",
       "target": "One creature",
       "type": "feature/ability/shadow/9th-level-feature"
     },
@@ -30923,6 +31228,7 @@
         "1.1.1:13.2.2.7:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Caustic Alchemy",
       "target": "One creature or object",
       "type": "feature/ability/shadow/9th-level-feature"
     },
@@ -30975,6 +31281,7 @@
         "1.1.1:13.2.2.7:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Harlequin Mask",
       "target": "One creature",
       "type": "feature/ability/shadow/9th-level-feature"
     },
@@ -31019,6 +31326,7 @@
         "1.1.1:13.2.2.7:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Caustic Alchemy",
       "target": "One creature or object",
       "type": "feature/ability/shadow/9th-level-feature"
     },
@@ -31073,6 +31381,7 @@
         "1.1.1:13.2.2.7:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Harlequin Mask",
       "target": "One creature or object",
       "type": "feature/ability/shadow/9th-level-feature"
     },
@@ -31152,6 +31461,7 @@
         "1.1.1:13.2.2.7:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Black Ash",
       "target": "Self",
       "type": "feature/ability/shadow/9th-level-feature"
     },
@@ -32741,6 +33051,7 @@
         "1.1.1:13.2.1.1:22"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telepathy",
       "target": "One creature or object",
       "type": "feature/ability/talent/1st-level-feature"
     },
@@ -32915,6 +33226,7 @@
         "1.1.1:13.2.1.1:20"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telepathy",
       "target": "One creature",
       "type": "feature/ability/talent/1st-level-feature"
     },
@@ -33009,6 +33321,7 @@
         "1.1.1:13.2.1.1:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telekinesis",
       "target": "Self or one size 1 creature or object",
       "type": "feature/ability/talent/1st-level-feature"
     },
@@ -33109,6 +33422,7 @@
         "1.1.1:13.2.1.1:14"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronopathy",
       "target": "Self or one creature",
       "type": "feature/ability/talent/1st-level-feature"
     },
@@ -33234,6 +33548,7 @@
         "1.1.1:13.2.1.1:12"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronopathy",
       "target": "Self or one creature",
       "type": "feature/ability/talent/1st-level-feature"
     },
@@ -33965,6 +34280,7 @@
         "1.1.1:13.2.1.1:18"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telekinesis",
       "target": "Self or one ally",
       "type": "feature/ability/talent/1st-level-feature"
     },
@@ -33992,6 +34308,7 @@
         "1.1.1:13.1.1.2:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telepathy",
       "type": "feature/trait/talent/8th-level-feature"
     },
     "effects": [
@@ -34097,6 +34414,7 @@
         "1.1.1:13.2.1.2:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronopathy",
       "target": "Self, or one creature or object",
       "type": "feature/ability/talent/8th-level-feature"
     },
@@ -34195,6 +34513,7 @@
         "1.1.1:13.2.1.2:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telekinesis",
       "target": "Each ally in the area",
       "type": "feature/ability/talent/8th-level-feature"
     },
@@ -34338,6 +34657,7 @@
         "1.1.1:13.1.1.2:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telekinesis",
       "type": "feature/trait/talent/8th-level-feature"
     },
     "effects": [
@@ -34363,6 +34683,7 @@
         "1.1.1:13.1.1.2:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronopathy",
       "type": "feature/trait/talent/8th-level-feature"
     },
     "effects": [
@@ -34388,6 +34709,7 @@
         "1.1.1:13.1.1.2:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telepathy",
       "type": "feature/trait/talent/8th-level-feature"
     },
     "effects": [
@@ -34486,6 +34808,7 @@
         "1.1.1:13.2.1.3:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telepathy",
       "target": "Special",
       "type": "feature/ability/talent/6th-level-feature"
     },
@@ -34546,6 +34869,7 @@
         "1.1.1:13.2.1.3:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telekinesis",
       "target": "One creature or object",
       "type": "feature/ability/talent/6th-level-feature"
     },
@@ -34602,6 +34926,7 @@
         "1.1.1:13.2.1.3:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telekinesis",
       "target": "Each creature and object in the area",
       "type": "feature/ability/talent/6th-level-feature"
     },
@@ -34662,6 +34987,7 @@
         "1.1.1:13.2.1.3:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronopathy",
       "target": "Each creature and object in the area",
       "type": "feature/ability/talent/6th-level-feature"
     },
@@ -34720,6 +35046,7 @@
         "1.1.1:13.2.1.3:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronopathy",
       "target": "One enemy",
       "type": "feature/ability/talent/6th-level-feature"
     },
@@ -34780,6 +35107,7 @@
         "1.1.1:13.2.1.3:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telepathy",
       "target": "One creature",
       "type": "feature/ability/talent/6th-level-feature"
     },
@@ -35073,6 +35401,7 @@
         "1.1.1:13.1.1.5:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronopathy",
       "type": "feature/trait/talent/5th-level-feature"
     },
     "effects": [
@@ -35158,6 +35487,7 @@
         "1.1.1:13.1.1.5:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telekinesis",
       "type": "feature/trait/talent/5th-level-feature"
     },
     "effects": [
@@ -35183,6 +35513,7 @@
         "1.1.1:13.1.1.5:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronopathy",
       "type": "feature/trait/talent/5th-level-feature"
     },
     "effects": [
@@ -35208,6 +35539,7 @@
         "1.1.1:13.1.1.5:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telepathy",
       "type": "feature/trait/talent/5th-level-feature"
     },
     "effects": [
@@ -35233,6 +35565,7 @@
         "1.1.1:13.1.1.5:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telekinesis",
       "type": "feature/trait/talent/5th-level-feature"
     },
     "effects": [
@@ -35370,6 +35703,7 @@
         "1.1.1:13.1.1.5:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telepathy",
       "type": "feature/trait/talent/5th-level-feature"
     },
     "effects": [
@@ -35416,6 +35750,7 @@
         "1.1.1:13.2.1.5:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telepathy",
       "target": "One enemy",
       "type": "feature/ability/talent/2nd-level-feature"
     },
@@ -35474,6 +35809,7 @@
         "1.1.1:13.2.1.5:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronopathy",
       "target": "Special",
       "type": "feature/ability/talent/2nd-level-feature"
     },
@@ -35532,6 +35868,7 @@
         "1.1.1:13.2.1.5:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronopathy",
       "target": "Three creatures or objects",
       "type": "feature/ability/talent/2nd-level-feature"
     },
@@ -35592,6 +35929,7 @@
         "1.1.1:13.2.1.5:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telekinesis",
       "target": "One creature or object",
       "type": "feature/ability/talent/2nd-level-feature"
     },
@@ -35625,6 +35963,7 @@
         "1.1.1:13.1.1.6:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telepathy",
       "type": "feature/trait/talent/2nd-level-feature"
     },
     "effects": [
@@ -35671,6 +36010,7 @@
         "1.1.1:13.2.1.5:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telekinesis",
       "target": "Each enemy in the area",
       "type": "feature/ability/talent/2nd-level-feature"
     },
@@ -35727,6 +36067,7 @@
         "1.1.1:13.2.1.5:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telepathy",
       "target": "One creature",
       "type": "feature/ability/talent/2nd-level-feature"
     },
@@ -35760,6 +36101,7 @@
         "1.1.1:13.1.1.6:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telekinesis",
       "type": "feature/trait/talent/2nd-level-feature"
     },
     "effects": [
@@ -35785,6 +36127,7 @@
         "1.1.1:13.1.1.6:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronopathy",
       "type": "feature/trait/talent/2nd-level-feature"
     },
     "effects": [
@@ -36113,6 +36456,7 @@
         "1.1.1:13.2.1.7:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telepathy",
       "target": "Each ally and enemy in the area",
       "type": "feature/ability/talent/9th-level-feature"
     },
@@ -36196,6 +36540,7 @@
         "1.1.1:13.2.1.7:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telekinesis",
       "target": "Each enemy and object in the area",
       "type": "feature/ability/talent/9th-level-feature"
     },
@@ -36254,6 +36599,7 @@
         "1.1.1:13.2.1.7:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronopathy",
       "target": "Three allies",
       "type": "feature/ability/talent/9th-level-feature"
     },
@@ -36314,6 +36660,7 @@
         "1.1.1:13.2.1.7:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telepathy",
       "target": "One creature",
       "type": "feature/ability/talent/9th-level-feature"
     },
@@ -36372,6 +36719,7 @@
         "1.1.1:13.2.1.7:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Telekinesis",
       "target": "Each enemy and object in the area",
       "type": "feature/ability/talent/9th-level-feature"
     },
@@ -36430,6 +36778,7 @@
         "1.1.1:13.2.1.7:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Chronopathy",
       "target": "Each ally in the area",
       "type": "feature/ability/talent/9th-level-feature"
     },
