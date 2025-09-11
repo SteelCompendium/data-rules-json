@@ -1500,6 +1500,7 @@
     ]
   },  {
     "name": "Hurl Element",
+    "cost": "Free Strike",
     "flavor": "You cast a ball of elemental energy at a foe.",
     "keywords": [
       "Magic",
@@ -1512,6 +1513,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "elementalist",
+      "cost": "Free Strike",
+      "cost_resource": "Free Strike",
       "distance": "Ranged 10",
       "feature_type": "ability",
       "file_basename": "Hurl Element",
@@ -4644,6 +4647,7 @@
     ]
   },  {
     "name": "Ray of Wrath",
+    "cost": "Free Strike",
     "flavor": "You unleash a blast of holy light upon your foe.",
     "keywords": [
       "Magic",
@@ -4656,6 +4660,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "conduit",
+      "cost": "Free Strike",
+      "cost_resource": "Free Strike",
       "distance": "Ranged 10",
       "feature_type": "ability",
       "file_basename": "Ray of Wrath",
@@ -34065,6 +34071,7 @@
     ]
   },  {
     "name": "Mind Spike",
+    "cost": "Free Strike",
     "flavor": "A telepathic bolt instantly zaps a creature's brain.",
     "keywords": [
       "Psionic",
@@ -34078,6 +34085,8 @@
     "metadata": {
       "action_type": "Main action",
       "class": "talent",
+      "cost": "Free Strike",
+      "cost_resource": "Free Strike",
       "distance": "Ranged 10",
       "feature_type": "ability",
       "file_basename": "Mind Spike",
