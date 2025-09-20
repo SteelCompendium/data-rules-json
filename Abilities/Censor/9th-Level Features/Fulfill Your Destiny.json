@@ -1,4 +1,6 @@
 {
+  "type": "feature",
+  "feature_type": "ability",
   "name": "Fulfill Your Destiny",
   "cost": "11 Wrath",
   "flavor": "You have looked at various futures, and only this one works.",
@@ -6,7 +8,7 @@
     "Magic",
     "Ranged"
   ],
-  "type": "Triggered",
+  "usage": "Triggered",
   "distance": "Ranged 10",
   "target": "One ally",
   "trigger": "You or another hero ends their turn.",
@@ -19,7 +21,7 @@
     "distance": "Ranged 10",
     "feature_type": "ability",
     "file_basename": "Fulfill Your Destiny",
-    "file_dpath": "Censor/9th-Level Features",
+    "file_dpath": "Abilities/Censor/9th-Level Features",
     "flavor": "You have looked at various futures, and only this one works.",
     "item_id": "fulfill-your-destiny-11-wrath",
     "item_index": "02",
@@ -33,7 +35,7 @@
       "mcdm.heroes.v1:feature.ability.censor.9th-level-feature:fulfill-your-destiny-11-wrath"
     ],
     "scdc": [
-      "1.1.1:13.2.7.7:02"
+      "1.1.1:11.2.7.7:02"
     ],
     "source": "mcdm.heroes.v1",
     "subclass": "Oracle",
@@ -42,8 +44,8 @@
   },
   "effects": [
     {
-      "effect": "The target takes their turn after the triggering hero, and immediately removes all conditions and negative effects on themself. During their turn, the target has a double edge on power rolls.",
-      "name": "Effect"
+      "name": "Effect",
+      "effect": "The target takes their turn after the triggering hero, and immediately removes all conditions and negative effects on themself. During their turn, the target has a double edge on power rolls."
     }
   ]
 }

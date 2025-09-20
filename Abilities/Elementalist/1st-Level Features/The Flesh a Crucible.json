@@ -1,4 +1,6 @@
 {
+  "type": "feature",
+  "feature_type": "ability",
   "name": "The Flesh, a Crucible",
   "cost": "3 Essence",
   "flavor": "Fire engulfs your target and continues to churn.",
@@ -8,7 +10,7 @@
     "Ranged",
     "Strike"
   ],
-  "type": "Main action",
+  "usage": "Main action",
   "distance": "Ranged 10",
   "target": "One creature or object",
   "metadata": {
@@ -20,7 +22,7 @@
     "distance": "Ranged 10",
     "feature_type": "ability",
     "file_basename": "The Flesh a Crucible",
-    "file_dpath": "Elementalist/1st-Level Features",
+    "file_dpath": "Abilities/Elementalist/1st-Level Features",
     "flavor": "Fire engulfs your target and continues to churn.",
     "item_id": "the-flesh-a-crucible-3-essence",
     "item_index": "16",
@@ -36,7 +38,7 @@
       "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:the-flesh-a-crucible-3-essence"
     ],
     "scdc": [
-      "1.1.1:13.2.9.1:16"
+      "1.1.1:11.2.9.1:16"
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature or object",
@@ -45,13 +47,13 @@
   "effects": [
     {
       "roll": "Power Roll + Reason",
-      "t1": "5 + R fire damage",
-      "t2": "8 + R fire damage",
-      "t3": "11 + R fire damage"
+      "tier1": "5 + R fire damage",
+      "tier2": "8 + R fire damage",
+      "tier3": "11 + R fire damage"
     },
     {
-      "effect": "If the target is within distance at the start of your turn, you can make the power roll again without spending essence (no action required).",
-      "name": "Persistent 1"
+      "name": "Persistent 1",
+      "effect": "If the target is within distance at the start of your turn, you can make the power roll again without spending essence (no action required)."
     }
   ]
 }

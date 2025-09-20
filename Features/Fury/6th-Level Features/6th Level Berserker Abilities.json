@@ -1,0 +1,67 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "6th-Level Berserker Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "fury",
+    "feature_type": "trait",
+    "file_basename": "6th Level Berserker Abilities",
+    "file_dpath": "Fury/6th-Level Features",
+    "item_id": "6th-level-berserker-abilities",
+    "item_index": "05",
+    "item_name": "6th-Level Berserker Abilities",
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.fury.6th-level-feature:6th-level-berserker-abilities"
+    ],
+    "scdc": [
+      "1.1.1:11.1.5.3:05"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/fury/6th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Avalanche Impact",
+          "cost": "9 Ferocity",
+          "flavor": "You leap and crash down, causing a shockwave that devastates foes.",
+          "keywords": [
+            "Magic"
+          ],
+          "usage": "Maneuver",
+          "distance": "Self",
+          "target": "Self",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You jump up to your maximum jump distance and make one power roll that targets each creature adjacent to the space where you land."
+            },
+            {
+              "effect": "###### Force of Storms (9 Ferocity)\n\n*You strike an enemy hard enough to be a projectile that knocks a crowd of creatures around.*\n| **Melee, Strike, Weapon** |     **Main action** |\n| ------------------------- | ------------------: |\n| **📏 Melee 1**            | **🎯 One creature** |",
+              "roll": "Power Roll + Might",
+              "tier1": "4 damage; push 1",
+              "tier2": "7 damage; push 2",
+              "tier3": "11 damage; push 3"
+            },
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "7 + M damage; push 3",
+              "tier2": "11 + M damage; push 5",
+              "tier3": "16 + M damage; push 7"
+            },
+            {
+              "name": "Effect",
+              "effect": "When the target ends this forced movement, each creature within 2 squares of the target is pushed 3 squares."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

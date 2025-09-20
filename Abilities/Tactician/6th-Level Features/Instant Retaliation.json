@@ -1,4 +1,6 @@
 {
+  "type": "feature",
+  "feature_type": "ability",
   "name": "Instant Retaliation",
   "cost": "9 Focus",
   "flavor": "You parry with almost supernatural speed.",
@@ -6,7 +8,7 @@
     "Melee",
     "Weapon"
   ],
-  "type": "Free triggered",
+  "usage": "Free triggered",
   "distance": "Melee 1",
   "target": "One ally",
   "trigger": "A creature deals damage to the target.",
@@ -19,7 +21,7 @@
     "distance": "Melee 1",
     "feature_type": "ability",
     "file_basename": "Instant Retaliation",
-    "file_dpath": "Tactician/6th-Level Features",
+    "file_dpath": "Abilities/Tactician/6th-Level Features",
     "flavor": "You parry with almost supernatural speed.",
     "item_id": "instant-retaliation-9-focus",
     "item_index": "05",
@@ -33,7 +35,7 @@
       "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:instant-retaliation-9-focus"
     ],
     "scdc": [
-      "1.1.1:13.2.4.3:05"
+      "1.1.1:11.2.4.3:05"
     ],
     "source": "mcdm.heroes.v1",
     "subclass": "Vanguard",
@@ -47,9 +49,9 @@
     },
     {
       "roll": "Power Roll + Might",
-      "t1": "A < WEAK, dazed (save ends)",
-      "t2": "A < AVERAGE, dazed (save ends)",
-      "t3": "A < STRONG, dazed (save ends)"
+      "tier1": "A < WEAK, dazed (save ends)",
+      "tier2": "A < AVERAGE, dazed (save ends)",
+      "tier3": "A < STRONG, dazed (save ends)"
     }
   ]
 }

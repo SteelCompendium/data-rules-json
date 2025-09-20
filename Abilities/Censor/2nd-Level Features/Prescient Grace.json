@@ -1,4 +1,6 @@
 {
+  "type": "feature",
+  "feature_type": "ability",
   "name": "Prescient Grace",
   "cost": "5 Wrath",
   "flavor": "Gifted by a prescient vision, you warn an ally of an impending attack.",
@@ -6,7 +8,7 @@
     "Magic",
     "Ranged"
   ],
-  "type": "Triggered",
+  "usage": "Triggered",
   "distance": "Ranged 10",
   "target": "Self or one ally",
   "trigger": "An enemy within 10 squares starts their turn.",
@@ -19,7 +21,7 @@
     "distance": "Ranged 10",
     "feature_type": "ability",
     "file_basename": "Prescient Grace",
-    "file_dpath": "Censor/2nd-Level Features",
+    "file_dpath": "Abilities/Censor/2nd-Level Features",
     "flavor": "Gifted by a prescient vision, you warn an ally of an impending attack.",
     "item_id": "prescient-grace-5-wrath",
     "item_index": "06",
@@ -33,7 +35,7 @@
       "mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:prescient-grace-5-wrath"
     ],
     "scdc": [
-      "1.1.1:13.2.7.5:06"
+      "1.1.1:11.2.7.5:06"
     ],
     "source": "mcdm.heroes.v1",
     "subclass": "Oracle",
@@ -42,8 +44,8 @@
   },
   "effects": [
     {
-      "effect": "You can spend a Recovery to allow the target to regain Stamina equal to your recovery value. The target can then take their turn immediately before the triggering enemy.",
-      "name": "Effect"
+      "name": "Effect",
+      "effect": "You can spend a Recovery to allow the target to regain Stamina equal to your recovery value. The target can then take their turn immediately before the triggering enemy."
     }
   ]
 }

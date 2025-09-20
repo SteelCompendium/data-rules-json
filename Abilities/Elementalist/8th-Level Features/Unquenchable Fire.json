@@ -1,0 +1,59 @@
+{
+  "type": "feature",
+  "feature_type": "ability",
+  "name": "Unquenchable Fire",
+  "cost": "11 Essence",
+  "flavor": "You let fly a fiery missile braided with pure primal energy.",
+  "keywords": [
+    "Fire",
+    "Magic",
+    "Ranged",
+    "Strike"
+  ],
+  "usage": "Main action",
+  "distance": "Ranged 10",
+  "target": "One enemy or object",
+  "metadata": {
+    "action_type": "Main action",
+    "class": "elementalist",
+    "cost": "11 Essence",
+    "cost_amount": 11,
+    "cost_resource": "Essence",
+    "distance": "Ranged 10",
+    "feature_type": "ability",
+    "file_basename": "Unquenchable Fire",
+    "file_dpath": "Abilities/Elementalist/8th-Level Features",
+    "flavor": "You let fly a fiery missile braided with pure primal energy.",
+    "item_id": "unquenchable-fire-11-essence",
+    "item_index": 9,
+    "item_name": "Unquenchable Fire (11 Essence)",
+    "keywords": [
+      "Fire",
+      "Magic",
+      "Ranged",
+      "Strike"
+    ],
+    "level": 8,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:unquenchable-fire-11-essence"
+    ],
+    "scdc": [
+      "1.1.1:11.2.9.2:09"
+    ],
+    "source": "mcdm.heroes.v1",
+    "target": "One enemy or object",
+    "type": "feature/ability/elementalist/8th-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Reason",
+      "tier1": "13 + R fire damage; I < WEAK, dazed (save ends)",
+      "tier2": "18 + R fire damage; I < AVERAGE, dazed (save ends)",
+      "tier3": "25 + R fire damage; I < STRONG, dazed (save ends)"
+    },
+    {
+      "name": "Effect",
+      "effect": "This damage ignores immunity."
+    }
+  ]
+}

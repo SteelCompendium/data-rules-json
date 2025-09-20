@@ -1,4 +1,6 @@
 {
+  "type": "feature",
+  "feature_type": "ability",
   "name": "Edict of Peace",
   "cost": "9 Wrath",
   "flavor": "You anticipate your foes' moves and deny them.",
@@ -6,7 +8,7 @@
     "Area",
     "Magic"
   ],
-  "type": "Maneuver",
+  "usage": "Maneuver",
   "distance": "3 aura",
   "target": "Each enemy in the area",
   "metadata": {
@@ -18,7 +20,7 @@
     "distance": "3 aura",
     "feature_type": "ability",
     "file_basename": "Edict of Peace",
-    "file_dpath": "Censor/6th-Level Features",
+    "file_dpath": "Abilities/Censor/6th-Level Features",
     "flavor": "You anticipate your foes' moves and deny them.",
     "item_id": "edict-of-peace-9-wrath",
     "item_index": "03",
@@ -32,7 +34,7 @@
       "mcdm.heroes.v1:feature.ability.censor.6th-level-feature:edict-of-peace-9-wrath"
     ],
     "scdc": [
-      "1.1.1:13.2.7.3:03"
+      "1.1.1:11.2.7.3:03"
     ],
     "source": "mcdm.heroes.v1",
     "subclass": "Oracle",
@@ -41,8 +43,8 @@
   },
   "effects": [
     {
-      "effect": "Until the end of the encounter or until you are dying, whenever any target takes a triggered action or a free triggered action, that action is negated and the target takes holy damage equal to your Presence score.",
-      "name": "Effect"
+      "name": "Effect",
+      "effect": "Until the end of the encounter or until you are dying, whenever any target takes a triggered action or a free triggered action, that action is negated and the target takes holy damage equal to your Presence score."
     }
   ]
 }

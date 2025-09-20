@@ -1,0 +1,73 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "6th-Level Telekinesis Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "talent",
+    "feature_type": "trait",
+    "file_basename": "6th Level Telekinesis Abilities",
+    "file_dpath": "Talent/6th-Level Features",
+    "item_id": "6th-level-telekinesis-abilities",
+    "item_index": "02",
+    "item_name": "6th-Level Telekinesis Abilities",
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.talent.6th-level-feature:6th-level-telekinesis-abilities"
+    ],
+    "scdc": [
+      "1.1.1:11.1.1.3:02"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/talent/6th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Gravitic Well",
+          "cost": "9 Clarity",
+          "flavor": "You bend gravity into a fine point and pull your foes toward it.",
+          "keywords": [
+            "Area",
+            "Psionic",
+            "Ranged",
+            "Telekinesis"
+          ],
+          "usage": "Main action",
+          "distance": "4 cube within 10",
+          "target": "Each creature and object in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "6 damage; vertical pull 5 toward the center of the area",
+              "tier2": "9 damage; vertical pull 7 toward the center of the area",
+              "tier3": "13 damage; vertical pull 10 toward the center of the area"
+            },
+            {
+              "name": "Effect",
+              "effect": "Targets closest to the center of the area are pulled first."
+            },
+            {
+              "name": "Strained",
+              "effect": "The size of the area increases by 2. You also target yourself and each ally within distance.\n###### Greater Kinetic Grip (9 Clarity)\n*You raise the target into the air without breaking a sweat.*\n| **Psionic, Ranged**, **Strike, Telekinesis** |               **Main action** |\n| -------------------------------------------- | ----------------------------: |\n| **📏 Ranged 10**                             | **🎯 One creature or object** |"
+            },
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "Slide 4 + R; M < WEAK, the forced movement is vertical",
+              "tier2": "Slide 8 + R; M < AVERAGE, the forced movement is vertical",
+              "tier3": "Slide 12 + R; prone; M < STRONG, the forced movement is vertical"
+            },
+            {
+              "name": "Strained",
+              "effect": "The forced movement ignores stability. You take 2d6 damage and are weakened (save ends)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

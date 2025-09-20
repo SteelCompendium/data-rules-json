@@ -1,4 +1,6 @@
 {
+  "type": "feature",
+  "feature_type": "ability",
   "name": "No More Than a Breeze",
   "cost": "5 Essence",
   "flavor": "The material substance of a creature shreds away at your command.",
@@ -7,7 +9,7 @@
     "Ranged",
     "Void"
   ],
-  "type": "Maneuver",
+  "usage": "Maneuver",
   "distance": "Ranged 10",
   "target": "Self or one ally",
   "metadata": {
@@ -19,7 +21,7 @@
     "distance": "Ranged 10",
     "feature_type": "ability",
     "file_basename": "No More Than a Breeze",
-    "file_dpath": "Elementalist/1st-Level Features",
+    "file_dpath": "Abilities/Elementalist/1st-Level Features",
     "flavor": "The material substance of a creature shreds away at your command.",
     "item_id": "no-more-than-a-breeze-5-essence",
     "item_index": "07",
@@ -34,7 +36,7 @@
       "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:no-more-than-a-breeze-5-essence"
     ],
     "scdc": [
-      "1.1.1:13.2.9.1:07"
+      "1.1.1:11.2.9.1:07"
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self or one ally",
@@ -42,12 +44,12 @@
   },
   "effects": [
     {
-      "effect": "Until the start of your next turn, the target can move through solid matter, they ignore difficult terrain, and their movement can't provoke opportunity attacks. If the target ends their turn inside solid matter, they are forced out into the space where they entered it and this effect ends.",
-      "name": "Effect"
+      "name": "Effect",
+      "effect": "Until the start of your next turn, the target can move through solid matter, they ignore difficult terrain, and their movement can't provoke opportunity attacks. If the target ends their turn inside solid matter, they are forced out into the space where they entered it and this effect ends."
     },
     {
-      "effect": "The effect lasts until the start of your next turn.",
-      "name": "Persistent 1"
+      "name": "Persistent 1",
+      "effect": "The effect lasts until the start of your next turn."
     }
   ]
 }

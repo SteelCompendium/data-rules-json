@@ -1,4 +1,6 @@
 {
+  "type": "feature",
+  "feature_type": "ability",
   "name": "Patter Song",
   "cost": "9 Drama",
   "flavor": "Dazzle them with your fancy patter and they forget where they were.",
@@ -6,7 +8,7 @@
     "Magic",
     "Ranged"
   ],
-  "type": "Maneuver",
+  "usage": "Maneuver",
   "distance": "Ranged 10",
   "target": "Special",
   "metadata": {
@@ -18,7 +20,7 @@
     "distance": "Ranged 10",
     "feature_type": "ability",
     "file_basename": "Patter Song",
-    "file_dpath": "Troubadour/5th-Level Features",
+    "file_dpath": "Abilities/Troubadour/5th-Level Features",
     "flavor": "Dazzle them with your fancy patter and they forget where they were.",
     "item_id": "patter-song-9-drama",
     "item_index": "02",
@@ -32,7 +34,7 @@
       "mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:patter-song-9-drama"
     ],
     "scdc": [
-      "1.1.1:13.2.3.4:02"
+      "1.1.1:11.2.3.4:02"
     ],
     "source": "mcdm.heroes.v1",
     "target": "Special",
@@ -41,9 +43,9 @@
   "effects": [
     {
       "roll": "Power Roll + Presence",
-      "t1": "One ally within distance can take their turn immediately after yours.",
-      "t2": "Two allies within distance can take their turns immediately after yours in any order.",
-      "t3": "Three allies within distance can take their turns immediately after yours in any order. One of those allies can have already taken a turn this combat round."
+      "tier1": "One ally within distance can take their turn immediately after yours.",
+      "tier2": "Two allies within distance can take their turns immediately after yours in any order.",
+      "tier3": "Three allies within distance can take their turns immediately after yours in any order. One of those allies can have already taken a turn this combat round."
     }
   ]
 }

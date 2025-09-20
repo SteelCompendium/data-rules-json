@@ -1,4 +1,6 @@
 {
+  "type": "feature",
+  "feature_type": "trait",
   "name": "Make or Assist a Test",
   "metadata": {
     "class": "combat",

@@ -1,0 +1,54 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "Levitation Field",
+  "metadata": {
+    "action_type": "feature",
+    "class": "talent",
+    "feature_type": "trait",
+    "file_basename": "Levitation Field",
+    "file_dpath": "Talent/8th-Level Features",
+    "item_id": "levitation-field",
+    "item_index": "05",
+    "item_name": "Levitation Field",
+    "level": 8,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.talent.8th-level-feature:levitation-field"
+    ],
+    "scdc": [
+      "1.1.1:11.1.1.2:05"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/talent/8th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "You have the following ability.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Levitation Field",
+          "flavor": "You manipulate the air around your allies so they can move as freely through the sky as you can.",
+          "keywords": [
+            "Area",
+            "Psionic"
+          ],
+          "usage": "Maneuver",
+          "distance": "3 burst",
+          "target": "Each ally in the area",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Each target can fly until the start of your next turn, and can immediately shift up to their speed. You can also shift up to your speed. While flying, a target's stability is reduced to 0 and can't be increased."
+            },
+            {
+              "cost": "Spend 5 Clarity",
+              "effect": "The effects last for 1 hour instead."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

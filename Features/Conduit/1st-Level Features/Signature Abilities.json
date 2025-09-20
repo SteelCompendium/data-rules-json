@@ -1,0 +1,117 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "Signature Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "conduit",
+    "feature_type": "trait",
+    "file_basename": "Signature Abilities",
+    "file_dpath": "Conduit/1st-Level Features",
+    "item_id": "signature-abilities",
+    "item_index": "13",
+    "item_name": "Signature Abilities",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:signature-abilities"
+    ],
+    "scdc": [
+      "1.1.1:11.1.8.1:13"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/conduit/1st-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose two signature abilities from the following options. Signature abilities can be used at will. (*Quick Build:* Blessed Light, Staggering Curse.)",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Blessed Light",
+          "flavor": "Burning radiance falls upon your foe, transferring some of their energy to a nearby ally.",
+          "keywords": [
+            "Magic",
+            "Ranged",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "3 + I holy damage",
+              "tier2": "5 + I holy damage",
+              "tier3": "8 + I holy damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "One ally within distance gains a number of surges equal to the tier outcome of your power roll.\n###### Drain\n*You drain the energy from your target to revitalize yourself or an ally.*\n| **Magic, Melee, Strike** |     **Main action** |\n| ------------------------ | ------------------: |\n| **📏 Melee 1**           | **🎯 One creature** |"
+            },
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "2 + I corruption damage",
+              "tier2": "5 + I corruption damage",
+              "tier3": "7 + I corruption damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "You or one ally within distance can spend a Recovery.\n###### Holy Lash\n*A tendril of divine energy shoots forth to draw in your foe.*\n| **Magic, Ranged, Strike** |               **Main action** |\n| ------------------------- | ----------------------------: |\n| **📏 Ranged 10**          | **🎯 One creature or object** |"
+            },
+            {
+              "effect": "###### Lightfall\n\n*A rain of holy light scours your enemies and repositions your allies.*\n| **Area, Magic** |               **Main action** |\n| --------------- | ----------------------------: |\n| **📏 2 burst**  | **🎯 Each enemy in the area** |",
+              "roll": "Power Roll + Intuition",
+              "tier1": "3 + I holy damage; vertical pull 2",
+              "tier2": "5 + I holy damage; vertical pull 3",
+              "tier3": "8 + I holy damage; vertical pull 4"
+            },
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "2 holy damage",
+              "tier2": "3 holy damage",
+              "tier3": "5 holy damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "You can teleport yourself and each ally in the area to unoccupied spaces in the area.\n###### Sacrificial Offer\n*Divine magic tears at your foe and defends a nearby friend.*\n| **Magic, Ranged, Strike** |     **Main action** |\n| ------------------------- | ------------------: |\n| **📏 Ranged 10**          | **🎯 One creature** |"
+            },
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "2 + I corruption damage",
+              "tier2": "4 + I corruption damage",
+              "tier3": "6 + I corruption damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "Choose yourself or one ally within distance. That character can impose a bane on one power roll made against them before the end of their next turn.\n###### Staggering Curse\n*A blast of judgment disorients your foe.*\n| **Magic, Melee, Strike** |               **Main action** |\n| ------------------------ | ----------------------------: |\n| **📏 Melee 1**           | **🎯 One creature or object** |"
+            },
+            {
+              "effect": "###### Warrior's Prayer\n\n*Your quickly uttered prayer lends aggressive divine energy to a friend engaged in melee.*\n| **Magic, Ranged, Strike** |     **Main action** |\n| ------------------------- | ------------------: |\n| **📏 Ranged 10**          | **🎯 One creature** |",
+              "roll": "Power Roll + Intuition",
+              "tier1": "3 + I holy damage; slide 1",
+              "tier2": "5 + I holy damage; slide 2",
+              "tier3": "8 + I holy damage; slide 3"
+            },
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "3 + I holy damage",
+              "tier2": "6 + I holy damage",
+              "tier3": "9 + I holy damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "You or one ally within distance gains temporary Stamina equal to your Intuition score.\n###### Wither\n*A bolt of holy energy saps the life from a foe.*\n| **Magic, Ranged, Strike** |               **Main action** |\n| ------------------------- | ----------------------------: |\n| **📏 Ranged 10**          | **🎯 One creature or object** |"
+            },
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "3 + I corruption damage; P < WEAK, the target takes a bane on their next power roll",
+              "tier2": "5 + I corruption damage; P < AVERAGE, the target takes a bane on their next power roll",
+              "tier3": "8 + I corruption damage; P < STRONG, the target takes a bane on their next power roll"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

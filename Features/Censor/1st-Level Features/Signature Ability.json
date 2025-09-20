@@ -1,0 +1,82 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "Signature Ability",
+  "metadata": {
+    "action_type": "feature",
+    "class": "censor",
+    "feature_type": "trait",
+    "file_basename": "Signature Ability",
+    "file_dpath": "Censor/1st-Level Features",
+    "item_id": "signature-ability",
+    "item_index": "10",
+    "item_name": "Signature Ability",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.censor.1st-level-feature:signature-ability"
+    ],
+    "scdc": [
+      "1.1.1:11.1.7.1:10"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/censor/1st-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one signature ability from the following options. Signature abilities can be used at will. (*Quick Build:* Your Allies Cannot Save You!)",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Back Blasphemer!",
+          "flavor": "You channel power through your weapon to repel foes.",
+          "keywords": [
+            "Area",
+            "Magic",
+            "Melee",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "2 cube within 1",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "effect": "###### Every Step... Death!\n\n*You show your foe a glimpse of their fate after death.*\n| **Magic, Ranged, Strike** |     **Main action** |\n| ------------------------- | ------------------: |\n| **📏 Ranged 10**          | **🎯 One creature** |",
+              "roll": "Power Roll + Presence",
+              "tier1": "2 holy damage; push 1",
+              "tier2": "4 holy damage; push 2",
+              "tier3": "6 holy damage; push 3"
+            },
+            {
+              "roll": "Power Roll + Presence",
+              "tier1": "5 + P psychic damage",
+              "tier2": "7 + P psychic damage",
+              "tier3": "10 + P psychic damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "Each time the target willingly moves before the end of your next turn, they take 1 psychic damage for each square they move.\n###### Halt Miscreant!\n*You infuse your weapon with holy magic that makes it difficult for your foe to get away.*\n| **Melee, Strike, Weapon** |               **Main action** |\n| ------------------------- | ----------------------------: |\n| **📏 Melee 1**            | **🎯 One creature or object** |"
+            },
+            {
+              "effect": "###### Your Allies Cannot Save You!\n\n*Your magic strike turns your foe's guilt into a burst of holy power.*\n| **Melee, Strike, Weapon** |               **Main action** |\n| ------------------------- | ----------------------------: |\n| **📏 Melee 1**            | **🎯 One creature or object** |",
+              "roll": "Power Roll + Might",
+              "tier1": "2 + M holy damage; P < WEAK, slowed (save ends)",
+              "tier2": "5 + M holy damage; P < AVERAGE, slowed (save ends)",
+              "tier3": "7 + M holy damage; P < STRONG, slowed (save ends)"
+            },
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "3 + M holy damage",
+              "tier2": "5 + M holy damage",
+              "tier3": "8 + M holy damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "Each enemy adjacent to the target is pushed away from the target up to a number of squares equal to your Presence score."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

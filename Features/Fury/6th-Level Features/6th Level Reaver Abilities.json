@@ -1,0 +1,67 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "6th-Level Reaver Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "fury",
+    "feature_type": "trait",
+    "file_basename": "6th Level Reaver Abilities",
+    "file_dpath": "Fury/6th-Level Features",
+    "item_id": "6th-level-reaver-abilities",
+    "item_index": "06",
+    "item_name": "6th-Level Reaver Abilities",
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.fury.6th-level-feature:6th-level-reaver-abilities"
+    ],
+    "scdc": [
+      "1.1.1:11.1.5.3:06"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/fury/6th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Death Strike",
+          "cost": "9 Ferocity",
+          "flavor": "Once you taste your foe's blood, you become more efficient and turn every killing blow into an opportunity.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Free triggered",
+          "distance": "Melee 1",
+          "target": "Self",
+          "trigger": "You reduce a creature to 0 Stamina with a strike.",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You target a creature adjacent to you with the same strike, using the same power roll as the triggering strike.\n###### Seek and Destroy (9 Ferocity)\n*You break through the enemy lines to make an example.*\n| **Melee, Strike, Weapon** |     **Main action** |\n| ------------------------- | ------------------: |\n| **📏 Melee 1**            | **🎯 One creature** |"
+            },
+            {
+              "name": "Effect",
+              "effect": "You shift up to your speed."
+            },
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "4 + M damage; P < WEAK, frightened (save ends)",
+              "tier2": "6 + M damage; P < AVERAGE, frightened (save ends)",
+              "tier3": "10 + M damage; P < STRONG, frightened (save ends)"
+            },
+            {
+              "name": "Effect",
+              "effect": "If a target who is not a leader or solo creature is winded by this strike, they are reduced to 0 Stamina and you choose an enemy within 5 squares of you. If that enemy has P < AVERAGE, they are frightened of you (save ends)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

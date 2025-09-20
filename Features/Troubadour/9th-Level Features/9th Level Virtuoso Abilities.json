@@ -1,0 +1,67 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "9th-Level Virtuoso Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "troubadour",
+    "feature_type": "trait",
+    "file_basename": "9th Level Virtuoso Abilities",
+    "file_dpath": "Troubadour/9th-Level Features",
+    "item_id": "9th-level-virtuoso-abilities",
+    "item_index": "02",
+    "item_name": "9th-Level Virtuoso Abilities",
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.troubadour.9th-level-feature:9th-level-virtuoso-abilities"
+    ],
+    "scdc": [
+      "1.1.1:11.1.3.8:02"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/troubadour/9th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Jam Session",
+          "cost": "11 Drama",
+          "flavor": "Your jam session creates new genres that compel everyone to get up and move.",
+          "keywords": [
+            "Area",
+            "Magic"
+          ],
+          "usage": "Main action",
+          "distance": "5 burst",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Presence",
+              "tier1": "8 sonic damage",
+              "tier2": "11 sonic damage",
+              "tier3": "15 sonic damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "Each creature within distance gains a +5 bonus to speed until the end of their next turn. While under this effect, each target must use their full movement during their turn.\n###### Melt Their Faces (11 Drama)\n*The power of music rips through the reality around the target and blows them away.*\n| **Magic, Melee, Ranged, Strike** |               **Main action** |\n| -------------------------------- | ----------------------------: |\n| **📏 Melee 1 or ranged 10**      | **🎯 One creature or object** |"
+            },
+            {
+              "roll": "Power Roll + Presence",
+              "tier1": "12 + P sonic damage; push 5",
+              "tier2": "16 + P sonic damage; push 10",
+              "tier3": "22 + P sonic damage; push 15"
+            },
+            {
+              "name": "Effect",
+              "effect": "Forced movement from this ability ignores stability."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "6th-Level Insurgent Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "tactician",
+    "feature_type": "trait",
+    "file_basename": "6th Level Insurgent Abilities",
+    "file_dpath": "Tactician/6th-Level Features",
+    "item_id": "6th-level-insurgent-abilities",
+    "item_index": "03",
+    "item_name": "6th-Level Insurgent Abilities",
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.tactician.6th-level-feature:6th-level-insurgent-abilities"
+    ],
+    "scdc": [
+      "1.1.1:11.1.4.3:03"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/tactician/6th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Coordinated Execution",
+          "cost": "9 Focus",
+          "flavor": "You direct your ally to make a killing blow.",
+          "keywords": [
+            "Ranged"
+          ],
+          "usage": "Free triggered",
+          "distance": "Ranged 10",
+          "target": "One ally",
+          "trigger": "The target uses an ability to deal rolled damage to a creature while hidden.",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "If the target of the triggering ability is not a leader or solo creature, they are reduced to 0 Stamina. If the target of the triggering ability is a minion, the entire squad is killed. If the target of the triggering ability is a leader or solo creature, the triggering ability's power roll automatically obtains a tier 3 outcome.\n###### Panic in Their Lines (9 Focus)\n*You confuse your foes, causing them to turn on each other.*\n| **Melee, Ranged, Strike, Weapon** |      **Main action** |\n| --------------------------------- | -------------------: |\n| **📏 Melee 1 or ranged 5**        | **🎯 Two creatures** |"
+            },
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "6 + M damage; slide 1",
+              "tier2": "9 + M damage; slide 3",
+              "tier3": "13 + M damage; slide 5"
+            },
+            {
+              "name": "Effect",
+              "effect": "If a target is force moved into another creature, they must make a free strike against that creature."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

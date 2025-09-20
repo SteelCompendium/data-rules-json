@@ -1,0 +1,62 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "9th-Level Paragon Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "censor",
+    "feature_type": "trait",
+    "file_basename": "9th Level Paragon Abilities",
+    "file_dpath": "Censor/9th-Level Features",
+    "item_id": "9th-level-paragon-abilities",
+    "item_index": "03",
+    "item_name": "9th-Level Paragon Abilities",
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.censor.9th-level-feature:9th-level-paragon-abilities"
+    ],
+    "scdc": [
+      "1.1.1:11.1.7.8:03"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/censor/9th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Apostate",
+          "cost": "11 Wrath",
+          "flavor": "You channel holy energy to seal an enemy's fate.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "13 + M holy damage",
+              "tier2": "19 + M holy damage",
+              "tier3": "26 + M holy damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "Until the end of the encounter or until you are dying, the target has damage weakness 10.\n###### Edict of Unyielding Resolve (11 Wrath)\n*You and your allies are clad in shimmering armor.*\n| **Area, Magic** |                          **Maneuver** |\n| --------------- | ------------------------------------: |\n| **📏 2 aura**   | **🎯 Self and each ally in the area** |"
+            },
+            {
+              "name": "Effect",
+              "effect": "Until the end of the encounter or until you are dying, each target who starts their turn in the area gains 10 temporary Stamina."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

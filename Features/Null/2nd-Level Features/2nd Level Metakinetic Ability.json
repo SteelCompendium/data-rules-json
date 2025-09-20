@@ -1,0 +1,66 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "2nd-Level Metakinetic Ability",
+  "metadata": {
+    "action_type": "feature",
+    "class": "null",
+    "feature_type": "trait",
+    "file_basename": "2nd Level Metakinetic Ability",
+    "file_dpath": "Null/2nd-Level Features",
+    "item_id": "2nd-level-metakinetic-ability",
+    "item_index": "07",
+    "item_name": "2nd-Level Metakinetic Ability",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.null.2nd-level-feature:2nd-level-metakinetic-ability"
+    ],
+    "scdc": [
+      "1.1.1:11.1.6.6:07"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/null/2nd-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Gravitic Strike",
+          "cost": "5 Discipline",
+          "flavor": "Your fist emanates gravitic force that pulls a distant enemy closer.",
+          "keywords": [
+            "Melee",
+            "Psionic",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 3",
+          "target": "One creature",
+          "effects": [
+            {
+              "effect": "###### Kinetic Shield (5 Discipline)\n\n*You manifest a force barrier that absorbs incoming kinetic energy.*\n| **Psionic** | **Maneuver** |\n| ----------- | -----------: |\n| **📏 Self** |  **🎯 Self** |",
+              "roll": "Power Roll + Agility",
+              "tier1": "8 + A psychic damage; vertical pull 3",
+              "tier2": "12 + A psychic damage; vertical pull 5",
+              "tier3": "16 + A psychic damage; vertical pull 7"
+            },
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "You gain 10 temporary Stamina.",
+              "tier2": "You gain 15 temporary Stamina.",
+              "tier3": "You gain 20 temporary Stamina."
+            },
+            {
+              "name": "Effect",
+              "effect": "While you have temporary Stamina from this ability, you can't be made bleeding even while dying."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

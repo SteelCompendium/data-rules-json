@@ -1,4 +1,6 @@
 {
+  "type": "feature",
+  "feature_type": "ability",
   "name": "Hurl Element",
   "flavor": "You cast a ball of elemental energy at a foe.",
   "keywords": [
@@ -6,16 +8,17 @@
     "Ranged",
     "Strike"
   ],
-  "type": "Main action",
+  "usage": "Main action",
   "distance": "Ranged 10",
   "target": "One creature or object",
   "metadata": {
+    "ability_type": "Free Strike",
     "action_type": "Main action",
     "class": "elementalist",
     "distance": "Ranged 10",
     "feature_type": "ability",
     "file_basename": "Hurl Element",
-    "file_dpath": "Elementalist/1st-Level Features",
+    "file_dpath": "Abilities/Elementalist/1st-Level Features",
     "flavor": "You cast a ball of elemental energy at a foe.",
     "item_id": "hurl-element",
     "item_index": "22",
@@ -30,7 +33,7 @@
       "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:hurl-element"
     ],
     "scdc": [
-      "1.1.1:13.2.9.1:22"
+      "1.1.1:11.2.9.1:22"
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature or object",
@@ -39,13 +42,13 @@
   "effects": [
     {
       "roll": "Power Roll + Reason",
-      "t1": "2 + R damage",
-      "t2": "4 + R damage",
-      "t3": "6 + R damage"
+      "tier1": "2 + R damage",
+      "tier2": "4 + R damage",
+      "tier3": "6 + R damage"
     },
     {
-      "effect": "When you make this strike, choose the damage type from one of the following options: acid, cold, corruption, fire, lightning, poison, or sonic.",
-      "name": "Effect"
+      "name": "Effect",
+      "effect": "When you make this strike, choose the damage type from one of the following options: acid, cold, corruption, fire, lightning, poison, or sonic."
     }
   ]
 }

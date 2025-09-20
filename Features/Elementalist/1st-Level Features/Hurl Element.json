@@ -1,0 +1,57 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "Hurl Element",
+  "metadata": {
+    "action_type": "feature",
+    "class": "elementalist",
+    "feature_type": "trait",
+    "file_basename": "Hurl Element",
+    "file_dpath": "Elementalist/1st-Level Features",
+    "item_id": "hurl-element",
+    "item_index": "20",
+    "item_name": "Hurl Element",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.elementalist.1st-level-feature:hurl-element"
+    ],
+    "scdc": [
+      "1.1.1:11.1.9.1:20"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/elementalist/1st-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "You have the following ability, which can be used as a ranged free strike.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Hurl Element",
+          "flavor": "You cast a ball of elemental energy at a foe.",
+          "keywords": [
+            "Magic",
+            "Ranged",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "2 + R damage",
+              "tier2": "4 + R damage",
+              "tier3": "6 + R damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "When you make this strike, choose the damage type from one of the following options: acid, cold, corruption, fire, lightning, poison, or sonic."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

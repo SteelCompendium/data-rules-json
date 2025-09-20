@@ -1,0 +1,61 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "6th-Level Cryokinetic Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "null",
+    "feature_type": "trait",
+    "file_basename": "6th Level Cryokinetic Abilities",
+    "file_dpath": "Null/6th-Level Features",
+    "item_id": "6th-level-cryokinetic-abilities",
+    "item_index": "02",
+    "item_name": "6th-Level Cryokinetic Abilities",
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.null.6th-level-feature:6th-level-cryokinetic-abilities"
+    ],
+    "scdc": [
+      "1.1.1:11.1.6.3:02"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/null/6th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Ice Pillars",
+          "cost": "9 Discipline",
+          "flavor": "Pillars of ice erupt from the ground and launch your foes into the air.",
+          "keywords": [
+            "Psionic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "Three creatures or objects",
+          "effects": [
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "Vertical slide 6",
+              "tier2": "Vertical slide 8",
+              "tier3": "Vertical slide 10"
+            },
+            {
+              "name": "Effect",
+              "effect": "The pillars vanish as soon as the effects of the forced movement are resolved.\n###### Wall of Ice (9 Discipline)\n*You create a wall of ice.*\n| **Area, Psionic, Ranged** | **Main action** |\n| ------------------------- | --------------: |\n| **📏 10 wall within 10**  |  **🎯 Special** |"
+            },
+            {
+              "name": "Effect",
+              "effect": "You can place this wall in occupied squares, sliding each creature in the area into the nearest unoccupied space of your choice. The wall remains until the end of the encounter or until you are dying. The wall's squares are treated as stone squares for the purpose of damage, and you and allies can move freely through the wall. Each enemy who enters a square adjacent to the wall and has M < AVERAGE is slowed (save ends). Each enemy who is force moved into the wall and has M < AVERAGE is restrained (save ends)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

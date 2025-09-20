@@ -1,4 +1,6 @@
 {
+  "type": "feature",
+  "feature_type": "ability",
   "name": "Artful Flourish",
   "flavor": "And they said practicing fencing was a waste!",
   "keywords": [
@@ -6,16 +8,17 @@
     "Strike",
     "Weapon"
   ],
-  "type": "Main action",
+  "usage": "Main action",
   "distance": "Melee 1",
   "target": "Two creatures or objects",
   "metadata": {
+    "ability_type": "Signature",
     "action_type": "Main action",
     "class": "troubadour",
     "distance": "Melee 1",
     "feature_type": "ability",
     "file_basename": "Artful Flourish",
-    "file_dpath": "Troubadour/1st-Level Features",
+    "file_dpath": "Abilities/Troubadour/1st-Level Features",
     "flavor": "And they said practicing fencing was a waste!",
     "item_id": "artful-flourish",
     "item_index": "11",
@@ -30,7 +33,7 @@
       "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:artful-flourish"
     ],
     "scdc": [
-      "1.1.1:13.2.3.1:11"
+      "1.1.1:11.2.3.1:11"
     ],
     "source": "mcdm.heroes.v1",
     "target": "Two creatures or objects",
@@ -39,17 +42,17 @@
   "effects": [
     {
       "roll": "Power Roll + Agility",
-      "t1": "2 damage",
-      "t2": "5 damage",
-      "t3": "7 damage"
+      "tier1": "2 damage",
+      "tier2": "5 damage",
+      "tier3": "7 damage"
     },
     {
-      "effect": "You can shift up to 3 squares.",
-      "name": "Effect"
+      "name": "Effect",
+      "effect": "You can shift up to 3 squares."
     },
     {
-      "effect": "You can target one additional creature or object for every 2 drama spent.",
-      "cost": "Spend 2+ Drama"
+      "cost": "Spend 2+ Drama",
+      "effect": "You can target one additional creature or object for every 2 drama spent."
     }
   ]
 }

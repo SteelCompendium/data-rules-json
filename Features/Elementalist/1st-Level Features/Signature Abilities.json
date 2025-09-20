@@ -1,0 +1,116 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "Signature Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "elementalist",
+    "feature_type": "trait",
+    "file_basename": "Signature Abilities",
+    "file_dpath": "Elementalist/1st-Level Features",
+    "item_id": "signature-abilities",
+    "item_index": "07",
+    "item_name": "Signature Abilities",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.elementalist.1st-level-feature:signature-abilities"
+    ],
+    "scdc": [
+      "1.1.1:11.1.9.1:07"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/elementalist/1st-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose two signature abilities from the following options. Signature abilities can be used at will. (*Quick Build:* Bifurcated Incineration, Viscous Fire.)",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Afflict a Bountiful Decay",
+          "flavor": "Your curse causes your foe's flesh to rot off as spores that aid your allies.",
+          "keywords": [
+            "Green",
+            "Magic",
+            "Ranged",
+            "Rot",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "2 + R corruption damage",
+              "tier2": "4 + R corruption damage",
+              "tier3": "6 + R corruption damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "Choose yourself or one ally within distance. That character can end one effect on them that is ended by a saving throw or that ends at the end of their turn.\n###### Bifurcated Incineration\n*Two jets of flame lance out at your command.*\n| **Fire, Magic, Ranged, Strike** |                 **Main action** |\n| ------------------------------- | ------------------------------: |\n| **📏 Ranged 10**                | **🎯 Two creatures or objects** |"
+            },
+            {
+              "effect": "###### Grasp of Beyond\n\n*You absorb the life energy of another creature and use it to teleport.*\n| **Magic, Melee, Strike, Void** |     **Main action** |\n| ------------------------------ | ------------------: |\n| **📏 Melee 1**                 | **🎯 One creature** |",
+              "roll": "Power Roll + Reason",
+              "tier1": "2 fire damage",
+              "tier2": "4 fire damage",
+              "tier3": "6 fire damage"
+            },
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "3 + R corruption damage",
+              "tier2": "6 + R corruption damage",
+              "tier3": "9 + R corruption damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "You can teleport up to a number of squares equal to your Reason score.\n###### The Green Within, the Green Without\n*Whipping vines erupt from a foe's body to grasp at another close by.*\n| **Green, Magic, Ranged, Strike** |     **Main action** |\n| -------------------------------- | ------------------: |\n| **📏 Ranged 10**                 | **🎯 One creature** |"
+            },
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "2 + R damage",
+              "tier2": "5 + R damage",
+              "tier3": "7 + R damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "You slide one creature within 10 squares of the target up to 2 squares.\n###### Meteoric Introduction\n*You give your enemy a gentle tap-like an asteroid impact.*\n| **Earth, Magic, Melee, Strike** |               **Main action** |\n| ------------------------------- | ----------------------------: |\n| **📏 Melee 1**                  | **🎯 One creature or object** |"
+            },
+            {
+              "effect": "###### Ray of Agonizing Self-Reflection\n\n*You inflict pain and doubt in equal measure.*\n| **Magic, Ranged, Strike, Void** |               **Main action** |\n| ------------------------------- | ----------------------------: |\n| **📏 Ranged 10**                | **🎯 One creature or object** |",
+              "roll": "Power Roll + Reason",
+              "tier1": "3 + R damage; push 2",
+              "tier2": "5 + R damage; push 3",
+              "tier3": "8 + R damage; push 4"
+            },
+            {
+              "effect": "###### Unquiet Ground\n\n*A sudden storm of detritus assaults your foes and leaves them struggling to move.*\n| **Area, Earth, Magic, Ranged** |               **Main action** |\n| ------------------------------ | ----------------------------: |\n| **📏 2 cube within 10**        | **🎯 Each enemy in the area** |",
+              "roll": "Power Roll + Reason",
+              "tier1": "2 + R corruption damage; R < WEAK, slowed (save ends)",
+              "tier2": "4 + R corruption damage; R < AVERAGE, slowed (save ends)",
+              "tier3": "6 + R corruption damage; R < STRONG, slowed (save ends)"
+            },
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "2 damage",
+              "tier2": "5 damage",
+              "tier3": "7 damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "The ground beneath the area is difficult terrain for enemies.\n###### Viscous Fire\n*A jet of heavy fire erupts where you strike.*\n| **Fire, Magic, Ranged, Strike** |               **Main action** |\n| ------------------------------- | ----------------------------: |\n| **📏 Ranged 10**                | **🎯 One creature or object** |"
+            },
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "2 + R fire damage; push 2",
+              "tier2": "5 + R fire damage; push 3",
+              "tier3": "7 + R fire damage; push 4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

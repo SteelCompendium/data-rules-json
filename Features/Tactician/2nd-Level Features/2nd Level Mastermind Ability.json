@@ -1,0 +1,66 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "2nd-Level Mastermind Ability",
+  "metadata": {
+    "action_type": "feature",
+    "class": "tactician",
+    "feature_type": "trait",
+    "file_basename": "2nd Level Mastermind Ability",
+    "file_dpath": "Tactician/2nd-Level Features",
+    "item_id": "2nd-level-mastermind-ability",
+    "item_index": "03",
+    "item_name": "2nd-Level Mastermind Ability",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.tactician.2nd-level-feature:2nd-level-mastermind-ability"
+    ],
+    "scdc": [
+      "1.1.1:11.1.4.6:03"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/tactician/2nd-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "I've Got Your Back",
+          "cost": "5 Focus",
+          "flavor": "Your enemy will think twice about attacking your friend.",
+          "keywords": [
+            "Ranged",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 5",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "5 + R damage; taunted (EoT)",
+              "tier2": "9 + R damage; taunted (EoT)",
+              "tier3": "12 + R damage; taunted (EoT)"
+            },
+            {
+              "name": "Effect",
+              "effect": "One ally adjacent to the target can spend a Recovery.\n###### Targets of Opportunity (5 Focus)\n*You point out easy targets to your friends, allowing them to include more enemies in their attacks.*\n| **Ranged**      |         **Maneuver** |\n| --------------- | -------------------: |\n| **📏 Ranged 5** | **🎯 Two creatures** |"
+            },
+            {
+              "name": "Effect",
+              "effect": "Each target is marked by you, and you gain two surges."
+            },
+            {
+              "name": "Mark Benefit",
+              "effect": "Until the end of the encounter, whenever you or any ally makes a strike against a creature marked by you, you can spend 2 focus to add one additional target to the strike."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

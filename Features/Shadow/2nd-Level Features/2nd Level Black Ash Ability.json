@@ -1,0 +1,62 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "2nd-Level Black Ash Ability",
+  "metadata": {
+    "action_type": "feature",
+    "class": "shadow",
+    "feature_type": "trait",
+    "file_basename": "2nd Level Black Ash Ability",
+    "file_dpath": "Shadow/2nd-Level Features",
+    "item_id": "2nd-level-black-ash-ability",
+    "item_index": "01",
+    "item_name": "2nd-Level Black Ash Ability",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.shadow.2nd-level-feature:2nd-level-black-ash-ability"
+    ],
+    "scdc": [
+      "1.1.1:11.1.2.6:01"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/shadow/2nd-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "In a Puff of Ash",
+          "cost": "5 Insight",
+          "flavor": "You enchant a strike with your teleportation magic.",
+          "keywords": [
+            "Magic",
+            "Melee",
+            "Ranged",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1 or ranged 5",
+          "target": "One creature",
+          "trigger": "You use your In All This Confusion ability.",
+          "effects": [
+            {
+              "effect": "###### Too Slow (5 Insight)\n\n*Your foe made a big mistake.*\n| **-**                  | **Free triggered** |\n| ---------------------- | -----------------: |\n| **📏 Self; see below** |        **🎯 Self** |",
+              "roll": "Power Roll + Agility",
+              "tier1": "6 + A damage; you can teleport the target 1 square",
+              "tier2": "10 + A damage; you can teleport the target up to 3 squares",
+              "tier3": "14 + A damage; you can teleport the target up to 5 squares"
+            },
+            {
+              "name": "Effect",
+              "effect": "You ignore any effects associated with the damage that triggered your In All This Confusion ability. Before you teleport, you can make a free strike against a creature who damaged you to trigger In All This Confusion. After you teleport, you can spend a Recovery."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

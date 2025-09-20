@@ -1,0 +1,61 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "2nd-Level Paragon Ability",
+  "metadata": {
+    "action_type": "feature",
+    "class": "censor",
+    "feature_type": "trait",
+    "file_basename": "2nd Level Paragon Ability",
+    "file_dpath": "Censor/2nd-Level Features",
+    "item_id": "2nd-level-paragon-ability",
+    "item_index": "07",
+    "item_name": "2nd-Level Paragon Ability",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.censor.2nd-level-feature:2nd-level-paragon-ability"
+    ],
+    "scdc": [
+      "1.1.1:11.1.7.6:07"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/censor/2nd-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Blessing of the Faithful",
+          "cost": "5 Wrath",
+          "flavor": "The gods reward your faith.",
+          "keywords": [
+            "Area",
+            "Magic"
+          ],
+          "usage": "Maneuver",
+          "distance": "3 aura",
+          "target": "Self and each ally in the area",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Until the end of the encounter or until you are dying, each target gains 1 surge at the end of each of your turns.\n###### Sentenced (5 Wrath)\n*The shock of your condemnation freezes your enemy in their boots.*\n| **Magic, Melee, Strike, Weapon** |     **Main action** |\n| -------------------------------- | ------------------: |\n| **📏 Melee 1**                   | **🎯 One creature** |"
+            },
+            {
+              "roll": "Power Roll + Presence",
+              "tier1": "5 + P damage; P < WEAK, restrained (save ends)",
+              "tier2": "9 + P damage; P < AVERAGE, restrained (save ends)",
+              "tier3": "12 + P damage; P < STRONG, restrained (save ends)"
+            },
+            {
+              "name": "Effect",
+              "effect": "While the target is restrained this way, your abilities that impose forced movement can still move them."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

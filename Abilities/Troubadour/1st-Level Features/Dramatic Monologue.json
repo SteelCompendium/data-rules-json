@@ -1,11 +1,13 @@
 {
+  "type": "feature",
+  "feature_type": "ability",
   "name": "Dramatic Monologue",
   "flavor": "It doesn't need to make sense. Just say it with emotion.",
   "keywords": [
     "Magic",
     "Ranged"
   ],
-  "type": "Maneuver",
+  "usage": "Maneuver",
   "distance": "Ranged 10",
   "target": "Special",
   "metadata": {
@@ -14,7 +16,7 @@
     "distance": "Ranged 10",
     "feature_type": "ability",
     "file_basename": "Dramatic Monologue",
-    "file_dpath": "Troubadour/1st-Level Features",
+    "file_dpath": "Abilities/Troubadour/1st-Level Features",
     "flavor": "It doesn't need to make sense. Just say it with emotion.",
     "item_id": "dramatic-monologue",
     "item_index": "18",
@@ -28,7 +30,7 @@
       "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:dramatic-monologue"
     ],
     "scdc": [
-      "1.1.1:13.2.3.1:18"
+      "1.1.1:11.2.3.1:18"
     ],
     "source": "mcdm.heroes.v1",
     "subclass": "Auteur",
@@ -37,12 +39,12 @@
   },
   "effects": [
     {
-      "effect": "Choose one of the following effects:\n- You orate a rousing tale of victory. One ally within distance gains an edge on the next power roll they make before the start of your next turn.\n- You weave a tale of high-stakes heroics. One ally within distance gains 1 surge.\n- You insult a foe where they're most vulnerable. One enemy within distance takes a bane on the next power roll they make before the end of their next turn.",
-      "name": "Effect"
+      "name": "Effect",
+      "effect": "Choose one of the following effects:\n- You orate a rousing tale of victory. One ally within distance gains an edge on the next power roll they make before the start of your next turn.\n- You weave a tale of high-stakes heroics. One ally within distance gains 1 surge.\n- You insult a foe where they're most vulnerable. One enemy within distance takes a bane on the next power roll they make before the end of their next turn."
     },
     {
-      "effect": "You can choose two targets for the chosen effect.",
-      "cost": "Spend 1 Drama"
+      "cost": "Spend 1 Drama",
+      "effect": "You can choose two targets for the chosen effect."
     }
   ]
 }

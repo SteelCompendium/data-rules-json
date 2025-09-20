@@ -1,4 +1,6 @@
 {
+  "type": "feature",
+  "feature_type": "trait",
   "name": "Charge",
   "metadata": {
     "class": "combat",

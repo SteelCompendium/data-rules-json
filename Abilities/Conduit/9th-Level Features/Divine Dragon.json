@@ -1,4 +1,6 @@
 {
+  "type": "feature",
+  "feature_type": "ability",
   "name": "Divine Dragon",
   "cost": "11 Piety",
   "flavor": "From nothing but divine will, you create a powerful ally.",
@@ -6,7 +8,7 @@
     "Magic",
     "Ranged"
   ],
-  "type": "Main action",
+  "usage": "Main action",
   "distance": "Ranged 10",
   "target": "Special",
   "metadata": {
@@ -18,7 +20,7 @@
     "distance": "Ranged 10",
     "feature_type": "ability",
     "file_basename": "Divine Dragon",
-    "file_dpath": "Conduit/9th-Level Features",
+    "file_dpath": "Abilities/Conduit/9th-Level Features",
     "flavor": "From nothing but divine will, you create a powerful ally.",
     "item_id": "divine-dragon-11-piety",
     "item_index": "12",
@@ -32,7 +34,7 @@
       "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:divine-dragon-11-piety"
     ],
     "scdc": [
-      "1.1.1:13.2.8.7:12"
+      "1.1.1:11.2.8.7:12"
     ],
     "source": "mcdm.heroes.v1",
     "subclass": "Creation",
@@ -45,19 +47,17 @@
       "effect": "You conjure a size 4 dragon that appears in an unoccupied space within distance. The dragon has speed 6 and can fly, stability 4, 100 Stamina, immunity all to fire damage, and uses your characteristics. The dragon disappears at the end of the encounter, if their Stamina drops to 0, or if you are dying.\nOn subsequent turns, you can use a main action to command the dragon to breathe magic fire in a 3 cube within 1 square of them. Make the following power roll targeting each enemy in the area."
     },
     {
+      "effect": "Additionally, you can use a maneuver to move the dragon up to their speed, or to make a melee weapon strike with their claw against an adjacent creature or object. The dragon can also make this strike as a free strike.",
       "roll": "Power Roll + Intuition",
-      "t1": "5 fire damage",
-      "t2": "9 fire damage",
-      "t3": "12 fire damage"
-    },
-    {
-      "effect": "Additionally, you can use a maneuver to move the dragon up to their speed, or to make a melee weapon strike with their claw against an adjacent creature or object. The dragon can also make this strike as a free strike."
+      "tier1": "5 fire damage",
+      "tier2": "9 fire damage",
+      "tier3": "12 fire damage"
     },
     {
       "roll": "Power Roll + Intuition",
-      "t1": "3 + I damage",
-      "t2": "5 + I damage",
-      "t3": "8 + I damage"
+      "tier1": "3 + I damage",
+      "tier2": "5 + I damage",
+      "tier3": "8 + I damage"
     }
   ]
 }

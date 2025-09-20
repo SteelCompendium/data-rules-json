@@ -1,0 +1,61 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "6th-Level Harlequin Mask Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "shadow",
+    "feature_type": "trait",
+    "file_basename": "6th Level Harlequin Mask Abilities",
+    "file_dpath": "Shadow/6th-Level Features",
+    "item_id": "6th-level-harlequin-mask-abilities",
+    "item_index": "01",
+    "item_name": "6th-Level Harlequin Mask Abilities",
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.shadow.6th-level-feature:6th-level-harlequin-mask-abilities"
+    ],
+    "scdc": [
+      "1.1.1:11.1.2.3:01"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/shadow/6th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Look!",
+          "cost": "9 Insight",
+          "flavor": "You distract your foes, allowing your allies to take advantage of that distraction.",
+          "keywords": [
+            "Area",
+            "Magic"
+          ],
+          "usage": "Maneuver",
+          "distance": "5 burst",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Until the start of your next turn, any ability roll made against a target gains an edge.\n###### Puppet Strings (9 Insight)\n*You prick little needles on the tips of your fingers into the nerves of your enemies and cause them to lose control.*\n| **Magic, Melee**, **Strike, Weapon** |    **Main action** |\n| ------------------------------------ | -----------------: |\n| **📏 Melee 1**                       | **🎯 Two enemies** |"
+            },
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "2 damage; if the target has R < WEAK, before the damage is resolved, they make a free strike.",
+              "tier2": "5 damage; if the target has R < AVERAGE, before the damage is resolved, they use a main action ability of your choice.",
+              "tier3": "7 damage; if the target has R < STRONG, before the damage is resolved, they can shift up to their speed and use a main action ability of your choice."
+            },
+            {
+              "name": "Effect",
+              "effect": "You choose the new targets for the original target's free strike or ability. Additionally, if you are hidden or disguised, using this ability doesn't cause you to be revealed."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

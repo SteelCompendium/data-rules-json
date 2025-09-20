@@ -1,4 +1,6 @@
 {
+  "type": "feature",
+  "feature_type": "trait",
   "name": "Disengage",
   "metadata": {
     "class": "combat",

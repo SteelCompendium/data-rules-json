@@ -1,0 +1,64 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "9th-Level Stormwight Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "fury",
+    "feature_type": "trait",
+    "file_basename": "9th Level Stormwight Abilities",
+    "file_dpath": "Fury/9th-Level Features",
+    "item_id": "9th-level-stormwight-abilities",
+    "item_index": "03",
+    "item_name": "9th-Level Stormwight Abilities",
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.fury.9th-level-feature:9th-level-stormwight-abilities"
+    ],
+    "scdc": [
+      "1.1.1:11.1.5.8:03"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/fury/9th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Death Rattle",
+          "cost": "11 Ferocity",
+          "flavor": "You unleash an otherworldly cry that rips through your enemies, killing the weakest of them.",
+          "keywords": [
+            "Area",
+            "Magic"
+          ],
+          "usage": "Main action",
+          "distance": "3 burst",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "effect": "###### Deluge (11 Ferocity)\n\n*You summon your primordial storm.*\n| **Area, Magic, Ranged** |               **Main action** |\n| ----------------------- | ----------------------------: |\n| **📏 5 cube within 10** | **🎯 Each enemy in the area** |",
+              "roll": "Power Roll + Might",
+              "tier1": "4 psychic damage; any target who is a minion is reduced to 0 Stamina",
+              "tier2": "6 psychic damage; any target who is a minion is reduced to 0 Stamina, as does one winded target who is not a leader or solo creature",
+              "tier3": "10 psychic damage; each target who is not a leader or solo creature is winded; any target who is a minion is reduced to 0 Stamina, as does one winded target who is not a leader or solo creature"
+            },
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "7 damage",
+              "tier2": "10 damage",
+              "tier3": "15 damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "This ability deals your primordial damage type and ignores damage immunity."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

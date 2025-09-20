@@ -1,11 +1,13 @@
 {
+  "type": "feature",
+  "feature_type": "ability",
   "name": "Coordinated Execution",
   "cost": "9 Focus",
   "flavor": "You direct your ally to make a killing blow.",
   "keywords": [
     "Ranged"
   ],
-  "type": "Free triggered",
+  "usage": "Free triggered",
   "distance": "Ranged 10",
   "target": "One ally",
   "trigger": "The target uses an ability to deal rolled damage to a creature while hidden.",
@@ -18,7 +20,7 @@
     "distance": "Ranged 10",
     "feature_type": "ability",
     "file_basename": "Coordinated Execution",
-    "file_dpath": "Tactician/6th-Level Features",
+    "file_dpath": "Abilities/Tactician/6th-Level Features",
     "flavor": "You direct your ally to make a killing blow.",
     "item_id": "coordinated-execution-9-focus",
     "item_index": "04",
@@ -31,7 +33,7 @@
       "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:coordinated-execution-9-focus"
     ],
     "scdc": [
-      "1.1.1:13.2.4.3:04"
+      "1.1.1:11.2.4.3:04"
     ],
     "source": "mcdm.heroes.v1",
     "subclass": "Insurgent",
@@ -40,8 +42,8 @@
   },
   "effects": [
     {
-      "effect": "If the target of the triggering ability is not a leader or solo creature, they are reduced to 0 Stamina. If the target of the triggering ability is a minion, the entire squad is killed. If the target of the triggering ability is a leader or solo creature, the triggering ability's power roll automatically obtains a tier 3 outcome.",
-      "name": "Effect"
+      "name": "Effect",
+      "effect": "If the target of the triggering ability is not a leader or solo creature, they are reduced to 0 Stamina. If the target of the triggering ability is a minion, the entire squad is killed. If the target of the triggering ability is a leader or solo creature, the triggering ability's power roll automatically obtains a tier 3 outcome."
     }
   ]
 }

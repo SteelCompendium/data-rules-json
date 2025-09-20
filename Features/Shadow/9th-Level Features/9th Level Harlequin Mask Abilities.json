@@ -1,0 +1,61 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "9th-Level Harlequin Mask Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "shadow",
+    "feature_type": "trait",
+    "file_basename": "9th Level Harlequin Mask Abilities",
+    "file_dpath": "Shadow/9th-Level Features",
+    "item_id": "9th-level-harlequin-mask-abilities",
+    "item_index": "01",
+    "item_name": "9th-Level Harlequin Mask Abilities",
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.shadow.9th-level-feature:9th-level-harlequin-mask-abilities"
+    ],
+    "scdc": [
+      "1.1.1:11.1.2.8:01"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/shadow/9th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "I Am You",
+          "cost": "11 Insight",
+          "flavor": "Your mask reflects your foe's face. Surely they won't need it much longer.",
+          "keywords": [
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Maneuver",
+          "distance": "Ranged 10",
+          "target": "One creature",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Until the end of the encounter, you gain the target's damage immunities and speed (if they are better than yours), and can use any types of movement they can use. You can also use the target's signature ability, using their bonus for the power roll.\n###### It Was Me All Along (11 Insight)\n*After everything you've been through together, you twist the blade and make the pain extra personal.*\n| **Melee, Strike, Weapon** |               **Main action** |\n| ------------------------- | ----------------------------: |\n| **📏 Melee 1**            | **🎯 One creature or object** |"
+            },
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "15 + A damage",
+              "tier2": "21 + A damage",
+              "tier3": "28 + A damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "If you are disguised as a creature the target knew using your I'm No Threat ability, this ability deals extra damage equal to three times your Agility score."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

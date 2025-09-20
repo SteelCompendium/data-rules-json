@@ -1,4 +1,6 @@
 {
+  "type": "feature",
+  "feature_type": "ability",
   "name": "Setup",
   "cost": "5 Insight",
   "flavor": "Your friends will thank you.",
@@ -7,7 +9,7 @@
     "Strike",
     "Weapon"
   ],
-  "type": "Main action",
+  "usage": "Main action",
   "distance": "Ranged 5",
   "target": "One creature",
   "metadata": {
@@ -19,7 +21,7 @@
     "distance": "Ranged 5",
     "feature_type": "ability",
     "file_basename": "Setup",
-    "file_dpath": "Shadow/1st-Level Features",
+    "file_dpath": "Abilities/Shadow/1st-Level Features",
     "flavor": "Your friends will thank you.",
     "item_id": "setup-5-insight",
     "item_index": 8,
@@ -34,7 +36,7 @@
       "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:setup-5-insight"
     ],
     "scdc": [
-      "1.1.1:13.2.2.1:08"
+      "1.1.1:11.2.2.1:08"
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature",
@@ -43,9 +45,9 @@
   "effects": [
     {
       "roll": "Power Roll + Agility",
-      "t1": "6 + A damage; R < WEAK, the target has damage weakness 5 (save ends)",
-      "t2": "9 + A damage; R < AVERAGE, the target has damage weakness 5 (save ends)",
-      "t3": "13 + A damage; R < STRONG, the target has damage weakness 5 (save ends)"
+      "tier1": "6 + A damage; R < WEAK, the target has damage weakness 5 (save ends)",
+      "tier2": "9 + A damage; R < AVERAGE, the target has damage weakness 5 (save ends)",
+      "tier3": "13 + A damage; R < STRONG, the target has damage weakness 5 (save ends)"
     }
   ]
 }

@@ -1,0 +1,61 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "9th-Level Metakinetic Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "null",
+    "feature_type": "trait",
+    "file_basename": "9th Level Metakinetic Abilities",
+    "file_dpath": "Null/9th-Level Features",
+    "item_id": "9th-level-metakinetic-abilities",
+    "item_index": "03",
+    "item_name": "9th-Level Metakinetic Abilities",
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.null.9th-level-feature:9th-level-metakinetic-abilities"
+    ],
+    "scdc": [
+      "1.1.1:11.1.6.8:03"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/null/9th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Inertial Absorption",
+          "cost": "11 Discipline",
+          "flavor": "You absorb an attack to empower your body.",
+          "keywords": [
+            "Psionic"
+          ],
+          "usage": "Free triggered",
+          "distance": "Self",
+          "target": "Self",
+          "trigger": "Another creature damages you using an ability.",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You take half the damage, negate any effects associated with the damage for you, and gain 3 surges.\n###### Realitas (11 Discipline)\n*Your essential hyperreality disrupts your enemy's connection to existence.*\n| **Melee, Psionic, Strike, Weapon** |     **Main action** |\n| ---------------------------------- | ------------------: |\n| **📏 Melee 1**                     | **🎯 One creature** |"
+            },
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "7 + A psychic damage; I < WEAK, dazed",
+              "tier2": "10 + A psychic damage; I < AVERAGE, dazed",
+              "tier3": "13 + A psychic damage; I < STRONG, dazed"
+            },
+            {
+              "name": "Effect",
+              "effect": "While dazed this way, the target takes psychic damage equal to twice your Intuition score at the start of each of your turns. If this ability causes a creature who is not a leader or solo creature to become winded, they are instead reduced to 0 Stamina. Any creature reduced to 0 Stamina by this ability is forgotten by all creatures of your level or lower in the timescape who are not present in the encounter. Loved ones of the forgotten creature retain a faint sense of melancholy. This effect can be reversed only at the Director's discretion."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

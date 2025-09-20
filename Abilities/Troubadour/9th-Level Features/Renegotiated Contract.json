@@ -1,4 +1,6 @@
 {
+  "type": "feature",
+  "feature_type": "ability",
   "name": "Renegotiated Contract",
   "cost": "11 Drama",
   "flavor": "No, no. You don't die until the sequel.",
@@ -7,7 +9,7 @@
     "Strike",
     "Weapon"
   ],
-  "type": "Main action",
+  "usage": "Main action",
   "distance": "Melee 1",
   "target": "One creature",
   "metadata": {
@@ -19,7 +21,7 @@
     "distance": "Melee 1",
     "feature_type": "ability",
     "file_basename": "Renegotiated Contract",
-    "file_dpath": "Troubadour/9th-Level Features",
+    "file_dpath": "Abilities/Troubadour/9th-Level Features",
     "flavor": "No, no. You don't die until the sequel.",
     "item_id": "renegotiated-contract-11-drama",
     "item_index": "03",
@@ -34,7 +36,7 @@
       "mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:renegotiated-contract-11-drama"
     ],
     "scdc": [
-      "1.1.1:13.2.3.7:03"
+      "1.1.1:11.2.3.7:03"
     ],
     "source": "mcdm.heroes.v1",
     "subclass": "Duelist",
@@ -48,9 +50,9 @@
     },
     {
       "roll": "Power Roll + Presence",
-      "t1": "You and the target can each end one effect on yourselves that is ended by a saving throw or that ends at the end of your turns.",
-      "t2": "You and the target can end any effects on yourselves that are ended by a saving throw or that end at the end of your turns.",
-      "t3": "You can choose any of the current effects on you and the target that are ended by a saving throw or that end at the end of your turns, apply the chosen effects to the target, and end the rest."
+      "tier1": "You and the target can each end one effect on yourselves that is ended by a saving throw or that ends at the end of your turns.",
+      "tier2": "You and the target can end any effects on yourselves that are ended by a saving throw or that end at the end of your turns.",
+      "tier3": "You can choose any of the current effects on you and the target that are ended by a saving throw or that end at the end of your turns, apply the chosen effects to the target, and end the rest."
     }
   ]
 }

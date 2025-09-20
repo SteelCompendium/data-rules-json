@@ -1,0 +1,67 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "2nd-Level Caustic Alchemy Ability",
+  "metadata": {
+    "action_type": "feature",
+    "class": "shadow",
+    "feature_type": "trait",
+    "file_basename": "2nd Level Caustic Alchemy Ability",
+    "file_dpath": "Shadow/2nd-Level Features",
+    "item_id": "2nd-level-caustic-alchemy-ability",
+    "item_index": "07",
+    "item_name": "2nd-Level Caustic Alchemy Ability",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.shadow.2nd-level-feature:2nd-level-caustic-alchemy-ability"
+    ],
+    "scdc": [
+      "1.1.1:11.1.2.6:07"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/shadow/2nd-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Sticky Bomb",
+          "cost": "5 Insight",
+          "flavor": "Explosives are best when they're attached to an enemy.",
+          "keywords": [
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You attach a small bomb to a creature. If you are hidden from the creature, they don't notice the bomb and you remain hidden. The creature otherwise notices the bomb and can disarm and remove it as a main action. If they don't, at the end of your next turn, the bomb detonates. When the bomb detonates, you make a power roll targeting each enemy within 2 squares of it."
+            },
+            {
+              "effect": "###### Stink Bomb (5 Insight)\n\n*Putrid yellow gas explodes from a bomb you toss.*\n| **Area, Ranged**        |                  **Main action** |\n| ----------------------- | -------------------------------: |\n| **📏 3 cube within 10** | **🎯 Each creature in the area** |",
+              "roll": "Power Roll + Agility",
+              "tier1": "4 + A fire damage",
+              "tier2": "7 + A fire damage",
+              "tier3": "11 + A fire damage"
+            },
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "2 poison damage",
+              "tier2": "5 poison damage",
+              "tier3": "7 poison damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "The gas remains in the area until the end of the encounter. Any creature who starts their turn in the area and has M < AVERAGE is weakened (save ends)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

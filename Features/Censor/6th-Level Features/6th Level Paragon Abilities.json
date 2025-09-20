@@ -1,0 +1,63 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "6th-Level Paragon Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "censor",
+    "feature_type": "trait",
+    "file_basename": "6th Level Paragon Abilities",
+    "file_dpath": "Censor/6th-Level Features",
+    "item_id": "6th-level-paragon-abilities",
+    "item_index": "05",
+    "item_name": "6th-Level Paragon Abilities",
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.censor.6th-level-feature:6th-level-paragon-abilities"
+    ],
+    "scdc": [
+      "1.1.1:11.1.7.3:05"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/censor/6th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Congregation",
+          "cost": "9 Wrath",
+          "flavor": "You focus your allies' wrath on a chosen foe.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "trigger": "A creature makes a strike against the target.",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "8 + M damage; as a free triggered action, one ally within 10 squares of the target can use a strike signature ability against the target",
+              "tier2": "12 + M damage; as a free triggered action, one ally within 10 squares of the target can use a strike signature ability that gains an edge against the target",
+              "tier3": "16 + M damage; as a free triggered action, two allies within 10 squares of the target can each use a strike signature ability that gains an edge against the target"
+            },
+            {
+              "name": "Effect",
+              "effect": "Each ally can shift up to 2 squares and gains 2 surges before making the strike.\n###### Intercede (9 Wrath)\n*You take your ally's place.*\n| **Magic, Ranged** | **Free triggered** |\n| ----------------- | -----------------: |\n| **📏 Ranged 10**  |    **🎯 One ally** |"
+            },
+            {
+              "name": "Effect",
+              "effect": "The target is unaffected by the strike and you become the target instead, even if you aren't a valid target for it. You take half the damage from the strike, and the target gains 3 surges."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

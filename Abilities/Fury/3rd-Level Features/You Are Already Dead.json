@@ -1,4 +1,6 @@
 {
+  "type": "feature",
+  "feature_type": "ability",
   "name": "You Are Already Dead",
   "cost": "7 Ferocity",
   "flavor": "Slash. Walk away.",
@@ -7,7 +9,7 @@
     "Strike",
     "Weapon"
   ],
-  "type": "Main action",
+  "usage": "Main action",
   "distance": "Melee 1",
   "target": "One creature",
   "metadata": {
@@ -19,7 +21,7 @@
     "distance": "Melee 1",
     "feature_type": "ability",
     "file_basename": "You Are Already Dead",
-    "file_dpath": "Fury/3rd-Level Features",
+    "file_dpath": "Abilities/Fury/3rd-Level Features",
     "flavor": "Slash. Walk away.",
     "item_id": "you-are-already-dead-7-ferocity",
     "item_index": "04",
@@ -34,7 +36,7 @@
       "mcdm.heroes.v1:feature.ability.fury.3rd-level-feature:you-are-already-dead-7-ferocity"
     ],
     "scdc": [
-      "1.1.1:13.2.5.5:04"
+      "1.1.1:11.2.5.5:04"
     ],
     "source": "mcdm.heroes.v1",
     "target": "One creature",
@@ -42,8 +44,8 @@
   },
   "effects": [
     {
-      "effect": "If the target is not a leader or solo creature, they are reduced to 0 Stamina at the end of their next turn. If the target is a leader or solo creature, you gain 3 surges and can make a melee free strike against them.",
-      "name": "Effect"
+      "name": "Effect",
+      "effect": "If the target is not a leader or solo creature, they are reduced to 0 Stamina at the end of their next turn. If the target is a leader or solo creature, you gain 3 surges and can make a melee free strike against them."
     }
   ]
 }

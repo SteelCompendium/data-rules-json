@@ -1,4 +1,6 @@
 {
+  "type": "feature",
+  "feature_type": "ability",
   "name": "Ripples in the Earth",
   "cost": "3 Essence",
   "flavor": "Like a stone was dropped into a pond, waves in the earth radiate from you.",
@@ -7,7 +9,7 @@
     "Earth",
     "Magic"
   ],
-  "type": "Main action",
+  "usage": "Main action",
   "distance": "2 burst",
   "target": "Each enemy in the area",
   "metadata": {
@@ -19,7 +21,7 @@
     "distance": "2 burst",
     "feature_type": "ability",
     "file_basename": "Ripples in the Earth",
-    "file_dpath": "Elementalist/1st-Level Features",
+    "file_dpath": "Abilities/Elementalist/1st-Level Features",
     "flavor": "Like a stone was dropped into a pond, waves in the earth radiate from you.",
     "item_id": "ripples-in-the-earth-3-essence",
     "item_index": 8,
@@ -34,7 +36,7 @@
       "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:ripples-in-the-earth-3-essence"
     ],
     "scdc": [
-      "1.1.1:13.2.9.1:08"
+      "1.1.1:11.2.9.1:08"
     ],
     "source": "mcdm.heroes.v1",
     "target": "Each enemy in the area",
@@ -43,13 +45,13 @@
   "effects": [
     {
       "roll": "Power Roll + Reason",
-      "t1": "3 damage",
-      "t2": "5 damage",
-      "t3": "8 damage; M < STRONG, prone"
+      "tier1": "3 damage",
+      "tier2": "5 damage",
+      "tier3": "8 damage; M < STRONG, prone"
     },
     {
-      "effect": "You must be touching the ground to use this ability. Additionally, you can choose a square of ground in the area that is unoccupied or is occupied by you or any ally. A pillar of earth rises out of the ground in that square, with a height in squares up to your Reason score. The pillar can't collide with any creatures or objects, nor can it force creatures raised by it to collide with other creatures or objects.",
-      "name": "Effect"
+      "name": "Effect",
+      "effect": "You must be touching the ground to use this ability. Additionally, you can choose a square of ground in the area that is unoccupied or is occupied by you or any ally. A pillar of earth rises out of the ground in that square, with a height in squares up to your Reason score. The pillar can't collide with any creatures or objects, nor can it force creatures raised by it to collide with other creatures or objects."
     }
   ]
 }

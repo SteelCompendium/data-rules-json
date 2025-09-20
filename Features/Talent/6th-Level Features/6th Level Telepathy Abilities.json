@@ -1,0 +1,73 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "6th-Level Telepathy Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "talent",
+    "feature_type": "trait",
+    "file_basename": "6th Level Telepathy Abilities",
+    "file_dpath": "Talent/6th-Level Features",
+    "item_id": "6th-level-telepathy-abilities",
+    "item_index": "03",
+    "item_name": "6th-Level Telepathy Abilities",
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.talent.6th-level-feature:6th-level-telepathy-abilities"
+    ],
+    "scdc": [
+      "1.1.1:11.1.1.3:03"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/talent/6th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Synaptic Conditioning",
+          "cost": "9 Clarity",
+          "flavor": "It's a subtle mindset shift. It's not that they're your enemy—you just don't like them!",
+          "keywords": [
+            "Psionic",
+            "Melee",
+            "Strike",
+            "Telepathy"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 2",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "10 psychic damage; the target takes a bane on ability rolls made to harm you or your allies (save ends)",
+              "tier2": "14 psychic damage; the target has a double bane on ability rolls made to harm you or your allies (save ends)",
+              "tier3": "20 psychic damage; the target considers you and your allies to be their allies when using abilities and features (save ends)"
+            },
+            {
+              "name": "Strained",
+              "effect": "While the target is under this effect, you no longer consider your enemies to be your enemies when using your abilities and features.\n###### Synaptic Dissipation (9 Clarity)\n*You manipulate your enemies' minds and make them wonder if you were ever really there in the first place.*\n| **Psionic, Ranged, Strike, Telepathy** |   **Maneuver** |\n| -------------------------------------- | -------------: |\n| **📏 Ranged 10**                       | **🎯 Special** |"
+            },
+            {
+              "name": "Effect",
+              "effect": "You target a number of creatures with this ability determined by the outcome of your power roll. You and your allies are invisible to each target until the start of your next turn."
+            },
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "Two creatures",
+              "tier2": "Three creatures",
+              "tier3": "Five creatures"
+            },
+            {
+              "name": "Strained",
+              "effect": "The effect ends early if you take damage from an enemy's ability."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

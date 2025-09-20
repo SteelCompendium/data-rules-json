@@ -1,0 +1,60 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "6th-Level Metakinetic Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "null",
+    "feature_type": "trait",
+    "file_basename": "6th Level Metakinetic Abilities",
+    "file_dpath": "Null/6th-Level Features",
+    "item_id": "6th-level-metakinetic-abilities",
+    "item_index": "05",
+    "item_name": "6th-Level Metakinetic Abilities",
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.null.6th-level-feature:6th-level-metakinetic-abilities"
+    ],
+    "scdc": [
+      "1.1.1:11.1.6.3:05"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/null/6th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Gravitic Charge",
+          "cost": "9 Discipline",
+          "flavor": "You channel your discipline into momentum that defies gravity.",
+          "keywords": [
+            "Psionic"
+          ],
+          "usage": "Maneuver",
+          "distance": "Self",
+          "target": "Self",
+          "effects": [
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "Vertical slide 5",
+              "tier2": "Vertical slide 7",
+              "tier3": "Vertical slide 9"
+            },
+            {
+              "name": "Effect",
+              "effect": "This movement ignores stability. If you slide into another creature, you resolve damage to both of you as if your force movement had ended, but you keep moving through that creature's space.\n###### Iron Body (9 Discipline)\n*You focus until your body becomes as hard as iron.*\n| **Psionic** | **Maneuver** |\n| ----------- | -----------: |\n| **📏 Self** |  **🎯 Self** |"
+            },
+            {
+              "name": "Effect",
+              "effect": "You gain 20 temporary Stamina. Additionally, until the end of the encounter, your stability gains a bonus equal to your Intuition score."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

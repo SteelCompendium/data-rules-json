@@ -1,4 +1,6 @@
 {
+  "type": "feature",
+  "feature_type": "ability",
   "name": "Back!",
   "cost": "3 Ferocity",
   "flavor": "You hew about you with your mighty weapon, hurling enemies backward.",
@@ -7,7 +9,7 @@
     "Melee",
     "Weapon"
   ],
-  "type": "Main action",
+  "usage": "Main action",
   "distance": "1 burst",
   "target": "Each enemy in the area",
   "metadata": {
@@ -19,7 +21,7 @@
     "distance": "1 burst",
     "feature_type": "ability",
     "file_basename": "Back",
-    "file_dpath": "Fury/1st-Level Features",
+    "file_dpath": "Abilities/Fury/1st-Level Features",
     "flavor": "You hew about you with your mighty weapon, hurling enemies backward.",
     "item_id": "back-3-ferocity",
     "item_index": "12",
@@ -34,7 +36,7 @@
       "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:back-3-ferocity"
     ],
     "scdc": [
-      "1.1.1:13.2.5.1:12"
+      "1.1.1:11.2.5.1:12"
     ],
     "source": "mcdm.heroes.v1",
     "target": "Each enemy in the area",
@@ -43,9 +45,9 @@
   "effects": [
     {
       "roll": "Power Roll + Might",
-      "t1": "5 damage",
-      "t2": "8 damage; push 1",
-      "t3": "11 damage; push 3"
+      "tier1": "5 damage",
+      "tier2": "8 damage; push 1",
+      "tier3": "11 damage; push 3"
     }
   ]
 }

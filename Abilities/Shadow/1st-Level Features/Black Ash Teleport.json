@@ -1,10 +1,12 @@
 {
+  "type": "feature",
+  "feature_type": "ability",
   "name": "Black Ash Teleport",
   "flavor": "In a swirl of black ash, you step from one place to another.",
   "keywords": [
     "Magic"
   ],
-  "type": "Maneuver",
+  "usage": "Maneuver",
   "distance": "Self",
   "target": "Self",
   "metadata": {
@@ -13,7 +15,7 @@
     "distance": "Self",
     "feature_type": "ability",
     "file_basename": "Black Ash Teleport",
-    "file_dpath": "Shadow/1st-Level Features",
+    "file_dpath": "Abilities/Shadow/1st-Level Features",
     "flavor": "In a swirl of black ash, you step from one place to another.",
     "item_id": "black-ash-teleport",
     "item_index": "19",
@@ -26,7 +28,7 @@
       "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:black-ash-teleport"
     ],
     "scdc": [
-      "1.1.1:13.2.2.1:19"
+      "1.1.1:11.2.2.1:19"
     ],
     "source": "mcdm.heroes.v1",
     "subclass": "Black Ash",
@@ -35,12 +37,12 @@
   },
   "effects": [
     {
-      "effect": "You teleport up to 5 squares. If you have concealment or cover at your destination, you can use the Hide maneuver even if you are observed. If you successfully hide using this maneuver, you gain 1 surge.",
-      "name": "Effect"
+      "name": "Effect",
+      "effect": "You teleport up to 5 squares. If you have concealment or cover at your destination, you can use the Hide maneuver even if you are observed. If you successfully hide using this maneuver, you gain 1 surge."
     },
     {
-      "effect": "You teleport 1 additional square for each insight spent.",
-      "cost": "Spend 1+ Insight"
+      "cost": "Spend 1+ Insight",
+      "effect": "You teleport 1 additional square for each insight spent."
     }
   ]
 }

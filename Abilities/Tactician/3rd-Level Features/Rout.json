@@ -1,11 +1,13 @@
 {
+  "type": "feature",
+  "feature_type": "ability",
   "name": "Rout",
   "cost": "7 Focus",
   "flavor": "The tide begins to turn.",
   "keywords": [
     "-"
   ],
-  "type": "Maneuver",
+  "usage": "Maneuver",
   "distance": "Self",
   "target": "Self",
   "metadata": {
@@ -17,7 +19,7 @@
     "distance": "Self",
     "feature_type": "ability",
     "file_basename": "Rout",
-    "file_dpath": "Tactician/3rd-Level Features",
+    "file_dpath": "Abilities/Tactician/3rd-Level Features",
     "flavor": "The tide begins to turn.",
     "item_id": "rout-7-focus",
     "item_index": "02",
@@ -30,7 +32,7 @@
       "mcdm.heroes.v1:feature.ability.tactician.3rd-level-feature:rout-7-focus"
     ],
     "scdc": [
-      "1.1.1:13.2.4.6:02"
+      "1.1.1:11.2.4.6:02"
     ],
     "source": "mcdm.heroes.v1",
     "target": "Self",
@@ -38,8 +40,8 @@
   },
   "effects": [
     {
-      "effect": "Until the end of the encounter or until you are dying, whenever you or any ally deals damage to a target marked by you who has R < AVERAGE, the target is frightened of the creature who dealt the damage (save ends).",
-      "name": "Effect"
+      "name": "Effect",
+      "effect": "Until the end of the encounter or until you are dying, whenever you or any ally deals damage to a target marked by you who has R < AVERAGE, the target is frightened of the creature who dealt the damage (save ends)."
     }
   ]
 }
