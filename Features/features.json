@@ -48,6 +48,7 @@
         "1.1.1:11.1.9.1:12"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Void",
       "type": "feature/trait/elementalist/1st-level-feature"
     },
     "effects": [
@@ -870,6 +871,7 @@
         "1.1.1:11.1.9.2:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Earth",
       "type": "feature/trait/elementalist/8th-level-feature"
     },
     "effects": [
@@ -1801,6 +1803,7 @@
         "1.1.1:11.1.9.7:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Green",
       "type": "feature/trait/elementalist/3rd-level-feature"
     },
     "effects": [
@@ -1880,6 +1883,7 @@
         "1.1.1:11.1.9.7:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Earth",
       "type": "feature/trait/elementalist/3rd-level-feature"
     },
     "effects": [
@@ -2691,6 +2695,7 @@
         "1.1.1:11.1.8.1:21"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Creation",
       "type": "feature/trait/conduit/1st-level-feature"
     },
     "effects": [
@@ -2763,6 +2768,7 @@
         "1.1.1:11.1.8.1:14"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Life",
       "type": "feature/trait/conduit/1st-level-feature"
     },
     "effects": [
@@ -3030,6 +3036,7 @@
         "1.1.1:11.1.8.1:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Nature",
       "type": "feature/trait/conduit/1st-level-feature"
     },
     "effects": [
@@ -3576,6 +3583,7 @@
         "1.1.1:11.1.8.1:25"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Death",
       "type": "feature/trait/conduit/1st-level-feature"
     },
     "effects": [
@@ -4152,6 +4160,7 @@
         "1.1.1:11.1.8.9:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Knowledge",
       "type": "feature/trait/conduit/7th-level-feature"
     },
     "effects": [
@@ -4180,6 +4189,7 @@
         "1.1.1:11.1.8.9:14"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Life",
       "type": "feature/trait/conduit/7th-level-feature"
     },
     "effects": [
@@ -4380,6 +4390,7 @@
         "1.1.1:11.1.8.9:15"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Trickery",
       "type": "feature/trait/conduit/7th-level-feature"
     },
     "effects": [
@@ -4430,6 +4441,7 @@
         "1.1.1:11.1.8.9:09"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Love",
       "type": "feature/trait/conduit/7th-level-feature"
     },
     "effects": [
@@ -4479,6 +4491,7 @@
         "1.1.1:11.1.8.9:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Nature",
       "type": "feature/trait/conduit/7th-level-feature"
     },
     "effects": [
@@ -4536,6 +4549,7 @@
         "1.1.1:11.1.8.9:13"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Death",
       "type": "feature/trait/conduit/7th-level-feature"
     },
     "effects": [
@@ -4938,6 +4952,7 @@
         "1.1.1:11.1.8.10:11"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Trickery",
       "type": "feature/trait/conduit/4th-level-feature"
     },
     "effects": [
@@ -5234,6 +5249,7 @@
         "1.1.1:11.1.7.1:07"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Life",
       "type": "feature/trait/censor/1st-level-feature"
     },
     "effects": [
@@ -5338,6 +5354,7 @@
         "1.1.1:11.1.7.1:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Nature",
       "type": "feature/trait/censor/1st-level-feature"
     },
     "effects": [
@@ -7078,6 +7095,7 @@
         "1.1.1:11.1.7.9:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "War",
       "type": "feature/trait/censor/7th-level-feature"
     },
     "effects": [
@@ -7106,6 +7124,7 @@
         "1.1.1:11.1.7.9:09"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Fate",
       "type": "feature/trait/censor/7th-level-feature"
     },
     "effects": [
@@ -7162,6 +7181,7 @@
         "1.1.1:11.1.7.9:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Protection",
       "type": "feature/trait/censor/7th-level-feature"
     },
     "effects": [
@@ -7190,6 +7210,7 @@
         "1.1.1:11.1.7.9:15"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Trickery",
       "type": "feature/trait/censor/7th-level-feature"
     },
     "effects": [
@@ -7240,6 +7261,7 @@
         "1.1.1:11.1.7.9:12"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Storm",
       "type": "feature/trait/censor/7th-level-feature"
     },
     "effects": [
@@ -7268,6 +7290,7 @@
         "1.1.1:11.1.7.9:07"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Love",
       "type": "feature/trait/censor/7th-level-feature"
     },
     "effects": [
@@ -7346,6 +7369,7 @@
         "1.1.1:11.1.7.9:11"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Sun",
       "type": "feature/trait/censor/7th-level-feature"
     },
     "effects": [
@@ -7403,6 +7427,7 @@
         "1.1.1:11.1.7.9:05"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Creation",
       "type": "feature/trait/censor/7th-level-feature"
     },
     "effects": [
@@ -13626,6 +13651,7 @@
         "1.1.1:11.1.3.1:08"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Duelist",
       "type": "feature/trait/troubadour/1st-level-feature"
     },
     "effects": [
@@ -13676,6 +13702,7 @@
         "1.1.1:11.1.3.1:13"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Duelist",
       "type": "feature/trait/troubadour/1st-level-feature"
     },
     "effects": [
@@ -13729,6 +13756,7 @@
         "1.1.1:11.1.3.1:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Virtuoso",
       "type": "feature/trait/troubadour/1st-level-feature"
     },
     "effects": [
@@ -13808,6 +13836,7 @@
         "1.1.1:11.1.3.1:07"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Virtuoso",
       "type": "feature/trait/troubadour/1st-level-feature"
     },
     "effects": [
@@ -13898,6 +13927,7 @@
         "1.1.1:11.1.3.1:11"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Auteur",
       "type": "feature/trait/troubadour/1st-level-feature"
     },
     "effects": [
@@ -13979,6 +14009,7 @@
         "1.1.1:11.1.3.1:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Auteur",
       "type": "feature/trait/troubadour/1st-level-feature"
     },
     "effects": [
@@ -14240,6 +14271,7 @@
         "1.1.1:11.1.3.2:03"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Virtuoso",
       "type": "feature/trait/troubadour/8th-level-feature"
     },
     "effects": [
@@ -14744,6 +14776,7 @@
         "1.1.1:11.1.3.5:06"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Duelist",
       "type": "feature/trait/troubadour/5th-level-feature"
     },
     "effects": [
@@ -14794,6 +14827,7 @@
         "1.1.1:11.1.3.5:04"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Auteur",
       "type": "feature/trait/troubadour/5th-level-feature"
     },
     "effects": [
@@ -15275,6 +15309,7 @@
         "1.1.1:11.1.3.7:01"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Virtuoso",
       "type": "feature/trait/troubadour/3rd-level-feature"
     },
     "effects": [
@@ -16384,6 +16419,7 @@
         "1.1.1:11.1.2.2:02"
       ],
       "source": "mcdm.heroes.v1",
+      "subclass": "Caustic Alchemy",
       "type": "feature/trait/shadow/8th-level-feature"
     },
     "effects": [
