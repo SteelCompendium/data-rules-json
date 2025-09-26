@@ -48,30 +48,84 @@
             },
             {
               "name": "Persistent 1",
-              "effect": "The area remains until the start of your next turn. As a maneuver, you can move the area up to 5 squares. This ability ends if the area is ever not within your line of effect.\n###### Subvert the Green Within (5 Essence)\n*Fungal spores sprout inside your enemy's brain, allowing you to control their actions.*\n| **Green, Magic, Ranged, Strike, Void** |     **Main action** |\n| -------------------------------------- | ------------------: |\n| **📏 Ranged 10**                       | **🎯 One creature** |"
-            },
+              "effect": "The area remains until the start of your next turn. As a maneuver, you can move the area up to 5 squares. This ability ends if the area is ever not within your line of effect."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Subvert the Green Within",
+          "cost": "5 Essence",
+          "flavor": "Fungal spores sprout inside your enemy's brain, allowing you to control their actions.",
+          "keywords": [
+            "Green",
+            "Magic",
+            "Ranged",
+            "Strike",
+            "Void"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature",
+          "effects": [
             {
               "name": "Effect",
               "effect": "The target uses their signature ability against a creature of your choice. This signature ability can target the creature even if it usually wouldn't. You then make a power roll against the target of this ability."
             },
             {
-              "effect": "###### Translated Through Flame (5 Essence)\n\n*Your ally disappears, then reappears in a burst of fire.*\n| **Fire, Magic, Ranged, Void** |         **Main action** |\n| ----------------------------- | ----------------------: |\n| **📏 Ranged 10**              | **🎯 Self or one ally** |",
               "roll": "Power Roll + Reason",
               "tier1": "5 + R poison damage",
               "tier2": "9 + R poison damage",
               "tier3": "12 + R poison damage"
-            },
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Translated Through Flame",
+          "cost": "5 Essence",
+          "flavor": "Your ally disappears, then reappears in a burst of fire.",
+          "keywords": [
+            "Fire",
+            "Magic",
+            "Ranged",
+            "Void"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "Self or one ally",
+          "effects": [
             {
               "name": "Effect",
               "effect": "The target is teleported to another space within distance. Make a power roll that affects each enemy adjacent to the target's new space."
             },
             {
-              "effect": "###### Volcano's Embrace (5 Essence)\n\n*Wrap them up in fire and melting stone.*\n| **Earth, Fire, Magic, Ranged, Strike** |     **Main action** |\n| -------------------------------------- | ------------------: |\n| **📏 Ranged 10**                       | **🎯 One creature** |",
               "roll": "Power Roll + Reason",
               "tier1": "3 fire damage",
               "tier2": "5 fire damage",
               "tier3": "8 fire damage"
-            },
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Volcano's Embrace",
+          "cost": "5 Essence",
+          "flavor": "Wrap them up in fire and melting stone.",
+          "keywords": [
+            "Earth",
+            "Fire",
+            "Magic",
+            "Ranged",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature",
+          "effects": [
             {
               "roll": "Power Roll + Reason",
               "tier1": "5 + R fire damage; A < WEAK, restrained (save ends)",

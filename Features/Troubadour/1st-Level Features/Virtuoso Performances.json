@@ -46,12 +46,27 @@
               "effect": "At the end of each combat round while this performance is active, you can make a power roll against the target that ignores cover. You can't target the same creature twice with this effect."
             },
             {
-              "effect": "###### \"Ballad of the Beast\"\n\n*Teeth are bare! ♪ Eyes black! ♪ No escaping the beast!♪*\n| **Area, Magic, Performance** |                         **No action** |\n| ---------------------------- | ------------------------------------: |\n| **📏 5 aura**                | **🎯 Self and each ally in the area** |",
               "roll": "Power Roll + Presence",
               "tier1": "Lightning damage equal to your level",
               "tier2": "Lightning damage equal to 5 + your level",
               "tier3": "Lightning damage equal to 10 + your level"
-            },
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "\"Ballad of the Beast\"",
+          "flavor": "Teeth are bare! ♪ Eyes black! ♪ No escaping the beast!♪",
+          "keywords": [
+            "Area",
+            "Magic",
+            "Performance"
+          ],
+          "usage": "No action",
+          "distance": "5 aura",
+          "target": "Self and each ally in the area",
+          "effects": [
             {
               "name": "Effect",
               "effect": "While this performance is active, each target who starts their turn in the area gains 1 surge."

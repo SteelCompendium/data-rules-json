@@ -52,8 +52,25 @@
             },
             {
               "name": "Strained",
-              "effect": "Your speed is halved until the end of the encounter.\n###### Slow (5 Clarity)\n*Perhaps they wonder why everyone else is moving so quickly?*\n| **Chronopathy, Psionic, Ranged** |                      **Maneuver** |\n| -------------------------------- | --------------------------------: |\n| **📏 Ranged 10**                 | **🎯 Three creatures or objects** |"
-            },
+              "effect": "Your speed is halved until the end of the encounter."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Slow",
+          "cost": "5 Clarity",
+          "flavor": "Perhaps they wonder why everyone else is moving so quickly?",
+          "keywords": [
+            "Chronopathy",
+            "Psionic",
+            "Ranged"
+          ],
+          "usage": "Maneuver",
+          "distance": "Ranged 10",
+          "target": "Three creatures or objects",
+          "effects": [
             {
               "roll": "Power Roll + Presence",
               "tier1": "The target's speed is halved (save ends), or if P < WEAK, the target is slowed (save ends).",

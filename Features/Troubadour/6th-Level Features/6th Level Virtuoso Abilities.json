@@ -44,12 +44,27 @@
               "effect": "A prone target ignores this ability."
             },
             {
-              "effect": "###### Legendary Drum Fill (9 Drama)\n\n*You start a drumroll that roars like thunder with every impact the heroes make.*\n| **Area, Magic** |                          **Maneuver** |\n| --------------- | ------------------------------------: |\n| **📏 4 burst**  | **🎯 Self and each ally in the area** |",
               "roll": "Power Roll + Presence",
               "tier1": "7 sonic damage; P < WEAK, prone",
               "tier2": "10 sonic damage; P < AVERAGE, prone",
               "tier3": "13 sonic damage; P < STRONG, prone"
-            },
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Legendary Drum Fill",
+          "cost": "9 Drama",
+          "flavor": "You start a drumroll that roars like thunder with every impact the heroes make.",
+          "keywords": [
+            "Area",
+            "Magic"
+          ],
+          "usage": "Maneuver",
+          "distance": "4 burst",
+          "target": "Self and each ally in the area",
+          "effects": [
             {
               "name": "Effect",
               "effect": "Each target gains 1 surge, then gains 1 surge at the start of each combat round until the end of the encounter."

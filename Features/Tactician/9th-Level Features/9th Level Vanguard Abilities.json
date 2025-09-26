@@ -53,8 +53,26 @@
             },
             {
               "name": "Effect",
-              "effect": "If you use this ability as part of the Charge main action, enemies' spaces don't count as difficult terrain for your movement. Additionally, if you move through any creature's space, you can slide that creature 1 square out of the path of your charge.\n###### That One Is Mine! (11 Focus)\n*You focus on making an enemy irrelevant.*\n| **Melee, Ranged, Strike, Weapon** |     **Main action** |\n| --------------------------------- | ------------------: |\n| **📏 Melee 1 or ranged 5**        | **🎯 One creature** |"
-            },
+              "effect": "If you use this ability as part of the Charge main action, enemies' spaces don't count as difficult terrain for your movement. Additionally, if you move through any creature's space, you can slide that creature 1 square out of the path of your charge."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "That One Is Mine!",
+          "cost": "11 Focus",
+          "flavor": "You focus on making an enemy irrelevant.",
+          "keywords": [
+            "Melee",
+            "Ranged",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1 or ranged 5",
+          "target": "One creature",
+          "effects": [
             {
               "name": "Effect",
               "effect": "The target is marked by you."

@@ -44,8 +44,23 @@
             },
             {
               "name": "Mark Benefit",
-              "effect": "Until the end of the encounter, whenever you or any ally makes a strike against a creature marked by you, you can spend 2 focus to make the strike ignore damage immunity and deal extra damage equal to three times your Reason score.\n###### Hustle! (9 Focus)\n*You and your allies coordinate to form a new battle line.*\n| **Area**       |                          **Maneuver** |\n| -------------- | ------------------------------------: |\n| **📏 2 burst** | **🎯 Self and each ally in the area** |"
-            },
+              "effect": "Until the end of the encounter, whenever you or any ally makes a strike against a creature marked by you, you can spend 2 focus to make the strike ignore damage immunity and deal extra damage equal to three times your Reason score."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Hustle!",
+          "cost": "9 Focus",
+          "flavor": "You and your allies coordinate to form a new battle line.",
+          "keywords": [
+            "Area"
+          ],
+          "usage": "Maneuver",
+          "distance": "2 burst",
+          "target": "Self and each ally in the area",
+          "effects": [
             {
               "name": "Effect",
               "effect": "You mark two enemies within 10 squares of you. Each target can shift up to their speed. You and each target gain 2 surges."

@@ -42,12 +42,26 @@
           "target": "One creature",
           "effects": [
             {
-              "effect": "###### Kinetic Shield (5 Discipline)\n\n*You manifest a force barrier that absorbs incoming kinetic energy.*\n| **Psionic** | **Maneuver** |\n| ----------- | -----------: |\n| **📏 Self** |  **🎯 Self** |",
               "roll": "Power Roll + Agility",
               "tier1": "8 + A psychic damage; vertical pull 3",
               "tier2": "12 + A psychic damage; vertical pull 5",
               "tier3": "16 + A psychic damage; vertical pull 7"
-            },
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Kinetic Shield",
+          "cost": "5 Discipline",
+          "flavor": "You manifest a force barrier that absorbs incoming kinetic energy.",
+          "keywords": [
+            "Psionic"
+          ],
+          "usage": "Maneuver",
+          "distance": "Self",
+          "target": "Self",
+          "effects": [
             {
               "roll": "Power Roll + Intuition",
               "tier1": "You gain 10 temporary Stamina.",

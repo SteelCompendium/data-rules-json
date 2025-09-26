@@ -52,8 +52,25 @@
             },
             {
               "name": "Strained",
-              "effect": "You can choose to reduce the size of the burst by 2 (to a minimum of 1 burst) to give the forced movement distance a +2 bonus. You take half the total damage all targets take from forced movement.\n###### Gravitic Nova (11 Clarity)\n*Unbridled psionic energy erupts from your body and flashes outward, hurling your foes back.*\n| **Area, Psionic, Telekinesis** |                          **Main action** |\n| ------------------------------ | ---------------------------------------: |\n| **📏 3 burst**                 | **🎯 Each enemy and object in the area** |"
-            },
+              "effect": "You can choose to reduce the size of the burst by 2 (to a minimum of 1 burst) to give the forced movement distance a +2 bonus. You take half the total damage all targets take from forced movement."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Gravitic Nova",
+          "cost": "11 Clarity",
+          "flavor": "Unbridled psionic energy erupts from your body and flashes outward, hurling your foes back.",
+          "keywords": [
+            "Area",
+            "Psionic",
+            "Telekinesis"
+          ],
+          "usage": "Main action",
+          "distance": "3 burst",
+          "target": "Each enemy and object in the area",
+          "effects": [
             {
               "roll": "Power Roll + Reason",
               "tier1": "6 damage; push 7",

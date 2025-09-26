@@ -48,8 +48,23 @@
             },
             {
               "name": "Effect",
-              "effect": "One ally adjacent to the target can spend a Recovery.\n###### Targets of Opportunity (5 Focus)\n*You point out easy targets to your friends, allowing them to include more enemies in their attacks.*\n| **Ranged**      |         **Maneuver** |\n| --------------- | -------------------: |\n| **📏 Ranged 5** | **🎯 Two creatures** |"
-            },
+              "effect": "One ally adjacent to the target can spend a Recovery."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Targets of Opportunity",
+          "cost": "5 Focus",
+          "flavor": "You point out easy targets to your friends, allowing them to include more enemies in their attacks.",
+          "keywords": [
+            "Ranged"
+          ],
+          "usage": "Maneuver",
+          "distance": "Ranged 5",
+          "target": "Two creatures",
+          "effects": [
             {
               "name": "Effect",
               "effect": "Each target is marked by you, and you gain two surges."

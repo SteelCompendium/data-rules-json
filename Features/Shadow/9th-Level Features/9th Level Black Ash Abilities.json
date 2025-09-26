@@ -45,12 +45,29 @@
               "effect": "You shift up to twice your speed, making one power roll that targets each creature you come adjacent to during the shift."
             },
             {
-              "effect": "###### Demon Door (11 Insight)\n\n*You create a temporary portal to allow a massive demonic hand to reach through.*\n| **Magic, Melee, Strike, Weapon** |     **Main action** |\n| -------------------------------- | ------------------: |\n| **📏 Melee 3**                   | **🎯 One creature** |",
               "roll": "Power Roll + Agility",
               "tier1": "An enemy takes 6 damage; an ally can teleport up to 3 squares.",
               "tier2": "An enemy takes 10 damage; an ally can teleport up to 5 squares.",
               "tier3": "An enemy takes 14 damage; an ally can teleport up to 7 squares."
-            },
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Demon Door",
+          "cost": "11 Insight",
+          "flavor": "You create a temporary portal to allow a massive demonic hand to reach through.",
+          "keywords": [
+            "Magic",
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 3",
+          "target": "One creature",
+          "effects": [
             {
               "roll": "Power Roll + Agility",
               "tier1": "13 + A corruption damage; push 3",

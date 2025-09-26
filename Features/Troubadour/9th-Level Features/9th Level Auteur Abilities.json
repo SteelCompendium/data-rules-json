@@ -48,8 +48,24 @@
             },
             {
               "name": "Effect",
-              "effect": "Choose one ally within distance. While the target is affected by this ability, each time they use an ability, that ally can make a free strike against them after the ability is resolved.\n###### Rising Tension (11 Drama)\n*You narrate the tension of the scene and put all hope into your protagonist to turn things around.*\n| **Magic, Ranged** |    **Maneuver** |\n| ----------------- | --------------: |\n| **📏 Ranged 10**  | **🎯 One ally** |"
-            },
+              "effect": "Choose one ally within distance. While the target is affected by this ability, each time they use an ability, that ally can make a free strike against them after the ability is resolved."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Rising Tension",
+          "cost": "11 Drama",
+          "flavor": "You narrate the tension of the scene and put all hope into your protagonist to turn things around.",
+          "keywords": [
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Maneuver",
+          "distance": "Ranged 10",
+          "target": "One ally",
+          "effects": [
             {
               "name": "Effect",
               "effect": "The target gains 3 of their Heroic Resource, has a double edge on a power roll of their choice made during their next turn, is no longer slowed or weakened if they were before, and can immediately take their turn after yours if they have not taken their turn already this round."

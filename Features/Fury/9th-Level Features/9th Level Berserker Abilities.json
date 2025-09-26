@@ -49,8 +49,26 @@
             },
             {
               "name": "Effect",
-              "effect": "If this forced movement causes a target to be hurled through an object, that target takes an extra 10 damage.\n###### Primordial Vortex (11 Ferocity)\n*You channel the power of the Primordial Chaos to pull foes to you.*\n| **Area, Magic, Melee, Weapon** |               **Main action** |\n| ------------------------------ | ----------------------------: |\n| **📏 3 burst**                 | **🎯 Each enemy in the area** |"
-            },
+              "effect": "If this forced movement causes a target to be hurled through an object, that target takes an extra 10 damage."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Primordial Vortex",
+          "cost": "11 Ferocity",
+          "flavor": "You channel the power of the Primordial Chaos to pull foes to you.",
+          "keywords": [
+            "Area",
+            "Magic",
+            "Melee",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "3 burst",
+          "target": "Each enemy in the area",
+          "effects": [
             {
               "roll": "Power Roll + Might",
               "tier1": "3 damage; vertical pull 3",

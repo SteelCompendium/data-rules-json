@@ -44,8 +44,25 @@
             },
             {
               "name": "Mark Benefit",
-              "effect": "Until the end of the encounter, whenever you or any ally makes a strike against a creature marked by you, you can spend 2 focus to force that target to make a free strike against a creature of your choice within 5 squares of them.\n###### Try Me Instead (5 Focus)\n*\"Try picking on someone my size.\"*\n| **Melee, Strike, Weapon** | **Main action** |\n| ------------------------- | --------------: |\n| **📏 Self; see below**    |     **🎯 Self** |"
-            },
+              "effect": "Until the end of the encounter, whenever you or any ally makes a strike against a creature marked by you, you can spend 2 focus to force that target to make a free strike against a creature of your choice within 5 squares of them."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Try Me Instead",
+          "cost": "5 Focus",
+          "flavor": "\"Try picking on someone my size.\"",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Self; see below",
+          "target": "Self",
+          "effects": [
             {
               "name": "Effect",
               "effect": "You shift up to your speed directly toward an ally, ending adjacent to them, then swapping locations with that ally as long as you can fit into each other's spaces. The ally can spend a Recovery, and you can make the following weapon strike with a distance of melee 1 against a creature."

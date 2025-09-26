@@ -40,8 +40,25 @@
           "effects": [
             {
               "name": "Effect",
-              "effect": "Each target gains 2 surges, and can use a free triggered action to use a signature ability that gains an edge. After resolving their ability, each target can shift up to 2 squares and become hidden even if they have no cover or concealment, or if they are observed.\n###### Their Lack of Focus Is Their Undoing (11 Focus)\n*You trick your enemies into attacking each other and leave them confused by the aftermath.*\n| **Magic, Ranged, Weapon** |      **Main action** |\n| ------------------------- | -------------------: |\n| **📏 Ranged 10**          | **🎯 Three enemies** |"
-            },
+              "effect": "Each target gains 2 surges, and can use a free triggered action to use a signature ability that gains an edge. After resolving their ability, each target can shift up to 2 squares and become hidden even if they have no cover or concealment, or if they are observed."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Their Lack of Focus Is Their Undoing",
+          "cost": "11 Focus",
+          "flavor": "You trick your enemies into attacking each other and leave them confused by the aftermath.",
+          "keywords": [
+            "Magic",
+            "Ranged",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "Three enemies",
+          "effects": [
             {
               "name": "Effect",
               "effect": "Each target uses a signature ability against one or more targets of your choosing, with each ability automatically obtaining a tier 3 outcome on the power roll. After resolving the targets' abilities, you make a power roll against each original target."

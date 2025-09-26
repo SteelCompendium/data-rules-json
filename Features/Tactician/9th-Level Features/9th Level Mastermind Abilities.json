@@ -40,8 +40,23 @@
           "effects": [
             {
               "name": "Effect",
-              "effect": "Each target can make a ranged free strike that gains an edge against any enemy marked by you within distance of their ranged free strike. A target ignores banes and double banes when making this strike.\n###### Counterstrategy (11 Focus)\n*I've identified a way to negate their strengths.*\n| **-**       | **Main action** |\n| ----------- | --------------: |\n| **📏 Self** |     **🎯 Self** |"
-            },
+              "effect": "Each target can make a ranged free strike that gains an edge against any enemy marked by you within distance of their ranged free strike. A target ignores banes and double banes when making this strike."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Counterstrategy",
+          "cost": "11 Focus",
+          "flavor": "I've identified a way to negate their strengths.",
+          "keywords": [
+            "-"
+          ],
+          "usage": "Main action",
+          "distance": "Self",
+          "target": "Self",
+          "effects": [
             {
               "name": "Effect",
               "effect": "You gain 6 surges. Until the end of the encounter or until you are dying, whenever the Director spends Malice (see *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)*), choose yourself or one ally within 10 squares. The chosen character gains 2 of their Heroic Resource."

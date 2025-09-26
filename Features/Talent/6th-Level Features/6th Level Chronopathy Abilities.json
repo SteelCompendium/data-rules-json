@@ -49,12 +49,29 @@
               "effect": "This ability gains the Strike keyword as the vision hurts the target's psyche. You make a power roll, then are weakened (save ends)."
             },
             {
-              "effect": "###### Stasis Field (9 Clarity)\n\n*Keep everything as it was. Ignore everything that will be.*\n| **Area, Chronopathy, Psionic, Ranged** |                             **Main action** |\n| -------------------------------------- | ------------------------------------------: |\n| **📏 4 cube within 10**                | **🎯 Each creature and object in the area** |",
               "roll": "Power Roll + Presence",
               "tier1": "8 + P psychic damage",
               "tier2": "13 + P psychic damage",
               "tier3": "17 + P psychic damage"
-            },
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Stasis Field",
+          "cost": "9 Clarity",
+          "flavor": "Keep everything as it was. Ignore everything that will be.",
+          "keywords": [
+            "Area",
+            "Chronopathy",
+            "Psionic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "4 cube within 10",
+          "target": "Each creature and object in the area",
+          "effects": [
             {
               "name": "Effect",
               "effect": "The area is frozen in time until the start of your next turn. Each object in the area is restrained and can't fall until the effect ends. Until the effect ends, creatures in the area who are reduced to 0 Stamina or would die stay alive, and objects in the area that are reduced to 0 Stamina remain undestroyed.\nMake a power roll that targets each enemy in the area."

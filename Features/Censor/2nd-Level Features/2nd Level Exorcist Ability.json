@@ -48,8 +48,24 @@
             },
             {
               "name": "Effect",
-              "effect": "If the target is already frightened of you or another creature and this ability would frighten them again, they instead take psychic damage equal to twice your Presence score.\n###### Revelator (5 Wrath)\n*You channel holy energy to harm unbelievers and reveal those hidden from your judgment.*\n| **Area, Magic** |                  **Maneuver** |\n| --------------- | ----------------------------: |\n| **📏 3 burst**  | **🎯 Each enemy in the area** |"
-            },
+              "effect": "If the target is already frightened of you or another creature and this ability would frighten them again, they instead take psychic damage equal to twice your Presence score."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Revelator",
+          "cost": "5 Wrath",
+          "flavor": "You channel holy energy to harm unbelievers and reveal those hidden from your judgment.",
+          "keywords": [
+            "Area",
+            "Magic"
+          ],
+          "usage": "Maneuver",
+          "distance": "3 burst",
+          "target": "Each enemy in the area",
+          "effects": [
             {
               "name": "Effect",
               "effect": "Each target takes holy damage equal to twice your Presence score. Additionally, each hidden target is automatically revealed and can't become hidden again until the start of your next turn. You can then use your Judgment ability against one target as a free triggered action."

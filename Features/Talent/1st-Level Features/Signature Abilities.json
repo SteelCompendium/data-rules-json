@@ -52,8 +52,25 @@
             },
             {
               "name": "Strained",
-              "effect": "You gain 1 clarity when you obtain a tier 2 or tier 3 outcome on the power roll.\n###### Hoarfrost\n*You blast a foe with a pulse of cold energy.*\n| **Cryokinesis, Psionic, Ranged**, **Strike** |     **Main action** |\n| -------------------------------------------- | ------------------: |\n| **📏 Ranged 10**                             | **🎯 One creature** |"
-            },
+              "effect": "You gain 1 clarity when you obtain a tier 2 or tier 3 outcome on the power roll."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Hoarfrost",
+          "flavor": "You blast a foe with a pulse of cold energy.",
+          "keywords": [
+            "Cryokinesis",
+            "Psionic",
+            "Ranged",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature",
+          "effects": [
             {
               "roll": "Power Roll + Reason",
               "tier1": "2 + R cold damage; M < WEAK, slowed (EoT)",
@@ -62,8 +79,26 @@
             },
             {
               "name": "Strained",
-              "effect": "You are slowed until the end of your next turn. Additionally, a target slowed by this ability is restrained instead.\n###### Incinerate\n*The air erupts into a column of smokeless flame.*\n| **Area, Fire, Psionic, Pyrokinesis, Ranged** |               **Main action** |\n| -------------------------------------------- | ----------------------------: |\n| **📏 3 cube within 10**                      | **🎯 Each enemy in the area** |"
-            },
+              "effect": "You are slowed until the end of your next turn. Additionally, a target slowed by this ability is restrained instead."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Incinerate",
+          "flavor": "The air erupts into a column of smokeless flame.",
+          "keywords": [
+            "Area",
+            "Fire",
+            "Psionic",
+            "Pyrokinesis",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "3 cube within 10",
+          "target": "Each enemy in the area",
+          "effects": [
             {
               "roll": "Power Roll + Reason",
               "tier1": "2 fire damage",
@@ -76,8 +111,24 @@
             },
             {
               "name": "Strained",
-              "effect": "The size of the cube increases by 2, but the fire disappears at the end of your turn.\n###### Kinetic Grip\n*You lift and hurl your foe away from you.*\n| **Psionic, Ranged, Telekinesis** |               **Main action** |\n| -------------------------------- | ----------------------------: |\n| **📏 Ranged 10**                 | **🎯 One creature or object** |"
-            },
+              "effect": "The size of the cube increases by 2, but the fire disappears at the end of your turn."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Kinetic Grip",
+          "flavor": "You lift and hurl your foe away from you.",
+          "keywords": [
+            "Psionic",
+            "Ranged",
+            "Telekinesis"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature or object",
+          "effects": [
             {
               "roll": "Power Roll + Reason",
               "tier1": "Slide 2 + R",
@@ -86,8 +137,24 @@
             },
             {
               "name": "Strained",
-              "effect": "You must vertical push the target instead of sliding them.\n###### Kinetic Pulse\n*The force of your mind hurls enemies backward.*\n| **Area, Psionic, Telepathy** |               **Main action** |\n| ---------------------------- | ----------------------------: |\n| **📏 1 burst**               | **🎯 Each enemy in the area** |"
-            },
+              "effect": "You must vertical push the target instead of sliding them."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Kinetic Pulse",
+          "flavor": "The force of your mind hurls enemies backward.",
+          "keywords": [
+            "Area",
+            "Psionic",
+            "Telepathy"
+          ],
+          "usage": "Main action",
+          "distance": "1 burst",
+          "target": "Each enemy in the area",
+          "effects": [
             {
               "roll": "Power Roll + Reason",
               "tier1": "2 psychic damage",
@@ -96,8 +163,25 @@
             },
             {
               "name": "Strained",
-              "effect": "The size of the burst increases by 2, and you are bleeding until the start of your next turn.\n###### Materialize\n*You picture an object in your mind and give it form—directly above your opponent's head.*\n| **Psionic, Ranged, Resopathy, Strike** |               **Main action** |\n| -------------------------------------- | ----------------------------: |\n| **📏 Ranged 10**                       | **🎯 One creature or object** |"
-            },
+              "effect": "The size of the burst increases by 2, and you are bleeding until the start of your next turn."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Materialize",
+          "flavor": "You picture an object in your mind and give it form—directly above your opponent's head.",
+          "keywords": [
+            "Psionic",
+            "Ranged",
+            "Resopathy",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature or object",
+          "effects": [
             {
               "roll": "Power Roll + Reason",
               "tier1": "3 + R damage",
@@ -110,8 +194,25 @@
             },
             {
               "name": "Strained",
-              "effect": "The object explodes after the damage is dealt, and each creature adjacent to the target takes damage equal to your Reason score. You also take damage equal to your Reason score that can't be reduced in any way.\n###### Optic Blast\n*Your eyes emit rays of powerful enervating force.*\n| **Metamorphosis, Psionic, Ranged**, **Strike** |               **Main action** |\n| ---------------------------------------------- | ----------------------------: |\n| **📏 Ranged 10**                               | **🎯 One creature or object** |"
-            },
+              "effect": "The object explodes after the damage is dealt, and each creature adjacent to the target takes damage equal to your Reason score. You also take damage equal to your Reason score that can't be reduced in any way."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Optic Blast",
+          "flavor": "Your eyes emit rays of powerful enervating force.",
+          "keywords": [
+            "Metamorphosis",
+            "Psionic",
+            "Ranged",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature or object",
+          "effects": [
             {
               "roll": "Power Roll + Reason",
               "tier1": "2 + R damage; M < WEAK, prone",
@@ -124,8 +225,25 @@
             },
             {
               "name": "Strained",
-              "effect": "You gain 1 surge that you can use immediately, and you take damage equal to your Reason score that can't be reduced in any way.\n###### Spirit Sword\n*You form a blade of mind energy and stab your target, invigorating yourself.*\n| **Animapathy, Melee, Psionic, Strike** |               **Main action** |\n| -------------------------------------- | ----------------------------: |\n| **📏 Melee 2**                         | **🎯 One creature or object** |"
-            },
+              "effect": "You gain 1 surge that you can use immediately, and you take damage equal to your Reason score that can't be reduced in any way."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Spirit Sword",
+          "flavor": "You form a blade of mind energy and stab your target, invigorating yourself.",
+          "keywords": [
+            "Animapathy",
+            "Melee",
+            "Psionic",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 2",
+          "target": "One creature or object",
+          "effects": [
             {
               "roll": "Power Roll + Presence",
               "tier1": "3 + P damage",

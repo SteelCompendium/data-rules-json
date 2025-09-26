@@ -42,8 +42,24 @@
           "effects": [
             {
               "name": "Effect",
-              "effect": "You can spend a Recovery to allow the target to regain Stamina equal to your recovery value. The target can then take their turn immediately before the triggering enemy.\n###### With My Blessing (5 Wrath)\n*A word in prayer, and the gods show the way.*\n| **Magic, Ranged** |         **Main action** |\n| ----------------- | ----------------------: |\n| **📏 Ranged 10**  | **🎯 Self or one ally** |"
-            },
+              "effect": "You can spend a Recovery to allow the target to regain Stamina equal to your recovery value. The target can then take their turn immediately before the triggering enemy."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "With My Blessing",
+          "cost": "5 Wrath",
+          "flavor": "A word in prayer, and the gods show the way.",
+          "keywords": [
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "Self or one ally",
+          "effects": [
             {
               "name": "Effect",
               "effect": "The target can use a free triggered action to use a strike signature ability or a strike heroic ability, and has a double edge on that ability. If a heroic ability is chosen, reduce its Heroic Resource cost by 3 (to a minimum cost of 0)."

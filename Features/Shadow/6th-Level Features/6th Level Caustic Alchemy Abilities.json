@@ -40,8 +40,23 @@
           "effects": [
             {
               "name": "Effect",
-              "effect": "You ready, hand, or lob a potion to each target, who can immediately quaff the potion (no action required). If they don't drink the potion right away, they must use the Use Consumable maneuver to consume it later. The potion loses its potency at the end of the encounter.\nA creature who drinks the potion can spend up to 2 Recoveries, and has acid immunity, fire immunity, or poison immunity (their choice) equal to your level until the end of the encounter.\n###### One Vial Makes You Faster (9 Insight)\n*Each ally who catches a potion you throw can take the battle to the next level.*\n| **Ranged**       |        **Main action** |\n| ---------------- | ---------------------: |\n| **📏 Ranged 10** | **🎯 Three creatures** |"
-            },
+              "effect": "You ready, hand, or lob a potion to each target, who can immediately quaff the potion (no action required). If they don't drink the potion right away, they must use the Use Consumable maneuver to consume it later. The potion loses its potency at the end of the encounter.\nA creature who drinks the potion can spend up to 2 Recoveries, and has acid immunity, fire immunity, or poison immunity (their choice) equal to your level until the end of the encounter."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "One Vial Makes You Faster",
+          "cost": "9 Insight",
+          "flavor": "Each ally who catches a potion you throw can take the battle to the next level.",
+          "keywords": [
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "Three creatures",
+          "effects": [
             {
               "name": "Effect",
               "effect": "You ready, hand, or lob a potion to each target, who can immediately quaff the potion (no action required). If they don't drink the potion right away, they must use the Use Consumable maneuver to consume it later. The potion loses its potency at the end of the encounter.\nA creature who drinks the potion receives benefits based on your power roll."
