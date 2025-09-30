@@ -15248,6 +15248,324 @@
   },  {
     "type": "feature",
     "feature_type": "ability",
+    "name": "Visceral Roar",
+    "cost": "5 Ferocity",
+    "flavor": "The sound of the storm within you staggers your opponents.",
+    "keywords": [
+      "Area",
+      "Magic"
+    ],
+    "usage": "Main action",
+    "distance": "2 burst",
+    "target": "Each enemy in the area",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "fury",
+      "cost": "5 Ferocity",
+      "cost_amount": 5,
+      "cost_resource": "Ferocity",
+      "distance": "2 burst",
+      "feature_type": "ability",
+      "file_basename": "Visceral Roar",
+      "file_dpath": "Abilities/Fury/2nd-Level Features",
+      "flavor": "The sound of the storm within you staggers your opponents.",
+      "item_id": "visceral-roar-5-ferocity",
+      "item_index": "06",
+      "item_name": "Visceral Roar (5 Ferocity)",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "level": 2,
+      "scc": [
+        "mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:visceral-roar-5-ferocity"
+      ],
+      "scdc": [
+        "1.1.1:11.2.5.5:06"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "Each enemy in the area",
+      "type": "feature/ability/fury/2nd-level-feature"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might",
+        "tier1": "2 damage; push 1; M < WEAK, dazed (save ends)",
+        "tier2": "5 damage; push 2; M < AVERAGE, dazed (save ends)",
+        "tier3": "7 damage; push 3; M < STRONG, dazed (save ends)"
+      },
+      {
+        "name": "Effect",
+        "effect": "This ability deals your primordial damage type (see Stormwight Kits)."
+      }
+    ]
+  },  {
+    "type": "feature",
+    "feature_type": "ability",
+    "name": "Special Delivery",
+    "cost": "5 Ferocity",
+    "flavor": "You ready?",
+    "keywords": [
+      "Melee",
+      "Weapon"
+    ],
+    "usage": "Maneuver",
+    "distance": "Melee 1",
+    "target": "One willing ally",
+    "metadata": {
+      "action_type": "Maneuver",
+      "class": "fury",
+      "cost": "5 Ferocity",
+      "cost_amount": 5,
+      "cost_resource": "Ferocity",
+      "distance": "Melee 1",
+      "feature_type": "ability",
+      "file_basename": "Special Delivery",
+      "file_dpath": "Abilities/Fury/2nd-Level Features",
+      "flavor": "You ready?",
+      "item_id": "special-delivery-5-ferocity",
+      "item_index": "04",
+      "item_name": "Special Delivery (5 Ferocity)",
+      "keywords": [
+        "Melee",
+        "Weapon"
+      ],
+      "level": 2,
+      "scc": [
+        "mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:special-delivery-5-ferocity"
+      ],
+      "scdc": [
+        "1.1.1:11.2.5.5:04"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One willing ally",
+      "type": "feature/ability/fury/2nd-level-feature"
+    },
+    "effects": [
+      {
+        "name": "Effect",
+        "effect": "You vertically push the target up to 4 squares. This forced movement ignores the target's stability, and the target takes no damage from colliding with creatures or objects. At the end of this movement, the target can make a free strike that deals extra damage equal to your Might score."
+      }
+    ]
+  },  {
+    "type": "feature",
+    "feature_type": "ability",
+    "name": "Phalanx-Breaker",
+    "cost": "5 Ferocity",
+    "flavor": "Organizing your forces like feckless creatures of Law. Pitiful.",
+    "keywords": [
+      "Melee",
+      "Weapon"
+    ],
+    "usage": "Main action",
+    "distance": "Self; see below",
+    "target": "Self",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "fury",
+      "cost": "5 Ferocity",
+      "cost_amount": 5,
+      "cost_resource": "Ferocity",
+      "distance": "Self; see below",
+      "feature_type": "ability",
+      "file_basename": "Phalanx Breaker",
+      "file_dpath": "Abilities/Fury/2nd-Level Features",
+      "flavor": "Organizing your forces like feckless creatures of Law. Pitiful.",
+      "item_id": "phalanx-breaker-5-ferocity",
+      "item_index": "05",
+      "item_name": "Phalanx-Breaker (5 Ferocity)",
+      "keywords": [
+        "Melee",
+        "Weapon"
+      ],
+      "level": 2,
+      "scc": [
+        "mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:phalanx-breaker-5-ferocity"
+      ],
+      "scdc": [
+        "1.1.1:11.2.5.5:05"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "Self",
+      "type": "feature/ability/fury/2nd-level-feature"
+    },
+    "effects": [
+      {
+        "name": "Effect",
+        "effect": "You shift up to your speed and make one power roll that targets up to three enemies you move adjacent to during this shift."
+      },
+      {
+        "roll": "Power Roll + Might",
+        "tier1": "2 damage; A < WEAK, dazed (save ends)",
+        "tier2": "4 damage; A < AVERAGE, dazed (save ends)",
+        "tier3": "6 damage; A < STRONG, dazed (save ends)"
+      }
+    ]
+  },  {
+    "type": "feature",
+    "feature_type": "ability",
+    "name": "Death... Death!",
+    "cost": "5 Ferocity",
+    "flavor": "Your unbridled rage strikes terror in their hearts.",
+    "keywords": [
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "usage": "Main action",
+    "distance": "Melee 1",
+    "target": "One creature",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "fury",
+      "cost": "5 Ferocity",
+      "cost_amount": 5,
+      "cost_resource": "Ferocity",
+      "distance": "Melee 1",
+      "feature_type": "ability",
+      "file_basename": "Death Death",
+      "file_dpath": "Abilities/Fury/2nd-Level Features",
+      "flavor": "Your unbridled rage strikes terror in their hearts.",
+      "item_id": "death-death-5-ferocity",
+      "item_index": "01",
+      "item_name": "Death... Death! (5 Ferocity)",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "level": 2,
+      "scc": [
+        "mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:death-death-5-ferocity"
+      ],
+      "scdc": [
+        "1.1.1:11.2.5.5:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One creature",
+      "type": "feature/ability/fury/2nd-level-feature"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might",
+        "tier1": "3 + M damage; P < WEAK, dazed and frightened (save ends)",
+        "tier2": "5 + M damage; P < AVERAGE, dazed and frightened (save ends)",
+        "tier3": "8 + M damage; P < STRONG, dazed and frightened (save ends)"
+      }
+    ]
+  },  {
+    "type": "feature",
+    "feature_type": "ability",
+    "name": "Wrecking Ball",
+    "cost": "5 Ferocity",
+    "flavor": "It's easier to destroy than to create. Much easier, in fact!",
+    "keywords": [
+      "Melee",
+      "Weapon"
+    ],
+    "usage": "Maneuver",
+    "distance": "Self; see below",
+    "target": "Self",
+    "metadata": {
+      "action_type": "Maneuver",
+      "class": "fury",
+      "cost": "5 Ferocity",
+      "cost_amount": 5,
+      "cost_resource": "Ferocity",
+      "distance": "Self; see below",
+      "feature_type": "ability",
+      "file_basename": "Wrecking Ball",
+      "file_dpath": "Abilities/Fury/2nd-Level Features",
+      "flavor": "It's easier to destroy than to create. Much easier, in fact!",
+      "item_id": "wrecking-ball-5-ferocity",
+      "item_index": "03",
+      "item_name": "Wrecking Ball (5 Ferocity)",
+      "keywords": [
+        "Melee",
+        "Weapon"
+      ],
+      "level": 2,
+      "scc": [
+        "mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:wrecking-ball-5-ferocity"
+      ],
+      "scdc": [
+        "1.1.1:11.2.5.5:03"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "Self",
+      "type": "feature/ability/fury/2nd-level-feature"
+    },
+    "effects": [
+      {
+        "name": "Effect",
+        "effect": "You move up to your speed in a straight line. During this movement, you can move through mundane structures, including walls, which are difficult terrain for you. You automatically destroy each square of structure you move through and leave behind a square of difficult terrain.\nAdditionally, you make one power roll that targets each enemy you move adjacent to during this movement."
+      },
+      {
+        "roll": "Power Roll + Might",
+        "tier1": "Push 1",
+        "tier2": "Push 2",
+        "tier3": "Push 3"
+      }
+    ]
+  },  {
+    "type": "feature",
+    "feature_type": "ability",
+    "name": "Apex Predator",
+    "cost": "5 Ferocity",
+    "flavor": "I will hunt you down.",
+    "keywords": [
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "usage": "Main action",
+    "distance": "Melee 1",
+    "target": "One creature",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "fury",
+      "cost": "5 Ferocity",
+      "cost_amount": 5,
+      "cost_resource": "Ferocity",
+      "distance": "Melee 1",
+      "feature_type": "ability",
+      "file_basename": "Apex Predator",
+      "file_dpath": "Abilities/Fury/2nd-Level Features",
+      "flavor": "I will hunt you down.",
+      "item_id": "apex-predator-5-ferocity",
+      "item_index": "02",
+      "item_name": "Apex Predator (5 Ferocity)",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "level": 2,
+      "scc": [
+        "mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:apex-predator-5-ferocity"
+      ],
+      "scdc": [
+        "1.1.1:11.2.5.5:02"
+      ],
+      "source": "mcdm.heroes.v1",
+      "target": "One creature",
+      "type": "feature/ability/fury/2nd-level-feature"
+    },
+    "effects": [
+      {
+        "roll": "Power Roll + Might",
+        "tier1": "4 damage; I < WEAK, slowed (save ends)",
+        "tier2": "6 damage; I < AVERAGE, slowed (save ends)",
+        "tier3": "10 damage; I < STRONG, slowed (save ends)"
+      },
+      {
+        "name": "Effect",
+        "effect": "The target can't be hidden from you for 24 hours. Until the end of the encounter, whenever the target willingly moves, you can use a free triggered action to move."
+      }
+    ]
+  },  {
+    "type": "feature",
+    "feature_type": "ability",
     "name": "Demon Unleashed",
     "cost": "7 Ferocity",
     "flavor": "Foes tremble at the sight of you.",
@@ -15279,7 +15597,7 @@
         "mcdm.heroes.v1:feature.ability.fury.3rd-level-feature:demon-unleashed-7-ferocity"
       ],
       "scdc": [
-        "1.1.1:11.2.5.5:01"
+        "1.1.1:11.2.5.6:01"
       ],
       "source": "mcdm.heroes.v1",
       "target": "Self",
@@ -15329,7 +15647,7 @@
         "mcdm.heroes.v1:feature.ability.fury.3rd-level-feature:you-are-already-dead-7-ferocity"
       ],
       "scdc": [
-        "1.1.1:11.2.5.5:04"
+        "1.1.1:11.2.5.6:04"
       ],
       "source": "mcdm.heroes.v1",
       "target": "One creature",
@@ -15375,7 +15693,7 @@
         "mcdm.heroes.v1:feature.ability.fury.3rd-level-feature:steelbreaker-7-ferocity"
       ],
       "scdc": [
-        "1.1.1:11.2.5.5:02"
+        "1.1.1:11.2.5.6:02"
       ],
       "source": "mcdm.heroes.v1",
       "target": "Self",
@@ -15421,7 +15739,7 @@
         "mcdm.heroes.v1:feature.ability.fury.3rd-level-feature:face-the-storm-7-ferocity"
       ],
       "scdc": [
-        "1.1.1:11.2.5.5:03"
+        "1.1.1:11.2.5.6:03"
       ],
       "source": "mcdm.heroes.v1",
       "target": "Self",
@@ -15471,7 +15789,7 @@
         "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:shower-of-blood-11-ferocity"
       ],
       "scdc": [
-        "1.1.1:11.2.5.6:03"
+        "1.1.1:11.2.5.7:03"
       ],
       "source": "mcdm.heroes.v1",
       "subclass": "Reaver",
@@ -15530,7 +15848,7 @@
         "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:primordial-bane-11-ferocity"
       ],
       "scdc": [
-        "1.1.1:11.2.5.6:04"
+        "1.1.1:11.2.5.7:04"
       ],
       "source": "mcdm.heroes.v1",
       "subclass": "Reaver",
@@ -15589,7 +15907,7 @@
         "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:primordial-vortex-11-ferocity"
       ],
       "scdc": [
-        "1.1.1:11.2.5.6:06"
+        "1.1.1:11.2.5.7:06"
       ],
       "source": "mcdm.heroes.v1",
       "subclass": "Berserker",
@@ -15644,7 +15962,7 @@
         "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:death-rattle-11-ferocity"
       ],
       "scdc": [
-        "1.1.1:11.2.5.6:05"
+        "1.1.1:11.2.5.7:05"
       ],
       "source": "mcdm.heroes.v1",
       "subclass": "Stormwight",
@@ -15699,7 +16017,7 @@
         "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:death-comes-for-you-all-11-ferocity"
       ],
       "scdc": [
-        "1.1.1:11.2.5.6:02"
+        "1.1.1:11.2.5.7:02"
       ],
       "source": "mcdm.heroes.v1",
       "subclass": "Berserker",
@@ -15756,7 +16074,7 @@
         "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:deluge-11-ferocity"
       ],
       "scdc": [
-        "1.1.1:11.2.5.6:01"
+        "1.1.1:11.2.5.7:01"
       ],
       "source": "mcdm.heroes.v1",
       "subclass": "Stormwight",

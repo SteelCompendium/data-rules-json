@@ -1,0 +1,84 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "2nd-Level Stormwight Ability",
+  "metadata": {
+    "action_type": "feature",
+    "class": "fury",
+    "feature_type": "trait",
+    "file_basename": "2nd Level Stormwight Ability",
+    "file_dpath": "Fury/2nd-Level Features",
+    "item_id": "2nd-level-stormwight-ability",
+    "item_index": "01",
+    "item_name": "2nd-Level Stormwight Ability",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.fury.2nd-level-feature:2nd-level-stormwight-ability"
+    ],
+    "scdc": [
+      "1.1.1:11.1.5.6:01"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/fury/2nd-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Apex Predator",
+          "cost": "5 Ferocity",
+          "flavor": "I will hunt you down.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "4 damage; I < WEAK, slowed (save ends)",
+              "tier2": "6 damage; I < AVERAGE, slowed (save ends)",
+              "tier3": "10 damage; I < STRONG, slowed (save ends)"
+            },
+            {
+              "name": "Effect",
+              "effect": "The target can't be hidden from you for 24 hours. Until the end of the encounter, whenever the target willingly moves, you can use a free triggered action to move."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Visceral Roar",
+          "cost": "5 Ferocity",
+          "flavor": "The sound of the storm within you staggers your opponents.",
+          "keywords": [
+            "Area",
+            "Magic"
+          ],
+          "usage": "Main action",
+          "distance": "2 burst",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "2 damage; push 1; M < WEAK, dazed (save ends)",
+              "tier2": "5 damage; push 2; M < AVERAGE, dazed (save ends)",
+              "tier3": "7 damage; push 3; M < STRONG, dazed (save ends)"
+            },
+            {
+              "name": "Effect",
+              "effect": "This ability deals your primordial damage type (see Stormwight Kits)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

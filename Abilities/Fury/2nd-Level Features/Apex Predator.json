@@ -1,0 +1,57 @@
+{
+  "type": "feature",
+  "feature_type": "ability",
+  "name": "Apex Predator",
+  "cost": "5 Ferocity",
+  "flavor": "I will hunt you down.",
+  "keywords": [
+    "Melee",
+    "Strike",
+    "Weapon"
+  ],
+  "usage": "Main action",
+  "distance": "Melee 1",
+  "target": "One creature",
+  "metadata": {
+    "action_type": "Main action",
+    "class": "fury",
+    "cost": "5 Ferocity",
+    "cost_amount": 5,
+    "cost_resource": "Ferocity",
+    "distance": "Melee 1",
+    "feature_type": "ability",
+    "file_basename": "Apex Predator",
+    "file_dpath": "Abilities/Fury/2nd-Level Features",
+    "flavor": "I will hunt you down.",
+    "item_id": "apex-predator-5-ferocity",
+    "item_index": "02",
+    "item_name": "Apex Predator (5 Ferocity)",
+    "keywords": [
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:apex-predator-5-ferocity"
+    ],
+    "scdc": [
+      "1.1.1:11.2.5.5:02"
+    ],
+    "source": "mcdm.heroes.v1",
+    "target": "One creature",
+    "type": "feature/ability/fury/2nd-level-feature"
+  },
+  "effects": [
+    {
+      "roll": "Power Roll + Might",
+      "tier1": "4 damage; I < WEAK, slowed (save ends)",
+      "tier2": "6 damage; I < AVERAGE, slowed (save ends)",
+      "tier3": "10 damage; I < STRONG, slowed (save ends)"
+    },
+    {
+      "name": "Effect",
+      "effect": "The target can't be hidden from you for 24 hours. Until the end of the encounter, whenever the target willingly moves, you can use a free triggered action to move."
+    }
+  ]
+}
