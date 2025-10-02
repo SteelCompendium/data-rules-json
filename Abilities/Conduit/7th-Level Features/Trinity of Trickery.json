@@ -37,6 +37,7 @@
       "1.1.1:11.2.8.8:06"
     ],
     "source": "mcdm.heroes.v1",
+    "subclass": "Trickery",
     "target": "Self or one ally",
     "type": "feature/ability/conduit/7th-level-feature"
   },
