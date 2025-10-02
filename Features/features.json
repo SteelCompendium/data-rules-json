@@ -969,89 +969,6 @@
   },  {
     "type": "feature",
     "feature_type": "trait",
-    "name": "Source of Earth Statblock",
-    "metadata": {
-      "action_type": "feature",
-      "class": "elementalist",
-      "feature_type": "trait",
-      "file_basename": "Source of Earth Statblock",
-      "file_dpath": "Elementalist/8th-Level Features",
-      "item_id": "source-of-earth-statblock",
-      "item_index": "03",
-      "item_name": "Source of Earth Statblock",
-      "level": 8,
-      "scc": [
-        "mcdm.heroes.v1:feature.trait.elementalist.8th-level-feature:source-of-earth-statblock"
-      ],
-      "scdc": [
-        "1.1.1:11.1.9.2:03"
-      ],
-      "source": "mcdm.heroes.v1",
-      "subclass": "Earth",
-      "type": "feature/trait/elementalist/8th-level-feature"
-    },
-    "effects": [
-      {
-        "effect": "**Source of Earth**\n\n|       Elemental       |            -             |       Level 8       |          BRUTE          |          EV -          |\n| :-------------------: | :----------------------: | :-----------------: | :---------------------: | :--------------------: |\n|    **2**<br/> Size    |     **6**<br/> Speed     | **45**<br/> Stamina |  **5**<br/> Stability   | **5**<br/> Free Strike |\n| **-**<br/> Immunities | **Burrow**<br/> Movement |                     | **-**<br/> With Captain | **-**<br/> Weaknesses  |\n|   **+3**<br/> Might   |   **+1**<br/> Agility    | **-5**<br/> Reason  |  **-5**<br/> Intuition  |  **-3**<br/> Presence  |",
-        "features": [
-          {
-            "type": "feature",
-            "feature_type": "trait",
-            "name": "Earthwalk",
-            "effects": [
-              {
-                "effect": "Difficult terrain composed of earth and stone doesn't cost the source extra movement."
-              }
-            ]
-          },
-          {
-            "type": "feature",
-            "feature_type": "trait",
-            "name": "Tunneler",
-            "effects": [
-              {
-                "effect": "When the source burrows, they create a size 2 tunnel."
-              }
-            ]
-          },
-          {
-            "type": "feature",
-            "feature_type": "trait",
-            "name": "Earth Harness",
-            "effects": [
-              {
-                "effect": "A creature that has the Earth Accepts Me ability can use it as a free action to meld into the source."
-              }
-            ]
-          },
-          {
-            "type": "feature",
-            "feature_type": "ability",
-            "name": "Boulder Bash",
-            "keywords": [
-              "Melee",
-              "Ranged",
-              "Strike",
-              "Weapon"
-            ],
-            "usage": "Signature",
-            "distance": "Melee 2 or ranged 10",
-            "target": "One creature or object",
-            "effects": [
-              {
-                "roll": "Power Roll + 3",
-                "tier1": "5 damage; push 3",
-                "tier2": "9 damage; push 4",
-                "tier3": "12 damage; push 5"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },  {
-    "type": "feature",
-    "feature_type": "trait",
     "name": "Chimeric Manifestation",
     "metadata": {
       "action_type": "feature",
@@ -1060,14 +977,14 @@
       "file_basename": "Chimeric Manifestation",
       "file_dpath": "Elementalist/8th-Level Features",
       "item_id": "chimeric-manifestation",
-      "item_index": "04",
+      "item_index": "03",
       "item_name": "Chimeric Manifestation",
       "level": 8,
       "scc": [
         "mcdm.heroes.v1:feature.trait.elementalist.8th-level-feature:chimeric-manifestation"
       ],
       "scdc": [
-        "1.1.1:11.1.9.2:04"
+        "1.1.1:11.1.9.2:03"
       ],
       "source": "mcdm.heroes.v1",
       "subclass": "Green",
@@ -1105,6 +1022,117 @@
     "effects": [
       {
         "effect": "You warp gravity around your heavenly body and can pull even the sturdiest titans toward your core. At the end of each of your turns, you target one creature or object within distance of your Hurl Element ability and vertical pull that target up to 5 squares. If their stability reduces this forced movement, they are pulled a minimum of 2 squares. This forced movement ignores stability for your allies.\n\nAdditionally, your Mantle of Essence improves. While in the area of the aura, enemies and objects have their stability reduced by an amount equal to your level."
+      }
+    ]
+  },  {
+    "type": "feature",
+    "feature_type": "trait",
+    "name": "Summon Source of Earth",
+    "metadata": {
+      "action_type": "feature",
+      "class": "elementalist",
+      "feature_type": "trait",
+      "file_basename": "Summon Source of Earth",
+      "file_dpath": "Elementalist/8th-Level Features",
+      "item_id": "summon-source-of-earth",
+      "item_index": "04",
+      "item_name": "Summon Source of Earth",
+      "level": 8,
+      "scc": [
+        "mcdm.heroes.v1:feature.trait.elementalist.8th-level-feature:summon-source-of-earth"
+      ],
+      "scdc": [
+        "1.1.1:11.1.9.2:04"
+      ],
+      "source": "mcdm.heroes.v1",
+      "type": "feature/trait/elementalist/8th-level-feature"
+    },
+    "effects": [
+      {
+        "effect": "You have the following ability.",
+        "features": [
+          {
+            "type": "feature",
+            "feature_type": "ability",
+            "name": "Summon Source of Earth",
+            "flavor": "The ground rumbles as an elemental bursts forth, ready to serve.",
+            "keywords": [
+              "Earth",
+              "Magic",
+              "Ranged"
+            ],
+            "usage": "Main action",
+            "distance": "Ranged 10",
+            "target": "Special",
+            "effects": [
+              {
+                "name": "Effect",
+                "effect": "A **source of earth** emerges from an unoccupied space within distance. The source takes their turn immediately after you, moving up to their speed and either taking a main action or a maneuver. The source is dismissed at the start of your next turn.\nThe source starts an encounter at full Stamina, but maintains their current Stamina throughout the encounter, even if they are dismissed and you use this ability again. They can't regain Stamina during the encounter. When the source's Stamina is reduced to 0, you can't use this ability again until you earn 1 or more Victories."
+              },
+              {
+                "name": "Persistent 2",
+                "effect": "The source takes another turn. They are dismissed at the start of your next turn.\n###### Source of Earth Statblock"
+              },
+              {
+                "effect": "**Source of Earth**\n\n|       Elemental       |            -             |       Level 8       |          BRUTE          |          EV -          |\n| :-------------------: | :----------------------: | :-----------------: | :---------------------: | :--------------------: |\n|    **2**<br/> Size    |     **6**<br/> Speed     | **45**<br/> Stamina |  **5**<br/> Stability   | **5**<br/> Free Strike |\n| **-**<br/> Immunities | **Burrow**<br/> Movement |                     | **-**<br/> With Captain | **-**<br/> Weaknesses  |\n|   **+3**<br/> Might   |   **+1**<br/> Agility    | **-5**<br/> Reason  |  **-5**<br/> Intuition  |  **-3**<br/> Presence  |",
+                "features": [
+                  {
+                    "type": "feature",
+                    "feature_type": "trait",
+                    "name": "Earthwalk",
+                    "effects": [
+                      {
+                        "effect": "Difficult terrain composed of earth and stone doesn't cost the source extra movement."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "feature",
+                    "feature_type": "trait",
+                    "name": "Tunneler",
+                    "effects": [
+                      {
+                        "effect": "When the source burrows, they create a size 2 tunnel."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "feature",
+                    "feature_type": "trait",
+                    "name": "Earth Harness",
+                    "effects": [
+                      {
+                        "effect": "A creature that has the Earth Accepts Me ability can use it as a free action to meld into the source."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "feature",
+                    "feature_type": "ability",
+                    "name": "Boulder Bash",
+                    "keywords": [
+                      "Melee",
+                      "Ranged",
+                      "Strike",
+                      "Weapon"
+                    ],
+                    "usage": "Signature",
+                    "distance": "Melee 2 or ranged 10",
+                    "target": "One creature or object",
+                    "effects": [
+                      {
+                        "roll": "Power Roll + 3",
+                        "tier1": "5 damage; push 3",
+                        "tier2": "9 damage; push 4",
+                        "tier3": "12 damage; push 5"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },  {
