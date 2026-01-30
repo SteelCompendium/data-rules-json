@@ -48,6 +48,10 @@
       "tier1": "5 + A damage",
       "tier2": "8 + A damage",
       "tier3": "11 + A damage"
+    },
+    {
+      "name": "Effect",
+      "effect": "You can shift up to your speed, dividing that movement before or after your strike as desired."
     }
   ]
 }
