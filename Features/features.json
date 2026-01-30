@@ -2728,14 +2728,14 @@
       "file_basename": "Ray of Wrath",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "ray-of-wrath",
-      "item_index": "35",
+      "item_index": "36",
       "item_name": "Ray of Wrath",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:ray-of-wrath"
       ],
       "scdc": [
-        "1.1.1:11.1.8.1:35"
+        "1.1.1:11.1.8.1:36"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -2784,14 +2784,14 @@
       "file_basename": "Blessing of Compassion",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "blessing-of-compassion",
-      "item_index": "37",
+      "item_index": "38",
       "item_name": "Blessing of Compassion",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:blessing-of-compassion"
       ],
       "scdc": [
-        "1.1.1:11.1.8.1:37"
+        "1.1.1:11.1.8.1:38"
       ],
       "source": "mcdm.heroes.v1",
       "subclass": "Love",
@@ -2837,14 +2837,14 @@
       "file_basename": "Prayer of Destruction",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "prayer-of-destruction",
-      "item_index": "24",
+      "item_index": "25",
       "item_name": "Prayer of Destruction",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:prayer-of-destruction"
       ],
       "scdc": [
-        "1.1.1:11.1.8.1:24"
+        "1.1.1:11.1.8.1:25"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -2865,14 +2865,14 @@
       "file_basename": "Prayer of Soldiers Skill",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "prayer-of-soldiers-skill",
-      "item_index": "32",
+      "item_index": "33",
       "item_name": "Prayer of Soldier's Skill",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:prayer-of-soldiers-skill"
       ],
       "scdc": [
-        "1.1.1:11.1.8.1:32"
+        "1.1.1:11.1.8.1:33"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -3198,14 +3198,14 @@
       "file_basename": "Deity and Domains",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "deity-and-domains",
-      "item_index": "38",
+      "item_index": "39",
       "item_name": "Deity and Domains",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:deity-and-domains"
       ],
       "scdc": [
-        "1.1.1:11.1.8.1:38"
+        "1.1.1:11.1.8.1:39"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -3319,14 +3319,14 @@
       "file_basename": "Spirit Ward",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "spirit-ward",
-      "item_index": "28",
+      "item_index": "29",
       "item_name": "Spirit Ward",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:spirit-ward"
       ],
       "scdc": [
-        "1.1.1:11.1.8.1:28"
+        "1.1.1:11.1.8.1:29"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -3347,14 +3347,14 @@
       "file_basename": "Prayer of Distance",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "prayer-of-distance",
-      "item_index": "30",
+      "item_index": "31",
       "item_name": "Prayer of Distance",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:prayer-of-distance"
       ],
       "scdc": [
-        "1.1.1:11.1.8.1:30"
+        "1.1.1:11.1.8.1:31"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -3424,14 +3424,14 @@
       "file_basename": "Quickness Ward",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "quickness-ward",
-      "item_index": "26",
+      "item_index": "27",
       "item_name": "Quickness Ward",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:quickness-ward"
       ],
       "scdc": [
-        "1.1.1:11.1.8.1:26"
+        "1.1.1:11.1.8.1:27"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -3452,14 +3452,14 @@
       "file_basename": "Protection Domain Piety and Effect",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "protection-domain-piety-and-effect",
-      "item_index": "29",
+      "item_index": "30",
       "item_name": "Protection Domain Piety and Effect",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:protection-domain-piety-and-effect"
       ],
       "scdc": [
-        "1.1.1:11.1.8.1:29"
+        "1.1.1:11.1.8.1:30"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -3476,14 +3476,14 @@
       "file_basename": "Prayer of Steel",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "prayer-of-steel",
-      "item_index": "39",
+      "item_index": "40",
       "item_name": "Prayer of Steel",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:prayer-of-steel"
       ],
       "scdc": [
-        "1.1.1:11.1.8.1:39"
+        "1.1.1:11.1.8.1:40"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -3532,14 +3532,14 @@
       "file_basename": "Oracular Visions",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "oracular-visions",
-      "item_index": "34",
+      "item_index": "35",
       "item_name": "Oracular Visions",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:oracular-visions"
       ],
       "scdc": [
-        "1.1.1:11.1.8.1:34"
+        "1.1.1:11.1.8.1:35"
       ],
       "source": "mcdm.heroes.v1",
       "subclass": "Fate",
@@ -3613,14 +3613,14 @@
       "file_basename": "Sanctified Weapon",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "sanctified-weapon",
-      "item_index": "33",
+      "item_index": "34",
       "item_name": "Sanctified Weapon",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:sanctified-weapon"
       ],
       "scdc": [
-        "1.1.1:11.1.8.1:33"
+        "1.1.1:11.1.8.1:34"
       ],
       "source": "mcdm.heroes.v1",
       "subclass": "War",
@@ -3896,14 +3896,14 @@
       "file_basename": "Storm Domain Piety and Effect",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "storm-domain-piety-and-effect",
-      "item_index": "27",
+      "item_index": "28",
       "item_name": "Storm Domain Piety and Effect",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:storm-domain-piety-and-effect"
       ],
       "scdc": [
-        "1.1.1:11.1.8.1:27"
+        "1.1.1:11.1.8.1:28"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -3936,6 +3936,34 @@
     "effects": [
       {
         "effect": "Each time you finish a respite, you can choose yourself or one ally who is also finishing a respite to gain the benefit of a divine ritual. You place a ray of morning light into the chosen character's soul, granting them a +1 bonus to saving throws that lasts until you finish another respite."
+      }
+    ]
+  },  {
+    "type": "feature",
+    "feature_type": "trait",
+    "name": "Piety in Combat",
+    "metadata": {
+      "action_type": "feature",
+      "class": "conduit",
+      "feature_type": "trait",
+      "file_basename": "Piety in Combat",
+      "file_dpath": "Conduit/1st-Level Features",
+      "item_id": "piety-in-combat",
+      "item_index": "24",
+      "item_name": "Piety in Combat",
+      "level": 1,
+      "scc": [
+        "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:piety-in-combat"
+      ],
+      "scdc": [
+        "1.1.1:11.1.8.1:24"
+      ],
+      "source": "mcdm.heroes.v1",
+      "type": "feature/trait/conduit/1st-level-feature"
+    },
+    "effects": [
+      {
+        "effect": "At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain piety equal to your Victories. At the start of each of your turns during combat, you gain 1d3 piety.\n\nAdditionally, you can gain more piety by praying to the gods—but beware! Doing so can easily draw their ire, as the gods hate to be annoyed. Before you roll to gain piety at the start of your turn, you can pray (no action required). If you do, your roll gains the following additional effects:\n- If the roll is a 1, you gain 1 additional piety but anger the gods! You take psychic damage equal to 1d6 + your level, which can't be reduced in any way.\n- If the roll is a 2, you gain 1 additional piety.\n- If the roll is a 3, you gain 2 additional piety and can activate a domain effect of your choice (see below).\nYou lose any remaining piety at the end of the encounter."
       }
     ]
   },  {
@@ -4002,14 +4030,14 @@
       "file_basename": "Blessing of Comprehension",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "blessing-of-comprehension",
-      "item_index": "31",
+      "item_index": "32",
       "item_name": "Blessing of Comprehension",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:blessing-of-comprehension"
       ],
       "scdc": [
-        "1.1.1:11.1.8.1:31"
+        "1.1.1:11.1.8.1:32"
       ],
       "source": "mcdm.heroes.v1",
       "subclass": "Knowledge",
@@ -4031,14 +4059,14 @@
       "file_basename": "Grave Speech",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "grave-speech",
-      "item_index": "25",
+      "item_index": "26",
       "item_name": "Grave Speech",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:grave-speech"
       ],
       "scdc": [
-        "1.1.1:11.1.8.1:25"
+        "1.1.1:11.1.8.1:26"
       ],
       "source": "mcdm.heroes.v1",
       "subclass": "Death",
@@ -4108,14 +4136,14 @@
       "file_basename": "Trickery Domain Piety and Effect",
       "file_dpath": "Conduit/1st-Level Features",
       "item_id": "trickery-domain-piety-and-effect",
-      "item_index": "36",
+      "item_index": "37",
       "item_name": "Trickery Domain Piety and Effect",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:trickery-domain-piety-and-effect"
       ],
       "scdc": [
-        "1.1.1:11.1.8.1:36"
+        "1.1.1:11.1.8.1:37"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/conduit/1st-level-feature"
@@ -5713,6 +5741,34 @@
     "effects": [
       {
         "effect": "Each time you finish a respite, you can choose yourself or one ally who is also finishing a respite to gain the benefit of a divine ritual. The chosen character gains a bonus to their recovery value equal to your level that lasts until you finish another respite."
+      }
+    ]
+  },  {
+    "type": "feature",
+    "feature_type": "trait",
+    "name": "Deity and Domains",
+    "metadata": {
+      "action_type": "feature",
+      "class": "censor",
+      "feature_type": "trait",
+      "file_basename": "Deity and Domains",
+      "file_dpath": "Censor/1st-Level Features",
+      "item_id": "deity-and-domains",
+      "item_index": "20",
+      "item_name": "Deity and Domains",
+      "level": 1,
+      "scc": [
+        "mcdm.heroes.v1:feature.trait.censor.1st-level-feature:deity-and-domains"
+      ],
+      "scdc": [
+        "1.1.1:11.1.7.1:20"
+      ],
+      "source": "mcdm.heroes.v1",
+      "type": "feature/trait/censor/1st-level-feature"
+    },
+    "effects": [
+      {
+        "effect": "Choose a god or saint who your character reveres from Chapter 14: Gods and Religion, or ask your Director about the deities in your campaign world. With the Director's permission, you can also create your own deity and choose four domains to be part of their portfolio.\n\nAfter choosing your deity, pick one domain from their portfolio. Your choice of domain determines many of the features you'll gain from this class. (*Quick Build:* Cavall as deity and War as domain.)"
       }
     ]
   },  {
@@ -8632,14 +8688,14 @@
       "file_basename": "Inertial Shield",
       "file_dpath": "Null/1st-Level Features",
       "item_id": "inertial-shield",
-      "item_index": "01",
+      "item_index": "02",
       "item_name": "Inertial Shield",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.null.1st-level-feature:inertial-shield"
       ],
       "scdc": [
-        "1.1.1:11.1.6.1:01"
+        "1.1.1:11.1.6.1:02"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/null/1st-level-feature"
@@ -8685,14 +8741,14 @@
       "file_basename": "Psionic Martial Arts",
       "file_dpath": "Null/1st-Level Features",
       "item_id": "psionic-martial-arts",
-      "item_index": "06",
+      "item_index": "07",
       "item_name": "Psionic Martial Arts",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.null.1st-level-feature:psionic-martial-arts"
       ],
       "scdc": [
-        "1.1.1:11.1.6.1:06"
+        "1.1.1:11.1.6.1:07"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/null/1st-level-feature"
@@ -8713,14 +8769,14 @@
       "file_basename": "Null Speed",
       "file_dpath": "Null/1st-Level Features",
       "item_id": "null-speed",
-      "item_index": 8,
+      "item_index": 9,
       "item_name": "Null Speed",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.null.1st-level-feature:null-speed"
       ],
       "scdc": [
-        "1.1.1:11.1.6.1:08"
+        "1.1.1:11.1.6.1:09"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/null/1st-level-feature"
@@ -8741,14 +8797,14 @@
       "file_basename": "Null Tradition",
       "file_dpath": "Null/1st-Level Features",
       "item_id": "null-tradition",
-      "item_index": "02",
+      "item_index": "03",
       "item_name": "Null Tradition",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.null.1st-level-feature:null-tradition"
       ],
       "scdc": [
-        "1.1.1:11.1.6.1:02"
+        "1.1.1:11.1.6.1:03"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/null/1st-level-feature"
@@ -8772,14 +8828,14 @@
       "file_basename": "Speed Augmentation",
       "file_dpath": "Null/1st-Level Features",
       "item_id": "speed-augmentation",
-      "item_index": "07",
+      "item_index": 8,
       "item_name": "Speed Augmentation",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.null.1st-level-feature:speed-augmentation"
       ],
       "scdc": [
-        "1.1.1:11.1.6.1:07"
+        "1.1.1:11.1.6.1:08"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/null/1st-level-feature"
@@ -8800,14 +8856,14 @@
       "file_basename": "Signature Abilities",
       "file_dpath": "Null/1st-Level Features",
       "item_id": "signature-abilities",
-      "item_index": "04",
+      "item_index": "05",
       "item_name": "Signature Abilities",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.null.1st-level-feature:signature-abilities"
       ],
       "scdc": [
-        "1.1.1:11.1.6.1:04"
+        "1.1.1:11.1.6.1:05"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/null/1st-level-feature"
@@ -9029,14 +9085,14 @@
       "file_basename": "Null Field",
       "file_dpath": "Null/1st-Level Features",
       "item_id": "null-field",
-      "item_index": "05",
+      "item_index": "06",
       "item_name": "Null Field",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.null.1st-level-feature:null-field"
       ],
       "scdc": [
-        "1.1.1:11.1.6.1:05"
+        "1.1.1:11.1.6.1:06"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/null/1st-level-feature"
@@ -9070,6 +9126,34 @@
   },  {
     "type": "feature",
     "feature_type": "trait",
+    "name": "Discipline in Combat",
+    "metadata": {
+      "action_type": "feature",
+      "class": "null",
+      "feature_type": "trait",
+      "file_basename": "Discipline in Combat",
+      "file_dpath": "Null/1st-Level Features",
+      "item_id": "discipline-in-combat",
+      "item_index": "01",
+      "item_name": "Discipline in Combat",
+      "level": 1,
+      "scc": [
+        "mcdm.heroes.v1:feature.trait.null.1st-level-feature:discipline-in-combat"
+      ],
+      "scdc": [
+        "1.1.1:11.1.6.1:01"
+      ],
+      "source": "mcdm.heroes.v1",
+      "type": "feature/trait/null/1st-level-feature"
+    },
+    "effects": [
+      {
+        "effect": "At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain discipline equal to your Victories. At the start of each of your turns during combat, you gain 2 discipline.\n\nAdditionally, the first time each combat round that an enemy in the area of your Null Field ability (see below) uses a main action, you gain 1 discipline. The first time each combat round that the Director uses an ability that costs Malice (see *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)*), you gain 1 discipline.\nYou lose any remaining discipline at the end of the encounter."
+      }
+    ]
+  },  {
+    "type": "feature",
+    "feature_type": "trait",
     "name": "Density Augmentation",
     "metadata": {
       "action_type": "feature",
@@ -9078,14 +9162,14 @@
       "file_basename": "Density Augmentation",
       "file_dpath": "Null/1st-Level Features",
       "item_id": "density-augmentation",
-      "item_index": "10",
+      "item_index": "11",
       "item_name": "Density Augmentation",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.null.1st-level-feature:density-augmentation"
       ],
       "scdc": [
-        "1.1.1:11.1.6.1:10"
+        "1.1.1:11.1.6.1:11"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/null/1st-level-feature"
@@ -9106,14 +9190,14 @@
       "file_basename": "Discipline Outside of Combat",
       "file_dpath": "Null/1st-Level Features",
       "item_id": "discipline-outside-of-combat",
-      "item_index": "03",
+      "item_index": "04",
       "item_name": "Discipline Outside of Combat",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.null.1st-level-feature:discipline-outside-of-combat"
       ],
       "scdc": [
-        "1.1.1:11.1.6.1:03"
+        "1.1.1:11.1.6.1:04"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/null/1st-level-feature"
@@ -9134,14 +9218,14 @@
       "file_basename": "Force Augmentation",
       "file_dpath": "Null/1st-Level Features",
       "item_id": "force-augmentation",
-      "item_index": 9,
+      "item_index": "10",
       "item_name": "Force Augmentation",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.null.1st-level-feature:force-augmentation"
       ],
       "scdc": [
-        "1.1.1:11.1.6.1:09"
+        "1.1.1:11.1.6.1:10"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/null/1st-level-feature"
@@ -17654,14 +17738,14 @@
       "file_basename": "Im No Threat",
       "file_dpath": "Shadow/1st-Level Features",
       "item_id": "im-no-threat",
-      "item_index": 8,
+      "item_index": 9,
       "item_name": "I'm No Threat",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.shadow.1st-level-feature:im-no-threat"
       ],
       "scdc": [
-        "1.1.1:11.1.2.1:08"
+        "1.1.1:11.1.2.1:09"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/shadow/1st-level-feature"
@@ -17693,6 +17777,34 @@
             ]
           }
         ]
+      }
+    ]
+  },  {
+    "type": "feature",
+    "feature_type": "trait",
+    "name": "Shadow College",
+    "metadata": {
+      "action_type": "feature",
+      "class": "shadow",
+      "feature_type": "trait",
+      "file_basename": "Shadow College",
+      "file_dpath": "Shadow/1st-Level Features",
+      "item_id": "shadow-college",
+      "item_index": "07",
+      "item_name": "Shadow College",
+      "level": 1,
+      "scc": [
+        "mcdm.heroes.v1:feature.trait.shadow.1st-level-feature:shadow-college"
+      ],
+      "scdc": [
+        "1.1.1:11.1.2.1:07"
+      ],
+      "source": "mcdm.heroes.v1",
+      "type": "feature/trait/shadow/1st-level-feature"
+    },
+    "effects": [
+      {
+        "effect": "Shadow colleges are secret institutions that turn ordinary folk into something else. Finding a college is the first step in a rigorous initiation process that tests the mettle of an applicant. Even those who make the cut often wash out—or are kicked out—as the master shadows who teach stealth, magic, and assassination to their students are often less than gentle in their approach.\n\nYou graduated from a shadow college chosen from the following options, each of which grants you a skill. (*Quick Build:* College of Black Ash.)\n- College of Black Ash: The College of Black Ash founded the art of being a shadow. Its graduates are unmatched in mobility, using sorcery to teleport around the battlefield, manipulate shadows, and summon darkness. You have the Magic skill.\n- College of Caustic Alchemy: The College of Caustic Alchemy teaches its students recipes for the acids, bombs, and poisons used in their grim work. Graduates of the college are exceptional assassins. You have the Alchemy skill.\n- College of the Harlequin Mask: Graduates of the College of the Harlequin Mask learn illusion magic, which they use to infiltrate enemy strongholds and create orchestrated chaos in combat. You have the Lie skill.\nYour shadow college is your subclass, and your choice of college determines many of the features you'll gain as you gain new levels."
       }
     ]
   },  {
@@ -17871,14 +17983,14 @@
       "file_basename": "Hesitation Is Weakness",
       "file_dpath": "Shadow/1st-Level Features",
       "item_id": "hesitation-is-weakness",
-      "item_index": "07",
+      "item_index": 8,
       "item_name": "Hesitation Is Weakness",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.shadow.1st-level-feature:hesitation-is-weakness"
       ],
       "scdc": [
-        "1.1.1:11.1.2.1:07"
+        "1.1.1:11.1.2.1:08"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/shadow/1st-level-feature"
@@ -18029,14 +18141,14 @@
       "file_basename": "Black Ash Teleport",
       "file_dpath": "Shadow/1st-Level Features",
       "item_id": "black-ash-teleport",
-      "item_index": 9,
+      "item_index": "10",
       "item_name": "Black Ash Teleport",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.shadow.1st-level-feature:black-ash-teleport"
       ],
       "scdc": [
-        "1.1.1:11.1.2.1:09"
+        "1.1.1:11.1.2.1:10"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/shadow/1st-level-feature"
@@ -19787,14 +19899,14 @@
       "file_basename": "Battle Augmentation",
       "file_dpath": "Talent/1st-Level Features",
       "item_id": "battle-augmentation",
-      "item_index": "06",
+      "item_index": "07",
       "item_name": "Battle Augmentation",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.talent.1st-level-feature:battle-augmentation"
       ],
       "scdc": [
-        "1.1.1:11.1.1.1:06"
+        "1.1.1:11.1.1.1:07"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/talent/1st-level-feature"
@@ -19871,14 +19983,14 @@
       "file_basename": "Remote Assistance",
       "file_dpath": "Talent/1st-Level Features",
       "item_id": "remote-assistance",
-      "item_index": "17",
+      "item_index": "18",
       "item_name": "Remote Assistance",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.talent.1st-level-feature:remote-assistance"
       ],
       "scdc": [
-        "1.1.1:11.1.1.1:17"
+        "1.1.1:11.1.1.1:18"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/talent/1st-level-feature"
@@ -19952,14 +20064,14 @@
       "file_basename": "Feedback Loop",
       "file_dpath": "Talent/1st-Level Features",
       "item_id": "feedback-loop",
-      "item_index": "14",
+      "item_index": "15",
       "item_name": "Feedback Loop",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.talent.1st-level-feature:feedback-loop"
       ],
       "scdc": [
-        "1.1.1:11.1.1.1:14"
+        "1.1.1:11.1.1.1:15"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/talent/1st-level-feature"
@@ -20059,14 +20171,14 @@
       "file_basename": "Talent Tradition",
       "file_dpath": "Talent/1st-Level Features",
       "item_id": "talent-tradition",
-      "item_index": "19",
+      "item_index": "20",
       "item_name": "Talent Tradition",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.talent.1st-level-feature:talent-tradition"
       ],
       "scdc": [
-        "1.1.1:11.1.1.1:19"
+        "1.1.1:11.1.1.1:20"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/talent/1st-level-feature"
@@ -20087,14 +20199,14 @@
       "file_basename": "Again",
       "file_dpath": "Talent/1st-Level Features",
       "item_id": "again",
-      "item_index": "12",
+      "item_index": "13",
       "item_name": "Again",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.talent.1st-level-feature:again"
       ],
       "scdc": [
-        "1.1.1:11.1.1.1:12"
+        "1.1.1:11.1.1.1:13"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/talent/1st-level-feature"
@@ -20137,14 +20249,14 @@
       "file_basename": "Speed Augmentation",
       "file_dpath": "Talent/1st-Level Features",
       "item_id": "speed-augmentation",
-      "item_index": "11",
+      "item_index": "12",
       "item_name": "Speed Augmentation",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.talent.1st-level-feature:speed-augmentation"
       ],
       "scdc": [
-        "1.1.1:11.1.1.1:11"
+        "1.1.1:11.1.1.1:12"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/talent/1st-level-feature"
@@ -20165,14 +20277,14 @@
       "file_basename": "Signature Abilities",
       "file_dpath": "Talent/1st-Level Features",
       "item_id": "signature-abilities",
-      "item_index": "07",
+      "item_index": 8,
       "item_name": "Signature Abilities",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.talent.1st-level-feature:signature-abilities"
       ],
       "scdc": [
-        "1.1.1:11.1.1.1:07"
+        "1.1.1:11.1.1.1:08"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/talent/1st-level-feature"
@@ -20430,14 +20542,14 @@
       "file_basename": "Accelerate",
       "file_dpath": "Talent/1st-Level Features",
       "item_id": "accelerate",
-      "item_index": 9,
+      "item_index": "10",
       "item_name": "Accelerate",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.talent.1st-level-feature:accelerate"
       ],
       "scdc": [
-        "1.1.1:11.1.1.1:09"
+        "1.1.1:11.1.1.1:10"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/talent/1st-level-feature"
@@ -20483,14 +20595,14 @@
       "file_basename": "Clarity Outside of Combat",
       "file_dpath": "Talent/1st-Level Features",
       "item_id": "clarity-outside-of-combat",
-      "item_index": "10",
+      "item_index": "11",
       "item_name": "Clarity Outside of Combat",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.talent.1st-level-feature:clarity-outside-of-combat"
       ],
       "scdc": [
-        "1.1.1:11.1.1.1:10"
+        "1.1.1:11.1.1.1:11"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/talent/1st-level-feature"
@@ -20511,14 +20623,14 @@
       "file_basename": "Density Augmentation",
       "file_dpath": "Talent/1st-Level Features",
       "item_id": "density-augmentation",
-      "item_index": "20",
+      "item_index": "21",
       "item_name": "Density Augmentation",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.talent.1st-level-feature:density-augmentation"
       ],
       "scdc": [
-        "1.1.1:11.1.1.1:20"
+        "1.1.1:11.1.1.1:21"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/talent/1st-level-feature"
@@ -20539,14 +20651,14 @@
       "file_basename": "Entropy Ward",
       "file_dpath": "Talent/1st-Level Features",
       "item_id": "entropy-ward",
-      "item_index": 8,
+      "item_index": 9,
       "item_name": "Entropy Ward",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.talent.1st-level-feature:entropy-ward"
       ],
       "scdc": [
-        "1.1.1:11.1.1.1:08"
+        "1.1.1:11.1.1.1:09"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/talent/1st-level-feature"
@@ -20554,6 +20666,34 @@
     "effects": [
       {
         "effect": "Your ward slows time for your enemies. Whenever a creature deals damage to you, their speed is reduced by an amount equal to your Reason score and they can't use triggered actions until the end of their next turn."
+      }
+    ]
+  },  {
+    "type": "feature",
+    "feature_type": "trait",
+    "name": "Clarity in Combat",
+    "metadata": {
+      "action_type": "feature",
+      "class": "talent",
+      "feature_type": "trait",
+      "file_basename": "Clarity in Combat",
+      "file_dpath": "Talent/1st-Level Features",
+      "item_id": "clarity-in-combat",
+      "item_index": "05",
+      "item_name": "Clarity in Combat",
+      "level": 1,
+      "scc": [
+        "mcdm.heroes.v1:feature.trait.talent.1st-level-feature:clarity-in-combat"
+      ],
+      "scdc": [
+        "1.1.1:11.1.1.1:05"
+      ],
+      "source": "mcdm.heroes.v1",
+      "type": "feature/trait/talent/1st-level-feature"
+    },
+    "effects": [
+      {
+        "effect": "At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain clarity equal to your Victories. At the start of each of your turns during combat, you gain 1d3 clarity.\n\nAdditionally, the first time each combat round that a creature is force moved, you gain 1 clarity.\nYou can spend clarity you don't have, pushing that Heroic Resource into negative numbers to a maximum negative value equal to 1 + your Reason score. At the end of each of your turns, you take 1 damage for each negative point of clarity.\nWhenever you have clarity below 0, you are strained. Some psionic abilities have additional effects if you are already strained or become strained when you use them. Strained effects can still impact you even after you are no longer strained.\nYou lose any remaining clarity or reset any negative clarity at the end of the encounter."
       }
     ]
   },  {
@@ -20567,14 +20707,14 @@
       "file_basename": "Mind Spike",
       "file_dpath": "Talent/1st-Level Features",
       "item_id": "mind-spike",
-      "item_index": "16",
+      "item_index": "17",
       "item_name": "Mind Spike",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.talent.1st-level-feature:mind-spike"
       ],
       "scdc": [
-        "1.1.1:11.1.1.1:16"
+        "1.1.1:11.1.1.1:17"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/talent/1st-level-feature"
@@ -20624,14 +20764,14 @@
       "file_basename": "Vanishing Ward",
       "file_dpath": "Talent/1st-Level Features",
       "item_id": "vanishing-ward",
-      "item_index": "05",
+      "item_index": "06",
       "item_name": "Vanishing Ward",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.talent.1st-level-feature:vanishing-ward"
       ],
       "scdc": [
-        "1.1.1:11.1.1.1:05"
+        "1.1.1:11.1.1.1:06"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/talent/1st-level-feature"
@@ -20652,14 +20792,14 @@
       "file_basename": "Steel Ward",
       "file_dpath": "Talent/1st-Level Features",
       "item_id": "steel-ward",
-      "item_index": "15",
+      "item_index": "16",
       "item_name": "Steel Ward",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.talent.1st-level-feature:steel-ward"
       ],
       "scdc": [
-        "1.1.1:11.1.1.1:15"
+        "1.1.1:11.1.1.1:16"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/talent/1st-level-feature"
@@ -20680,14 +20820,14 @@
       "file_basename": "Force Augmentation",
       "file_dpath": "Talent/1st-Level Features",
       "item_id": "force-augmentation",
-      "item_index": "18",
+      "item_index": "19",
       "item_name": "Force Augmentation",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.talent.1st-level-feature:force-augmentation"
       ],
       "scdc": [
-        "1.1.1:11.1.1.1:18"
+        "1.1.1:11.1.1.1:19"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/talent/1st-level-feature"
@@ -20708,14 +20848,14 @@
       "file_basename": "Repel",
       "file_dpath": "Talent/1st-Level Features",
       "item_id": "repel",
-      "item_index": "13",
+      "item_index": "14",
       "item_name": "Repel",
       "level": 1,
       "scc": [
         "mcdm.heroes.v1:feature.trait.talent.1st-level-feature:repel"
       ],
       "scdc": [
-        "1.1.1:11.1.1.1:13"
+        "1.1.1:11.1.1.1:14"
       ],
       "source": "mcdm.heroes.v1",
       "type": "feature/trait/talent/1st-level-feature"
