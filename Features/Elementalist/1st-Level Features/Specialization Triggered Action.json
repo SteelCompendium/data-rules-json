@@ -1,0 +1,131 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "Specialization Triggered Action",
+  "metadata": {
+    "action_type": "feature",
+    "class": "elementalist",
+    "feature_type": "trait",
+    "file_basename": "Specialization Triggered Action",
+    "file_dpath": "Features/Elementalist/1st-Level Features",
+    "item_id": "specialization-triggered-action",
+    "item_index": "19",
+    "item_name": "Specialization Triggered Action",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.elementalist.1st-level-feature:specialization-triggered-action"
+    ],
+    "scdc": [
+      "1.1.1:11.1.9.1:19"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/elementalist/1st-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Your elemental specialization grants you a triggered action, as shown on the Specialization Triggered Actions table.\n\n###### Elemental Specialization Triggered Actions Table\n| Specialization | Triggered Action          |\n| -------------- | ------------------------- |\n| Earth          | Skin Like Castle Walls    |\n| Fire           | Explosive Assistance      |\n| Green          | Breath of Dawn Remembered |\n| Void           | Subtle Relocation         |",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Breath of Dawn Remembered",
+          "flavor": "The power you channel grants the ability to get back in the fight.",
+          "keywords": [
+            "Green",
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Triggered",
+          "distance": "Ranged 10",
+          "target": "Self or one ally",
+          "trigger": "The target starts their turn or takes damage.",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "The target can spend a Recovery."
+            },
+            {
+              "cost": "Spend 1+ Essence",
+              "effect": "The target can spend an additional Recovery for each essence spent."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Explosive Assistance",
+          "flavor": "You add a little magic to an ally's aggression at just the right time.",
+          "keywords": [
+            "Fire",
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Triggered",
+          "distance": "Ranged 10",
+          "target": "Self or one ally",
+          "trigger": "The target force moves a creature or object.",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "The forced movement distance gains a bonus equal to your Reason score."
+            },
+            {
+              "cost": "Spend 1 Essence",
+              "effect": "The forced movement distance gains a bonus equal to twice your Reason score instead."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Skin Like Castle Walls",
+          "flavor": "You cover yourself or an ally in protective stone.",
+          "keywords": [
+            "Earth",
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Triggered",
+          "distance": "Ranged 10",
+          "target": "Self or one ally",
+          "trigger": "The target takes damage.",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "The target takes half the damage."
+            },
+            {
+              "cost": "Spend 1 Essence",
+              "effect": "If the damage has any potency effects associated with it, the potency is reduced by 1 for the target."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Subtle Relocation",
+          "flavor": "You call on the void to swallow and spit out an ally.",
+          "keywords": [
+            "Magic",
+            "Ranged",
+            "Void"
+          ],
+          "usage": "Triggered",
+          "distance": "Ranged 10",
+          "target": "Self or one ally",
+          "trigger": "The target starts their turn, moves, or is force moved.",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You teleport the target up to a number of squares equal to your Reason score. If the target moves to trigger this ability, you can teleport them at any point during the move."
+            },
+            {
+              "cost": "Spend 1 Essence",
+              "effect": "You teleport the target up to a number of squares equal to twice your Reason score instead."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

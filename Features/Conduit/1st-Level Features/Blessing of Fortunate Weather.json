@@ -32,7 +32,11 @@
     },
     {
       "name": "Foggy",
-      "effect": "You and your allies gain an edge on tests that use the Hide skill. **Overcast:** You and your allies gain an edge on tests that use the Endurance skill."
+      "effect": "You and your allies gain an edge on tests that use the Hide skill."
+    },
+    {
+      "name": "Overcast",
+      "effect": "You and your allies gain an edge on tests that use the Endurance skill."
     },
     {
       "name": "Precipitation",
