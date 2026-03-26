@@ -16220,7 +16220,7 @@
     },
     "effects": [
       {
-        "effect": "Your troubadour class act grants you a triggered action, as shown on the Class Act Triggered Actions table.\n\n###### Class Act Triggered Action Table\n| Class Act | Triggered Action       |\n| --------- | ---------------------- |\n| Auteur    | Turnabout Is Fair Play |\n| Duelist   | Riposte                |\n| Virtuoso  | Harmonize              |",
+        "effect": "Your troubadour class act grants you a triggered action, as shown on the Class Act Triggered Actions table.\n\n###### Class Act Triggered Actions Table\n| Class Act | Triggered Action       |\n| --------- | ---------------------- |\n| Auteur    | Turnabout Is Fair Play |\n| Duelist   | Riposte                |\n| Virtuoso  | Harmonize              |",
         "features": [
           {
             "type": "feature",
@@ -18096,6 +18096,40 @@
     "effects": [
       {
         "effect": "Your Agility and Presence scores each increase to 3."
+      }
+    ]
+  },  {
+    "type": "feature",
+    "feature_type": "trait",
+    "name": "Zeitgeist",
+    "metadata": {
+      "action_type": "feature",
+      "class": "troubadour",
+      "feature_type": "trait",
+      "file_basename": "Zeitgeist",
+      "file_dpath": "Features/Troubadour/4th-Level Features",
+      "item_id": "zeitgeist",
+      "item_index": 8,
+      "item_name": "Zeitgeist",
+      "level": 4,
+      "scc": [
+        "mcdm.heroes.v1:feature.trait.troubadour.4th-level-feature:zeitgeist"
+      ],
+      "scdc": [
+        "1.1.1:11.1.3.10:08"
+      ],
+      "source": "mcdm.heroes.v1",
+      "type": "feature/trait/troubadour/4th-level-feature"
+    },
+    "effects": [
+      {
+        "effect": "You always have your ear to the ground, your finger on the pulse. When you start or finish a respite, choose one of the following effects.\n\n##### Foreshadowing\nYou can ask the Director for two clues regarding an upcoming encounter or negotiation. One of the clues can be false.\n##### Hear Ye, Hear Ye!\nBy bragging, intimidating, leading, or lying, you attempt to spread one piece of information into the local area. Make a Presence test:",
+        "tier1": "Your information reaches no one.",
+        "tier2": "Your information reaches the nearest populated area of town size or larger. You and each ally present when you make the test gain an edge on Presence tests in that area until one of you spends a Recovery.",
+        "tier3": "Your information reaches the nearest populated area of town size or larger, plus the next closest such population. You and allies present for your test gain an edge on Presence tests made in those areas until you start your next respite."
+      },
+      {
+        "effect": "##### Latest Goss\n\nYou can ask the Director for three rumors regarding the area you're in or an area you plan on entering before your next respite. One of the rumors can be false."
       }
     ]
   },  {

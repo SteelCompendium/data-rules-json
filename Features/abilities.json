@@ -18128,7 +18128,7 @@
       "file_dpath": "Abilities/Tactician/9th-Level Features",
       "flavor": "You trick your enemies into attacking each other and leave them confused by the aftermath.",
       "item_id": "their-lack-of-focus-is-their-undoing-11-focus",
-      "item_index": "05",
+      "item_index": "04",
       "item_name": "Their Lack of Focus Is Their Undoing (11 Focus)",
       "keywords": [
         "Magic",
@@ -18140,7 +18140,7 @@
         "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:their-lack-of-focus-is-their-undoing-11-focus"
       ],
       "scdc": [
-        "1.1.1:11.2.4.7:05"
+        "1.1.1:11.2.4.7:04"
       ],
       "source": "mcdm.heroes.v1",
       "subclass": "Insurgent",
@@ -18186,7 +18186,7 @@
       "file_dpath": "Abilities/Tactician/9th-Level Features",
       "flavor": "You focus on making an enemy irrelevant.",
       "item_id": "that-one-is-mine-11-focus",
-      "item_index": "06",
+      "item_index": "05",
       "item_name": "That One Is Mine! (11 Focus)",
       "keywords": [
         "Melee",
@@ -18199,7 +18199,7 @@
         "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:that-one-is-mine-11-focus"
       ],
       "scdc": [
-        "1.1.1:11.2.4.7:06"
+        "1.1.1:11.2.4.7:05"
       ],
       "source": "mcdm.heroes.v1",
       "subclass": "Vanguard",
@@ -18220,6 +18220,53 @@
       {
         "name": "Effect",
         "effect": "Until the end of the encounter or until you are dying, you can use a signature or heroic ability instead of a free strike against any target marked by you."
+      }
+    ]
+  },  {
+    "type": "feature",
+    "feature_type": "ability",
+    "name": "Squad! Hit and Run!",
+    "cost": "11 Focus",
+    "flavor": "I had to pry this secret from the shadow colleges.",
+    "keywords": [
+      "Ranged"
+    ],
+    "usage": "Main action",
+    "distance": "Ranged 10",
+    "target": "Self and two allies",
+    "metadata": {
+      "action_type": "Main action",
+      "class": "tactician",
+      "cost": "11 Focus",
+      "cost_amount": 11,
+      "cost_resource": "Focus",
+      "distance": "Ranged 10",
+      "feature_type": "ability",
+      "file_basename": "Squad Hit and Run",
+      "file_dpath": "Abilities/Tactician/9th-Level Features",
+      "flavor": "I had to pry this secret from the shadow colleges.",
+      "item_id": "squad-hit-and-run-11-focus",
+      "item_index": "06",
+      "item_name": "Squad! Hit and Run! (11 Focus)",
+      "keywords": [
+        "Ranged"
+      ],
+      "level": 9,
+      "scc": [
+        "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:squad-hit-and-run-11-focus"
+      ],
+      "scdc": [
+        "1.1.1:11.2.4.7:06"
+      ],
+      "source": "mcdm.heroes.v1",
+      "subclass": "Insurgent",
+      "target": "Self and two allies",
+      "type": "feature/ability/tactician/9th-level-feature"
+    },
+    "effects": [
+      {
+        "name": "Effect",
+        "effect": "Each target gains 2 surges, and can use a free triggered action to use a signature ability that gains an edge. After resolving their ability, each target can shift up to 2 squares and become hidden even if they have no cover or concealment, or if they are observed."
       }
     ]
   },  {
@@ -18249,7 +18296,7 @@
       "file_dpath": "Abilities/Tactician/9th-Level Features",
       "flavor": "Nothing will stop you from reaching your foe.",
       "item_id": "no-escape-11-focus",
-      "item_index": "04",
+      "item_index": "03",
       "item_name": "No Escape (11 Focus)",
       "keywords": [
         "Charge",
@@ -18262,7 +18309,7 @@
         "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:no-escape-11-focus"
       ],
       "scdc": [
-        "1.1.1:11.2.4.7:04"
+        "1.1.1:11.2.4.7:03"
       ],
       "source": "mcdm.heroes.v1",
       "subclass": "Vanguard",
@@ -18309,7 +18356,7 @@
       "file_dpath": "Abilities/Tactician/9th-Level Features",
       "flavor": "What makes a good soldier? The ability to fire four shots a minute in any weather.",
       "item_id": "blot-out-the-sun-11-focus",
-      "item_index": "03",
+      "item_index": "02",
       "item_name": "Blot Out the Sun! (11 Focus)",
       "keywords": [
         "Area"
@@ -18319,7 +18366,7 @@
         "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:blot-out-the-sun-11-focus"
       ],
       "scdc": [
-        "1.1.1:11.2.4.7:03"
+        "1.1.1:11.2.4.7:02"
       ],
       "source": "mcdm.heroes.v1",
       "subclass": "Mastermind",
@@ -18330,49 +18377,6 @@
       {
         "name": "Effect",
         "effect": "Each target can make a ranged free strike that gains an edge against any enemy marked by you within distance of their ranged free strike. A target ignores banes and double banes when making this strike."
-      }
-    ]
-  },  {
-    "type": "feature",
-    "feature_type": "ability",
-    "name": "Squad! Hit and Run!",
-    "cost": "11 Focus",
-    "flavor": "I had to pry this secret from the shadow colleges.",
-    "keywords": [
-      "Ranged"
-    ],
-    "usage": "Main action",
-    "distance": "Ranged 10",
-    "target": "Self and two allies",
-    "metadata": {
-      "action_type": "Main action",
-      "class": "tactician",
-      "distance": "Ranged 10",
-      "feature_type": "ability",
-      "file_basename": "Squad",
-      "file_dpath": "Abilities/Tactician/9th-Level Features",
-      "flavor": "I had to pry this secret from the shadow colleges.",
-      "item_id": "squad",
-      "item_index": "01",
-      "item_name": "Squad!",
-      "keywords": [
-        "Ranged"
-      ],
-      "level": 9,
-      "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:squad"
-      ],
-      "scdc": [
-        "1.1.1:11.2.4.7:01"
-      ],
-      "source": "mcdm.heroes.v1",
-      "target": "Self and two allies",
-      "type": "feature/ability/tactician/9th-level-feature"
-    },
-    "effects": [
-      {
-        "name": "Effect",
-        "effect": "Each target gains 2 surges, and can use a free triggered action to use a signature ability that gains an edge. After resolving their ability, each target can shift up to 2 squares and become hidden even if they have no cover or concealment, or if they are observed."
       }
     ]
   },  {
@@ -18399,7 +18403,7 @@
       "file_dpath": "Abilities/Tactician/9th-Level Features",
       "flavor": "I've identified a way to negate their strengths.",
       "item_id": "counterstrategy-11-focus",
-      "item_index": "02",
+      "item_index": "01",
       "item_name": "Counterstrategy (11 Focus)",
       "keywords": [
         "-"
@@ -18409,7 +18413,7 @@
         "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:counterstrategy-11-focus"
       ],
       "scdc": [
-        "1.1.1:11.2.4.7:02"
+        "1.1.1:11.2.4.7:01"
       ],
       "source": "mcdm.heroes.v1",
       "subclass": "Mastermind",

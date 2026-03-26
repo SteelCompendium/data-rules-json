@@ -23,7 +23,7 @@
   },
   "effects": [
     {
-      "effect": "Your troubadour class act grants you a triggered action, as shown on the Class Act Triggered Actions table.\n\n###### Class Act Triggered Action Table\n| Class Act | Triggered Action       |\n| --------- | ---------------------- |\n| Auteur    | Turnabout Is Fair Play |\n| Duelist   | Riposte                |\n| Virtuoso  | Harmonize              |",
+      "effect": "Your troubadour class act grants you a triggered action, as shown on the Class Act Triggered Actions table.\n\n###### Class Act Triggered Actions Table\n| Class Act | Triggered Action       |\n| --------- | ---------------------- |\n| Auteur    | Turnabout Is Fair Play |\n| Duelist   | Riposte                |\n| Virtuoso  | Harmonize              |",
       "features": [
         {
           "type": "feature",
