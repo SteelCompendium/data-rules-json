@@ -1,0 +1,356 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "Censor Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "censor",
+    "feature_type": "trait",
+    "file_basename": "Censor Abilities",
+    "file_dpath": "Censor/1st-Level Features",
+    "item_id": "censor-abilities",
+    "item_index": "06",
+    "item_name": "Censor Abilities",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.censor.1st-level-feature:censor-abilities"
+    ],
+    "scdc": [
+      "1.1.1:11.1.7.1:06"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/censor/1st-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "You use a blend of martial techniques and divine magic to attack your foes and defend your allies.\n\n##### Signature Ability\nChoose one signature ability from the following options. Signature abilities can be used at will. (*Quick Build:* Your Allies Cannot Save You!)",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Back Blasphemer!",
+          "flavor": "You channel power through your weapon to repel foes.",
+          "keywords": [
+            "Area",
+            "Magic",
+            "Melee",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "2 cube within 1",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Presence",
+              "tier1": "2 holy damage; push 1",
+              "tier2": "4 holy damage; push 2",
+              "tier3": "6 holy damage; push 3"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Every Step... Death!",
+          "flavor": "You show your foe a glimpse of their fate after death.",
+          "keywords": [
+            "Magic",
+            "Ranged",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Presence",
+              "tier1": "5 + P psychic damage",
+              "tier2": "7 + P psychic damage",
+              "tier3": "10 + P psychic damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "Each time the target willingly moves before the end of your next turn, they take 1 psychic damage for each square they move."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Halt Miscreant!",
+          "flavor": "You infuse your weapon with holy magic that makes it difficult for your foe to get away.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "2 + M holy damage; P < WEAK, slowed (save ends)",
+              "tier2": "5 + M holy damage; P < AVERAGE, slowed (save ends)",
+              "tier3": "7 + M holy damage; P < STRONG, slowed (save ends)"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Your Allies Cannot Save You!",
+          "flavor": "Your magic strike turns your foe's guilt into a burst of holy power.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "3 + M holy damage",
+              "tier2": "5 + M holy damage",
+              "tier3": "8 + M holy damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "Each enemy adjacent to the target is pushed away from the target up to a number of squares equal to your Presence score."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### Heroic Abilities\n\nYou call upon a number of heroic abilities, all of them bound to your wrath.\n###### 3-Wrath Ability\nChoose one heroic ability from the following options, each of which costs 3 wrath to use. (*Quick Build:* The Gods Punish and Defend.)",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Behold a Shield of Faith!",
+          "cost": "3 Wrath",
+          "flavor": "A mighty blow turns your foe's vitality into a holy light that envelops you and an ally, discouraging enemies who might attack you.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "3 + M holy damage",
+              "tier2": "6 + M holy damage",
+              "tier3": "9 + M holy damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "Until the start of your next turn, enemies take a bane on ability rolls made against you or any ally adjacent to you."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Driving Assault",
+          "cost": "3 Wrath",
+          "flavor": "As you force your enemy back with your weapon, you use your faith to stay close.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "3 + M damage; push 1",
+              "tier2": "6 + M damage; push 3",
+              "tier3": "9 + M damage; push 5"
+            },
+            {
+              "name": "Effect",
+              "effect": "You can shift up to your speed in a straight line toward the target after pushing them."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "The Gods Punish and Defend",
+          "cost": "3 Wrath",
+          "flavor": "You channel holy energy to smite a foe and heal an ally.",
+          "keywords": [
+            "Magic",
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "5 + M holy damage",
+              "tier2": "8 + M holy damage",
+              "tier3": "11 + M holy damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "You can spend a Recovery to allow yourself or one ally within 10 squares to regain Stamina equal to your recovery value."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Repent!",
+          "cost": "3 Wrath",
+          "flavor": "You conjure memories of their sins to harry your foes.",
+          "keywords": [
+            "Magic",
+            "Ranged",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Presence",
+              "tier1": "5 + P holy damage; I < WEAK, dazed (save ends)",
+              "tier2": "8 + P holy damage; I < AVERAGE, dazed (save ends)",
+              "tier3": "11 + P holy damage; I < STRONG, dazed (save ends)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "###### 5-Wrath Ability\n\nChoose one heroic ability from the following options, each of which costs 5 wrath to use. (*Quick Build:* Purifying Fire.)",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Arrest",
+          "cost": "5 Wrath",
+          "flavor": "\"I got you, you son of a bitch.\"",
+          "keywords": [
+            "Magic",
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "6 + M holy damage; grabbed",
+              "tier2": "9 + M holy damage; grabbed",
+              "tier3": "13 + M holy damage; grabbed"
+            },
+            {
+              "name": "Effect",
+              "effect": "If the target makes a strike against a creature while grabbed this way, you can spend 3 wrath to deal holy damage to them equal to your Presence score, then change the target of the strike to another target within the strike's distance."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Behold the Face of Justice!",
+          "cost": "5 Wrath",
+          "flavor": "You attack a foe and your enemies behold a vision of the true nature of your resolve.",
+          "keywords": [
+            "Magic",
+            "Melee",
+            "Ranged",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1 or ranged 5",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "3 + M holy damage; if the target has P < WEAK, each enemy within 2 squares of them is frightened of you (save ends)",
+              "tier2": "5 + M holy damage; if the target has P < AVERAGE, each enemy within 2 squares of them is frightened of you (save ends)",
+              "tier3": "8 + M holy damage; if the target has P < STRONG, each enemy within 2 squares of them is frightened of you (save ends)"
+            },
+            {
+              "name": "Effect",
+              "effect": "Each enemy frightened this way is pushed up to 2 squares away from the target and takes psychic damage equal to your Presence score."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Censored",
+          "cost": "5 Wrath",
+          "flavor": "Judged and sentenced.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "2 + M holy damage",
+              "tier2": "3 + M holy damage",
+              "tier3": "5 + M holy damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "When a target who is not a leader or solo creature is made winded by this ability, they are reduced to 0 Stamina."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Purifying Fire",
+          "cost": "5 Wrath",
+          "flavor": "The gods judge, fire cleanses.",
+          "keywords": [
+            "Magic",
+            "Melee",
+            "Ranged",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1 or ranged 5",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "5 + M holy damage; M < WEAK, the target has fire weakness 3 (save ends)",
+              "tier2": "9 + M holy damage; M < AVERAGE, the target has fire weakness 5 (save ends)",
+              "tier3": "12 + M holy damage; M < STRONG, the target has fire weakness 7 (save ends)"
+            },
+            {
+              "name": "Effect",
+              "effect": "While the target has fire weakness from this ability, you can choose to have your abilities deal fire damage to the target instead of holy damage."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

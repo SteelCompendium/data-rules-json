@@ -1,0 +1,178 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "6th-Level Tradition Ability",
+  "metadata": {
+    "action_type": "feature",
+    "class": "null",
+    "feature_type": "trait",
+    "file_basename": "6th Level Tradition Ability",
+    "file_dpath": "Null/6th-Level Features",
+    "item_id": "6th-level-tradition-ability",
+    "item_index": "03",
+    "item_name": "6th-Level Tradition Ability",
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.null.6th-level-feature:6th-level-tradition-ability"
+    ],
+    "scdc": [
+      "1.1.1:11.1.6.3:03"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/null/6th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Your null tradition grants your choice of one of two heroic abilities.\n\n##### 6th-Level Chronokinetic Abilities\nChoose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Interphase",
+          "cost": "9 Discipline",
+          "flavor": "You slip into a faster timestream to act more quickly.",
+          "keywords": [
+            "Psionic"
+          ],
+          "usage": "Main action",
+          "distance": "Self",
+          "target": "Self",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You can use up to three signature abilities, each of which gains an edge."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Phase Step",
+          "cost": "9 Discipline",
+          "flavor": "You weaken your connection to this manifold, allowing you to move through and damage enemies.",
+          "keywords": [
+            "Melee",
+            "Psionic",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Self; see below",
+          "target": "Self",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You can shift up to your speed, and squares occupied by enemies or objects are not difficult terrain for this shift. You make one power roll that targets each enemy you moved through during this shift."
+            },
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "6 damage; M < WEAK, dazed",
+              "tier2": "8 damage; M < AVERAGE, dazed",
+              "tier3": "12 damage; M < STRONG, dazed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### 6th-Level Cryokinetic Abilities\n\nChoose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Ice Pillars",
+          "cost": "9 Discipline",
+          "flavor": "Pillars of ice erupt from the ground and launch your foes into the air.",
+          "keywords": [
+            "Psionic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "Three creatures or objects",
+          "effects": [
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "Vertical slide 6",
+              "tier2": "Vertical slide 8",
+              "tier3": "Vertical slide 10"
+            },
+            {
+              "name": "Effect",
+              "effect": "The pillars vanish as soon as the effects of the forced movement are resolved."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Wall of Ice",
+          "cost": "9 Discipline",
+          "flavor": "You create a wall of ice.",
+          "keywords": [
+            "Area",
+            "Psionic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "10 wall within 10",
+          "target": "Special",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You can place this wall in occupied squares, sliding each creature in the area into the nearest unoccupied space of your choice. The wall remains until the end of the encounter or until you are dying. The wall's squares are treated as stone squares for the purpose of damage, and you and allies can move freely through the wall. Each enemy who enters a square adjacent to the wall and has M < AVERAGE is slowed (save ends). Each enemy who is force moved into the wall and has M < AVERAGE is restrained (save ends)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### 6th-Level Metakinetic Abilities\n\nChoose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Gravitic Charge",
+          "cost": "9 Discipline",
+          "flavor": "You channel your discipline into momentum that defies gravity.",
+          "keywords": [
+            "Psionic"
+          ],
+          "usage": "Maneuver",
+          "distance": "Self",
+          "target": "Self",
+          "effects": [
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "Vertical slide 5",
+              "tier2": "Vertical slide 7",
+              "tier3": "Vertical slide 9"
+            },
+            {
+              "name": "Effect",
+              "effect": "This movement ignores stability. If you slide into another creature, you resolve damage to both of you as if your force movement had ended, but you keep moving through that creature's space."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Iron Body",
+          "cost": "9 Discipline",
+          "flavor": "You focus until your body becomes as hard as iron.",
+          "keywords": [
+            "Psionic"
+          ],
+          "usage": "Maneuver",
+          "distance": "Self",
+          "target": "Self",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You gain 20 temporary Stamina. Additionally, until the end of the encounter, your stability gains a bonus equal to your Intuition score."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

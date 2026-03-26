@@ -1,0 +1,311 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "9th-Level Domain Ability",
+  "metadata": {
+    "action_type": "feature",
+    "class": "conduit",
+    "feature_type": "trait",
+    "file_basename": "9th Level Domain Ability",
+    "file_dpath": "Conduit/9th-Level Features",
+    "item_id": "9th-level-domain-ability",
+    "item_index": "01",
+    "item_name": "9th-Level Domain Ability",
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.conduit.9th-level-feature:9th-level-domain-ability"
+    ],
+    "scdc": [
+      "1.1.1:11.1.8.8:01"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/conduit/9th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of your domains. You gain a heroic ability from that domain, as shown on the 9th-Level Conduit Domain Abilities table.\n\n###### 9th-Level Conduit Domain Abilities Table\n| Domain     | Ability                  |\n| ---------- | ------------------------ |\n| Creation   | Divine Dragon            |\n| Death      | Word of Final Redemption |\n| Fate       | Bend Fate                |\n| Knowledge  | Word of Weakening        |\n| Life       | Radiance of Grace        |\n| Love       | Alacrity of the Heart    |\n| Nature     | Thorn Cage               |\n| Protection | Blessing of the Fortress |\n| Storm      | Godstorm                 |\n| Sun        | Solar Flare              |\n| Trickery   | Night Falls              |\n| War        | Righteous Phalanx        |",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Alacrity of the Heart",
+          "cost": "11 Piety",
+          "flavor": "You speak inspiring words to a friend and spur them to incredible feats.",
+          "keywords": [
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Maneuver",
+          "distance": "Ranged 10",
+          "target": "One ally",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "The target has an additional main action they can use on their next turn, and gains 3 of their Heroic Resource."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Bend Fate",
+          "cost": "11 Piety",
+          "flavor": "The gods know you must prevail, and they bless your fate.",
+          "keywords": [
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "Self or one ally",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Until the end of the encounter or until you are dying, each of the target's power rolls has its outcome improved by one tier."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Blessing of the Fortress",
+          "cost": "11 Piety",
+          "flavor": "A magic circle extends out from you, barring foes from getting close.",
+          "keywords": [
+            "Area",
+            "Magic"
+          ],
+          "usage": "Maneuver",
+          "distance": "Self; see below",
+          "target": "Self",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Until the end of the encounter or until you are dying, no enemy can approach within 5 squares of you by moving or by being force moved by any enemy. Targets can be force moved closer to you by you or your allies, or can move closer because of your movement."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Divine Dragon",
+          "cost": "11 Piety",
+          "flavor": "From nothing but divine will, you create a powerful ally.",
+          "keywords": [
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "Special",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You conjure a size 4 dragon that appears in an unoccupied space within distance. The dragon has speed 6 and can fly, stability 4, 100 Stamina, immunity all to fire damage, and uses your characteristics. The dragon disappears at the end of the encounter, if their Stamina drops to 0, or if you are dying.\nOn subsequent turns, you can use a main action to command the dragon to breathe magic fire in a 3 cube within 1 square of them. Make the following power roll targeting each enemy in the area."
+            },
+            {
+              "effect": "Additionally, you can use a maneuver to move the dragon up to their speed, or to make a melee weapon strike with their claw against an adjacent creature or object. The dragon can also make this strike as a free strike.",
+              "roll": "Power Roll + Intuition",
+              "tier1": "5 fire damage",
+              "tier2": "9 fire damage",
+              "tier3": "12 fire damage"
+            },
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "3 + I damage",
+              "tier2": "5 + I damage",
+              "tier3": "8 + I damage"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Godstorm",
+          "cost": "11 Piety",
+          "flavor": "You summon a divine storm that remains under your control.",
+          "keywords": [
+            "Area",
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "5 cube within 5",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "2 lightning damage, 2 sonic damage",
+              "tier2": "3 lightning damage, 3 sonic damage",
+              "tier3": "5 lightning damage, 5 sonic damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "A raging storm fills the area until the end of the encounter or until you are dying. At the start of each of your turns, you can move the storm up to 5 squares (no action required). On subsequent turns while the storm is active, you can use a maneuver to make its power roll."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Night Falls",
+          "cost": "11 Piety",
+          "flavor": "You summon darkness that thwarts only your foes.",
+          "keywords": [
+            "Area",
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "5 cube within 10",
+          "target": "Special",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Until the end of the encounter or until you are dying, the area is filled with magic darkness that your enemies can't see through, but you and your allies can."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Radiance of Grace",
+          "cost": "11 Piety",
+          "flavor": "Intense light is emitted from your body, healing your allies.",
+          "keywords": [
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "Four allies",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You can target yourself instead of one ally with this ability. Each target can spend any number of Recoveries, can end any effects on them that are ended by a saving throw or that end at the end of their turn, and can stand up if they are prone."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Righteous Phalanx",
+          "cost": "11 Piety",
+          "flavor": "A wall of spinning swords and knives appears where you wish.",
+          "keywords": [
+            "Area",
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "15 wall within 10",
+          "target": "Special",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "The wall lasts until the end of the encounter or until you are dying, and can be placed in occupied squares. Creatures can enter and pass through the wall. Each enemy who enters the area for the first time in a combat round or starts their turn there takes 15 damage."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Solar Flare",
+          "cost": "11 Piety",
+          "flavor": "You call down a sphere of fire that burns your foes to ash.",
+          "keywords": [
+            "Area",
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "5 cube within 10",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "9 fire damage",
+              "tier2": "14 fire damage",
+              "tier3": "19 fire damage"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Thorn Cage",
+          "cost": "11 Piety",
+          "flavor": "Vines burst forth from the ground and bind your foe, slowly closing around them.",
+          "keywords": [
+            "Magic",
+            "Ranged",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "10 + I damage; A < WEAK, restrained (save ends)",
+              "tier2": "15 + I damage; A < AVERAGE, restrained (save ends)",
+              "tier3": "21 + I damage; A < STRONG, restrained (save ends)"
+            },
+            {
+              "name": "Effect",
+              "effect": "While restrained this way, the target takes 10 damage at the start of each of your turns."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Word of Final Redemption",
+          "cost": "11 Piety",
+          "flavor": "Your death will fuel our victory.",
+          "keywords": [
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Free triggered",
+          "distance": "Ranged 10",
+          "target": "One creature",
+          "trigger": "The target dies.",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Before the target dies, you can look at their stat block and force them to use one ability that is a main action or a maneuver. If the ability costs a Heroic Resource or Malice, the creature can use it without any cost. For the purpose of using this ability, your allies and enemies are the target's allies and enemies, and you decide who the ability targets."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Word of Weakening",
+          "cost": "11 Piety",
+          "flavor": "You utter a divine word that makes a foe brittle.",
+          "keywords": [
+            "Magic",
+            "Ranged",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "10 + I corruption damage; A < WEAK, weakened (save ends)",
+              "tier2": "15 + I corruption damage; A < AVERAGE, weakened (save ends)",
+              "tier3": "21 + I corruption damage; A < STRONG, weakened (save ends)"
+            },
+            {
+              "name": "Effect",
+              "effect": "While weakened this way, the target has damage weakness 10."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

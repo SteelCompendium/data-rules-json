@@ -1,0 +1,343 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "Shadow Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "shadow",
+    "feature_type": "trait",
+    "file_basename": "Shadow Abilities",
+    "file_dpath": "Shadow/1st-Level Features",
+    "item_id": "shadow-abilities",
+    "item_index": "01",
+    "item_name": "Shadow Abilities",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.shadow.1st-level-feature:shadow-abilities"
+    ],
+    "scdc": [
+      "1.1.1:11.1.2.1:01"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/shadow/1st-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "You specialize in dealing damage, then getting out of harm's way before the inevitable counterattack. You know a number of unique martial abilities that define your presence on the battlefield.\n\n##### Signature Ability\nChoose one signature ability from the following options. Signature abilities can be used at will. (*Quick Build:* Teamwork Has Its Place.)",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Gasping in Pain",
+          "flavor": "Your precise strikes let your allies take advantage of a target's agony.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "3 + A damage",
+              "tier2": "5 + A damage",
+              "tier3": "8 + A damage; I < STRONG, prone"
+            },
+            {
+              "name": "Effect",
+              "effect": "One ally within 5 squares of the target gains 1 surge."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "I Work Better Alone",
+          "flavor": "\"It's better, just you and me. Isn't it?\"",
+          "keywords": [
+            "Melee",
+            "Ranged",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1 or ranged 5",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "3 + A damage",
+              "tier2": "6 + A damage",
+              "tier3": "9 + A damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "If the target has none of your allies adjacent to them, you gain 1 surge before making the power roll."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Teamwork Has Its Place",
+          "flavor": "You attack an enemy as an ally exposes their weakness.",
+          "keywords": [
+            "Melee",
+            "Ranged",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1 or ranged 5",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "3 + A damage",
+              "tier2": "6 + A damage",
+              "tier3": "9 + A damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "If any ally is adjacent to the target, you gain 1 surge before making the power roll."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "You Were Watching the Wrong One",
+          "flavor": "They can't watch both of you at once.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "3 + A damage",
+              "tier2": "5 + A damage",
+              "tier3": "8 + A damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "As long as you have one or more allies within 5 squares of the target, you gain 1 surge. If you are flanking the target when you use this ability, choose one ally who is flanking with you. That ally also gains 1 surge."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### Heroic Abilities\n\nA range of heroic abilities define your combat prowess, all of which make use of your insight.\n###### 3-Insight Ability\nChoose one heroic ability from the following options, each of which costs 3 insight to use. (*Quick Build:* Get In Get Out.)",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Disorienting Strike",
+          "cost": "3 Insight",
+          "flavor": "Your attack leaves them reeling, allowing you to follow up.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "4 + A damage; slide 2",
+              "tier2": "6 + A damage; slide 3",
+              "tier3": "10 + A damage; slide 5"
+            },
+            {
+              "name": "Effect",
+              "effect": "You can shift into any square the target leaves when you slide them."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Eviscerate",
+          "cost": "3 Insight",
+          "flavor": "You leave your foe bleeding out after a devastating attack.",
+          "keywords": [
+            "Melee",
+            "Ranged",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1 or ranged 5",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "4 + A damage; A < WEAK, bleeding (save ends)",
+              "tier2": "6 + A damage; A < AVERAGE, bleeding (save ends)",
+              "tier3": "10 + A damage; A < STRONG, bleeding (save ends)"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Get In Get Out",
+          "cost": "3 Insight",
+          "flavor": "Move unexpectedly, strike fast, and be gone!",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "5 + A damage",
+              "tier2": "8 + A damage",
+              "tier3": "11 + A damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "You can shift up to your speed, dividing that movement before or after your strike as desired."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Two Throats at Once",
+          "cost": "3 Insight",
+          "flavor": "A bargain.",
+          "keywords": [
+            "Melee",
+            "Ranged",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1 or ranged 5",
+          "target": "Two creatures or objects",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "4 damage",
+              "tier2": "6 damage",
+              "tier3": "10 damage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### 5-Insight Ability\n\nChoose one heroic ability from the following options, each of which costs 5 insight to use. (Quick Build: Coup de Grace.)",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Coup de Grace",
+          "cost": "5 Insight",
+          "flavor": "Your blade might be the last thing they see.",
+          "keywords": [
+            "Melee",
+            "Ranged",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1 or ranged 5",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "2d6 + 7 + A damage",
+              "tier2": "2d6 + 11 + A damage",
+              "tier3": "2d6 + 16 + A damage"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "One Hundred Throats",
+          "cost": "5 Insight",
+          "flavor": "As you move across the battlefield, every foe within reach feels your wrath.",
+          "keywords": [
+            "Melee",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Self; see below",
+          "target": "Self",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You shift up to your speed and make one power roll that targets up to three enemies who came adjacent to you during the move."
+            },
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "3 damage",
+              "tier2": "6 damage",
+              "tier3": "9 damage"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Setup",
+          "cost": "5 Insight",
+          "flavor": "Your friends will thank you.",
+          "keywords": [
+            "Ranged",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 5",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "6 + A damage; R < WEAK, the target has damage weakness 5 (save ends)",
+              "tier2": "9 + A damage; R < AVERAGE, the target has damage weakness 5 (save ends)",
+              "tier3": "13 + A damage; R < STRONG, the target has damage weakness 5 (save ends)"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Shadowstrike",
+          "cost": "5 Insight",
+          "flavor": "They have no idea what the college taught you.",
+          "keywords": [
+            "Magic",
+            "Melee",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "Self; see below",
+          "target": "Self",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You use a strike signature ability twice."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

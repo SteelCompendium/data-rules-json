@@ -1,0 +1,286 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "2nd-Level Domain Ability",
+  "metadata": {
+    "action_type": "feature",
+    "class": "conduit",
+    "feature_type": "trait",
+    "file_basename": "2nd Level Domain Ability",
+    "file_dpath": "Conduit/2nd-Level Features",
+    "item_id": "2nd-level-domain-ability",
+    "item_index": "01",
+    "item_name": "2nd-Level Domain Ability",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.conduit.2nd-level-feature:2nd-level-domain-ability"
+    ],
+    "scdc": [
+      "1.1.1:11.1.8.6:01"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/conduit/2nd-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of your domains. You gain a heroic ability from that domain, as shown on the 2nd-Level Conduit Domain Abilities table.\n\n###### 2nd-Level Conduit Domain Abilities Table\n| Domain     | Ability                      |\n| ---------- | ---------------------------- |\n| Creation   | Statue of Power              |\n| Death      | Reap                         |\n| Fate       | Blessing of Fate and Destiny |\n| Knowledge  | The Gods Command You Obey    |\n| Life       | Wellspring of Grace          |\n| Love       | Our Hearts Your Strength     |\n| Nature     | Nature Judges Thee           |\n| Protection | Sacred Bond                  |\n| Storm      | Saint's Tempest              |\n| Sun        | Morning Light                |\n| Trickery   | Divine Comedy                |\n| War        | Blessing of Insight          |",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Blessing of Fate and Destiny",
+          "cost": "5 Piety",
+          "flavor": "Your enemies suffer their fate; your allies embrace their destiny!",
+          "keywords": [
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "Three creatures",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You can target yourself instead of one creature with this ability. Choose one of the following effects, which lasts until the end of the encounter or until you are dying:\n- Whenever a target makes a power roll, they can roll three dice and choose which two rolls to use.\n- Whenever a target makes a power roll, they must roll three dice and use the lowest two rolls."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Blessing of Insight",
+          "cost": "5 Piety",
+          "flavor": "The gods grant insight revealing where best to strike your enemies.",
+          "keywords": [
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Maneuver",
+          "distance": "Ranged 10",
+          "target": "Self and each ally",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Until the end of the encounter or until you are dying, each target gains 1 surge at the end of each of your turns."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Divine Comedy",
+          "cost": "5 Piety",
+          "flavor": "You and your allies swap places to confound your foes.",
+          "keywords": [
+            "Area",
+            "Magic"
+          ],
+          "usage": "Maneuver",
+          "distance": "5 burst",
+          "target": "Self and each ally in the area",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Each target can choose another creature in the area, then swap places with that creature. The creature they choose must be able to fit into the space they leave and vice versa."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "The Gods Command You Obey",
+          "cost": "5 Piety",
+          "flavor": "You speak with the voice of your saint, commanding your enemies.",
+          "keywords": [
+            "Magic",
+            "Ranged",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "4 + I holy damage; P < WEAK, before taking damage, the target makes a free strike against a target you choose",
+              "tier2": "7 + I holy damage; P < AVERAGE, before taking damage, the target uses an ability of your choice and you choose any targets for that ability",
+              "tier3": "11 + I holy damage; P < STRONG, before taking damage, the target shifts up to their speed to a location you choose, uses an ability of your choice, and you choose any targets for that ability"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Morning Light",
+          "cost": "5 Piety",
+          "flavor": "Light shines at your command, burning your foes and blessing your allies.",
+          "keywords": [
+            "Area",
+            "Magic"
+          ],
+          "usage": "Main action",
+          "distance": "3 burst",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "4 fire damage",
+              "tier2": "6 fire damage",
+              "tier3": "10 fire damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "Each ally in the area deals fire damage equal to your Intuition score with their next strike made before the end of their next turn."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Nature Judges Thee",
+          "cost": "5 Piety",
+          "flavor": "Mystical thorned vines appear at your bidding and bind your foes.",
+          "keywords": [
+            "Area",
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "3 cube within 10",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "2 damage; A < WEAK, restrained (save ends)",
+              "tier2": "3 damage; A < AVERAGE, restrained (save ends)",
+              "tier3": "7 damage; A < STRONG, restrained (save ends)"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Our Hearts Your Strength",
+          "cost": "5 Piety",
+          "flavor": "An ally gains strength from their friends.",
+          "keywords": [
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Maneuver",
+          "distance": "Ranged 10",
+          "target": "Self and one ally",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Until the end of the encounter or until the target is dying, at the start of each of the target's turns, they gain a bonus to speed and a bonus to rolled damage equal to the number of allies within 10 squares of them. This bonus lasts until the start of their next turn."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Reap",
+          "cost": "5 Piety",
+          "flavor": "The gods reward those who smite their foes.",
+          "keywords": [
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Maneuver",
+          "distance": "Ranged 10",
+          "target": "Each ally",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Until the start of your next turn, each time a target kills an enemy, they regain Stamina equal to 5 + your Intuition score."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Sacred Bond",
+          "cost": "5 Piety",
+          "flavor": "You forge a divine connection between two creatures.",
+          "keywords": [
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Maneuver",
+          "distance": "Ranged 10",
+          "target": "Self and one ally",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Until the end of the encounter, whenever one target takes damage, the other target can use a free triggered action to take the damage instead. The original target suffers any effects associated with the damage. Additionally, whenever one target spends a Recovery, the other target can use a free triggered action to spend a Recovery."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Saint's Tempest",
+          "cost": "5 Piety",
+          "flavor": "A raging storm appears, striking your foes with lightning and throwing them around with wind.",
+          "keywords": [
+            "Area",
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "3 cube within 10",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "2 lightning damage; vertical slide 1",
+              "tier2": "5 lightning damage; vertical slide 2",
+              "tier3": "7 lightning damage; vertical slide 3"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Statue of Power",
+          "cost": "5 Piety",
+          "flavor": "A marble statue of your deity rises from the earth.",
+          "keywords": [
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Maneuver",
+          "distance": "Ranged 10",
+          "target": "Special",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "A size 2 statue rises out of the ground in an unoccupied space within distance and lasts until the end of the encounter. While within 3 squares of the statue, you gain 1 surge at the start of each of your turns. Each ally within 3 squares of the statue gains this same benefit. The statue is destroyed if it takes 20 or more damage. It has immunity all to poison and psychic damage."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Wellspring of Grace",
+          "cost": "5 Piety",
+          "flavor": "A holy light is emitted from your body, healing your allies.",
+          "keywords": [
+            "Area",
+            "Magic"
+          ],
+          "usage": "Main action",
+          "distance": "3 aura",
+          "target": "Each ally in the area",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Until the end of the encounter or until you are dying, whenever a target starts their turn in the area, they can spend a Recovery."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

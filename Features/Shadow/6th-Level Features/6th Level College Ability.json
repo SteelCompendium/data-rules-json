@@ -1,0 +1,180 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "6th-Level College Ability",
+  "metadata": {
+    "action_type": "feature",
+    "class": "shadow",
+    "feature_type": "trait",
+    "file_basename": "6th Level College Ability",
+    "file_dpath": "Shadow/6th-Level Features",
+    "item_id": "6th-level-college-ability",
+    "item_index": "02",
+    "item_name": "6th-Level College Ability",
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.shadow.6th-level-feature:6th-level-college-ability"
+    ],
+    "scdc": [
+      "1.1.1:11.1.2.3:02"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/shadow/6th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Your shadow college grants your choice of one of two heroic abilities.\n\n##### 6th-Level Black Ash Abilities\nChoose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Black Ash Eruption",
+          "cost": "9 Insight",
+          "flavor": "Your attack produces a cloud of black ash that launches an enemy into the air.",
+          "keywords": [
+            "Magic",
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "3 + A damage; vertical push 5",
+              "tier2": "6 + A damage; vertical push 10",
+              "tier3": "9 + A damage; vertical push 15"
+            },
+            {
+              "name": "Effect",
+              "effect": "A creature force moved by this ability must be moved straight upward."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Cinderstorm",
+          "cost": "9 Insight",
+          "flavor": "You teleport your friends in a burst of ash and fire.",
+          "keywords": [
+            "Magic"
+          ],
+          "usage": "Maneuver",
+          "distance": "4 burst",
+          "target": "Self and each ally in the area",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Each target can teleport up to 5 squares. For each target in addition to you who teleports away from or into a space adjacent to an enemy, that enemy takes fire damage equal to your Agility score. Additionally, a target who ends this movement in concealment or cover can use the Hide maneuver even if they are observed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### 6th-Level Caustic Alchemy Abilities\n\nChoose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "One Vial Makes You Better",
+          "cost": "9 Insight",
+          "flavor": "A well-timed throw of a potion will keep your allies in the fight.",
+          "keywords": [
+            "Ranged"
+          ],
+          "usage": "Maneuver",
+          "distance": "Ranged 10",
+          "target": "Three creatures",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You ready, hand, or lob a potion to each target, who can immediately quaff the potion (no action required). If they don't drink the potion right away, they must use the Use Consumable maneuver to consume it later. The potion loses its potency at the end of the encounter.\nA creature who drinks the potion can spend up to 2 Recoveries, and has acid immunity, fire immunity, or poison immunity (their choice) equal to your level until the end of the encounter."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "One Vial Makes You Faster",
+          "cost": "9 Insight",
+          "flavor": "Each ally who catches a potion you throw can take the battle to the next level.",
+          "keywords": [
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "Three creatures",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You ready, hand, or lob a potion to each target, who can immediately quaff the potion (no action required). If they don't drink the potion right away, they must use the Use Consumable maneuver to consume it later. The potion loses its potency at the end of the encounter.\nA creature who drinks the potion receives benefits based on your power roll."
+            },
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "The creature's speed is increased by 2 until the end of the encounter.",
+              "tier2": "The creature can fly until the end of the encounter.",
+              "tier3": "The creature turns invisible until the end of their next turn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### 6th-Level Harlequin Mask Abilities\n\nChoose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Look!",
+          "cost": "9 Insight",
+          "flavor": "You distract your foes, allowing your allies to take advantage of that distraction.",
+          "keywords": [
+            "Area",
+            "Magic"
+          ],
+          "usage": "Maneuver",
+          "distance": "5 burst",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Until the start of your next turn, any ability roll made against a target gains an edge."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Puppet Strings",
+          "cost": "9 Insight",
+          "flavor": "You prick little needles on the tips of your fingers into the nerves of your enemies and cause them to lose control.",
+          "keywords": [
+            "Magic",
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "Two enemies",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "2 damage; if the target has R < WEAK, before the damage is resolved, they make a free strike.",
+              "tier2": "5 damage; if the target has R < AVERAGE, before the damage is resolved, they use a main action ability of your choice.",
+              "tier3": "7 damage; if the target has R < STRONG, before the damage is resolved, they can shift up to their speed and use a main action ability of your choice."
+            },
+            {
+              "name": "Effect",
+              "effect": "You choose the new targets for the original target's free strike or ability. Additionally, if you are hidden or disguised, using this ability doesn't cause you to be revealed."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

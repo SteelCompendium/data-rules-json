@@ -1,0 +1,114 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "1st-Level Domain Feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "censor",
+    "feature_type": "trait",
+    "file_basename": "1st Level Domain Feature",
+    "file_dpath": "Censor/1st-Level Features",
+    "item_id": "1st-level-domain-feature",
+    "item_index": "01",
+    "item_name": "1st-Level Domain Feature",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.censor.1st-level-feature:1st-level-domain-feature"
+    ],
+    "scdc": [
+      "1.1.1:11.1.7.1:01"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/censor/1st-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "You gain a domain feature from your domain, as shown on the 1st-Level Censor Domain Features table. Additionally, you gain a skill from your domain, chosen from the skill group indicated on the table.\n\n###### 1st-Level Censor Domain Features Table\n| Domain     | Feature                       | Skill Group   |\n| ---------- | ----------------------------- | ------------- |\n| Creation   | Hands of the Maker            | Crafting      |\n| Death      | Grave Speech                  | Lore          |\n| Fate       | Oracular Visions              | Lore          |\n| Knowledge  | Blessing of Comprehension     | Lore          |\n| Life       | Revitalizing Ritual           | Exploration   |\n| Love       | Blessing of Compassion        | Interpersonal |\n| Nature     | Faithful Friend               | Exploration   |\n| Protection | Protective Circle             | Exploration   |\n| Storm      | Blessing of Fortunate Weather | Exploration   |\n| Sun        | Inner Light                   | Lore          |\n| Trickery   | Inspired Deception            | Intrigue      |\n| War        | Sanctified Weapon             | Exploration   |\n##### Blessing of Compassion\nYou exude a magic presence that can soothe those willing to socially engage with you. You gain an edge on any test made to assist another creature with a test.\nAdditionally, when you are present at the start of a negotiation, one NPC of your choice has their patience increased by 1 (to a maximum of 5), and the first test made to influence them gains an edge.\n##### Blessing of Comprehension\nYou can interpret diagrams and charts even if you don't understand the language associated with them. You are considered fluent in all languages for the purpose of understanding the project source for any crafting or research project (see [Chapter 12: Downtime Projects](#page-307-2)).\n##### Blessing of Fortunate Weather\nEach time you finish a respite, you can decide the weather conditions within 100 squares. Until you finish another respite, the weather conditions you establish follow you through any mundane outdoor locations. Choose one of the following types of weather, each of which grants a benefit to you and your allies:"
+    },
+    {
+      "name": "Clear",
+      "effect": "You and your allies gain an edge on tests that use the Search or Navigate skills."
+    },
+    {
+      "name": "Foggy",
+      "effect": "You and your allies gain an edge on tests that use the Hide skill."
+    },
+    {
+      "name": "Overcast",
+      "effect": "You and your allies gain an edge on tests that use the Endurance skill."
+    },
+    {
+      "name": "Precipitation",
+      "effect": "When the ground is muddy or snowy, you and your allies gain an edge on tests that use the Track skill.\nIf you are in the same area as a creature using this or a similar feature who has chosen a different weather effect, the features negate each other where their areas overlap.\n##### Faithful Friend\nYou have the following ability.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Faithful Friend",
+          "flavor": "An animal spirit is drawn to you, sharing their senses with you and serving you faithfully.",
+          "keywords": [
+            "Magic"
+          ],
+          "usage": "Main action",
+          "distance": "Self",
+          "target": "Self",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You conjure a spirit that takes the form of any animal you have seen. The incorporeal animal has speed 5 and can fly, but can't physically interact with the world. While you are within 10 squares of the spirit, you automatically sense everything that type of animal would sense, in addition to sensing your own surroundings. You can dismiss the spirit at any time (no action required). If the spirit takes any damage, they are dismissed and you take 1d10 psychic damage that can't be reduced in any way."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### Grave Speech\n\nYou have the following ability.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Grave Speech",
+          "flavor": "You commune with the lingering soul of the recently dead.",
+          "keywords": [
+            "Magic"
+          ],
+          "usage": "Maneuver",
+          "distance": "Melee 1",
+          "target": "One dead creature",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You can speak to the target if they are a creature who has died within the last 24 hours and who can speak a language you know, even if they are just a head. The target regards you as they would have in life, and you might need to make tests to influence them and convince them to speak with you. The trauma of dying can make a creature's memory of that event hazy, but the target otherwise knows all they knew in life. After 1 minute, the effect ends. You can't use this ability on the same creature twice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### Hands of the Maker\n\nYou have the following ability.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Hands of the Maker",
+          "flavor": "You craft objects with the power of your mind.",
+          "keywords": [
+            "Magic"
+          ],
+          "usage": "Maneuver",
+          "distance": "Self",
+          "target": "Self",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You create a mundane object of size 1S or smaller. You can maintain a number of objects created this way equal to your Presence score. You can destroy an object created this way with a thought, no matter how far you are from it (no action required)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### Inner Light\n\nEach time you finish a respite, you can choose yourself or one ally who is also finishing a respite to gain the benefit of a divine ritual. You place a ray of morning light into the chosen character's soul, granting them a +1 bonus to saving throws that lasts until you finish another respite.\n##### Inspired Deception\nThe gods favor your thievery with magic. Whenever you make a test that uses a skill you have from the intrigue skill group, you can use Presence on the test instead of another characteristic.\n##### Oracular Visions\nYour deity rewards you with hazy visions of things to come. Each time you earn 1 or more Victories, you earn an equal number of fate points. Whenever you or a creature within 10 squares makes a test, you can spend 1 fate point to tap into a vision of the outcome, granting that creature an edge on the test. You lose any remaining fate points when you finish a respite.\n##### Protective Circle\nYou can spend 10 uninterrupted minutes to create a protective circle on the ground large enough to hold one size 1 creature. The circle lasts for 24 hours, until you create another, or until you dismiss it (no action required). Only creatures you designate at the time of drawing the circle can enter and exit the area. While in the protective circle, a creature can't be targeted by strikes.\n##### Revitalizing Ritual\nEach time you finish a respite, you can choose yourself or one ally who is also finishing a respite to gain the benefit of a divine ritual. The chosen character gains a bonus to their recovery value equal to your level that lasts until you finish another respite.\n##### Sanctified Weapon\nAs a respite activity, you can bless a weapon. Any creature who wields the weapon gains a +1 bonus to rolled damage with abilities that use the weapon. This benefit lasts until you finish another respite."
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "2nd-Level Tradition Ability",
+  "metadata": {
+    "action_type": "feature",
+    "class": "null",
+    "feature_type": "trait",
+    "file_basename": "2nd Level Tradition Ability",
+    "file_dpath": "Null/2nd-Level Features",
+    "item_id": "2nd-level-tradition-ability",
+    "item_index": "01",
+    "item_name": "2nd-Level Tradition Ability",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.null.2nd-level-feature:2nd-level-tradition-ability"
+    ],
+    "scdc": [
+      "1.1.1:11.1.6.6:01"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/null/2nd-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Your null tradition grants your choice of one of two abilities.\n\n##### 2nd-Level Chronokinetic Ability\nChoose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Blur",
+          "cost": "5 Discipline",
+          "flavor": "You release stored time, allowing you to act twice.",
+          "keywords": [
+            "Psionic"
+          ],
+          "usage": "Maneuver",
+          "distance": "Self",
+          "target": "Self",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You can use a signature or heroic ability. You gain an edge on that ability's power rolls."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Force Redirected",
+          "cost": "5 Discipline",
+          "flavor": "The force of your strike moves your target in a surprising direction.",
+          "keywords": [
+            "Melee",
+            "Psionic",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 3",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "8 + A damage; slide 1",
+              "tier2": "12 + A damage; slide 3",
+              "tier3": "16 + A damage; slide 5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### 2nd-Level Cryokinetic Ability\n\nChoose one of the following heroic abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Entropic Field",
+          "cost": "5 Discipline",
+          "flavor": "You drastically increase the local entropy.",
+          "keywords": [
+            "Area",
+            "Psionic",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "3 cube within 1",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "6 cold damage; A < WEAK, slowed (save ends)",
+              "tier2": "9 cold damage; A < AVERAGE, slowed (save ends)",
+              "tier3": "13 cold damage; A < STRONG, slowed (save ends)"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Heat Sink",
+          "cost": "5 Discipline",
+          "flavor": "You absorb ambient heat, coating the ground in frost and precipitating snow from the air.",
+          "keywords": [
+            "Psionic"
+          ],
+          "usage": "Maneuver",
+          "distance": "Self",
+          "target": "Self",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Until the start of your next turn, the size of your Null Field ability increases by 1, and you and any ally benefit from concealment while in the area. At the end of this turn, each enemy in the area takes cold damage equal to your Intuition score."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### 2nd-Level Metakinetic Ability\n\nChoose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Gravitic Strike",
+          "cost": "5 Discipline",
+          "flavor": "Your fist emanates gravitic force that pulls a distant enemy closer.",
+          "keywords": [
+            "Melee",
+            "Psionic",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 3",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "8 + A psychic damage; vertical pull 3",
+              "tier2": "12 + A psychic damage; vertical pull 5",
+              "tier3": "16 + A psychic damage; vertical pull 7"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Kinetic Shield",
+          "cost": "5 Discipline",
+          "flavor": "You manifest a force barrier that absorbs incoming kinetic energy.",
+          "keywords": [
+            "Psionic"
+          ],
+          "usage": "Maneuver",
+          "distance": "Self",
+          "target": "Self",
+          "effects": [
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "You gain 10 temporary Stamina.",
+              "tier2": "You gain 15 temporary Stamina.",
+              "tier3": "You gain 20 temporary Stamina."
+            },
+            {
+              "name": "Effect",
+              "effect": "While you have temporary Stamina from this ability, you can't be made bleeding even while dying."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

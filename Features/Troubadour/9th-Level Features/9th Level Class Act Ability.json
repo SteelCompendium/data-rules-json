@@ -1,0 +1,197 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "9th-Level Class Act Ability",
+  "metadata": {
+    "action_type": "feature",
+    "class": "troubadour",
+    "feature_type": "trait",
+    "file_basename": "9th Level Class Act Ability",
+    "file_dpath": "Troubadour/9th-Level Features",
+    "item_id": "9th-level-class-act-ability",
+    "item_index": "02",
+    "item_name": "9th-Level Class Act Ability",
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.troubadour.9th-level-feature:9th-level-class-act-ability"
+    ],
+    "scdc": [
+      "1.1.1:11.1.3.8:02"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/troubadour/9th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Your troubadour class act grants your choice of one of two heroic abilities.\n\n##### 9th-Level Auteur Abilities\nChoose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Epic",
+          "cost": "11 Drama",
+          "flavor": "Your story tells a tale of the villain's waning power and how the heroes rose to the occasion to stop them.",
+          "keywords": [
+            "Magic",
+            "Melee",
+            "Ranged"
+          ],
+          "usage": "Maneuver",
+          "distance": "Melee 1 or ranged 10",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Presence",
+              "tier1": "The target takes a bane on ability rolls (save ends).",
+              "tier2": "The target has a double bane on ability rolls (save ends).",
+              "tier3": "The target has a double bane on power rolls (save ends)."
+            },
+            {
+              "name": "Effect",
+              "effect": "Choose one ally within distance. While the target is affected by this ability, each time they use an ability, that ally can make a free strike against them after the ability is resolved."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Rising Tension",
+          "cost": "11 Drama",
+          "flavor": "You narrate the tension of the scene and put all hope into your protagonist to turn things around.",
+          "keywords": [
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Maneuver",
+          "distance": "Ranged 10",
+          "target": "One ally",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "The target gains 3 of their Heroic Resource, has a double edge on a power roll of their choice made during their next turn, is no longer slowed or weakened if they were before, and can immediately take their turn after yours if they have not taken their turn already this round."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### 9th-Level Duelist Abilities\n\nChoose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Expert Fencer",
+          "cost": "11 Drama",
+          "flavor": "If you can land the strike, the crowd goes wild.",
+          "keywords": [
+            "Charge",
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 3",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "15 + A damage",
+              "tier2": "21 + A damage",
+              "tier3": "28 + A damage; M < STRONG, bleeding (save ends)"
+            },
+            {
+              "name": "Effect",
+              "effect": "This ability can't obtain better than a tier 2 outcome unless the target is at maximum distance. If you obtain a tier 3 outcome with a natural 17 or higher, you gain 3 surges that you can use immediately."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Renegotiated Contract",
+          "cost": "11 Drama",
+          "flavor": "No, no. You don't die until the sequel.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Add your current Stamina to your target's current Stamina, then you have half that total Stamina and the target has the remainder. If either of you would gain more Stamina this way than their Stamina maximum, the difference in Stamina between what that creature would gain and their maximum is gained by the other creature. Neither of you can gain more Stamina than your maximum this way. You then make a power roll."
+            },
+            {
+              "roll": "Power Roll + Presence",
+              "tier1": "You and the target can each end one effect on yourselves that is ended by a saving throw or that ends at the end of your turns.",
+              "tier2": "You and the target can end any effects on yourselves that are ended by a saving throw or that end at the end of your turns.",
+              "tier3": "You can choose any of the current effects on you and the target that are ended by a saving throw or that end at the end of your turns, apply the chosen effects to the target, and end the rest."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### 9th-Level Virtuoso Abilities\n\nChoose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Jam Session",
+          "cost": "11 Drama",
+          "flavor": "Your jam session creates new genres that compel everyone to get up and move.",
+          "keywords": [
+            "Area",
+            "Magic"
+          ],
+          "usage": "Main action",
+          "distance": "5 burst",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Presence",
+              "tier1": "8 sonic damage",
+              "tier2": "11 sonic damage",
+              "tier3": "15 sonic damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "Each creature within distance gains a +5 bonus to speed until the end of their next turn. While under this effect, each target must use their full movement during their turn."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Melt Their Faces",
+          "cost": "11 Drama",
+          "flavor": "The power of music rips through the reality around the target and blows them away.",
+          "keywords": [
+            "Magic",
+            "Melee",
+            "Ranged",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1 or ranged 10",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Presence",
+              "tier1": "12 + P sonic damage; push 5",
+              "tier2": "16 + P sonic damage; push 10",
+              "tier3": "22 + P sonic damage; push 15"
+            },
+            {
+              "name": "Effect",
+              "effect": "Forced movement from this ability ignores stability."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

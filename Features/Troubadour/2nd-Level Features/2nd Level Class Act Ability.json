@@ -1,0 +1,176 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "2nd-Level Class Act Ability",
+  "metadata": {
+    "action_type": "feature",
+    "class": "troubadour",
+    "feature_type": "trait",
+    "file_basename": "2nd Level Class Act Ability",
+    "file_dpath": "Troubadour/2nd-Level Features",
+    "item_id": "2nd-level-class-act-ability",
+    "item_index": "04",
+    "item_name": "2nd-Level Class Act Ability",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.troubadour.2nd-level-feature:2nd-level-class-act-ability"
+    ],
+    "scdc": [
+      "1.1.1:11.1.3.6:04"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/troubadour/2nd-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Your troubadour class act grants your choice of one of two heroic abilities.\n\n##### 2nd-Level Auteur Ability\nChoose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Guest Star",
+          "cost": "5 Drama",
+          "flavor": "We offered them a percentage of the gross. So they're working for free!",
+          "keywords": [
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "Special",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "A guest star appears to help you during the encounter: either a bystander within distance uplifted by your magic, or a mysterious new hero who appears in an unoccupied space within distance. This guest star is controlled by you, has their own turn, and shares your characteristics. Their Stamina maximum is half yours. They have no abilities other than your melee and ranged free strikes. At the end of the encounter, or when the guest star is reduced to 0 Stamina, they retreat or revert to a bystander. The same bystander can't be uplifted this way more than once during an encounter."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Twist at the End",
+          "cost": "5 Drama",
+          "flavor": "You didn't see that coming, did you?!",
+          "keywords": [
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One dead enemy",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "A target who is not a leader or solo creature comes back to life with half their Stamina and becomes an ally under the Director's control. The players can work with the Director to determine when the target takes their turn each combat round. At the end of the encounter, the target turns to dust and is blown away."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### 2nd-Level Duelist Ability\n\nChoose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Classic Chandelier Stunt",
+          "cost": "5 Drama",
+          "flavor": "Audiences love this bit.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "Self and one willing ally",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Each target can shift up to 5 squares, including vertically, but must end this movement adjacent to the other target and on solid ground. Each target can then make a melee free strike that deals extra damage equal to twice their highest characteristic score."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "En Garde!",
+          "cost": "5 Drama",
+          "flavor": "Wait, it's... Guard! Turn! Parry! Dodge! Spin! Thrust! Ha!",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "7 + **A** damage",
+              "tier2": "11 + **A** damage",
+              "tier3": "16 + **A** damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "The target can make a melee free strike against you. If they do, you can make a melee free strike against the target."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### 2nd-Level Virtuoso Ability\n\nChoose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Encore",
+          "cost": "5 Drama",
+          "flavor": "Again! Again!",
+          "keywords": [
+            "Magic",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Special",
+          "target": "Special",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You use an ability that you have observed being used this combat round. The ability must have the Strike keyword, cost 5 or fewer of a Heroic Resource, and cost no Malice. When you make the strike, you use your Presence score for any power rolls, and any damage you deal is sonic damage."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Tough Crowd",
+          "cost": "5 Drama",
+          "flavor": "Your fans don't seem to like the opening act...",
+          "keywords": [
+            "Area",
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "3 cube within 10",
+          "target": "Special",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "The area is haunted by a swirling horde of phantoms until the end of the encounter. Allies can enter any square of the area without spending movement. At the end of each of your turns, you can make one power roll that targets each enemy in the area."
+            },
+            {
+              "roll": "Power Roll + Presence",
+              "tier1": "5 corruption damage; M < WEAK, pull 1 toward the center of the area",
+              "tier2": "9 corruption damage; M < AVERAGE, pull 2 toward the center of the area",
+              "tier3": "12 corruption damage; M < STRONG, pull 3 toward the center of the area"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

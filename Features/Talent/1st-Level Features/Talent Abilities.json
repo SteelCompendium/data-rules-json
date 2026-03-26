@@ -1,0 +1,481 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "Talent Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "talent",
+    "feature_type": "trait",
+    "file_basename": "Talent Abilities",
+    "file_dpath": "Talent/1st-Level Features",
+    "item_id": "talent-abilities",
+    "item_index": "03",
+    "item_name": "Talent Abilities",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.talent.1st-level-feature:talent-abilities"
+    ],
+    "scdc": [
+      "1.1.1:11.1.1.1:03"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/talent/1st-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "You manifest a variety of psionic powers that let you impact the environment, bolster your allies, and empower yourself. You can choose abilities across different talent traditions or focus on abilities tied to your chosen tradition to dedicate yourself to its power.\n\n##### Signature Abilities\nChoose two signature abilities from the following options. Signature abilities can be used at will. (*Quick Build:* Incinerate, Kinetic Grip.)",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Entropic Bolt",
+          "flavor": "You advance an enemy's age for a moment.",
+          "keywords": [
+            "Chronopathy",
+            "Psionic",
+            "Ranged",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Presence",
+              "tier1": "2 + P corruption damage; P < WEAK, slowed (save ends)",
+              "tier2": "3 + P corruption damage; P < AVERAGE, slowed (save ends)",
+              "tier3": "5 + P corruption damage; P < STRONG, slowed (save ends)"
+            },
+            {
+              "name": "Effect",
+              "effect": "The target takes an extra 1 corruption damage for each additional time they are targeted by this ability during the encounter."
+            },
+            {
+              "name": "Strained",
+              "effect": "You gain 1 clarity when you obtain a tier 2 or tier 3 outcome on the power roll."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Hoarfrost",
+          "flavor": "You blast a foe with a pulse of cold energy.",
+          "keywords": [
+            "Cryokinesis",
+            "Psionic",
+            "Ranged",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "2 + R cold damage; M < WEAK, slowed (EoT)",
+              "tier2": "4 + R cold damage; M < AVERAGE, slowed (EoT)",
+              "tier3": "6 + R cold damage; M < STRONG, slowed (EoT)"
+            },
+            {
+              "name": "Strained",
+              "effect": "You are slowed until the end of your next turn. Additionally, a target slowed by this ability is restrained instead."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Incinerate",
+          "flavor": "The air erupts into a column of smokeless flame.",
+          "keywords": [
+            "Area",
+            "Fire",
+            "Psionic",
+            "Pyrokinesis",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "3 cube within 10",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "2 fire damage",
+              "tier2": "4 fire damage",
+              "tier3": "6 fire damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "A column of fire remains in the area until the start of your next turn. Each enemy who enters the area for the first time in a combat round or starts their turn there takes 2 fire damage."
+            },
+            {
+              "name": "Strained",
+              "effect": "The size of the cube increases by 2, but the fire disappears at the end of your turn."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Kinetic Grip",
+          "flavor": "You lift and hurl your foe away from you.",
+          "keywords": [
+            "Psionic",
+            "Ranged",
+            "Telekinesis"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "Slide 2 + R",
+              "tier2": "Slide 4 + R",
+              "tier3": "Slide 6 + R; prone"
+            },
+            {
+              "name": "Strained",
+              "effect": "You must vertical push the target instead of sliding them."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Kinetic Pulse",
+          "flavor": "The force of your mind hurls enemies backward.",
+          "keywords": [
+            "Area",
+            "Psionic",
+            "Telepathy"
+          ],
+          "usage": "Main action",
+          "distance": "1 burst",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "2 psychic damage",
+              "tier2": "5 psychic damage; push 1",
+              "tier3": "7 psychic damage; push 2"
+            },
+            {
+              "name": "Strained",
+              "effect": "The size of the burst increases by 2, and you are bleeding until the start of your next turn."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Materialize",
+          "flavor": "You picture an object in your mind and give it form—directly above your opponent's head.",
+          "keywords": [
+            "Psionic",
+            "Ranged",
+            "Resopathy",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "3 + R damage",
+              "tier2": "5 + R damage",
+              "tier3": "8 + R damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "A worthless size 1M object drops onto the target to deal the damage, then rolls into an adjacent unoccupied space of your choice. The object is made of wood, stone, or metal (your choice)."
+            },
+            {
+              "name": "Strained",
+              "effect": "The object explodes after the damage is dealt, and each creature adjacent to the target takes damage equal to your Reason score. You also take damage equal to your Reason score that can't be reduced in any way."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Optic Blast",
+          "flavor": "Your eyes emit rays of powerful enervating force.",
+          "keywords": [
+            "Metamorphosis",
+            "Psionic",
+            "Ranged",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "2 + R damage; M < WEAK, prone",
+              "tier2": "4 + R damage; M < AVERAGE, prone",
+              "tier3": "6 + R damage; M < STRONG, prone"
+            },
+            {
+              "name": "Effect",
+              "effect": "When targeting an object with a solid reflective surface or a creature carrying or wearing such an object (such as a mirror, an unpainted metal shield, or shiny metal plate armor), you can target one additional creature or object within 3 squares of the first target."
+            },
+            {
+              "name": "Strained",
+              "effect": "You gain 1 surge that you can use immediately, and you take damage equal to your Reason score that can't be reduced in any way."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Spirit Sword",
+          "flavor": "You form a blade of mind energy and stab your target, invigorating yourself.",
+          "keywords": [
+            "Animapathy",
+            "Melee",
+            "Psionic",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 2",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Presence",
+              "tier1": "3 + P damage",
+              "tier2": "6 + P damage",
+              "tier3": "9 + P damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "You gain 1 surge."
+            },
+            {
+              "name": "Strained",
+              "effect": "The target takes an extra 3 damage. You also take 3 damage that can't be reduced in any way."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### Heroic Abilities\n\nYou know a range of heroic abilities, all of which cost clarity to fuel them.\n###### 3-Clarity Ability\nChoose one heroic ability from the following options, each of which costs 3 clarity to use. (*Quick Build:* Choke.)",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Awe",
+          "cost": "3 Clarity",
+          "flavor": "You project psionic energy out to a creature and take on a new visage in their mind.",
+          "keywords": [
+            "Psionic",
+            "Ranged",
+            "Strike",
+            "Telepathy"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "If you target an ally, they gain temporary Stamina equal to three times your Presence score, and they can end one effect on them that is ended by a saving throw or that ends at the end of their turn. If you target an enemy, you make a power roll."
+            },
+            {
+              "roll": "Power Roll + Presence",
+              "tier1": "3 + P psychic damage; I < WEAK, frightened (save ends)",
+              "tier2": "6 + P psychic damage; I < AVERAGE, frightened (save ends)",
+              "tier3": "9 + P psychic damage; I < STRONG, frightened (save ends)"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Choke",
+          "cost": "3 Clarity",
+          "flavor": "You crush a foe in a telekinetic grip.",
+          "keywords": [
+            "Psionic",
+            "Ranged",
+            "Strike",
+            "Telekinesis"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "3 + R damage; M < WEAK, slowed (save ends)",
+              "tier2": "5 + R damage; M < AVERAGE, slowed (save ends)",
+              "tier3": "8 + R damage; M < STRONG, restrained (save ends)"
+            },
+            {
+              "name": "Effect",
+              "effect": "You can vertical pull the target up to 2 squares. If the target is made restrained by this ability, this forced movement ignores their stability."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Precognition",
+          "cost": "3 Clarity",
+          "flavor": "You give a target a glimpse into the future so that they're ready for what comes next.",
+          "keywords": [
+            "Chronopathy",
+            "Melee",
+            "Psionic"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 2",
+          "target": "Self or one ally",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Ability rolls made against the target take a bane until the start of your next turn. Whenever the target takes damage while under this effect, they can use a triggered action to make a free strike against the source of the damage."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Smolder",
+          "cost": "3 Clarity",
+          "flavor": "Smoke flows from your enemy like tears as their skin begins to blacken and flake.",
+          "keywords": [
+            "Psionic",
+            "Pyrokinesis",
+            "Ranged",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Choose the damage type and the weakness for this ability from one of the following: acid, corruption, or fire. The target takes damage before this ability imposes any weakness."
+            },
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "3 + R damage; R < WEAK, the target has weakness 5 (save ends)",
+              "tier2": "6 + R damage; R < AVERAGE, the target has weakness 5 (save ends)",
+              "tier3": "9 + R damage; R < STRONG, the target has weakness equal to 5 + your Reason score (save ends)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "###### 5-Clarity Ability\n\nChoose one heroic ability from the following options, each of which costs 5 clarity to use. (*Quick Build:* Inertia Soak.)",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Flashback",
+          "cost": "5 Clarity",
+          "flavor": "The target is thrown several seconds back through time and gets to do it all again.",
+          "keywords": [
+            "Chronopathy",
+            "Psionic",
+            "Ranged"
+          ],
+          "usage": "Maneuver",
+          "distance": "Ranged 10",
+          "target": "Self or one ally",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "The target uses an ability with a base Heroic Resource cost of 7 or lower that they've previously used this round, without needing to spend the base cost. Augmentations to the ability can be paid for as usual."
+            },
+            {
+              "name": "Strained",
+              "effect": "You take 1d6 damage and are slowed (save ends)."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Inertia Soak",
+          "cost": "5 Clarity",
+          "flavor": "Your psionic energy surrounds the target and pushes everything else away from them.",
+          "keywords": [
+            "Psionic",
+            "Ranged",
+            "Telekinesis"
+          ],
+          "usage": "Maneuver",
+          "distance": "Ranged 10",
+          "target": "Self or one ally",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "The target ignores difficult terrain and takes no damage from forced movement until the start of your next turn. Whenever the target enters a square while under this effect, they can push one adjacent creature up to a number of squares equal to your Reason score. When pushing an ally, the target can ignore that ally's stability. A creature can only be force moved this way once a turn."
+            },
+            {
+              "name": "Strained",
+              "effect": "You are weakened (save ends). While you are weakened this way, whenever you are force moved, the forced movement distance gains a +5 bonus."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Iron",
+          "cost": "5 Clarity",
+          "flavor": "The target's skin turns to hard, dark metal, impenetrable and dense.",
+          "keywords": [
+            "Metamorphosis",
+            "Psionic",
+            "Ranged"
+          ],
+          "usage": "Maneuver",
+          "distance": "Ranged 10",
+          "target": "Self or one ally",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "The target's stability increases by an amount equal to your Reason score, and they gain 10 temporary Stamina and 2 surges. This stability increase lasts until the target no longer has temporary Stamina from this ability."
+            },
+            {
+              "name": "Strained",
+              "effect": "You can't use maneuvers (save ends)."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Perfect Clarity",
+          "cost": "5 Clarity",
+          "flavor": "You clear the mind of nothing but the goal.",
+          "keywords": [
+            "Psionic",
+            "Ranged",
+            "Telepathy"
+          ],
+          "usage": "Maneuver",
+          "distance": "Ranged 10",
+          "target": "Self or one ally",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Until the start of your next turn, the target gains a +3 bonus to speed, and they have a double edge on the next power roll they make. If the target obtains a tier 3 outcome on that roll, you gain 1 clarity."
+            },
+            {
+              "name": "Strained",
+              "effect": "You take 1d6 damage, and you can't use triggered actions (save ends)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

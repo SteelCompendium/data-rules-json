@@ -1,0 +1,198 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "6th-Level Aspect Ability",
+  "metadata": {
+    "action_type": "feature",
+    "class": "fury",
+    "feature_type": "trait",
+    "file_basename": "6th Level Aspect Ability",
+    "file_dpath": "Fury/6th-Level Features",
+    "item_id": "6th-level-aspect-ability",
+    "item_index": "04",
+    "item_name": "6th-Level Aspect Ability",
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.fury.6th-level-feature:6th-level-aspect-ability"
+    ],
+    "scdc": [
+      "1.1.1:11.1.5.3:04"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/fury/6th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Your primordial aspect grants your choice of one of two heroic abilities.\n\n##### 6th-Level Berserker Abilities\nChoose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Avalanche Impact",
+          "cost": "9 Ferocity",
+          "flavor": "You leap and crash down, causing a shockwave that devastates foes.",
+          "keywords": [
+            "Magic"
+          ],
+          "usage": "Maneuver",
+          "distance": "Self",
+          "target": "Self",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You jump up to your maximum jump distance and make one power roll that targets each creature adjacent to the space where you land."
+            },
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "4 damage; push 1",
+              "tier2": "7 damage; push 2",
+              "tier3": "11 damage; push 3"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Force of Storms",
+          "cost": "9 Ferocity",
+          "flavor": "You strike an enemy hard enough to be a projectile that knocks a crowd of creatures around.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "7 + M damage; push 3",
+              "tier2": "11 + M damage; push 5",
+              "tier3": "16 + M damage; push 7"
+            },
+            {
+              "name": "Effect",
+              "effect": "When the target ends this forced movement, each creature within 2 squares of the target is pushed 3 squares."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### 6th-Level Reaver Abilities\n\nChoose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Death Strike",
+          "cost": "9 Ferocity",
+          "flavor": "Once you taste your foe's blood, you become more efficient and turn every killing blow into an opportunity.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Free triggered",
+          "distance": "Melee 1",
+          "target": "Self",
+          "trigger": "You reduce a creature to 0 Stamina with a strike.",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You target a creature adjacent to you with the same strike, using the same power roll as the triggering strike."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Seek and Destroy",
+          "cost": "9 Ferocity",
+          "flavor": "You break through the enemy lines to make an example.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You shift up to your speed."
+            },
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "4 + M damage; P < WEAK, frightened (save ends)",
+              "tier2": "6 + M damage; P < AVERAGE, frightened (save ends)",
+              "tier3": "10 + M damage; P < STRONG, frightened (save ends)"
+            },
+            {
+              "name": "Effect",
+              "effect": "If a target who is not a leader or solo creature is winded by this strike, they are reduced to 0 Stamina and you choose an enemy within 5 squares of you. If that enemy has P < AVERAGE, they are frightened of you (save ends)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### 6th-Level Stormwight Abilities\n\nChoose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Pounce",
+          "cost": "9 Ferocity",
+          "flavor": "You strike at the target like the ultimate predator you are.",
+          "keywords": [
+            "Magic",
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "8 damage; M < WEAK, grabbed",
+              "tier2": "13 damage; M < AVERAGE, grabbed",
+              "tier3": "17 damage; M < STRONG, grabbed"
+            },
+            {
+              "name": "Effect",
+              "effect": "You can shift up to 4 squares, bringing the target with you. While grabbed this way, the target takes damage equal to twice your Might score at the start of each of your turns."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Riders on the Storm",
+          "cost": "9 Ferocity",
+          "flavor": "You focus your connection to the Primordial Chaos into a seething storm.",
+          "keywords": [
+            "Area",
+            "Magic"
+          ],
+          "usage": "Maneuver",
+          "distance": "3 aura",
+          "target": "Each creature in the area",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Until the end of the encounter or until you are dying, each enemy target takes damage of your primordial damage type equal to twice your Might score at the end of each of your turns. Additionally, you can fly while the aura is active. Each ally target who starts or ends their turn in the area can also fly until the start of their next turn or until the effect ends."
+            },
+            {
+              "name": "Special",
+              "effect": "When you use this ability outside of combat without spending ferocity, you must spend 1 uninterrupted minute summoning a primordial storm that fills the area, and you take 1d6 damage before the ability takes effect. The storm lasts for 1 hour or until a combat encounter begins."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

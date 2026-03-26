@@ -1,0 +1,304 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "6th-Level Domain Ability",
+  "metadata": {
+    "action_type": "feature",
+    "class": "conduit",
+    "feature_type": "trait",
+    "file_basename": "6th Level Domain Ability",
+    "file_dpath": "Conduit/6th-Level Features",
+    "item_id": "6th-level-domain-ability",
+    "item_index": "01",
+    "item_name": "6th-Level Domain Ability",
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.conduit.6th-level-feature:6th-level-domain-ability"
+    ],
+    "scdc": [
+      "1.1.1:11.1.8.3:01"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/conduit/6th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of your domains. You gain a heroic ability from that domain, as shown on the 6th-Level Conduit Domain Abilities table.\n\n###### 6th-Level Conduit Domain Abilities Table\n| Domain     | Ability                    |\n| ---------- | -------------------------- |\n| Creation   | Gods' Machine              |\n| Death      | Aura of Souls              |\n| Fate       | Your Story Ends Here       |\n| Knowledge  | Invocation of Undoing      |\n| Life       | Revitalizing Grace         |\n| Love       | Lauded by God              |\n| Nature     | Spirit Stampede            |\n| Protection | Cuirass of the Gods        |\n| Storm      | Lightning Lord             |\n| Sun        | Blessing of the Midday Sun |\n| Trickery   | Invocation of Mystery      |\n| War        | Blade of the Heavens       |",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Aura of Souls",
+          "cost": "9 Piety",
+          "flavor": "A whirlwind of souls of the dead flies around you at your command.",
+          "keywords": [
+            "Area",
+            "Magic"
+          ],
+          "usage": "Maneuver",
+          "distance": "4 aura",
+          "target": "Each creature in the area",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Until the end of the encounter or until you are dying, at the end of each of your turns, you can slide each creature in the area up to a number of squares equal to your Intuition score. This forced movement ignores stability for your allies."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Blade of the Heavens",
+          "cost": "9 Piety",
+          "flavor": "A greatsword streams down from the sky, threatening to pin your foe.",
+          "keywords": [
+            "Magic",
+            "Ranged",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 5",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "8 + I damage; A < WEAK, prone and restrained (save ends)",
+              "tier2": "12 + I damage; A < AVERAGE, prone and restrained (save ends)",
+              "tier3": "16 + I damage; A < STRONG, prone and restrained (save ends)"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Blessing of the Midday Sun",
+          "cost": "9 Piety",
+          "flavor": "Your body emits a heat that bakes your enemies and inspires your allies.",
+          "keywords": [
+            "Area",
+            "Magic"
+          ],
+          "usage": "Maneuver",
+          "distance": "4 aura",
+          "target": "Self and each creature in the area",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Until the end of the encounter or until you are dying, each enemy in the area takes a bane on power rolls, and you and each ally in the area gain 1 surge at the end of each of your turns."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Cuirass of the Gods",
+          "cost": "9 Piety",
+          "flavor": "Your allies are covered in spiritual armor.",
+          "keywords": [
+            "Area",
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Maneuver",
+          "distance": "Ranged 10",
+          "target": "Three creatures",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You can target yourself instead of one creature with this ability. Each target has damage immunity 5 until the start of your next turn."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Gods' Machine",
+          "cost": "9 Piety",
+          "flavor": "You conjure a whirring tank made of blades and metal.",
+          "keywords": [
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "Special",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You conjure a size 2 rolling machine that appears in an unoccupied space within distance. The machine has 50 Stamina and immunity all to poison and psychic damage. It disappears at the end of the encounter, if its Stamina drops to 0, or if you are dying. When the machine first appears, make the following power roll once, targeting each enemy adjacent to it."
+            },
+            {
+              "effect": "Once on each subsequent turn, you can use a free maneuver to move the machine a number of squares up to your Intuition score then repeat the power roll.",
+              "roll": "Power Roll + Intuition",
+              "tier1": "3 damage",
+              "tier2": "5 damage",
+              "tier3": "8 damage"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Invocation of Mystery",
+          "cost": "9 Piety",
+          "flavor": "\"Now you see us...\"",
+          "keywords": [
+            "Area",
+            "Magic"
+          ],
+          "usage": "Maneuver",
+          "distance": "4 burst",
+          "target": "Self and each ally in the area",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Each target is invisible until the start of your next turn."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Invocation of Undoing",
+          "cost": "9 Piety",
+          "flavor": "You utter a secret word of destruction known only to deities.",
+          "keywords": [
+            "Area",
+            "Magic"
+          ],
+          "usage": "Main action",
+          "distance": "4 burst",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "3 sonic damage; push 3",
+              "tier2": "6 sonic damage; push 5",
+              "tier3": "9 sonic damage; push 7"
+            },
+            {
+              "name": "Special",
+              "effect": "You can choose to have this ability deal damage to and push objects, and to deal damage to buildings."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Lauded by God",
+          "cost": "9 Piety",
+          "flavor": "You beseech the gods to give your allies what they need to win the day, and the gods answer.",
+          "keywords": [
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Maneuver",
+          "distance": "Ranged 10",
+          "target": "Two allies",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Each target gains 3 of their Heroic Resource."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Lightning Lord",
+          "cost": "9 Piety",
+          "flavor": "Lightning bursts forth from your body in several directions.",
+          "keywords": [
+            "Area",
+            "Magic"
+          ],
+          "usage": "Main action",
+          "distance": "Three 10 x 1 lines within 1",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "6 lightning damage; push 1",
+              "tier2": "9 lightning damage; push 2",
+              "tier3": "13 lightning damage; push 3"
+            },
+            {
+              "name": "Effect",
+              "effect": "The targets are force moved one at a time, starting with the target nearest to you, and can be pushed into other targets in the same line."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Revitalizing Grace",
+          "cost": "9 Piety",
+          "flavor": "With a gesture, you restore your health and that of your allies.",
+          "keywords": [
+            "Area",
+            "Magic"
+          ],
+          "usage": "Main action",
+          "distance": "4 burst",
+          "target": "Self and each ally in the area",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Each target can spend any number of Recoveries. Additionally, each target can end one effect on themself that is ended by a saving throw or that ends at the end of their turn, or they can stand up if prone."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Spirit Stampede",
+          "cost": "9 Piety",
+          "flavor": "Animal spirits run through the battlefield, trampling your foes.",
+          "keywords": [
+            "Area",
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "10 x 2 line within 5",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "5 damage; M < WEAK, prone and can't stand (save ends)",
+              "tier2": "8 damage; M < AVERAGE, prone and can't stand (save ends)",
+              "tier3": "11 damage; M < STRONG, prone and can't stand (save ends)"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Your Story Ends Here",
+          "cost": "9 Piety",
+          "flavor": "You bend the fate of a foe, willing them to die.",
+          "keywords": [
+            "Magic",
+            "Ranged",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "9 + I corruption damage; R < WEAK, weakened (save ends)",
+              "tier2": "14 + I corruption damage; R < AVERAGE, weakened (save ends)",
+              "tier3": "19 + I corruption damage; R < STRONG, weakened (save ends)"
+            },
+            {
+              "name": "Effect",
+              "effect": "If this damage kills the target, you and each ally within distance can spend a Recovery."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

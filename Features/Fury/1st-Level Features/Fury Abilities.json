@@ -1,0 +1,344 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "Fury Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "fury",
+    "feature_type": "trait",
+    "file_basename": "Fury Abilities",
+    "file_dpath": "Fury/1st-Level Features",
+    "item_id": "fury-abilities",
+    "item_index": "04",
+    "item_name": "Fury Abilities",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.fury.1st-level-feature:fury-abilities"
+    ],
+    "scdc": [
+      "1.1.1:11.1.5.1:04"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/fury/1st-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "You specialize in dealing massive damage on the battlefield, and have mastered unique martial abilities that allow you to strike hard and keep moving.\n\n##### Signature Ability\nChoose one signature ability from the following options. Signature abilities can be used at will. (*Quick Build:* To the Death!)",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Brutal Slam",
+          "flavor": "The heavy impact of your weapon attacks drives your foes ever back.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "3 + M damage; push 1",
+              "tier2": "6 + M damage; push 2",
+              "tier3": "9 + M damage; push 4"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Hit and Run",
+          "flavor": "Staying in constant motion helps you slip out of reach after a brutal assault.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "2 + M damage",
+              "tier2": "5 + M damage",
+              "tier3": "7 + M damage; A < STRONG, slowed (save ends)"
+            },
+            {
+              "name": "Effect",
+              "effect": "You can shift 1 square."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Impaled!",
+          "flavor": "You skewer your enemy like a boar upon a spit.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature of your size or smaller",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "2 + M damage; M < WEAK, grabbed",
+              "tier2": "5 + M damage; M < AVERAGE, grabbed",
+              "tier3": "7 + M damage; M < STRONG, grabbed"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "To the Death!",
+          "flavor": "Your reckless assault leaves you tactically vulnerable.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "3 + M damage",
+              "tier2": "6 + M damage",
+              "tier3": "9 + M damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "You gain 2 surges, and the target can make an opportunity attack against you as a free triggered action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### Heroic Abilities\n\nYou fight with an array of heroic abilities, all of which cost ferocity to fuel them.\n###### 3-Ferocity Ability\nChoose one heroic ability from the following options, each of which costs 3 ferocity to use. (*Quick Build:* Back!)",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Back!",
+          "cost": "3 Ferocity",
+          "flavor": "You hew about you with your mighty weapon, hurling enemies backward.",
+          "keywords": [
+            "Area",
+            "Melee",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "1 burst",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "5 damage",
+              "tier2": "8 damage; push 1",
+              "tier3": "11 damage; push 3"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Out of the Way!",
+          "cost": "3 Ferocity",
+          "flavor": "Your enemies will clear your path—whether they want to or not.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "3 + M damage; slide 2",
+              "tier2": "5 + M damage; slide 3",
+              "tier3": "8 + M damage; slide 5"
+            },
+            {
+              "name": "Effect",
+              "effect": "When you slide the target, you can move into any square they leave. If you take damage from an opportunity attack by moving this way, the target takes the same damage."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Tide of Death",
+          "cost": "3 Ferocity",
+          "flavor": "Teach them the folly of lining up for you.",
+          "keywords": [
+            "Melee",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Self; see below",
+          "target": "Self",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You move up to your speed in a straight line, and enemy squares are not difficult terrain for this movement. You can end this movement in a creature's space and move them to an adjacent unoccupied space. You make one power roll that targets each enemy whose space you move through."
+            },
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "2 damage",
+              "tier2": "3 damage",
+              "tier3": "5 damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "The last target you damage takes extra damage equal to your Might score for each opportunity attack you trigger during your move."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Your Entrails Are Your Extrails!",
+          "cost": "3 Ferocity",
+          "flavor": "Hard for them to fight when they're busy holding in their giblets.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "3 + M damage; M < WEAK, bleeding (save ends)",
+              "tier2": "5 + M damage; M < AVERAGE, bleeding (save ends)",
+              "tier3": "8 + M damage; M < STRONG, bleeding (save ends)"
+            },
+            {
+              "name": "Effect",
+              "effect": "While bleeding this way, the target takes damage equal to your Might score at the end of each of your turns."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "###### 5-Ferocity Ability\n\nChoose one heroic ability from the following options, each of which costs 5 ferocity to use. (*Quick Build:* Blood for Blood!)",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Blood for Blood!",
+          "cost": "5 Ferocity",
+          "flavor": "See how well they fight after you've bled them dry.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "4 + M damage; M < WEAK, bleeding and weakened (save ends)",
+              "tier2": "6 + M damage; M < AVERAGE, bleeding and weakened (save ends)",
+              "tier3": "10 + M damage; M < STRONG, bleeding and weakened (save ends)"
+            },
+            {
+              "name": "Effect",
+              "effect": "You can deal 1d6 damage to yourself to deal an extra 1d6 damage to the target."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Make Peace With Your God!",
+          "cost": "5 Ferocity",
+          "flavor": "Anger is your energy.",
+          "keywords": [
+            "-"
+          ],
+          "usage": "Free maneuver",
+          "distance": "Self",
+          "target": "Self",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You gain 1 surge, and the next ability roll you make this turn automatically obtains a tier 3 outcome."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Thunder Roar",
+          "cost": "5 Ferocity",
+          "flavor": "You unleash a howl that hurls your enemies back.",
+          "keywords": [
+            "Area",
+            "Melee",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "5 x 1 line within 1",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "6 damage; push 2",
+              "tier2": "9 damage; push 4",
+              "tier3": "13 damage; push 6"
+            },
+            {
+              "name": "Effect",
+              "effect": "The targets are force moved one at a time, starting with the target nearest to you, and can be pushed into other targets in the same line."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "To the Uttermost End",
+          "cost": "5 Ferocity",
+          "flavor": "You gut your life force to ensure a foe's demise.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "7 + M damage",
+              "tier2": "11 + M damage",
+              "tier3": "16 + M damage"
+            },
+            {
+              "cost": "Spend 1+ Ferocity",
+              "effect": "While you are winded, this ability deals an extra 1d6 damage for each ferocity spent. While you are dying, it deals an extra 1d10 damage for each ferocity spent. In either case, you lose 1d6 Stamina after making this strike."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

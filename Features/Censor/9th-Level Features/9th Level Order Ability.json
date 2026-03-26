@@ -1,0 +1,184 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "9th-Level Order Ability",
+  "metadata": {
+    "action_type": "feature",
+    "class": "censor",
+    "feature_type": "trait",
+    "file_basename": "9th Level Order Ability",
+    "file_dpath": "Censor/9th-Level Features",
+    "item_id": "9th-level-order-ability",
+    "item_index": "01",
+    "item_name": "9th-Level Order Ability",
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1:feature.trait.censor.9th-level-feature:9th-level-order-ability"
+    ],
+    "scdc": [
+      "1.1.1:11.1.7.8:01"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "feature/trait/censor/9th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Your censor order grants your choice of one of two heroic abilities.\n\n##### 9th-Level Exorcist Abilities\nChoose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Banish",
+          "cost": "11 Wrath",
+          "flavor": "You sever the target's tenuous connection to the world.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "5 + M damage; P < WEAK, the target is banished (save ends)",
+              "tier2": "8 + M damage; P < AVERAGE, the target is banished (save ends)",
+              "tier3": "11 + M damage; P < STRONG, the target is banished (save ends)"
+            },
+            {
+              "name": "Effect",
+              "effect": "This ability gains an edge against demons, devils, undead, and creatures not native to your current world. If you know the target's true name, this ability has a double edge. While banished, the target is sent to another manifold in the timescape and removed from the encounter map. A banished target can do nothing but make saving throws, and takes 10 holy damage each time they do so. If the target is reduced to 0 Stamina while banished, they are lost to the timescape."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Terror Manifest",
+          "cost": "11 Wrath",
+          "flavor": "\"I know what you fear.\"",
+          "keywords": [
+            "Magic",
+            "Ranged",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Presence",
+              "tier1": "7 + P psychic damage; P < WEAK, frightened (save ends)",
+              "tier2": "10 + P psychic damage; P < AVERAGE, frightened (save ends)",
+              "tier3": "13 + P psychic damage; P < STRONG, frightened (save ends)"
+            },
+            {
+              "name": "Effect",
+              "effect": "While frightened this way, if a target who is a leader or solo creature is winded, they take an extra 25 psychic damage. If a target frightened this way is not a leader or solo creature and is winded, they are reduced to 0 Stamina."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### 9th-Level Oracle Abilities\n\nChoose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Blessing and a Curse",
+          "cost": "11 Wrath",
+          "flavor": "The gods bless and damn in equal measure.",
+          "keywords": [
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Triggered",
+          "distance": "Ranged 10",
+          "target": "One creature",
+          "trigger": "The target makes a power roll.",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "The target obtains a tier 1 or tier 3 outcome on their power roll (your choice). You can then choose another target within distance, who obtains the opposite outcome on their next power roll."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Fulfill Your Destiny",
+          "cost": "11 Wrath",
+          "flavor": "You have looked at various futures, and only this one works.",
+          "keywords": [
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Triggered",
+          "distance": "Ranged 10",
+          "target": "One ally",
+          "trigger": "You or another hero ends their turn.",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "The target takes their turn after the triggering hero, and immediately removes all conditions and negative effects on themself. During their turn, the target has a double edge on power rolls."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "##### 9th-Level Paragon Abilities\n\nChoose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Apostate",
+          "cost": "11 Wrath",
+          "flavor": "You channel holy energy to seal an enemy's fate.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "13 + M holy damage",
+              "tier2": "19 + M holy damage",
+              "tier3": "26 + M holy damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "Until the end of the encounter or until you are dying, the target has damage weakness 10."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Edict of Unyielding Resolve",
+          "cost": "11 Wrath",
+          "flavor": "You and your allies are clad in shimmering armor.",
+          "keywords": [
+            "Area",
+            "Magic"
+          ],
+          "usage": "Maneuver",
+          "distance": "2 aura",
+          "target": "Self and each ally in the area",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Until the end of the encounter or until you are dying, each target who starts their turn in the area gains 10 temporary Stamina."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
