@@ -5,7 +5,7 @@
   "metadata": {
     "action_type": "feature",
     "class": "talent",
-    "feature_type": "trait",
+    "feature_type": "subtrait",
     "file_basename": "Battle Augmentation",
     "file_dpath": "Talent/1st-Level Features/Psionic Augmentation",
     "item_id": "battle-augmentation",
@@ -13,13 +13,13 @@
     "item_name": "Battle Augmentation",
     "level": 1,
     "scc": [
-      "mcdm.heroes.v1:subfeature.trait.talent.1st-level-feature:battle-augmentation"
+      "mcdm.heroes.v1:feature.subtrait.talent.1st-level-feature:battle-augmentation"
     ],
     "scdc": [
-      "1.1.1:12.1.1.6:15"
+      "1.1.1:11.2.1.6:15"
     ],
     "source": "mcdm.heroes.v1",
-    "type": "subfeature/trait/talent/1st-level-feature"
+    "type": "feature/subtrait/talent/1st-level-feature"
   },
   "effects": [
     {
