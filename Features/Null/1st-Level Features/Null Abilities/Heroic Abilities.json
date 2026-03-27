@@ -1,0 +1,247 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "Heroic Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "null",
+    "feature_type": "trait",
+    "file_basename": "Heroic Abilities",
+    "file_dpath": "Null/1st-Level Features/Null Abilities",
+    "item_id": "heroic-abilities",
+    "item_index": "04",
+    "item_name": "Heroic Abilities",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:subfeature.trait.null.1st-level-feature:heroic-abilities"
+    ],
+    "scdc": [
+      "1.1.1:12.1.6.5:04"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "subfeature/trait/null/1st-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "You have mastered a range of heroic abilities, all of them channeled through your discipline.\n\n###### 3-Discipline Ability\nChoose one heroic ability from the following options, each of which costs 3 discipline to use. (*Quick Build:* Chronal Spike.)",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Chronal Spike",
+          "cost": "3 Discipline",
+          "flavor": "You foresee the best moment to strike, then exploit it.",
+          "keywords": [
+            "Melee",
+            "Psionic",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "7 + A damage",
+              "tier2": "10 + A damage",
+              "tier3": "13 + A damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "You can shift up to half your speed before or after you make this strike. Additionally, whenever an effect lets you make a free strike or use a signature ability, you can use this ability instead, paying its discipline cost as usual."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Psychic Pulse",
+          "cost": "3 Discipline",
+          "flavor": "A burst of psionic energy interferes with your enemy's synapses.",
+          "keywords": [
+            "Area",
+            "Psionic"
+          ],
+          "usage": "Maneuver",
+          "distance": "2 burst",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Each target takes psychic damage equal to twice your Intuition score. Until the start of your next turn, the size of your Null Field ability increases by 1. At the end of your current turn, each enemy in the area of your Null Field ability takes psychic damage equal to your Intuition score."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Relentless Nemesis",
+          "cost": "3 Discipline",
+          "flavor": "You strike, and for the next few moments, your enemy can't escape you.",
+          "keywords": [
+            "Melee",
+            "Psionic",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "6 + A damage",
+              "tier2": "8 + A damage",
+              "tier3": "12 + A damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "Until the start of your next turn, whenever the target finishes moving or being force moved, you can use a free triggered action to shift up to your speed. You must end this shift adjacent to the target."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Stunning Blow",
+          "cost": "3 Discipline",
+          "flavor": "You focus your psionic technique into a concussive punch.",
+          "keywords": [
+            "Melee",
+            "Psionic",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "4 + A damage; I < WEAK, dazed and slowed (save ends)",
+              "tier2": "5 + A damage; I < AVERAGE, dazed and slowed (save ends)",
+              "tier3": "7 + A damage; I < STRONG, dazed and slowed (save ends)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "###### 5-Discipline Ability\n\nChoose one heroic ability from the following options, each of which costs 5 discipline to use. (*Quick Build:* A Squad Unto Myself.)",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Arcane Disruptor",
+          "cost": "5 Discipline",
+          "flavor": "Your blow reorders a foe's body, causing pain if they attempt to channel sorcery.",
+          "keywords": [
+            "Melee",
+            "Psionic",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "8 + **A** psychic damage; M < WEAK, weakened (save ends)",
+              "tier2": "12 + **A** psychic damage; M < AVERAGE, weakened (save ends)",
+              "tier3": "16 + **A** psychic damage; M < STRONG, weakened (save ends)"
+            },
+            {
+              "name": "Effect",
+              "effect": "While weakened this way, the target takes damage equal to your Intuition score whenever they use a supernatural ability that costs Malice."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Impart Force",
+          "cost": "5 Discipline",
+          "flavor": "A single touch from you, and your enemy flies backward.",
+          "keywords": [
+            "Melee",
+            "Psionic",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Maneuver",
+          "distance": "Melee 1",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "Push 3",
+              "tier2": "Push 5",
+              "tier3": "Push 7"
+            },
+            {
+              "name": "Effect",
+              "effect": "An object you target must be your size or smaller. You gain an edge on this ability. Additionally, for each square you push the target, they take 1 psychic damage."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Phase Strike",
+          "cost": "5 Discipline",
+          "flavor": "For a moment, your foe slips out of phase with this manifold.",
+          "keywords": [
+            "Melee",
+            "Psionic",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "3 + A psychic damage; I < WEAK, the target goes out of phase (save ends)",
+              "tier2": "4 + A psychic damage; I < AVERAGE, the target goes out of phase (save ends)",
+              "tier3": "6 + A psychic damage; I < STRONG, the target goes out of phase (save ends)"
+            },
+            {
+              "name": "Effect",
+              "effect": "A target who goes out of phase is slowed, has their stability reduced by 2, and can't obtain a tier 3 outcome on ability rolls."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "A Squad Unto Myself",
+          "cost": "5 Discipline",
+          "flavor": "You move so quickly, it seems as though an army assaulted your foes.",
+          "keywords": [
+            "Area",
+            "Psionic",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "2 burst",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "6 damage",
+              "tier2": "9 damage",
+              "tier3": "13 damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "You can take the Disengage move action as a free maneuver before or after you use this ability."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

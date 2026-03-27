@@ -1,0 +1,95 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "9th-Level Vanguard Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "tactician",
+    "feature_type": "trait",
+    "file_basename": "9th Level Vanguard Abilities",
+    "file_dpath": "Tactician/9th-Level Features/9th-Level Doctrine Ability",
+    "item_id": "9th-level-vanguard-abilities",
+    "item_index": "02",
+    "item_name": "9th-Level Vanguard Abilities",
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1:subfeature.trait.tactician.9th-level-feature:9th-level-vanguard-abilities"
+    ],
+    "scdc": [
+      "1.1.1:12.1.4.2:02"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "subfeature/trait/tactician/9th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "No Escape",
+          "cost": "11 Focus",
+          "flavor": "Nothing will stop you from reaching your foe.",
+          "keywords": [
+            "Charge",
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You mark the target."
+            },
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "11 + M damage",
+              "tier2": "16 + M damage",
+              "tier3": "21 + M damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "If you use this ability as part of the Charge main action, enemies' spaces don't count as difficult terrain for your movement. Additionally, if you move through any creature's space, you can slide that creature 1 square out of the path of your charge."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "That One Is Mine!",
+          "cost": "11 Focus",
+          "flavor": "You focus on making an enemy irrelevant.",
+          "keywords": [
+            "Melee",
+            "Ranged",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1 or ranged 5",
+          "target": "One creature",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "The target is marked by you."
+            },
+            {
+              "roll": "Power Roll + Might",
+              "tier1": "8 + M damage",
+              "tier2": "13 + M damage",
+              "tier3": "17 + M damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "Until the end of the encounter or until you are dying, you can use a signature or heroic ability instead of a free strike against any target marked by you."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

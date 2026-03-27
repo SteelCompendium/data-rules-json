@@ -1,0 +1,259 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "Heroic Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "elementalist",
+    "feature_type": "trait",
+    "file_basename": "Heroic Abilities",
+    "file_dpath": "Elementalist/1st-Level Features/Elementalist Abilities",
+    "item_id": "heroic-abilities",
+    "item_index": "10",
+    "item_name": "Heroic Abilities",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:subfeature.trait.elementalist.1st-level-feature:heroic-abilities"
+    ],
+    "scdc": [
+      "1.1.1:12.1.9.7:10"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "subfeature/trait/elementalist/1st-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "You channel a variety of heroic abilities, all of them fueled by your essence.\n\n###### 3-Essence Ability\nChoose one heroic ability from the following options, each of which costs 3 essence to use. (*Quick Build:* The Flesh, a Crucible.)",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Behold the Mystery",
+          "cost": "3 Essence",
+          "flavor": "You open a rift into the void to harry your foes.",
+          "keywords": [
+            "Area",
+            "Magic",
+            "Ranged",
+            "Void"
+          ],
+          "usage": "Main action",
+          "distance": "3 cube within 10",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "2 psychic damage",
+              "tier2": "4 psychic damage",
+              "tier3": "6 psychic damage"
+            },
+            {
+              "name": "Persistent 1",
+              "effect": "At the start of your turn, you can use a maneuver to use this ability again without spending essence."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "The Flesh, a Crucible",
+          "cost": "3 Essence",
+          "flavor": "Fire engulfs your target and continues to churn.",
+          "keywords": [
+            "Fire",
+            "Magic",
+            "Ranged",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature or object",
+          "effects": [
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "5 + R fire damage",
+              "tier2": "8 + R fire damage",
+              "tier3": "11 + R fire damage"
+            },
+            {
+              "name": "Persistent 1",
+              "effect": "If the target is within distance at the start of your turn, you can make the power roll again without spending essence (no action required)."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Invigorating Growth",
+          "cost": "3 Essence",
+          "flavor": "Mushrooms erupt from a foe, sapping their vitality to spread strengthening spores.",
+          "keywords": [
+            "Green",
+            "Magic",
+            "Ranged",
+            "Strike"
+          ],
+          "usage": "Main action",
+          "distance": "Ranged 10",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "4 + R poison damage",
+              "tier2": "7 + R poison damage",
+              "tier3": "11 + R poison damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "Mushrooms cover the target's body. While the mushrooms are on the target, you and any ally adjacent to the target gain 1 surge whenever the target takes damage. The mushrooms can be removed by the target or an adjacent creature as a main action."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Ripples in the Earth",
+          "cost": "3 Essence",
+          "flavor": "Like a stone was dropped into a pond, waves in the earth radiate from you.",
+          "keywords": [
+            "Area",
+            "Earth",
+            "Magic"
+          ],
+          "usage": "Main action",
+          "distance": "2 burst",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "3 damage",
+              "tier2": "5 damage",
+              "tier3": "8 damage; M < STRONG, prone"
+            },
+            {
+              "name": "Effect",
+              "effect": "You must be touching the ground to use this ability. Additionally, you can choose a square of ground in the area that is unoccupied or is occupied by you or any ally. A pillar of earth rises out of the ground in that square, with a height in squares up to your Reason score. The pillar can't collide with any creatures or objects, nor can it force creatures raised by it to collide with other creatures or objects."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "###### 5-Essence Ability\n\nChoose one heroic ability from the following options, each of which costs 5 essence to use. (*Quick Build:* Conflagration.)",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Conflagration",
+          "cost": "5 Essence",
+          "flavor": "A storm of fire descends upon your enemies.",
+          "keywords": [
+            "Area",
+            "Fire",
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "3 cube within 10",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "4 fire damage",
+              "tier2": "6 fire damage",
+              "tier3": "10 fire damage"
+            },
+            {
+              "name": "Persistent 2",
+              "effect": "At the start of your turn, you can use a maneuver to use this ability again without spending essence."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Instantaneous Excavation",
+          "cost": "5 Essence",
+          "flavor": "The surface of the world around you opens up to swallow foes.",
+          "keywords": [
+            "Earth",
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Maneuver",
+          "distance": "Ranged 10",
+          "target": "Special",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You open up two holes with 1-square openings that are 4 squares deep, which can be placed on any mundane surface within distance. You can place these holes next to each other to create fewer holes with wider openings. When the holes open, make a separate power roll for each creature on the ground above a hole and small enough to fall in. (You can't score a critical hit with this ability because it uses a maneuver.)"
+            },
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "The target can shift 1 square from the edge of the hole to the nearest unoccupied space of their choice.",
+              "tier2": "The target falls into the hole.",
+              "tier3": "The target falls into the hole and can't reduce the height of the fall."
+            },
+            {
+              "name": "Persistent 1",
+              "effect": "At the start of your turn, you open another hole, making a power roll against each creature who could fall into the hole when it opens without spending essence."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "No More Than a Breeze",
+          "cost": "5 Essence",
+          "flavor": "The material substance of a creature shreds away at your command.",
+          "keywords": [
+            "Magic",
+            "Ranged",
+            "Void"
+          ],
+          "usage": "Maneuver",
+          "distance": "Ranged 10",
+          "target": "Self or one ally",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Until the start of your next turn, the target can move through solid matter, they ignore difficult terrain, and their movement can't provoke opportunity attacks. If the target ends their turn inside solid matter, they are forced out into the space where they entered it and this effect ends."
+            },
+            {
+              "name": "Persistent 1",
+              "effect": "The effect lasts until the start of your next turn."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Test of Rain",
+          "cost": "5 Essence",
+          "flavor": "You call down a rain that burns your enemies and restores your allies.",
+          "keywords": [
+            "Area",
+            "Green",
+            "Magic",
+            "Ranged"
+          ],
+          "usage": "Main action",
+          "distance": "3 cube within 10",
+          "target": "Each enemy in the area",
+          "effects": [
+            {
+              "roll": "Power Roll + Reason",
+              "tier1": "4 acid damage",
+              "tier2": "6 acid damage",
+              "tier3": "10 acid damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "You can end one effect on yourself that is ended by a saving throw or that ends at the end of your turn. Each ally in the area also gains this benefit."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

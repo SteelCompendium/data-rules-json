@@ -1,0 +1,78 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "Virtuoso Performances",
+  "metadata": {
+    "action_type": "feature",
+    "class": "troubadour",
+    "feature_type": "trait",
+    "file_basename": "Virtuoso Performances",
+    "file_dpath": "Troubadour/1st-Level Features/1st-Level Class Act Features",
+    "item_id": "virtuoso-performances",
+    "item_index": "03",
+    "item_name": "Virtuoso Performances",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1:subfeature.trait.troubadour.1st-level-feature:virtuoso-performances"
+    ],
+    "scdc": [
+      "1.1.1:12.1.3.8:03"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "subfeature/trait/troubadour/1st-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "You have the following performance abilities, which are usable with your Routines feature.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "\"Thunder Mother\"",
+          "flavor": "All for thunder motherrr! ♪ Run and hide for coverrr!♪",
+          "keywords": [
+            "Magic",
+            "Performance",
+            "Ranged",
+            "Strike"
+          ],
+          "usage": "No action",
+          "distance": "Ranged 10",
+          "target": "One creature",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "At the end of each combat round while this performance is active, you can make a power roll against the target that ignores cover. You can't target the same creature twice with this effect."
+            },
+            {
+              "roll": "Power Roll + Presence",
+              "tier1": "Lightning damage equal to your level",
+              "tier2": "Lightning damage equal to 5 + your level",
+              "tier3": "Lightning damage equal to 10 + your level"
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "\"Ballad of the Beast\"",
+          "flavor": "Teeth are bare! ♪ Eyes black! ♪ No escaping the beast!♪",
+          "keywords": [
+            "Area",
+            "Magic",
+            "Performance"
+          ],
+          "usage": "No action",
+          "distance": "5 aura",
+          "target": "Self and each ally in the area",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "While this performance is active, each target who starts their turn in the area gains 1 surge."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

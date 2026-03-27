@@ -1,0 +1,79 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "2nd-Level Duelist Ability",
+  "metadata": {
+    "action_type": "feature",
+    "class": "troubadour",
+    "feature_type": "trait",
+    "file_basename": "2nd Level Duelist Ability",
+    "file_dpath": "Troubadour/2nd-Level Features/2nd-Level Class Act Ability",
+    "item_id": "2nd-level-duelist-ability",
+    "item_index": "02",
+    "item_name": "2nd-Level Duelist Ability",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1:subfeature.trait.troubadour.2nd-level-feature:2nd-level-duelist-ability"
+    ],
+    "scdc": [
+      "1.1.1:12.1.3.4:02"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "subfeature/trait/troubadour/2nd-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Classic Chandelier Stunt",
+          "cost": "5 Drama",
+          "flavor": "Audiences love this bit.",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "Self and one willing ally",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "Each target can shift up to 5 squares, including vertically, but must end this movement adjacent to the other target and on solid ground. Each target can then make a melee free strike that deals extra damage equal to twice their highest characteristic score."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "En Garde!",
+          "cost": "5 Drama",
+          "flavor": "Wait, it's... Guard! Turn! Parry! Dodge! Spin! Thrust! Ha!",
+          "keywords": [
+            "Melee",
+            "Strike",
+            "Weapon"
+          ],
+          "usage": "Main action",
+          "distance": "Melee 1",
+          "target": "One creature",
+          "effects": [
+            {
+              "roll": "Power Roll + Agility",
+              "tier1": "7 + **A** damage",
+              "tier2": "11 + **A** damage",
+              "tier3": "16 + **A** damage"
+            },
+            {
+              "name": "Effect",
+              "effect": "The target can make a melee free strike against you. If they do, you can make a melee free strike against the target."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "type": "feature",
+  "feature_type": "trait",
+  "name": "9th-Level Chronokinetic Abilities",
+  "metadata": {
+    "action_type": "feature",
+    "class": "null",
+    "feature_type": "trait",
+    "file_basename": "9th Level Chronokinetic Abilities",
+    "file_dpath": "Null/9th-Level Features/9th-Level Tradition Ability",
+    "item_id": "9th-level-chronokinetic-abilities",
+    "item_index": "01",
+    "item_name": "9th-Level Chronokinetic Abilities",
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1:subfeature.trait.null.9th-level-feature:9th-level-chronokinetic-abilities"
+    ],
+    "scdc": [
+      "1.1.1:12.1.6.1:01"
+    ],
+    "source": "mcdm.heroes.v1",
+    "type": "subfeature/trait/null/9th-level-feature"
+  },
+  "effects": [
+    {
+      "effect": "Choose one of the following abilities.",
+      "features": [
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Arrestor Cycle",
+          "cost": "11 Discipline",
+          "flavor": "You trap your foe in a looping cycle of time, where they relive the last few seconds over and over again.",
+          "keywords": [
+            "Psionic",
+            "Ranged"
+          ],
+          "usage": "Free triggered",
+          "distance": "Ranged 10",
+          "target": "One creature",
+          "trigger": "The triggering creature starts their turn.",
+          "effects": [
+            {
+              "roll": "Power Roll + Intuition",
+              "tier1": "I < WEAK, the target loses their turn",
+              "tier2": "I < AVERAGE, the target loses their turn",
+              "tier3": "I < STRONG, the target loses their turn"
+            },
+            {
+              "name": "Effect",
+              "effect": "If the target loses their turn, the round continues as if they had acted. A target who doesn't lose their turn takes psychic damage equal to twice your Intuition score for each main action they take until the end of their next turn."
+            }
+          ]
+        },
+        {
+          "type": "feature",
+          "feature_type": "ability",
+          "name": "Time Loop",
+          "cost": "11 Discipline",
+          "flavor": "You show shadows what true speed is.",
+          "keywords": [
+            "Psionic"
+          ],
+          "usage": "Free triggered",
+          "distance": "Self",
+          "target": "Self",
+          "trigger": "Another creature on the encounter map ends their turn.",
+          "effects": [
+            {
+              "name": "Effect",
+              "effect": "You take a bonus turn immediately after the triggering creature. This ability can be used only once per combat round."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
