@@ -650,7 +650,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:behold-the-mystery-3-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:behold-the-mystery"
       ],
       "scdc": [
         "1.1.1:11.3.9.1:17"
@@ -761,7 +761,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:no-more-than-a-breeze-5-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:no-more-than-a-breeze"
       ],
       "scdc": [
         "1.1.1:11.3.9.1:07"
@@ -817,7 +817,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:test-of-rain-5-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:test-of-rain"
       ],
       "scdc": [
         "1.1.1:11.3.9.1:15"
@@ -1066,7 +1066,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:ripples-in-the-earth-3-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:ripples-in-the-earth"
       ],
       "scdc": [
         "1.1.1:11.3.9.1:08"
@@ -1438,7 +1438,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:the-flesh-a-crucible-3-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:the-flesh-a-crucible"
       ],
       "scdc": [
         "1.1.1:11.3.9.1:16"
@@ -1598,7 +1598,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:instantaneous-excavation-5-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:instantaneous-excavation"
       ],
       "scdc": [
         "1.1.1:11.3.9.1:20"
@@ -1707,7 +1707,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:conflagration-5-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:conflagration"
       ],
       "scdc": [
         "1.1.1:11.3.9.1:25"
@@ -1816,7 +1816,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:invigorating-growth-3-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:invigorating-growth"
       ],
       "scdc": [
         "1.1.1:11.3.9.1:23"
@@ -1872,7 +1872,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:heart-of-the-wode-11-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:heart-of-the-wode"
       ],
       "scdc": [
         "1.1.1:11.3.9.2:02"
@@ -1924,7 +1924,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:muse-of-fire-11-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:muse-of-fire"
       ],
       "scdc": [
         "1.1.1:11.3.9.2:01"
@@ -1980,7 +1980,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:world-torn-asunder-11-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:world-torn-asunder"
       ],
       "scdc": [
         "1.1.1:11.3.9.2:06"
@@ -2038,7 +2038,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:unquenchable-fire-11-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:unquenchable-fire"
       ],
       "scdc": [
         "1.1.1:11.3.9.2:09"
@@ -2092,7 +2092,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:prism-11-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:prism"
       ],
       "scdc": [
         "1.1.1:11.3.9.2:05"
@@ -2252,7 +2252,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:earth-rejects-you-11-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:earth-rejects-you"
       ],
       "scdc": [
         "1.1.1:11.3.9.2:03"
@@ -2310,7 +2310,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:return-to-oblivion-11-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:return-to-oblivion"
       ],
       "scdc": [
         "1.1.1:11.3.9.2:07"
@@ -2360,7 +2360,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:the-green-defends-its-servants-11-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:the-green-defends-its-servants"
       ],
       "scdc": [
         "1.1.1:11.3.9.2:08"
@@ -2418,7 +2418,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.6th-level-feature:luminous-champion-aloft-9-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.6th-level-feature:luminous-champion-aloft"
       ],
       "scdc": [
         "1.1.1:11.3.9.3:04"
@@ -2476,7 +2476,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.6th-level-feature:meteor-9-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.6th-level-feature:meteor"
       ],
       "scdc": [
         "1.1.1:11.3.9.3:01"
@@ -2536,7 +2536,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.6th-level-feature:magma-titan-9-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.6th-level-feature:magma-titan"
       ],
       "scdc": [
         "1.1.1:11.3.9.3:02"
@@ -2594,7 +2594,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.6th-level-feature:the-wode-remembers-and-returns-9-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.6th-level-feature:the-wode-remembers-and-returns"
       ],
       "scdc": [
         "1.1.1:11.3.9.3:03"
@@ -2648,7 +2648,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:heart-of-the-wode-11-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:heart-of-the-wode"
       ],
       "scdc": [
         "1.1.1:11.3.9.4:09"
@@ -2700,7 +2700,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:muse-of-fire-11-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:muse-of-fire"
       ],
       "scdc": [
         "1.1.1:11.3.9.4:02"
@@ -2760,7 +2760,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:luminous-champion-aloft-9-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:luminous-champion-aloft"
       ],
       "scdc": [
         "1.1.1:11.3.9.4:08"
@@ -2818,7 +2818,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:meteor-9-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:meteor"
       ],
       "scdc": [
         "1.1.1:11.3.9.4:01"
@@ -2876,7 +2876,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:web-of-all-thats-come-before-9-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:web-of-all-thats-come-before"
       ],
       "scdc": [
         "1.1.1:11.3.9.4:13"
@@ -2940,7 +2940,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:magma-titan-9-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:magma-titan"
       ],
       "scdc": [
         "1.1.1:11.3.9.4:04"
@@ -2994,7 +2994,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:world-torn-asunder-11-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:world-torn-asunder"
       ],
       "scdc": [
         "1.1.1:11.3.9.4:11"
@@ -3159,7 +3159,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:subverted-perception-of-space-9-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:subverted-perception-of-space"
       ],
       "scdc": [
         "1.1.1:11.3.9.4:03"
@@ -3215,7 +3215,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:the-wode-remembers-and-returns-9-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:the-wode-remembers-and-returns"
       ],
       "scdc": [
         "1.1.1:11.3.9.4:06"
@@ -3271,7 +3271,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:combustion-deferred-9-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:combustion-deferred"
       ],
       "scdc": [
         "1.1.1:11.3.9.4:05"
@@ -3329,7 +3329,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:return-to-oblivion-11-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:return-to-oblivion"
       ],
       "scdc": [
         "1.1.1:11.3.9.4:12"
@@ -3381,7 +3381,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:storm-of-sands-9-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:storm-of-sands"
       ],
       "scdc": [
         "1.1.1:11.3.9.4:07"
@@ -3445,7 +3445,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:volcanos-embrace-5-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:volcanos-embrace"
       ],
       "scdc": [
         "1.1.1:11.3.9.5:05"
@@ -3499,7 +3499,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:translated-through-flame-5-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:translated-through-flame"
       ],
       "scdc": [
         "1.1.1:11.3.9.5:03"
@@ -3559,7 +3559,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:subvert-the-green-within-5-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:subvert-the-green-within"
       ],
       "scdc": [
         "1.1.1:11.3.9.5:02"
@@ -3619,7 +3619,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:o-flower-aid-o-earth-defend-5-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:o-flower-aid-o-earth-defend"
       ],
       "scdc": [
         "1.1.1:11.3.9.5:01"
@@ -3720,7 +3720,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:swarm-of-spirits-7-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:swarm-of-spirits"
       ],
       "scdc": [
         "1.1.1:11.3.9.6:04"
@@ -3829,7 +3829,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:maw-of-earth-7-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:maw-of-earth"
       ],
       "scdc": [
         "1.1.1:11.3.9.6:03"
@@ -3887,7 +3887,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:erase-7-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:erase"
       ],
       "scdc": [
         "1.1.1:11.3.9.6:06"
@@ -3949,7 +3949,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:wall-of-fire-7-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:wall-of-fire"
       ],
       "scdc": [
         "1.1.1:11.3.9.6:02"
@@ -4050,7 +4050,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.9th-level-feature:unquenchable-fire-11-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.9th-level-feature:unquenchable-fire"
       ],
       "scdc": [
         "1.1.1:11.3.9.7:04"
@@ -4104,7 +4104,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.9th-level-feature:prism-11-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.9th-level-feature:prism"
       ],
       "scdc": [
         "1.1.1:11.3.9.7:02"
@@ -4156,7 +4156,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.9th-level-feature:earth-rejects-you-11-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.9th-level-feature:earth-rejects-you"
       ],
       "scdc": [
         "1.1.1:11.3.9.7:01"
@@ -4212,7 +4212,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.9th-level-feature:the-green-defends-its-servants-11-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.9th-level-feature:the-green-defends-its-servants"
       ],
       "scdc": [
         "1.1.1:11.3.9.7:03"
@@ -4266,7 +4266,7 @@
       ],
       "level": 4,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.4th-level-feature:heart-of-the-wode-11-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.4th-level-feature:heart-of-the-wode"
       ],
       "scdc": [
         "1.1.1:11.3.9.8:02"
@@ -4318,7 +4318,7 @@
       ],
       "level": 4,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.4th-level-feature:muse-of-fire-11-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.4th-level-feature:muse-of-fire"
       ],
       "scdc": [
         "1.1.1:11.3.9.8:01"
@@ -4374,7 +4374,7 @@
       ],
       "level": 4,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.4th-level-feature:world-torn-asunder-11-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.4th-level-feature:world-torn-asunder"
       ],
       "scdc": [
         "1.1.1:11.3.9.8:04"
@@ -4539,7 +4539,7 @@
       ],
       "level": 4,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.elementalist.4th-level-feature:return-to-oblivion-11-essence"
+        "mcdm.heroes.v1:feature.ability.elementalist.4th-level-feature:return-to-oblivion"
       ],
       "scdc": [
         "1.1.1:11.3.9.8:05"
@@ -4640,7 +4640,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:sermon-of-grace-5-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:sermon-of-grace"
       ],
       "scdc": [
         "1.1.1:11.3.8.1:23"
@@ -4736,7 +4736,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:font-of-wrath-3-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:font-of-wrath"
       ],
       "scdc": [
         "1.1.1:11.3.8.1:04"
@@ -4829,7 +4829,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:corruptions-curse-5-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:corruptions-curse"
       ],
       "scdc": [
         "1.1.1:11.3.8.1:01"
@@ -4930,7 +4930,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:curse-of-terror-5-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:curse-of-terror"
       ],
       "scdc": [
         "1.1.1:11.3.8.1:07"
@@ -5229,7 +5229,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:judgments-hammer-3-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:judgments-hammer"
       ],
       "scdc": [
         "1.1.1:11.3.8.1:17"
@@ -5279,7 +5279,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:faith-is-our-armor-5-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:faith-is-our-armor"
       ],
       "scdc": [
         "1.1.1:11.3.8.1:03"
@@ -5486,7 +5486,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:violence-will-not-aid-thee-3-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:violence-will-not-aid-thee"
       ],
       "scdc": [
         "1.1.1:11.3.8.1:21"
@@ -5542,7 +5542,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:call-the-thunder-down-3-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:call-the-thunder-down"
       ],
       "scdc": [
         "1.1.1:11.3.8.1:08"
@@ -5743,7 +5743,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.8th-level-feature:blessing-of-the-blade-11-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.8th-level-feature:blessing-of-the-blade"
       ],
       "scdc": [
         "1.1.1:11.3.8.2:01"
@@ -5791,7 +5791,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.8th-level-feature:blessing-of-steel-11-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.8th-level-feature:blessing-of-steel"
       ],
       "scdc": [
         "1.1.1:11.3.8.2:03"
@@ -5841,7 +5841,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.8th-level-feature:drag-the-unworthy-11-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.8th-level-feature:drag-the-unworthy"
       ],
       "scdc": [
         "1.1.1:11.3.8.2:04"
@@ -5895,7 +5895,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.8th-level-feature:arise-11-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.8th-level-feature:arise"
       ],
       "scdc": [
         "1.1.1:11.3.8.2:02"
@@ -5943,7 +5943,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:lightning-lord-9-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:lightning-lord"
       ],
       "scdc": [
         "1.1.1:11.3.8.3:03"
@@ -5998,7 +5998,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:invocation-of-mystery-9-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:invocation-of-mystery"
       ],
       "scdc": [
         "1.1.1:11.3.8.3:05"
@@ -6047,7 +6047,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:gods-machine-9-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:gods-machine"
       ],
       "scdc": [
         "1.1.1:11.3.8.3:12"
@@ -6103,7 +6103,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:revitalizing-grace-9-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:revitalizing-grace"
       ],
       "scdc": [
         "1.1.1:11.3.8.3:10"
@@ -6154,7 +6154,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:blade-of-the-heavens-9-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:blade-of-the-heavens"
       ],
       "scdc": [
         "1.1.1:11.3.8.3:08"
@@ -6205,7 +6205,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:aura-of-souls-9-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:aura-of-souls"
       ],
       "scdc": [
         "1.1.1:11.3.8.3:02"
@@ -6254,7 +6254,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:blessing-of-the-midday-sun-9-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:blessing-of-the-midday-sun"
       ],
       "scdc": [
         "1.1.1:11.3.8.3:07"
@@ -6305,7 +6305,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:spirit-stampede-9-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:spirit-stampede"
       ],
       "scdc": [
         "1.1.1:11.3.8.3:04"
@@ -6356,7 +6356,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:lauded-by-god-9-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:lauded-by-god"
       ],
       "scdc": [
         "1.1.1:11.3.8.3:11"
@@ -6407,7 +6407,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:your-story-ends-here-9-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:your-story-ends-here"
       ],
       "scdc": [
         "1.1.1:11.3.8.3:09"
@@ -6462,7 +6462,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:invocation-of-undoing-9-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:invocation-of-undoing"
       ],
       "scdc": [
         "1.1.1:11.3.8.3:06"
@@ -6519,7 +6519,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:cuirass-of-the-gods-9-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:cuirass-of-the-gods"
       ],
       "scdc": [
         "1.1.1:11.3.8.3:01"
@@ -6570,7 +6570,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.5th-level-feature:penance-9-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.5th-level-feature:penance"
       ],
       "scdc": [
         "1.1.1:11.3.8.4:01"
@@ -6620,7 +6620,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.5th-level-feature:sanctuary-9-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.5th-level-feature:sanctuary"
       ],
       "scdc": [
         "1.1.1:11.3.8.4:03"
@@ -6670,7 +6670,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.5th-level-feature:beacon-of-grace-9-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.5th-level-feature:beacon-of-grace"
       ],
       "scdc": [
         "1.1.1:11.3.8.4:04"
@@ -6724,7 +6724,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.5th-level-feature:vessel-of-retribution-9-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.5th-level-feature:vessel-of-retribution"
       ],
       "scdc": [
         "1.1.1:11.3.8.4:02"
@@ -6772,7 +6772,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:wellspring-of-grace-5-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:wellspring-of-grace"
       ],
       "scdc": [
         "1.1.1:11.3.8.5:08"
@@ -6821,7 +6821,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:divine-comedy-5-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:divine-comedy"
       ],
       "scdc": [
         "1.1.1:11.3.8.5:06"
@@ -6870,7 +6870,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:blessing-of-insight-5-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:blessing-of-insight"
       ],
       "scdc": [
         "1.1.1:11.3.8.5:12"
@@ -6921,7 +6921,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:the-gods-command-you-obey-5-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:the-gods-command-you-obey"
       ],
       "scdc": [
         "1.1.1:11.3.8.5:07"
@@ -6974,7 +6974,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:saints-tempest-5-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:saints-tempest"
       ],
       "scdc": [
         "1.1.1:11.3.8.5:01"
@@ -7025,7 +7025,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:reap-5-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:reap"
       ],
       "scdc": [
         "1.1.1:11.3.8.5:10"
@@ -7074,7 +7074,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:statue-of-power-5-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:statue-of-power"
       ],
       "scdc": [
         "1.1.1:11.3.8.5:03"
@@ -7123,7 +7123,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:sacred-bond-5-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:sacred-bond"
       ],
       "scdc": [
         "1.1.1:11.3.8.5:05"
@@ -7172,7 +7172,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:morning-light-5-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:morning-light"
       ],
       "scdc": [
         "1.1.1:11.3.8.5:09"
@@ -7229,7 +7229,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:nature-judges-thee-5-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:nature-judges-thee"
       ],
       "scdc": [
         "1.1.1:11.3.8.5:11"
@@ -7280,7 +7280,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:our-hearts-your-strength-5-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:our-hearts-your-strength"
       ],
       "scdc": [
         "1.1.1:11.3.8.5:04"
@@ -7329,7 +7329,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:blessing-of-fate-and-destiny-5-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:blessing-of-fate-and-destiny"
       ],
       "scdc": [
         "1.1.1:11.3.8.5:02"
@@ -7380,7 +7380,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:fear-of-the-gods-7-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:fear-of-the-gods"
       ],
       "scdc": [
         "1.1.1:11.3.8.6:03"
@@ -7434,7 +7434,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:saints-raiment-7-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:saints-raiment"
       ],
       "scdc": [
         "1.1.1:11.3.8.6:04"
@@ -7484,7 +7484,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:soul-siphon-7-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:soul-siphon"
       ],
       "scdc": [
         "1.1.1:11.3.8.6:01"
@@ -7538,7 +7538,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:words-of-wrath-and-grace-7-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:words-of-wrath-and-grace"
       ],
       "scdc": [
         "1.1.1:11.3.8.6:02"
@@ -7594,7 +7594,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:righteous-phalanx-11-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:righteous-phalanx"
       ],
       "scdc": [
         "1.1.1:11.3.8.7:09"
@@ -7645,7 +7645,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:word-of-weakening-11-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:word-of-weakening"
       ],
       "scdc": [
         "1.1.1:11.3.8.7:06"
@@ -7700,7 +7700,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:divine-dragon-11-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:divine-dragon"
       ],
       "scdc": [
         "1.1.1:11.3.8.7:12"
@@ -7762,7 +7762,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:bend-fate-11-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:bend-fate"
       ],
       "scdc": [
         "1.1.1:11.3.8.7:03"
@@ -7813,7 +7813,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:night-falls-11-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:night-falls"
       ],
       "scdc": [
         "1.1.1:11.3.8.7:05"
@@ -7862,7 +7862,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:blessing-of-the-fortress-11-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:blessing-of-the-fortress"
       ],
       "scdc": [
         "1.1.1:11.3.8.7:04"
@@ -7912,7 +7912,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:word-of-final-redemption-11-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:word-of-final-redemption"
       ],
       "scdc": [
         "1.1.1:11.3.8.7:08"
@@ -7961,7 +7961,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:radiance-of-grace-11-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:radiance-of-grace"
       ],
       "scdc": [
         "1.1.1:11.3.8.7:02"
@@ -8012,7 +8012,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:solar-flare-11-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:solar-flare"
       ],
       "scdc": [
         "1.1.1:11.3.8.7:10"
@@ -8065,7 +8065,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:godstorm-11-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:godstorm"
       ],
       "scdc": [
         "1.1.1:11.3.8.7:07"
@@ -8120,7 +8120,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:alacrity-of-the-heart-11-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:alacrity-of-the-heart"
       ],
       "scdc": [
         "1.1.1:11.3.8.7:01"
@@ -8171,7 +8171,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:thorn-cage-11-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:thorn-cage"
       ],
       "scdc": [
         "1.1.1:11.3.8.7:11"
@@ -8226,7 +8226,7 @@
       ],
       "level": 7,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.7th-level-feature:blessing-of-the-blade-11-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.7th-level-feature:blessing-of-the-blade"
       ],
       "scdc": [
         "1.1.1:11.3.8.8:01"
@@ -8274,7 +8274,7 @@
       ],
       "level": 7,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.7th-level-feature:trinity-of-trickery-9-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.7th-level-feature:trinity-of-trickery"
       ],
       "scdc": [
         "1.1.1:11.3.8.8:06"
@@ -8323,7 +8323,7 @@
       ],
       "level": 7,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.7th-level-feature:blessing-of-steel-11-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.7th-level-feature:blessing-of-steel"
       ],
       "scdc": [
         "1.1.1:11.3.8.8:03"
@@ -8373,7 +8373,7 @@
       ],
       "level": 7,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.7th-level-feature:drag-the-unworthy-11-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.7th-level-feature:drag-the-unworthy"
       ],
       "scdc": [
         "1.1.1:11.3.8.8:04"
@@ -8472,7 +8472,7 @@
       ],
       "level": 7,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.7th-level-feature:arise-11-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.7th-level-feature:arise"
       ],
       "scdc": [
         "1.1.1:11.3.8.8:02"
@@ -8522,7 +8522,7 @@
       ],
       "level": 4,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.4th-level-feature:penance-9-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.4th-level-feature:penance"
       ],
       "scdc": [
         "1.1.1:11.3.8.9:01"
@@ -8572,7 +8572,7 @@
       ],
       "level": 4,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.4th-level-feature:sanctuary-9-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.4th-level-feature:sanctuary"
       ],
       "scdc": [
         "1.1.1:11.3.8.9:04"
@@ -8622,7 +8622,7 @@
       ],
       "level": 4,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.4th-level-feature:beacon-of-grace-9-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.4th-level-feature:beacon-of-grace"
       ],
       "scdc": [
         "1.1.1:11.3.8.9:05"
@@ -8676,7 +8676,7 @@
       ],
       "level": 4,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.conduit.4th-level-feature:vessel-of-retribution-9-piety"
+        "mcdm.heroes.v1:feature.ability.conduit.4th-level-feature:vessel-of-retribution"
       ],
       "scdc": [
         "1.1.1:11.3.8.9:03"
@@ -8824,7 +8824,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:behold-a-shield-of-faith-3-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:behold-a-shield-of-faith"
       ],
       "scdc": [
         "1.1.1:11.3.7.1:08"
@@ -8884,7 +8884,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:behold-the-face-of-justice-5-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:behold-the-face-of-justice"
       ],
       "scdc": [
         "1.1.1:11.3.7.1:03"
@@ -8983,7 +8983,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:repent-3-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:repent"
       ],
       "scdc": [
         "1.1.1:11.3.7.1:05"
@@ -9037,7 +9037,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:the-gods-punish-and-defend-3-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:the-gods-punish-and-defend"
       ],
       "scdc": [
         "1.1.1:11.3.7.1:11"
@@ -9093,7 +9093,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:driving-assault-3-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:driving-assault"
       ],
       "scdc": [
         "1.1.1:11.3.7.1:17"
@@ -9338,7 +9338,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:censored-5-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:censored"
       ],
       "scdc": [
         "1.1.1:11.3.7.1:12"
@@ -9396,7 +9396,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:arrest-5-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:arrest"
       ],
       "scdc": [
         "1.1.1:11.3.7.1:06"
@@ -9599,7 +9599,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:purifying-fire-5-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:purifying-fire"
       ],
       "scdc": [
         "1.1.1:11.3.7.1:14"
@@ -9655,7 +9655,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.8th-level-feature:excommunication-11-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.8th-level-feature:excommunication"
       ],
       "scdc": [
         "1.1.1:11.3.7.2:04"
@@ -9711,7 +9711,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.8th-level-feature:your-allies-turn-on-you-11-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.8th-level-feature:your-allies-turn-on-you"
       ],
       "scdc": [
         "1.1.1:11.3.7.2:03"
@@ -9767,7 +9767,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.8th-level-feature:pillar-of-holy-fire-11-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.8th-level-feature:pillar-of-holy-fire"
       ],
       "scdc": [
         "1.1.1:11.3.7.2:01"
@@ -9823,7 +9823,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.8th-level-feature:hand-of-the-gods-11-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.8th-level-feature:hand-of-the-gods"
       ],
       "scdc": [
         "1.1.1:11.3.7.2:02"
@@ -9879,7 +9879,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.6th-level-feature:burden-of-evil-9-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.6th-level-feature:burden-of-evil"
       ],
       "scdc": [
         "1.1.1:11.3.7.3:06"
@@ -9931,7 +9931,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.6th-level-feature:pain-of-your-own-making-9-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.6th-level-feature:pain-of-your-own-making"
       ],
       "scdc": [
         "1.1.1:11.3.7.3:05"
@@ -9981,7 +9981,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.6th-level-feature:intercede-9-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.6th-level-feature:intercede"
       ],
       "scdc": [
         "1.1.1:11.3.7.3:02"
@@ -10030,7 +10030,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.6th-level-feature:begone-9-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.6th-level-feature:begone"
       ],
       "scdc": [
         "1.1.1:11.3.7.3:01"
@@ -10083,7 +10083,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.6th-level-feature:congregation-9-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.6th-level-feature:congregation"
       ],
       "scdc": [
         "1.1.1:11.3.7.3:04"
@@ -10138,7 +10138,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.6th-level-feature:edict-of-peace-9-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.6th-level-feature:edict-of-peace"
       ],
       "scdc": [
         "1.1.1:11.3.7.3:03"
@@ -10185,7 +10185,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.5th-level-feature:gods-grant-thee-strength-9-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.5th-level-feature:gods-grant-thee-strength"
       ],
       "scdc": [
         "1.1.1:11.3.7.4:04"
@@ -10235,7 +10235,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.5th-level-feature:righteous-judgment-9-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.5th-level-feature:righteous-judgment"
       ],
       "scdc": [
         "1.1.1:11.3.7.4:01"
@@ -10287,7 +10287,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.5th-level-feature:orison-of-victory-9-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.5th-level-feature:orison-of-victory"
       ],
       "scdc": [
         "1.1.1:11.3.7.4:02"
@@ -10343,7 +10343,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.5th-level-feature:shield-of-the-righteous-9-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.5th-level-feature:shield-of-the-righteous"
       ],
       "scdc": [
         "1.1.1:11.3.7.4:03"
@@ -10397,7 +10397,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:sentenced-5-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:sentenced"
       ],
       "scdc": [
         "1.1.1:11.3.7.5:02"
@@ -10452,7 +10452,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:revelator-5-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:revelator"
       ],
       "scdc": [
         "1.1.1:11.3.7.5:01"
@@ -10501,7 +10501,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:with-my-blessing-5-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:with-my-blessing"
       ],
       "scdc": [
         "1.1.1:11.3.7.5:03"
@@ -10551,7 +10551,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:prescient-grace-5-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:prescient-grace"
       ],
       "scdc": [
         "1.1.1:11.3.7.5:06"
@@ -10600,7 +10600,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:blessing-of-the-faithful-5-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:blessing-of-the-faithful"
       ],
       "scdc": [
         "1.1.1:11.3.7.5:04"
@@ -10651,7 +10651,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:it-is-justice-you-fear-5-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:it-is-justice-you-fear"
       ],
       "scdc": [
         "1.1.1:11.3.7.5:05"
@@ -10706,7 +10706,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.3rd-level-feature:edict-of-disruptive-isolation-7-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.3rd-level-feature:edict-of-disruptive-isolation"
       ],
       "scdc": [
         "1.1.1:11.3.7.6:03"
@@ -10754,7 +10754,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.3rd-level-feature:edict-of-stillness-7-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.3rd-level-feature:edict-of-stillness"
       ],
       "scdc": [
         "1.1.1:11.3.7.6:04"
@@ -10802,7 +10802,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.3rd-level-feature:edict-of-perfect-order-7-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.3rd-level-feature:edict-of-perfect-order"
       ],
       "scdc": [
         "1.1.1:11.3.7.6:02"
@@ -10850,7 +10850,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.3rd-level-feature:edict-of-purifying-pacifism-7-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.3rd-level-feature:edict-of-purifying-pacifism"
       ],
       "scdc": [
         "1.1.1:11.3.7.6:01"
@@ -10899,7 +10899,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.9th-level-feature:blessing-and-a-curse-11-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.9th-level-feature:blessing-and-a-curse"
       ],
       "scdc": [
         "1.1.1:11.3.7.7:03"
@@ -10949,7 +10949,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.9th-level-feature:fulfill-your-destiny-11-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.9th-level-feature:fulfill-your-destiny"
       ],
       "scdc": [
         "1.1.1:11.3.7.7:02"
@@ -11000,7 +11000,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.9th-level-feature:banish-11-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.9th-level-feature:banish"
       ],
       "scdc": [
         "1.1.1:11.3.7.7:05"
@@ -11057,7 +11057,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.9th-level-feature:terror-manifest-11-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.9th-level-feature:terror-manifest"
       ],
       "scdc": [
         "1.1.1:11.3.7.7:01"
@@ -11114,7 +11114,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.9th-level-feature:apostate-11-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.9th-level-feature:apostate"
       ],
       "scdc": [
         "1.1.1:11.3.7.7:06"
@@ -11169,7 +11169,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.9th-level-feature:edict-of-unyielding-resolve-11-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.9th-level-feature:edict-of-unyielding-resolve"
       ],
       "scdc": [
         "1.1.1:11.3.7.7:04"
@@ -11218,7 +11218,7 @@
       ],
       "level": 7,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.censor.7th-level-feature:trinity-of-trickery-9-wrath"
+        "mcdm.heroes.v1:feature.ability.censor.7th-level-feature:trinity-of-trickery"
       ],
       "scdc": [
         "1.1.1:11.3.7.8:02"
@@ -11463,7 +11463,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.1st-level-feature:psychic-pulse-3-discipline"
+        "mcdm.heroes.v1:feature.ability.null.1st-level-feature:psychic-pulse"
       ],
       "scdc": [
         "1.1.1:11.3.6.1:17"
@@ -11515,7 +11515,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.1st-level-feature:impart-force-5-discipline"
+        "mcdm.heroes.v1:feature.ability.null.1st-level-feature:impart-force"
       ],
       "scdc": [
         "1.1.1:11.3.6.1:13"
@@ -11620,7 +11620,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.1st-level-feature:chronal-spike-3-discipline"
+        "mcdm.heroes.v1:feature.ability.null.1st-level-feature:chronal-spike"
       ],
       "scdc": [
         "1.1.1:11.3.6.1:12"
@@ -11678,7 +11678,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.1st-level-feature:arcane-disruptor-5-discipline"
+        "mcdm.heroes.v1:feature.ability.null.1st-level-feature:arcane-disruptor"
       ],
       "scdc": [
         "1.1.1:11.3.6.1:15"
@@ -11736,7 +11736,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.1st-level-feature:stunning-blow-3-discipline"
+        "mcdm.heroes.v1:feature.ability.null.1st-level-feature:stunning-blow"
       ],
       "scdc": [
         "1.1.1:11.3.6.1:07"
@@ -11993,7 +11993,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.1st-level-feature:a-squad-unto-myself-5-discipline"
+        "mcdm.heroes.v1:feature.ability.null.1st-level-feature:a-squad-unto-myself"
       ],
       "scdc": [
         "1.1.1:11.3.6.1:18"
@@ -12206,7 +12206,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.1st-level-feature:phase-strike-5-discipline"
+        "mcdm.heroes.v1:feature.ability.null.1st-level-feature:phase-strike"
       ],
       "scdc": [
         "1.1.1:11.3.6.1:02"
@@ -12264,7 +12264,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.1st-level-feature:relentless-nemesis-3-discipline"
+        "mcdm.heroes.v1:feature.ability.null.1st-level-feature:relentless-nemesis"
       ],
       "scdc": [
         "1.1.1:11.3.6.1:03"
@@ -12322,7 +12322,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.8th-level-feature:arcane-purge-11-discipline"
+        "mcdm.heroes.v1:feature.ability.null.8th-level-feature:arcane-purge"
       ],
       "scdc": [
         "1.1.1:11.3.6.2:04"
@@ -12380,7 +12380,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.8th-level-feature:phase-hurl-11-discipline"
+        "mcdm.heroes.v1:feature.ability.null.8th-level-feature:phase-hurl"
       ],
       "scdc": [
         "1.1.1:11.3.6.2:03"
@@ -12434,7 +12434,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.8th-level-feature:scalar-assault-11-discipline"
+        "mcdm.heroes.v1:feature.ability.null.8th-level-feature:scalar-assault"
       ],
       "scdc": [
         "1.1.1:11.3.6.2:02"
@@ -12483,7 +12483,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.8th-level-feature:synaptic-anchor-11-discipline"
+        "mcdm.heroes.v1:feature.ability.null.8th-level-feature:synaptic-anchor"
       ],
       "scdc": [
         "1.1.1:11.3.6.2:01"
@@ -12529,7 +12529,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.6th-level-feature:iron-body-9-discipline"
+        "mcdm.heroes.v1:feature.ability.null.6th-level-feature:iron-body"
       ],
       "scdc": [
         "1.1.1:11.3.6.3:04"
@@ -12580,7 +12580,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.6th-level-feature:phase-step-9-discipline"
+        "mcdm.heroes.v1:feature.ability.null.6th-level-feature:phase-step"
       ],
       "scdc": [
         "1.1.1:11.3.6.3:06"
@@ -12637,7 +12637,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.6th-level-feature:wall-of-ice-9-discipline"
+        "mcdm.heroes.v1:feature.ability.null.6th-level-feature:wall-of-ice"
       ],
       "scdc": [
         "1.1.1:11.3.6.3:03"
@@ -12684,7 +12684,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.6th-level-feature:gravitic-charge-9-discipline"
+        "mcdm.heroes.v1:feature.ability.null.6th-level-feature:gravitic-charge"
       ],
       "scdc": [
         "1.1.1:11.3.6.3:02"
@@ -12739,7 +12739,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.6th-level-feature:ice-pillars-9-discipline"
+        "mcdm.heroes.v1:feature.ability.null.6th-level-feature:ice-pillars"
       ],
       "scdc": [
         "1.1.1:11.3.6.3:01"
@@ -12792,7 +12792,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.6th-level-feature:interphase-9-discipline"
+        "mcdm.heroes.v1:feature.ability.null.6th-level-feature:interphase"
       ],
       "scdc": [
         "1.1.1:11.3.6.3:05"
@@ -12839,7 +12839,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.5th-level-feature:phase-leap-9-discipline"
+        "mcdm.heroes.v1:feature.ability.null.5th-level-feature:phase-leap"
       ],
       "scdc": [
         "1.1.1:11.3.6.4:04"
@@ -12891,7 +12891,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.5th-level-feature:iron-grip-9-discipline"
+        "mcdm.heroes.v1:feature.ability.null.5th-level-feature:iron-grip"
       ],
       "scdc": [
         "1.1.1:11.3.6.4:03"
@@ -12950,7 +12950,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.5th-level-feature:anticipating-strike-9-discipline"
+        "mcdm.heroes.v1:feature.ability.null.5th-level-feature:anticipating-strike"
       ],
       "scdc": [
         "1.1.1:11.3.6.4:01"
@@ -13004,7 +13004,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.5th-level-feature:synaptic-reset-9-discipline"
+        "mcdm.heroes.v1:feature.ability.null.5th-level-feature:synaptic-reset"
       ],
       "scdc": [
         "1.1.1:11.3.6.4:02"
@@ -13050,7 +13050,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.2nd-level-feature:blur-5-discipline"
+        "mcdm.heroes.v1:feature.ability.null.2nd-level-feature:blur"
       ],
       "scdc": [
         "1.1.1:11.3.6.5:01"
@@ -13097,7 +13097,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.2nd-level-feature:kinetic-shield-5-discipline"
+        "mcdm.heroes.v1:feature.ability.null.2nd-level-feature:kinetic-shield"
       ],
       "scdc": [
         "1.1.1:11.3.6.5:05"
@@ -13156,7 +13156,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.2nd-level-feature:force-redirected-5-discipline"
+        "mcdm.heroes.v1:feature.ability.null.2nd-level-feature:force-redirected"
       ],
       "scdc": [
         "1.1.1:11.3.6.5:06"
@@ -13205,7 +13205,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.2nd-level-feature:heat-sink-5-discipline"
+        "mcdm.heroes.v1:feature.ability.null.2nd-level-feature:heat-sink"
       ],
       "scdc": [
         "1.1.1:11.3.6.5:04"
@@ -13256,7 +13256,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.2nd-level-feature:entropic-field-5-discipline"
+        "mcdm.heroes.v1:feature.ability.null.2nd-level-feature:entropic-field"
       ],
       "scdc": [
         "1.1.1:11.3.6.5:02"
@@ -13311,7 +13311,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.2nd-level-feature:gravitic-strike-5-discipline"
+        "mcdm.heroes.v1:feature.ability.null.2nd-level-feature:gravitic-strike"
       ],
       "scdc": [
         "1.1.1:11.3.6.5:03"
@@ -13360,7 +13360,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.3rd-level-feature:stabilizing-field-7-discipline"
+        "mcdm.heroes.v1:feature.ability.null.3rd-level-feature:stabilizing-field"
       ],
       "scdc": [
         "1.1.1:11.3.6.6:04"
@@ -13406,7 +13406,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.3rd-level-feature:absorption-field-7-discipline"
+        "mcdm.heroes.v1:feature.ability.null.3rd-level-feature:absorption-field"
       ],
       "scdc": [
         "1.1.1:11.3.6.6:01"
@@ -13452,7 +13452,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.3rd-level-feature:synapse-field-7-discipline"
+        "mcdm.heroes.v1:feature.ability.null.3rd-level-feature:synapse-field"
       ],
       "scdc": [
         "1.1.1:11.3.6.6:02"
@@ -13498,7 +13498,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.3rd-level-feature:molecular-rearrangement-field-7-discipline"
+        "mcdm.heroes.v1:feature.ability.null.3rd-level-feature:molecular-rearrangement-field"
       ],
       "scdc": [
         "1.1.1:11.3.6.6:03"
@@ -13545,7 +13545,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.9th-level-feature:time-loop-11-discipline"
+        "mcdm.heroes.v1:feature.ability.null.9th-level-feature:time-loop"
       ],
       "scdc": [
         "1.1.1:11.3.6.7:04"
@@ -13598,7 +13598,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.9th-level-feature:realitas-11-discipline"
+        "mcdm.heroes.v1:feature.ability.null.9th-level-feature:realitas"
       ],
       "scdc": [
         "1.1.1:11.3.6.7:06"
@@ -13651,7 +13651,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.9th-level-feature:absolute-zero-11-discipline"
+        "mcdm.heroes.v1:feature.ability.null.9th-level-feature:absolute-zero"
       ],
       "scdc": [
         "1.1.1:11.3.6.7:01"
@@ -13705,7 +13705,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.9th-level-feature:inertial-absorption-11-discipline"
+        "mcdm.heroes.v1:feature.ability.null.9th-level-feature:inertial-absorption"
       ],
       "scdc": [
         "1.1.1:11.3.6.7:02"
@@ -13755,7 +13755,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.9th-level-feature:arrestor-cycle-11-discipline"
+        "mcdm.heroes.v1:feature.ability.null.9th-level-feature:arrestor-cycle"
       ],
       "scdc": [
         "1.1.1:11.3.6.7:03"
@@ -13812,7 +13812,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.null.9th-level-feature:heat-drain-11-discipline"
+        "mcdm.heroes.v1:feature.ability.null.9th-level-feature:heat-drain"
       ],
       "scdc": [
         "1.1.1:11.3.6.7:05"
@@ -13914,7 +13914,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:make-peace-with-your-god-5-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:make-peace-with-your-god"
       ],
       "scdc": [
         "1.1.1:11.3.5.1:15"
@@ -14115,7 +14115,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:back-3-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:back"
       ],
       "scdc": [
         "1.1.1:11.3.5.1:12"
@@ -14167,7 +14167,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:out-of-the-way-3-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:out-of-the-way"
       ],
       "scdc": [
         "1.1.1:11.3.5.1:04"
@@ -14272,7 +14272,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:thunder-roar-5-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:thunder-roar"
       ],
       "scdc": [
         "1.1.1:11.3.5.1:09"
@@ -14328,7 +14328,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:blood-for-blood-5-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:blood-for-blood"
       ],
       "scdc": [
         "1.1.1:11.3.5.1:13"
@@ -14432,7 +14432,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:your-entrails-are-your-extrails-3-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:your-entrails-are-your-extrails"
       ],
       "scdc": [
         "1.1.1:11.3.5.1:03"
@@ -14539,7 +14539,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:tide-of-death-3-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:tide-of-death"
       ],
       "scdc": [
         "1.1.1:11.3.5.1:10"
@@ -14599,7 +14599,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:to-the-uttermost-end-5-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:to-the-uttermost-end"
       ],
       "scdc": [
         "1.1.1:11.3.5.1:06"
@@ -14651,7 +14651,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.8th-level-feature:primordial-rage-11-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.8th-level-feature:primordial-rage"
       ],
       "scdc": [
         "1.1.1:11.3.5.2:03"
@@ -14703,7 +14703,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.8th-level-feature:overkill-11-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.8th-level-feature:overkill"
       ],
       "scdc": [
         "1.1.1:11.3.5.2:02"
@@ -14755,7 +14755,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.8th-level-feature:elemental-ferocity-11-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.8th-level-feature:elemental-ferocity"
       ],
       "scdc": [
         "1.1.1:11.3.5.2:04"
@@ -14807,7 +14807,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.8th-level-feature:relentless-death-11-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.8th-level-feature:relentless-death"
       ],
       "scdc": [
         "1.1.1:11.3.5.2:01"
@@ -14861,7 +14861,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.6th-level-feature:riders-on-the-storm-9-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.6th-level-feature:riders-on-the-storm"
       ],
       "scdc": [
         "1.1.1:11.3.5.3:05"
@@ -14916,7 +14916,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.6th-level-feature:seek-and-destroy-9-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.6th-level-feature:seek-and-destroy"
       ],
       "scdc": [
         "1.1.1:11.3.5.3:06"
@@ -14978,7 +14978,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.6th-level-feature:death-strike-9-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.6th-level-feature:death-strike"
       ],
       "scdc": [
         "1.1.1:11.3.5.3:01"
@@ -15031,7 +15031,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.6th-level-feature:pounce-9-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.6th-level-feature:pounce"
       ],
       "scdc": [
         "1.1.1:11.3.5.3:03"
@@ -15084,7 +15084,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.6th-level-feature:avalanche-impact-9-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.6th-level-feature:avalanche-impact"
       ],
       "scdc": [
         "1.1.1:11.3.5.3:04"
@@ -15141,7 +15141,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.6th-level-feature:force-of-storms-9-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.6th-level-feature:force-of-storms"
       ],
       "scdc": [
         "1.1.1:11.3.5.3:02"
@@ -15198,7 +15198,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.5th-level-feature:debilitating-strike-9-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.5th-level-feature:debilitating-strike"
       ],
       "scdc": [
         "1.1.1:11.3.5.4:01"
@@ -15256,7 +15256,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.5th-level-feature:to-stone-9-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.5th-level-feature:to-stone"
       ],
       "scdc": [
         "1.1.1:11.3.5.4:03"
@@ -15313,7 +15313,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.5th-level-feature:my-turn-9-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.5th-level-feature:my-turn"
       ],
       "scdc": [
         "1.1.1:11.3.5.4:04"
@@ -15369,7 +15369,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.5th-level-feature:rebounding-storm-9-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.5th-level-feature:rebounding-storm"
       ],
       "scdc": [
         "1.1.1:11.3.5.4:02"
@@ -15423,7 +15423,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:visceral-roar-5-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:visceral-roar"
       ],
       "scdc": [
         "1.1.1:11.3.5.5:06"
@@ -15477,7 +15477,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:special-delivery-5-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:special-delivery"
       ],
       "scdc": [
         "1.1.1:11.3.5.5:04"
@@ -15525,7 +15525,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:phalanx-breaker-5-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:phalanx-breaker"
       ],
       "scdc": [
         "1.1.1:11.3.5.5:05"
@@ -15581,7 +15581,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:death-death-5-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:death-death"
       ],
       "scdc": [
         "1.1.1:11.3.5.5:01"
@@ -15631,7 +15631,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:wrecking-ball-5-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:wrecking-ball"
       ],
       "scdc": [
         "1.1.1:11.3.5.5:03"
@@ -15687,7 +15687,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:apex-predator-5-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:apex-predator"
       ],
       "scdc": [
         "1.1.1:11.3.5.5:02"
@@ -15739,7 +15739,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.3rd-level-feature:demon-unleashed-7-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.3rd-level-feature:demon-unleashed"
       ],
       "scdc": [
         "1.1.1:11.3.5.6:01"
@@ -15789,7 +15789,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.3rd-level-feature:you-are-already-dead-7-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.3rd-level-feature:you-are-already-dead"
       ],
       "scdc": [
         "1.1.1:11.3.5.6:04"
@@ -15835,7 +15835,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.3rd-level-feature:steelbreaker-7-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.3rd-level-feature:steelbreaker"
       ],
       "scdc": [
         "1.1.1:11.3.5.6:02"
@@ -15881,7 +15881,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.3rd-level-feature:face-the-storm-7-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.3rd-level-feature:face-the-storm"
       ],
       "scdc": [
         "1.1.1:11.3.5.6:03"
@@ -15931,7 +15931,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:shower-of-blood-11-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:shower-of-blood"
       ],
       "scdc": [
         "1.1.1:11.3.5.7:03"
@@ -15990,7 +15990,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:primordial-bane-11-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:primordial-bane"
       ],
       "scdc": [
         "1.1.1:11.3.5.7:04"
@@ -16049,7 +16049,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:primordial-vortex-11-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:primordial-vortex"
       ],
       "scdc": [
         "1.1.1:11.3.5.7:06"
@@ -16104,7 +16104,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:death-rattle-11-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:death-rattle"
       ],
       "scdc": [
         "1.1.1:11.3.5.7:05"
@@ -16159,7 +16159,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:death-comes-for-you-all-11-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:death-comes-for-you-all"
       ],
       "scdc": [
         "1.1.1:11.3.5.7:02"
@@ -16216,7 +16216,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:deluge-11-ferocity"
+        "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:deluge"
       ],
       "scdc": [
         "1.1.1:11.3.5.7:01"
@@ -16269,7 +16269,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:squad-forward-3-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:squad-forward"
       ],
       "scdc": [
         "1.1.1:11.3.4.1:03"
@@ -16321,7 +16321,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:inspiring-strike-3-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:inspiring-strike"
       ],
       "scdc": [
         "1.1.1:11.3.4.1:02"
@@ -16369,7 +16369,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:this-is-what-we-planned-for-5-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:this-is-what-we-planned-for"
       ],
       "scdc": [
         "1.1.1:11.3.4.1:04"
@@ -16505,7 +16505,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:now-5-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:now"
       ],
       "scdc": [
         "1.1.1:11.3.4.1:08"
@@ -16601,7 +16601,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:battle-cry-3-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:battle-cry"
       ],
       "scdc": [
         "1.1.1:11.3.4.1:07"
@@ -16749,7 +16749,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:hammer-and-anvil-5-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:hammer-and-anvil"
       ],
       "scdc": [
         "1.1.1:11.3.4.1:09"
@@ -16807,7 +16807,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:mind-game-5-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:mind-game"
       ],
       "scdc": [
         "1.1.1:11.3.4.1:12"
@@ -16869,7 +16869,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:concussive-strike-3-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:concussive-strike"
       ],
       "scdc": [
         "1.1.1:11.3.4.1:10"
@@ -16917,7 +16917,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.8th-level-feature:floodgates-open-11-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.8th-level-feature:floodgates-open"
       ],
       "scdc": [
         "1.1.1:11.3.4.2:02"
@@ -16969,7 +16969,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.8th-level-feature:ill-open-and-youll-close-11-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.8th-level-feature:ill-open-and-youll-close"
       ],
       "scdc": [
         "1.1.1:11.3.4.2:03"
@@ -17021,7 +17021,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.8th-level-feature:go-now-and-speed-well-11-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.8th-level-feature:go-now-and-speed-well"
       ],
       "scdc": [
         "1.1.1:11.3.4.2:01"
@@ -17068,7 +17068,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.8th-level-feature:finish-them-11-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.8th-level-feature:finish-them"
       ],
       "scdc": [
         "1.1.1:11.3.4.2:04"
@@ -17114,7 +17114,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:hustle-9-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:hustle"
       ],
       "scdc": [
         "1.1.1:11.3.4.3:02"
@@ -17161,7 +17161,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:battle-plan-9-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:battle-plan"
       ],
       "scdc": [
         "1.1.1:11.3.4.3:01"
@@ -17218,7 +17218,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:to-me-squad-9-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:to-me-squad"
       ],
       "scdc": [
         "1.1.1:11.3.4.3:06"
@@ -17272,7 +17272,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:coordinated-execution-9-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:coordinated-execution"
       ],
       "scdc": [
         "1.1.1:11.3.4.3:04"
@@ -17325,7 +17325,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:panic-in-their-lines-9-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:panic-in-their-lines"
       ],
       "scdc": [
         "1.1.1:11.3.4.3:03"
@@ -17381,7 +17381,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:instant-retaliation-9-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:instant-retaliation"
       ],
       "scdc": [
         "1.1.1:11.3.4.3:05"
@@ -17438,7 +17438,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.5th-level-feature:squad-gear-check-9-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.5th-level-feature:squad-gear-check"
       ],
       "scdc": [
         "1.1.1:11.3.4.4:01"
@@ -17490,7 +17490,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.5th-level-feature:youve-still-got-something-left-9-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.5th-level-feature:youve-still-got-something-left"
       ],
       "scdc": [
         "1.1.1:11.3.4.4:02"
@@ -17536,7 +17536,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.5th-level-feature:squad-remember-your-training-9-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.5th-level-feature:squad-remember-your-training"
       ],
       "scdc": [
         "1.1.1:11.3.4.4:03"
@@ -17582,7 +17582,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.5th-level-feature:win-this-day-9-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.5th-level-feature:win-this-day"
       ],
       "scdc": [
         "1.1.1:11.3.4.4:04"
@@ -17628,7 +17628,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:targets-of-opportunity-5-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:targets-of-opportunity"
       ],
       "scdc": [
         "1.1.1:11.3.4.5:06"
@@ -17684,7 +17684,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:no-dying-on-my-watch-5-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:no-dying-on-my-watch"
       ],
       "scdc": [
         "1.1.1:11.3.4.5:02"
@@ -17737,7 +17737,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:squad-on-me-5-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:squad-on-me"
       ],
       "scdc": [
         "1.1.1:11.3.4.5:04"
@@ -17788,7 +17788,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:try-me-instead-5-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:try-me-instead"
       ],
       "scdc": [
         "1.1.1:11.3.4.5:01"
@@ -17841,7 +17841,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:fog-of-war-5-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:fog-of-war"
       ],
       "scdc": [
         "1.1.1:11.3.4.5:05"
@@ -17896,7 +17896,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:ive-got-your-back-5-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:ive-got-your-back"
       ],
       "scdc": [
         "1.1.1:11.3.4.5:03"
@@ -17949,7 +17949,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.3rd-level-feature:hit-em-hard-7-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.3rd-level-feature:hit-em-hard"
       ],
       "scdc": [
         "1.1.1:11.3.4.6:03"
@@ -17995,7 +17995,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.3rd-level-feature:stay-strong-and-focus-7-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.3rd-level-feature:stay-strong-and-focus"
       ],
       "scdc": [
         "1.1.1:11.3.4.6:01"
@@ -18041,7 +18041,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.3rd-level-feature:rout-7-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.3rd-level-feature:rout"
       ],
       "scdc": [
         "1.1.1:11.3.4.6:02"
@@ -18087,7 +18087,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.3rd-level-feature:frontal-assault-7-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.3rd-level-feature:frontal-assault"
       ],
       "scdc": [
         "1.1.1:11.3.4.6:04"
@@ -18137,7 +18137,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:their-lack-of-focus-is-their-undoing-11-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:their-lack-of-focus-is-their-undoing"
       ],
       "scdc": [
         "1.1.1:11.3.4.7:04"
@@ -18196,7 +18196,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:that-one-is-mine-11-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:that-one-is-mine"
       ],
       "scdc": [
         "1.1.1:11.3.4.7:05"
@@ -18253,7 +18253,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:squad-hit-and-run-11-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:squad-hit-and-run"
       ],
       "scdc": [
         "1.1.1:11.3.4.7:06"
@@ -18306,7 +18306,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:no-escape-11-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:no-escape"
       ],
       "scdc": [
         "1.1.1:11.3.4.7:03"
@@ -18363,7 +18363,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:blot-out-the-sun-11-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:blot-out-the-sun"
       ],
       "scdc": [
         "1.1.1:11.3.4.7:02"
@@ -18410,7 +18410,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:counterstrategy-11-focus"
+        "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:counterstrategy"
       ],
       "scdc": [
         "1.1.1:11.3.4.7:01"
@@ -18504,7 +18504,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:star-power-1-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:star-power"
       ],
       "scdc": [
         "1.1.1:11.3.3.1:21"
@@ -18605,7 +18605,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:harsh-critic-3-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:harsh-critic"
       ],
       "scdc": [
         "1.1.1:11.3.3.1:20"
@@ -18659,7 +18659,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:dramatic-reversal-5-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:dramatic-reversal"
       ],
       "scdc": [
         "1.1.1:11.3.3.1:07"
@@ -18755,7 +18755,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:harmonize-3-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:harmonize"
       ],
       "scdc": [
         "1.1.1:11.3.3.1:23"
@@ -18810,7 +18810,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:upstage-3-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:upstage"
       ],
       "scdc": [
         "1.1.1:11.3.3.1:04"
@@ -18866,7 +18866,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:quick-rewrite-3-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:quick-rewrite"
       ],
       "scdc": [
         "1.1.1:11.3.3.1:01"
@@ -19228,7 +19228,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:method-acting-5-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:method-acting"
       ],
       "scdc": [
         "1.1.1:11.3.3.1:16"
@@ -19373,7 +19373,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:fake-your-death-5-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:fake-your-death"
       ],
       "scdc": [
         "1.1.1:11.3.3.1:05"
@@ -19472,7 +19472,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:flip-the-script-5-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:flip-the-script"
       ],
       "scdc": [
         "1.1.1:11.3.3.1:10"
@@ -19573,7 +19573,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:hypnotic-overtones-3-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:hypnotic-overtones"
       ],
       "scdc": [
         "1.1.1:11.3.3.1:13"
@@ -19680,7 +19680,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:saved-in-the-edit-11-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:saved-in-the-edit"
       ],
       "scdc": [
         "1.1.1:11.3.3.2:01"
@@ -19726,7 +19726,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:dramatic-reveal-11-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:dramatic-reveal"
       ],
       "scdc": [
         "1.1.1:11.3.3.2:06"
@@ -19776,7 +19776,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:the-show-must-go-on-11-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:the-show-must-go-on"
       ],
       "scdc": [
         "1.1.1:11.3.3.2:04"
@@ -19877,7 +19877,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:power-ballad-11-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:power-ballad"
       ],
       "scdc": [
         "1.1.1:11.3.3.2:05"
@@ -19972,7 +19972,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:legendary-drum-fill-9-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:legendary-drum-fill"
       ],
       "scdc": [
         "1.1.1:11.3.3.3:04"
@@ -20067,7 +20067,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:heres-how-your-story-ends-9-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:heres-how-your-story-ends"
       ],
       "scdc": [
         "1.1.1:11.3.3.3:05"
@@ -20118,7 +20118,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:feedback-9-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:feedback"
       ],
       "scdc": [
         "1.1.1:11.3.3.3:02"
@@ -20173,7 +20173,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:youre-all-my-understudies-9-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:youre-all-my-understudies"
       ],
       "scdc": [
         "1.1.1:11.3.3.3:03"
@@ -20224,7 +20224,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:fight-choreography-9-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:fight-choreography"
       ],
       "scdc": [
         "1.1.1:11.3.3.3:07"
@@ -20275,7 +20275,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:blood-on-the-stage-9-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:blood-on-the-stage"
       ],
       "scdc": [
         "1.1.1:11.3.3.3:06"
@@ -20326,7 +20326,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:continuity-error-9-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:continuity-error"
       ],
       "scdc": [
         "1.1.1:11.3.3.4:05"
@@ -20470,7 +20470,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:action-hero-9-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:action-hero"
       ],
       "scdc": [
         "1.1.1:11.3.3.4:01"
@@ -20524,7 +20524,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:patter-song-9-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:patter-song"
       ],
       "scdc": [
         "1.1.1:11.3.3.4:02"
@@ -20574,7 +20574,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:love-song-9-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:love-song"
       ],
       "scdc": [
         "1.1.1:11.3.3.4:03"
@@ -20624,7 +20624,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:tough-crowd-5-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:tough-crowd"
       ],
       "scdc": [
         "1.1.1:11.3.3.5:04"
@@ -20679,7 +20679,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:twist-at-the-end-5-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:twist-at-the-end"
       ],
       "scdc": [
         "1.1.1:11.3.3.5:01"
@@ -20728,7 +20728,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:encore-5-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:encore"
       ],
       "scdc": [
         "1.1.1:11.3.3.5:05"
@@ -20779,7 +20779,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:en-garde-5-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:en-garde"
       ],
       "scdc": [
         "1.1.1:11.3.3.5:03"
@@ -20834,7 +20834,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:guest-star-5-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:guest-star"
       ],
       "scdc": [
         "1.1.1:11.3.3.5:02"
@@ -20885,7 +20885,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:classic-chandelier-stunt-5-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:classic-chandelier-stunt"
       ],
       "scdc": [
         "1.1.1:11.3.3.5:06"
@@ -20940,7 +20940,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:star-solo-7-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:star-solo"
       ],
       "scdc": [
         "1.1.1:11.3.3.6:01"
@@ -20994,7 +20994,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:extensive-rewrites-7-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:extensive-rewrites"
       ],
       "scdc": [
         "1.1.1:11.3.3.6:05"
@@ -21099,7 +21099,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:infernal-gavotte-7-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:infernal-gavotte"
       ],
       "scdc": [
         "1.1.1:11.3.3.6:03"
@@ -21153,7 +21153,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:we-meet-at-last-7-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:we-meet-at-last"
       ],
       "scdc": [
         "1.1.1:11.3.3.6:06"
@@ -21250,7 +21250,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:renegotiated-contract-11-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:renegotiated-contract"
       ],
       "scdc": [
         "1.1.1:11.3.3.7:03"
@@ -21305,7 +21305,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:rising-tension-11-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:rising-tension"
       ],
       "scdc": [
         "1.1.1:11.3.3.7:06"
@@ -21356,7 +21356,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:epic-11-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:epic"
       ],
       "scdc": [
         "1.1.1:11.3.3.7:05"
@@ -21415,7 +21415,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:melt-their-faces-11-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:melt-their-faces"
       ],
       "scdc": [
         "1.1.1:11.3.3.7:04"
@@ -21470,7 +21470,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:jam-session-11-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:jam-session"
       ],
       "scdc": [
         "1.1.1:11.3.3.7:01"
@@ -21529,7 +21529,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:expert-fencer-11-drama"
+        "mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:expert-fencer"
       ],
       "scdc": [
         "1.1.1:11.3.3.7:02"
@@ -21641,7 +21641,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:disorienting-strike-3-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:disorienting-strike"
       ],
       "scdc": [
         "1.1.1:11.3.2.1:16"
@@ -21744,7 +21744,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:setup-5-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:setup"
       ],
       "scdc": [
         "1.1.1:11.3.2.1:08"
@@ -21793,7 +21793,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:clever-trick-1-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:clever-trick"
       ],
       "scdc": [
         "1.1.1:11.3.2.1:06"
@@ -21993,7 +21993,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:get-in-get-out-3-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:get-in-get-out"
       ],
       "scdc": [
         "1.1.1:11.3.2.1:10"
@@ -22051,7 +22051,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:eviscerate-3-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:eviscerate"
       ],
       "scdc": [
         "1.1.1:11.3.2.1:02"
@@ -22105,7 +22105,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:coup-de-grace-5-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:coup-de-grace"
       ],
       "scdc": [
         "1.1.1:11.3.2.1:07"
@@ -22209,7 +22209,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:hesitation-is-weakness-1-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:hesitation-is-weakness"
       ],
       "scdc": [
         "1.1.1:11.3.2.1:15"
@@ -22408,7 +22408,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:two-throats-at-once-3-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:two-throats-at-once"
       ],
       "scdc": [
         "1.1.1:11.3.2.1:18"
@@ -22460,7 +22460,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:shadowstrike-5-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:shadowstrike"
       ],
       "scdc": [
         "1.1.1:11.3.2.1:05"
@@ -22508,7 +22508,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:one-hundred-throats-5-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:one-hundred-throats"
       ],
       "scdc": [
         "1.1.1:11.3.2.1:03"
@@ -22564,7 +22564,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:assassinate-11-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:assassinate"
       ],
       "scdc": [
         "1.1.1:11.3.2.2:04"
@@ -22618,7 +22618,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:shadowgrasp-11-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:shadowgrasp"
       ],
       "scdc": [
         "1.1.1:11.3.2.2:05"
@@ -22666,7 +22666,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:speed-of-shadows-11-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:speed-of-shadows"
       ],
       "scdc": [
         "1.1.1:11.3.2.2:03"
@@ -22716,7 +22716,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:they-always-line-up-11-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:they-always-line-up"
       ],
       "scdc": [
         "1.1.1:11.3.2.2:02"
@@ -22815,7 +22815,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:look-9-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:look"
       ],
       "scdc": [
         "1.1.1:11.3.2.3:05"
@@ -22862,7 +22862,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:one-vial-makes-you-better-9-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:one-vial-makes-you-better"
       ],
       "scdc": [
         "1.1.1:11.3.2.3:06"
@@ -22915,7 +22915,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:puppet-strings-9-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:puppet-strings"
       ],
       "scdc": [
         "1.1.1:11.3.2.3:03"
@@ -22974,7 +22974,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:black-ash-eruption-9-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:black-ash-eruption"
       ],
       "scdc": [
         "1.1.1:11.3.2.3:01"
@@ -23027,7 +23027,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:cinderstorm-9-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:cinderstorm"
       ],
       "scdc": [
         "1.1.1:11.3.2.3:02"
@@ -23074,7 +23074,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:one-vial-makes-you-faster-9-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:one-vial-makes-you-faster"
       ],
       "scdc": [
         "1.1.1:11.3.2.3:04"
@@ -23133,7 +23133,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.5th-level-feature:into-the-shadows-9-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.5th-level-feature:into-the-shadows"
       ],
       "scdc": [
         "1.1.1:11.3.2.4:02"
@@ -23187,7 +23187,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.5th-level-feature:blackout-9-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.5th-level-feature:blackout"
       ],
       "scdc": [
         "1.1.1:11.3.2.4:04"
@@ -23237,7 +23237,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.5th-level-feature:shadowfall-9-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.5th-level-feature:shadowfall"
       ],
       "scdc": [
         "1.1.1:11.3.2.4:01"
@@ -23295,7 +23295,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.5th-level-feature:you-talk-too-much-9-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.5th-level-feature:you-talk-too-much"
       ],
       "scdc": [
         "1.1.1:11.3.2.4:03"
@@ -23349,7 +23349,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:stink-bomb-5-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:stink-bomb"
       ],
       "scdc": [
         "1.1.1:11.3.2.5:06"
@@ -23402,7 +23402,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:sticky-bomb-5-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:sticky-bomb"
       ],
       "scdc": [
         "1.1.1:11.3.2.5:01"
@@ -23463,7 +23463,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:in-a-puff-of-ash-5-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:in-a-puff-of-ash"
       ],
       "scdc": [
         "1.1.1:11.3.2.5:02"
@@ -23513,7 +23513,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:too-slow-5-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:too-slow"
       ],
       "scdc": [
         "1.1.1:11.3.2.5:03"
@@ -23561,7 +23561,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:so-gullible-5-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:so-gullible"
       ],
       "scdc": [
         "1.1.1:11.3.2.5:04"
@@ -23612,7 +23612,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:machinations-of-sound-5-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:machinations-of-sound"
       ],
       "scdc": [
         "1.1.1:11.3.2.5:05"
@@ -23713,7 +23713,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:misdirecting-strike-7-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:misdirecting-strike"
       ],
       "scdc": [
         "1.1.1:11.3.2.6:03"
@@ -23771,7 +23771,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:staggering-blow-7-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:staggering-blow"
       ],
       "scdc": [
         "1.1.1:11.3.2.6:01"
@@ -23823,7 +23823,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:pinning-shot-7-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:pinning-shot"
       ],
       "scdc": [
         "1.1.1:11.3.2.6:02"
@@ -23871,7 +23871,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:dancer-7-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:dancer"
       ],
       "scdc": [
         "1.1.1:11.3.2.6:05"
@@ -23923,7 +23923,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:demon-door-11-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:demon-door"
       ],
       "scdc": [
         "1.1.1:11.3.2.7:06"
@@ -23980,7 +23980,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:to-the-stars-11-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:to-the-stars"
       ],
       "scdc": [
         "1.1.1:11.3.2.7:05"
@@ -24035,7 +24035,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:i-am-you-11-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:i-am-you"
       ],
       "scdc": [
         "1.1.1:11.3.2.7:01"
@@ -24082,7 +24082,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:chain-reaction-11-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:chain-reaction"
       ],
       "scdc": [
         "1.1.1:11.3.2.7:02"
@@ -24139,7 +24139,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:it-was-me-all-along-11-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:it-was-me-all-along"
       ],
       "scdc": [
         "1.1.1:11.3.2.7:03"
@@ -24196,7 +24196,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:cacophony-of-cinders-11-insight"
+        "mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:cacophony-of-cinders"
       ],
       "scdc": [
         "1.1.1:11.3.2.7:04"
@@ -25410,7 +25410,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:awe-3-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:awe"
       ],
       "scdc": [
         "1.1.1:11.3.1.1:17"
@@ -25466,7 +25466,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:inertia-soak-5-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:inertia-soak"
       ],
       "scdc": [
         "1.1.1:11.3.1.1:13"
@@ -25622,7 +25622,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:perfect-clarity-5-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:perfect-clarity"
       ],
       "scdc": [
         "1.1.1:11.3.1.1:07"
@@ -25722,7 +25722,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:flashback-5-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:flashback"
       ],
       "scdc": [
         "1.1.1:11.3.1.1:04"
@@ -25987,7 +25987,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:choke-3-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:choke"
       ],
       "scdc": [
         "1.1.1:11.3.1.1:23"
@@ -26043,7 +26043,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:iron-5-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:iron"
       ],
       "scdc": [
         "1.1.1:11.3.1.1:05"
@@ -26158,7 +26158,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:smolder-3-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:smolder"
       ],
       "scdc": [
         "1.1.1:11.3.1.1:09"
@@ -26214,7 +26214,7 @@
       ],
       "level": 1,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:precognition-3-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:precognition"
       ],
       "scdc": [
         "1.1.1:11.3.1.1:11"
@@ -26592,7 +26592,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.8th-level-feature:mindwipe-11-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.8th-level-feature:mindwipe"
       ],
       "scdc": [
         "1.1.1:11.3.1.2:03"
@@ -26651,7 +26651,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.8th-level-feature:stasis-shield-3-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.8th-level-feature:stasis-shield"
       ],
       "scdc": [
         "1.1.1:11.3.1.2:01"
@@ -26706,7 +26706,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.8th-level-feature:rejuvenate-11-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.8th-level-feature:rejuvenate"
       ],
       "scdc": [
         "1.1.1:11.3.1.2:06"
@@ -26811,7 +26811,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.8th-level-feature:doubt-11-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.8th-level-feature:doubt"
       ],
       "scdc": [
         "1.1.1:11.3.1.2:05"
@@ -26871,7 +26871,7 @@
       ],
       "level": 8,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.8th-level-feature:steel-11-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.8th-level-feature:steel"
       ],
       "scdc": [
         "1.1.1:11.3.1.2:04"
@@ -26927,7 +26927,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.6th-level-feature:synaptic-dissipation-9-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.6th-level-feature:synaptic-dissipation"
       ],
       "scdc": [
         "1.1.1:11.3.1.3:01"
@@ -26990,7 +26990,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.6th-level-feature:greater-kinetic-grip-9-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.6th-level-feature:greater-kinetic-grip"
       ],
       "scdc": [
         "1.1.1:11.3.1.3:02"
@@ -27049,7 +27049,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.6th-level-feature:gravitic-well-9-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.6th-level-feature:gravitic-well"
       ],
       "scdc": [
         "1.1.1:11.3.1.3:03"
@@ -27112,7 +27112,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.6th-level-feature:stasis-field-9-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.6th-level-feature:stasis-field"
       ],
       "scdc": [
         "1.1.1:11.3.1.3:04"
@@ -27173,7 +27173,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.6th-level-feature:fate-9-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.6th-level-feature:fate"
       ],
       "scdc": [
         "1.1.1:11.3.1.3:05"
@@ -27236,7 +27236,7 @@
       ],
       "level": 6,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.6th-level-feature:synaptic-conditioning-9-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.6th-level-feature:synaptic-conditioning"
       ],
       "scdc": [
         "1.1.1:11.3.1.3:06"
@@ -27295,7 +27295,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.5th-level-feature:soulbound-9-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.5th-level-feature:soulbound"
       ],
       "scdc": [
         "1.1.1:11.3.1.4:03"
@@ -27357,7 +27357,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.5th-level-feature:hypersonic-9-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.5th-level-feature:hypersonic"
       ],
       "scdc": [
         "1.1.1:11.3.1.4:04"
@@ -27417,7 +27417,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.5th-level-feature:exothermic-shield-9-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.5th-level-feature:exothermic-shield"
       ],
       "scdc": [
         "1.1.1:11.3.1.4:02"
@@ -27473,7 +27473,7 @@
       ],
       "level": 5,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.5th-level-feature:mind-snare-9-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.5th-level-feature:mind-snare"
       ],
       "scdc": [
         "1.1.1:11.3.1.4:01"
@@ -27533,7 +27533,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:synaptic-override-5-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:synaptic-override"
       ],
       "scdc": [
         "1.1.1:11.3.1.5:04"
@@ -27594,7 +27594,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:applied-chronometrics-5-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:applied-chronometrics"
       ],
       "scdc": [
         "1.1.1:11.3.1.5:03"
@@ -27655,7 +27655,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:slow-5-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:slow"
       ],
       "scdc": [
         "1.1.1:11.3.1.5:06"
@@ -27718,7 +27718,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:levity-and-gravity-5-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:levity-and-gravity"
       ],
       "scdc": [
         "1.1.1:11.3.1.5:01"
@@ -27775,7 +27775,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:gravitic-burst-5-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:gravitic-burst"
       ],
       "scdc": [
         "1.1.1:11.3.1.5:05"
@@ -27834,7 +27834,7 @@
       ],
       "level": 2,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:overwhelm-5-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:overwhelm"
       ],
       "scdc": [
         "1.1.1:11.3.1.5:02"
@@ -27893,7 +27893,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.3rd-level-feature:fling-through-time-7-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.3rd-level-feature:fling-through-time"
       ],
       "scdc": [
         "1.1.1:11.3.1.6:03"
@@ -27955,7 +27955,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.3rd-level-feature:force-orbs-7-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.3rd-level-feature:force-orbs"
       ],
       "scdc": [
         "1.1.1:11.3.1.6:01"
@@ -28017,7 +28017,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.3rd-level-feature:soul-burn-7-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.3rd-level-feature:soul-burn"
       ],
       "scdc": [
         "1.1.1:11.3.1.6:02"
@@ -28077,7 +28077,7 @@
       ],
       "level": 3,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.3rd-level-feature:reflector-field-7-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.3rd-level-feature:reflector-field"
       ],
       "scdc": [
         "1.1.1:11.3.1.6:04"
@@ -28131,7 +28131,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.9th-level-feature:synaptic-terror-11-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.9th-level-feature:synaptic-terror"
       ],
       "scdc": [
         "1.1.1:11.3.1.7:01"
@@ -28192,7 +28192,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.9th-level-feature:gravitic-nova-11-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.9th-level-feature:gravitic-nova"
       ],
       "scdc": [
         "1.1.1:11.3.1.7:05"
@@ -28253,7 +28253,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.9th-level-feature:acceleration-field-11-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.9th-level-feature:acceleration-field"
       ],
       "scdc": [
         "1.1.1:11.3.1.7:03"
@@ -28316,7 +28316,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.9th-level-feature:resonant-mind-spike-11-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.9th-level-feature:resonant-mind-spike"
       ],
       "scdc": [
         "1.1.1:11.3.1.7:06"
@@ -28377,7 +28377,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.9th-level-feature:fulcrum-11-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.9th-level-feature:fulcrum"
       ],
       "scdc": [
         "1.1.1:11.3.1.7:04"
@@ -28438,7 +28438,7 @@
       ],
       "level": 9,
       "scc": [
-        "mcdm.heroes.v1:feature.ability.talent.9th-level-feature:borrow-from-the-future-11-clarity"
+        "mcdm.heroes.v1:feature.ability.talent.9th-level-feature:borrow-from-the-future"
       ],
       "scdc": [
         "1.1.1:11.3.1.7:02"
